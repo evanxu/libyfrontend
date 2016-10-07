@@ -1,0 +1,17 @@
+{
+	"dev": "dev",
+	"build": "build",
+	"path": {
+		"sass": "src/sass",
+		"css": "src/css",
+		"js": "src/js",
+		"images": "src/images",
+		"templates": "components",
+		"pages": "views"
+	},
+	"dist": {
+		"css": "dist/css",
+		"js": "dist/js",
+		"images": "dist/images"
+	}
+}
