@@ -1,0 +1,117 @@
+
+.hidden{
+  overflow:hidden;
+}
+
+.none,
+.disappear{
+  display: none !important;
+}
+
+.block{
+  display: block !important;
+}
+
+.relative{
+  position: relative !important;
+}
+
+.absolute{
+  position: absolute !important;
+}
+
+.tr{
+  text-align:right;
+}
+
+.tl{
+  text-align:left;
+}
+
+.tc{
+  text-align:center;
+}
+
+.fl{
+  @include float;
+}
+.fr{
+  @include float(right);
+}
+
+@each $i in 5,10,15,20,25,30,35,40,50{
+  .m#{$i} {margin:        #{$i}px}
+  .mt#{$i}{margin-top:    #{$i}px}
+  .mb#{$i}{margin-bottom: #{$i}px}
+  .ml#{$i}{margin-left:   #{$i}px}
+  .mr#{$i}{margin-right:  #{$i}px}
+  .p#{$i} {padding:       #{$i}px}
+  .pt#{$i}{padding-top:   #{$i}px}
+  .pb#{$i}{padding-bottom:#{$i}px}
+  .pl#{$i}{padding-left:  #{$i}px}
+  .pr#{$i}{padding-right: #{$i}px}
+}
+
+.clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.clearfix{
+  *zoom:1;
+}
+
+.clear{
+  clear:both;
+}
+
+.no-link {
+  color:#868686 !important;
+  cursor:default !important;
+}
+
+.w95-percent{width:95%;}
+.w90-percent{width:90%;}
+.w85-percent{width:85%;}
+.w80-percent{width:80%;}
+.w75-percent{width:75%;}
+.w60-percent{width:60%;}
+.w50-percent{width:50%;}
+.w33-percent{width:33.3%;}
+.w25-percent{width:25%;}
+.w20-percent{width:20%;}
+
+
+.triangle-up {
+  @include triangle(top, #565454, 10px, 5px);
+}
+.triangle-left {
+  @include triangle(left, red, 10px, 5px);
+}
+.triangle-down {
+  @include triangle(bottom, #565454, 15px, 10px);
+}
+.triangle-right {
+  @include triangle(right, red, 10px, 5px);
+}
+
+.fixopcity{
+  background-color:#282828;
+  display:none;
+  z-index:100;
+
+  @include size(100%, 100%);
+  @include fixed(top 0 left 0);
+  @include opacity(0.9);
+}
+
+.fs14{font-size:14px;}
+.fs16{font-size:16px;}
+.fs18{font-size:18px;}
+.fs20{font-size:20px;}
+.sfont{font-size:10px;}
+.lfont{font-size:18px;}
+.mfont{font-size:14px;}
+.text-grey{color:$grey-text;}
+.text-light{color:$light-text;}
+.text-red{color:$red-text;}

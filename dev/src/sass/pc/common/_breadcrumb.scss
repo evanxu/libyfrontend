@@ -1,0 +1,14 @@
+.breadcrumb{
+  @include size($base-width, 38px);
+  margin:0 auto;
+  line-height:38px;
+  color:$grey-text;
+
+  a{
+    color:$grey-text;
+
+    &:hover{
+      color:$blue-text;
+    }
+  }
+}

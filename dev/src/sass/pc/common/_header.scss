@@ -1,0 +1,51 @@
+/*header*/
+$header-grey:  rgb(149,149,149);
+
+.header{
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background: rgb(246,246,246);
+  color: $header-grey;
+
+  .header-content{
+    width: $base-width;
+    padding: 0 $gap;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  a{
+    color: $header-grey;
+  }
+}
+
+.header-left{
+  float: left;
+
+  li{
+    float: left;
+    display: block;
+    margin-left: 23px;
+  }
+
+  .header-message{
+    color: $dark-text;
+    font-weight: 700;
+  }
+}
+
+.header-right{
+  float: right;
+
+  li{
+    float: left;
+    display: block;
+    margin-left: 23px;
+  }
+
+  .num{
+    color: $red-text;
+    font-weight: 700;
+  }
+}

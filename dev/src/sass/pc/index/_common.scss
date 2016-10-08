@@ -1,0 +1,16 @@
+.index-title{
+  @include size(100%, 52px);
+  padding: 0 $gap;
+  line-height:52px;
+  font-size:$font-size-medium;
+  border-bottom:1px solid $dark-border;
+
+  h3{
+
+  }
+
+  .view-more{
+    @include absolute(right $gap top 0);
+    color:$light-text;
+  }
+}

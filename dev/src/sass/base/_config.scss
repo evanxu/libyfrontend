@@ -1,0 +1,53 @@
+/* layout */
+$base-width: 		1200px;
+$gap:				15px;
+
+/* font-size */
+$font-family-base:	"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","simhei",Arial,sans-serif;
+$font-size-base:     12px;
+$font-size-medium:     14px;
+$font-size-large:     16px;
+$font-size-xlarge:     18px;
+
+
+/* color */
+$base-color: 		#04a1e9;
+$red:           #ed1c24;
+$dark-blue:     #009ae0;
+$light:         #f6f6f6;
+$dark:          #363636;
+$white:         #fff;
+$green:         #82ca9c;
+$grey:          #ebebeb;
+
+$base-background:	$base-color;
+$darkblue-background: $dark-blue;
+$red-background:      $red;
+$light-background:	$light;
+$white-background:  $white;
+$grey-background:  $grey;
+
+$green-text:		$green;
+$blue-text:			#449ed8;
+$white-text:		$white;
+$black-text:    #000;
+$dark-text:			$dark;
+$grey-text:		#929292;
+$light-text:   #c2c2c2;
+$red-text:			$red;
+
+$dark-border:		#c2c2c2;
+$grey-border:		$grey;
+$light-border:    $light;
+
+
+/* media query */
+$max: 			max-width;
+$min: 			min-width;
+$large-screen:	640px;
+$medium-screen:	413px;
+$small-screen:	320px;
+
+
+/* background */
+$background-root: "/src/images/"

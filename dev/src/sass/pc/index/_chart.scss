@@ -1,0 +1,8 @@
+.index-chart{
+  @include size($box-left-width + $box-right-width + 15px, 250px);
+  position:relative;
+  margin-left:$gap;
+  background:$white-background;
+  overflow:hidden;
+  clear:both;
+}

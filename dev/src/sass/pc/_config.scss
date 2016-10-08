@@ -1,0 +1,28 @@
+/* layout */
+$base-width: 		1200px;
+$gap:				15px;
+
+/* color */
+$base-color: 		#04a1e9;
+
+$base-background:	$base-color;
+$light-background:	#f6f6f6;
+
+$green-text:		#82ca9c;
+$blue-text:			#449ed8;
+$white-text:		#fff;
+$dark-text:			#363636;
+$light-text:		#929292;
+$red-text:			#ed1c24;
+
+$dark-border:		#c2c2c2;
+$light-border:		#f6f6f6;
+$grey-border:		#ebebeb;
+
+
+/* media query */
+$max: 			max-width;
+$min: 			min-width;
+$large-screen:	640px;
+$medium-screen:	413px;
+$small-screen:	320px;

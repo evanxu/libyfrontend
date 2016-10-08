@@ -1,0 +1,37 @@
+$nav-height:  42px;
+
+.nav{
+  width: 100%;
+  background:$base-background;
+
+  .nav-content{
+    @include size($base-width, $nav-height);
+    margin:0 auto;
+
+    li{
+      position:relative;
+      float:left;
+      height:$nav-height;
+      min-width:10%;
+      font-size:$font-size-large;
+      text-align:center;
+      line-height:$nav-height;
+    }
+
+    a{
+      @include size(100%, $nav-height);
+      display:block;
+      color:$white-text;
+
+      &:hover{
+        text-decoration:none;
+        background:$darkblue-background;
+      }
+    }
+  }
+
+  .nav-all{
+    @include size(170px, $nav-height);
+    background:$darkblue-background;
+  }
+}

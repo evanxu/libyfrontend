@@ -9,7 +9,7 @@ module.exports = function(grunt){
         options: {
           port: 7777,
           base: {
-            path: '<%= config.dev %>/<%= config.path.pages %>',
+            path: '<%= config.dev %>',
             options: {
               index: '<%= config.path.pages %>/<%= config.index %>'
             }
@@ -104,11 +104,12 @@ module.exports = function(grunt){
     //雪碧图
     sprite: {
       dev: {
-        src:'<%= config.dev %>/<%= config.path.images %>/**/*.png',
+        src: ['<%= config.dev %>/<%= config.path.images %>/**/*.png', '!*sprite*'],
         dest: '<%= config.dev %>/<%= config.path.images %>/sprite.png',
         destCss: '<%= config.dev %>/<%= config.path.sass %>/_sprite.scss',
-        //retinaSrcFilter: ['<%= config.dev %>/<%= config.path.images %>/**/*.png'],
-        //retinaDest: '<%= config.dev %>/<%= config.path.images %>/retina@2x.png',
+        retinaSrcFilter: ['<%= config.dev %>/<%= config.path.images %>/*@2x/*.png'],
+        retinaDest: '<%= config.dev %>/<%= config.path.images %>/sprite@2x.png',
+        cssTemplate: 'handlebarsInheritance.scss.handlebars'
       }
     },
 
@@ -116,12 +117,12 @@ module.exports = function(grunt){
     includereplace: {
       dev: {
         options: {
-          prefix: '<!-- ',
+          prefix: '<-- ',
           suffix: ' -->',
         },
         expand: true,
         cwd: '<%= config.dev %>/<%= config.path.templates %>/',
-        src: ['**/*.html', '!_*'],
+        src: ['**/*.html', '!_*.html'],
         dest: '<%= config.dev %>/<%= config.path.pages %>/'
       }
     },

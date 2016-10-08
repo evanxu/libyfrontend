@@ -1,0 +1,72 @@
+// 浮动
+@mixin float($float: left){
+  float:    $float;
+  display:  inline;
+}
+
+// 自定义三角形
+@mixin triangle($direction, $borderColor, $size, $size2: $size){
+  content:"";
+  display: block;
+  height: 0;
+  width: 0;
+
+  @if $direction == top {
+    border-bottom:$size solid $borderColor;
+    border-left:$size2 dashed transparent;
+    border-right:$size2 dashed transparent;
+  }
+  @else if $direction == left {
+    border-left:$size solid $borderColor;
+    border-top:$size2 dashed transparent;
+    border-bottom:$size2 dashed transparent;
+  }
+  @else if $direction == bottom {
+    border-top:$size solid $borderColor;
+    border-left:$size2 dashed transparent;
+    border-right:$size2 dashed transparent;
+  }
+  @else if $direction == right {
+    border-right:$size solid $borderColor;
+    border-top:$size2 dashed transparent;
+    border-bottom:$size2 dashed transparent;
+  }
+}
+
+// 绝对、固定定位
+@mixin _position($position, $args) {
+  @each $o in top right bottom left {
+    $i: index($args, $o);
+
+    @if $i and ($i + 1) <= length($args) and type-of(nth($args, $i + 1)) == number  {
+      #{$o}: nth($args, $i + 1);
+    }
+  }
+
+  position: $position;
+}
+
+@mixin absolute($args) {
+  @include _position(absolute, $args);
+}
+
+@mixin fixed($args) {
+  @include _position(fixed, $args);
+}
+
+@mixin relative($args) {
+  @include _position(relative, $args);
+}
+
+// 透明度
+@mixin opacity($opacity: 1){
+  opacity: $opacity;
+  filter: alpha(opacity=#{$opacity*100});
+}
+
+// 宽高尺寸
+@mixin size($width, $height){
+  width: $width;
+  height: $height;
+}
+
