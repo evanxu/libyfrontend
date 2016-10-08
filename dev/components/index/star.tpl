@@ -1,8 +1,8 @@
 <div class="index-star fr">
   <div class="index-title">
     <h3>
-      <i class="icon"></i>
-      本周之星
+      <i class="icon icon15"></i>
+      <span>本周之星</span>
     </h3>
   </div>
   <ul class="index-star-lists">
@@ -19,7 +19,7 @@
           </p>
       </div>
       <div class="index-star-target">
-        <i class="icon"></i>
+        <i class="icon icon17"></i>
         <p>
           <span class="fs18">135</span>%
         </p>
@@ -39,7 +39,7 @@
           </p>
       </div>
       <div class="index-star-target">
-        <i class="icon"></i>
+        <i class="icon icon18"></i>
         <p>
           <span class="fs18">135</span>%
         </p>
@@ -59,7 +59,7 @@
           </p>
       </div>
       <div class="index-star-target">
-        <i class="icon"></i>
+        <i class="icon icon19"></i>
         <p>
           <span class="fs18">135</span>%
         </p>
@@ -79,7 +79,7 @@
           </p>
       </div>
       <div class="index-star-target">
-        <i class="icon"></i>
+        <i class="icon icon20"></i>
         <p>
           <span class="fs18">135</span>%
         </p>
@@ -99,7 +99,7 @@
           </p>
       </div>
       <div class="index-star-target">
-        <i class="icon"></i>
+        <i class="icon icon20"></i>
         <p>
           <span class="fs18">135</span>%
         </p>

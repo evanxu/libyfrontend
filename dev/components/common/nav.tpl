@@ -1,8 +1,10 @@
 <div class="nav">
   <ul class="nav-content">
     <li class="nav-all">
-      <i class="icon"></i>
-      <a href="#">全部商品分类</a>
+      <a href="#">
+        <i class="icon icon-menu"></i>
+        <span>全部商品分类</span>
+      </a>
     </li>
     <li>
       <a href="#">首页</a>

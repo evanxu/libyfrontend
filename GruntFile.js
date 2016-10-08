@@ -104,12 +104,9 @@ module.exports = function(grunt){
     //雪碧图
     sprite: {
       dev: {
-        src: ['<%= config.dev %>/<%= config.path.images %>/**/*.png', '!*sprite*'],
+        src: ['<%= config.dev %>/<%= config.path.images %>/index/*.png', '!*sprite*'],
         dest: '<%= config.dev %>/<%= config.path.images %>/sprite.png',
-        destCss: '<%= config.dev %>/<%= config.path.sass %>/_sprite.scss',
-        retinaSrcFilter: ['<%= config.dev %>/<%= config.path.images %>/*@2x/*.png'],
-        retinaDest: '<%= config.dev %>/<%= config.path.images %>/sprite@2x.png',
-        cssTemplate: 'handlebarsInheritance.scss.handlebars'
+        destCss: '<%= config.dev %>/<%= config.path.sass %>/_sprite.scss'
       }
     },
 

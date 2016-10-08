@@ -115,3 +115,9 @@
 .text-grey{color:$grey-text;}
 .text-light{color:$light-text;}
 .text-red{color:$red-text;}
+
+.icon,
+.icon + *{
+  display:inline-block;
+  vertical-align:middle;
+}

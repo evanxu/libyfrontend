@@ -1,40 +1,135 @@
 /*header*/
 $header-grey:  rgb(149,149,149);
-
-.header{
+/*header*/
+.header-top{
   width: 100%;
+  overflow: hidden;
+  background: rgb(246,246,246);
+  color: rgb(149,149,149);
   height: 35px;
   line-height: 35px;
-  background: rgb(246,246,246);
-  color: $header-grey;
-
-  .header-content{
-    width: $base-width;
-    padding: 0 $gap;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-
-  a{
-    color: $header-grey;
-  }
 }
-
-.header-left{
+.header-top .header-content{
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header-top a{
+  color: rgb(149,149,149);
+  height: 35px;
+  line-height: 35px;
+}
+.header-top .header-left{
   float: left;
-
-  li{
-    float: left;
-    display: block;
-    margin-left: 23px;
-  }
-
-  .header-message{
-    color: $dark-text;
-    font-weight: 700;
-  }
+}
+.header-top .header-left li{
+  float: left;
+  display: block;
+  margin-left: 23px;
+}
+.header-top .header-left li:first-child{
+  margin-left: 0;
+}
+.header-top .header-left .vip{
+  color: rgb(255,242,0);
+  background: rgb(238,28,36);
+  padding: 0 2px;
+  margin-left: 4px;
+}
+.header-top .header-left .news{
+  color: rgb(54,54,54);
+  font-weight: bold;
 }
 
+.header-top .header-right{
+  float: right;
+}
+.header-top .header-right li{
+  float: left;
+  display: block;
+  margin-left: 23px;
+}
+.header-top .header-right .num{
+  color: rgb(255,0,0);
+  font-weight: bold;
+}
+.herder-bottom{
+  margin:0 auto;
+  width: 1200px;
+  height: 100px;
+  margin-top: 30px;
+  background: #fff;
+  overflow: hidden;
+}
+.header-logo{
+  float: left;
+  width: 270px;
+  margin-right: 63px;
+}
+.header-search{
+  margin-right: 114px;
+  float: left;
+}
+.header-search .searchtpl{
+  @include size(100%, 44px);
+  border: 2px solid rgb(4,161,233);
+  float: left;
+  font-size: 14px;
+  overflow: hidden;
+}
+.header-search .searchtpl label{
+  width: 105px;
+  background: rgb(246,246,246);
+  float: left;
+  height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: rgb(128,128,128);
+}
+.header-search .searchtpl input{
+  width: 310px;
+  height: 44px;
+  float: left;
+  border: none;
+  padding-left: 10px;
+}
+.header-search .searchtpl span{
+  width: 98px;
+  display: block;
+  background: rgb(4,161,233);
+  text-align: center;
+  height: 44px;
+  line-height: 44px;
+  float: left;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+.header-search .keywd a{
+  display: block;
+  padding: 5px;
+    color: rgb(128,128,128);
+  float: left;
+}
+.header-search .keywd a:hover{
+  color: rgb(4,161,233);
+}
+.header-search .keywd a:first-child{
+  padding-left:0;
+}
+.header-tel{
+  float: left;
+}
+.header-tel .tit{
+  font-size: 12px;
+  color: rgb(149,149,149);
+}
+.header-tel .num{
+  font-size: 18px;
+  color: rgb(70,70,70);
+}
 .header-right{
   float: right;
 

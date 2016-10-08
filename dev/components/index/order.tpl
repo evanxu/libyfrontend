@@ -1,8 +1,8 @@
 <div class="index-order fl">
   <div class="index-title">
     <h3>
-      <i class="icon"></i>
-      我的订单
+      <i class="icon icon14"></i>
+      <span>我的订单</span>
     </h3>
     <a class="view-more" href="#">
       查看全部》
