@@ -11,19 +11,19 @@
     <div id="J-walletStatusChart" class="wallet-status-chart-detail"></div>
     <dl class="wallet-status-chart-text">
       <dt>
-        <span class="fl">总资产：</span><span class="fr">120万</span>
+        <span class="fl">总资产：</span><strong class="fr">120000.00</strong>
       </dt>
       <dd>
-        <span class="fl">授信余额：</span><span class="fr">70万</span>
+        <span class="fl">授信余额：</span><span class="fr">70000.00</span>
       </dd>
       <dd>
-        <span class="fl">消杀授信余额：</span><span class="fr">30万</span>
+        <span class="fl">消杀授信余额：</span><span class="fr">30000.00</span>
       </dd>
       <dd>
-        <span class="fl">母婴授信余额：</span><span class="fr">10万</span>
+        <span class="fl">母婴授信余额：</span><span class="fr">10000.00</span>
       </dd>
       <dd>
-        <span class="fl">洗护授信余额：</span><span class="fr">10万</span>
+        <span class="fl">洗护授信余额：</span><span class="fr">10000.00</span>
       </dd>
       <dd>
         <a href="#" class="button button-blue button-radius">账户充值</a>
@@ -31,6 +31,7 @@
     </dl>
   </div>
   <-- include('status-lists.tpl') -->
+  查看全部做分页
 </div>
 <script type="text/javascript">
   (function(){

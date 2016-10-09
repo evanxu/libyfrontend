@@ -593,7 +593,7 @@ a {
   line-height: 50px;
   border: 0;
   cursor: pointer;
-  font-size: 14px; }
+  font-size: 16px; }
   .button-blue {
     background: #07aaeb;
     color: #fff; }
@@ -1410,6 +1410,12 @@ a {
       text-align: center;
       font-size: 14px;
       color: #656565; }
+      .wallet-status-lists p:nth-child(2) {
+        text-align: left; }
+      .wallet-status-lists p:nth-child(3) {
+        font-weight: 700;
+        color: #333;
+        text-align: right; }
 
 .wallet-popup {
   margin: 15px;
