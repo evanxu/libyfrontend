@@ -1,7 +1,7 @@
 <div class="catalog clearfix">
   <div class="catalog-personal">
     <div class="catalog-pic">
-      <img src="/src/images/catalog-pic.png" alt="catalog-pic">
+      <img src="/src/images/temp/p3.jpg" alt="catalog-pic">
       <a href="#"><i class="icon"></i><span class="msg">2</span></a>
     </div>
     <div class="catalog-dis">

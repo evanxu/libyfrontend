@@ -18,7 +18,7 @@
 <!-- herderBtm -->
 <div class="herder-bottom">
   <div class="header-logo">
-    <img src="/src/images/" alt="logo">
+    <a href="#">立白立构台</a>
   </div>
   <div class="header-search">
     <div class="searchtpl">

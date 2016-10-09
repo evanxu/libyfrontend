@@ -6,6 +6,7 @@
 @import 'common/catalog';
 @import 'common/breadcrumb';
 @import 'common/content';
+@import 'common/chart';
 
 @import 'index/config';
 @import 'index/common';
@@ -19,3 +20,10 @@
 
 
 
+@import 'wallet/common';
+@import 'wallet/status';
+@import 'wallet/popup';
+
+
+
+@import 'promotion/liby-activity';

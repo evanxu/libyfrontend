@@ -1,5 +1,5 @@
 <div class="index-order fl">
-  <div class="index-title">
+  <div class="box-title">
     <h3>
       <i class="icon icon14"></i>
       <span>我的订单</span>

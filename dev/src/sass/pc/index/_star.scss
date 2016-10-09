@@ -18,6 +18,7 @@
     img{
       @include size(40px, 40px);
       float:left;
+      border-radius:100%;
     }
   }
 

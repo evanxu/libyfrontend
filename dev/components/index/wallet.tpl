@@ -1,5 +1,5 @@
 <div class="index-wallet fl">
-  <div class="index-title">
+  <div class="box-title">
     <h3>
       <i class="icon icon13"></i>
       <span>我的钱包</span>
@@ -10,21 +10,25 @@
   </div>
   <ul class="index-wallet-content">
     <li>
-      <a>
+      <a href="#">
         <i class="icon icon8"></i>
         <p class="index-wallet-count">38990.00</p>
         <p class="text-grey">授信余额</p>
       </a>
     </li>
     <li>
-      <i class="icon icon9"></i>
-      <p class="index-wallet-count">15600.00</p>
-      <p class="text-grey">促销费用</p>
+      <a href="#">
+        <i class="icon icon9"></i>
+        <p class="index-wallet-count">15600.00</p>
+        <p class="text-grey">促销费用</p>
+      </a>
     </li>
     <li>
-      <i class="icon icon10"></i>
-      <p class="index-wallet-count">6792</p>
-      <p class="text-grey">积分</p>
+      <a href="#">
+        <i class="icon icon10"></i>
+        <p class="index-wallet-count">6792</p>
+        <p class="text-grey">积分</p>
+      </a>
     </li>
   </ul>
 </div>

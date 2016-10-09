@@ -1,0 +1,72 @@
+$wallet-popup-width:  215px;
+.wallet-popup{
+  margin:$gap;
+  margin-left:-(170px - $gap);
+  padding:0 0 $gap 330px;
+  background:$white-background;
+
+  &-box{
+    margin-left:-330px;
+    margin-bottom:40px;
+    width:auto;
+  }
+
+  &-amount{
+    font-size:24px;
+    color:$red;
+  }
+
+  &-btn{
+    padding:$gap;
+    margin:0 100px 0 -230px;
+    border-top:1px dashed #dcdee8;
+    text-align:center;
+  }
+
+  a{
+    color:$blue-text;
+  }
+
+  .input{
+    width:$wallet-popup-width;
+  }
+}
+
+.bank-lists{
+  width:470px;
+}
+
+.bank-item{
+  @include size($wallet-popup-width, 60px);
+  float:left;
+  position:relative;
+  margin:0 $gap $gap 0;
+  padding:10px;
+  border:1px solid $grey-border;
+  font-size:$font-size-base;
+  cursor:pointer;
+
+  img{
+    @include size(40px, 40px);
+    float:left;
+    margin-right:$gap;
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  p{
+    height:20px;
+    line-height:20px;
+    overflow:hidden;
+  }
+
+  &-add{
+    @include size($wallet-popup-width - 2, 58px);
+    display:block;
+    margin:-10px;
+    background:$light-background;
+    line-height:60px;
+    text-align:center;
+    color:$blue-text;
+  }
+}

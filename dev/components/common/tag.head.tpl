@@ -5,5 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="/src/css/index.css">
+  <script type="text/javascript" src="/src/vendor/js/echarts.min.js"></script>
+
 </head>
 <body>

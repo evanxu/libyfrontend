@@ -57,15 +57,26 @@ $header-grey:  rgb(149,149,149);
 .herder-bottom{
   margin:0 auto;
   width: 1200px;
-  height: 100px;
-  margin-top: 30px;
+  height: 130px;
+  padding-top: 30px;
   background: #fff;
   overflow: hidden;
+  background:url(/src/images/bg/bg-header.png) right 0 no-repeat;
+  background-size:50%;
 }
 .header-logo{
   float: left;
-  width: 270px;
+  width: 240px;
+  height:72px;
   margin-right: 63px;
+
+  a{
+    @include size(100%, 100%);
+    display:block;
+    background:url(#{$background-root}/bg/bg-logo.png) no-repeat;
+    background-size:100%;
+    text-indent:-9999px;
+  }
 }
 .header-search{
   margin-right: 114px;

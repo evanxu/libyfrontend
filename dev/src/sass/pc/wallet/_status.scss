@@ -1,0 +1,141 @@
+.wallet-status{
+  margin: $gap $gap 0;
+  background:$white-background;
+  min-height:(900px - $gap);
+
+  &-chart{
+    @include size(100%, 300px);
+    position:relative;
+    padding-left:500px;
+    padding-top:40px;
+
+    &-detail{
+      @include size(300px, 300px);
+      @include absolute(top 50% left 100px);
+      margin-top:-150px;
+    }
+
+    &-text{
+      dd,
+      dt{
+        @include size(190px, 30px);
+      }
+
+      dt{
+        margin-bottom:$gap;
+        font-size:$font-size-xlarge;
+      }
+
+      dd{
+        position:relative;
+        height:20px;
+        padding-left:25px;
+        margin-bottom:10px;
+        font-size:$font-size-medium;
+
+        &:before{
+          @include size($gap, $gap);
+          @include absolute(top 50% left 0);
+          content:"";
+          margin-top: -$gap/2;
+        }
+
+        &:nth-child(2):before{
+          background:#1990eb;
+        }
+        &:nth-child(3):before{
+          background:#ffc228;
+        }
+        &:nth-child(4):before{
+          background:#ffecca;
+        }
+        &:nth-child(5):before{
+          background:#8dc63f;
+        }
+
+        &:last-child{
+          height:auto;
+          margin-top:$gap*2;
+          padding-left:0;
+        }
+      }
+    }
+  }
+
+  &-lists{
+    margin:$gap;
+    overflow: hidden;
+    border: 1px solid $grey-border;
+
+    dt{
+      height:50px;
+      background: #f9f9f9;
+    }
+
+    &-tab{
+      float:left;
+      overflow: hidden;
+
+      a{
+        @include size(auto, 50px);
+        position:relative;
+        min-width:100px;
+        padding:0 10px;
+        float: left;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        color: $grey-text;
+
+        &.curr,
+        &:hover{
+          background: #ebf4f8;
+          color: $base-color;
+
+          &:after{
+            @include size(0, 0);
+            @include absolute(bottom 0 left 50%);
+            content:"";
+            display:block;
+            border-style:solid;
+            border-width:5px;
+            border-color:transparent transparent $base-color;
+            margin-left:-5px;
+          }
+        }
+      }
+    }
+
+    &-more{
+      float: right;
+      padding-right:15px;
+
+      a{
+        color: #07aaeb;
+        height: 50px;
+        line-height: 50px;
+        display: block;
+        text-align: center;
+      }
+    }
+
+    dd{
+      overflow: hidden;
+
+      &:nth-child(even){
+        background: #f0fafe;
+      }
+    }
+
+    p{
+      float: left;
+      width: 25%;
+      height: 55px;
+      line-height: 55px;
+      text-align: center;
+      font-size: 14px;
+      color: #656565;
+    }
+  }
+}
+

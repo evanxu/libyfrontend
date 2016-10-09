@@ -1,5 +1,5 @@
 <div class="index-star fr">
-  <div class="index-title">
+  <div class="box-title">
     <h3>
       <i class="icon icon15"></i>
       <span>本周之星</span>
