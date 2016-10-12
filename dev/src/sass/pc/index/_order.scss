@@ -1,10 +1,9 @@
 .index-order{
-  @include size($box-left-width, 300px);
+  @include size($box-left-width+$gap, 300px+$gap);
   position:relative;
-  margin-left:$gap;
-  margin-bottom:$gap;
-  background:$white-background;
   overflow:hidden;
+  border-right:$gap solid $light-background;
+  border-bottom:$gap solid $light-background;
 
   &-tab{
     @include size(100%, 78px);

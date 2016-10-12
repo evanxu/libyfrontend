@@ -1,8 +1,8 @@
 <div class="breadcrumb">
-  您的位置：
-  <a href="#">首页</a>
-    >
-  <a href="#">我的立购</a>
-    >
-  <a href="#">我的订单</a>
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="index.html">我的立购</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="javascript:;">我的订单</a>
 </div>

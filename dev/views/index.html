@@ -5,9 +5,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="/src/css/index.css">
-  <script type="text/javascript" src="/src/vendor/js/echarts.min.js"></script>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
 
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
 </head>
 <body>
 
@@ -17,41 +20,41 @@
 <div class="header-top">
   <div class="header-content">
     <ul class="header-left">
-      <li>您好，<a href="#">邓志勇<span class="vip">VIP6</span></a></li>
-      <li>消息  <a  class="header-message" href="#">6</a></li>
-      <li><a href="#">退出</a></li>
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
     </ul>
     <ul class="header-right">
-      <li><a href="#">我的购物</a></li>
-      <li><a href="#">我的订单<span></span></a></li>
-      <li><i class="icon"></i><a href="#">购物车<span class="num">2</span>件</a></li>
-      <li><a href="#">收藏夹</a></li>
-      <li><a href="#">帮助中心</a></li>
+      <li><a href="index.html">我的立购</a></li>
+      <li><a href="javascript:;">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>购物车<span class="num">2</span>件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
     </ul>
   </div>
 </div>
 <!-- herderBtm -->
 <div class="herder-bottom">
   <div class="header-logo">
-    <a href="#">立白立构台</a>
+    <a href="javascript:;">立白立构台</a>
   </div>
   <div class="header-search">
     <div class="searchtpl">
-      <label for="">产品名称<a href="#"></a></label>
+      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
       <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
-      <span>搜索</span>
+      <span>搜 索</span>
     </div>
     <div class="keywd">
-      <a href="#">好爸爸</a>
-      <a href="#">洗衣液</a>
-      <a href="#">洗洁精</a>
-      <a href="#">洗衣粉</a>
-      <a href="#">个人护理</a>
-      <a href="#">洗护套装</a>
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
     </div>
   </div>
   <div class="header-tel">
-    <i class="icon icon-tel"></i>
+    <i class="iconfont">&#xe60f;</i>
     <p class="tit">
       客服热线(7x24小时)<br>
       <span class="num">400-687-0099</span>
@@ -64,22 +67,22 @@
 <div class="nav">
   <ul class="nav-content">
     <li class="nav-all">
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon-menu"></i>
         <span>全部商品分类</span>
       </a>
     </li>
     <li>
-      <a href="#">首页</a>
+      <a href="index.html">首页</a>
     </li>
     <li>
-      <a href="#">促销政策</a>
+      <a href="javascript:;">促销政策</a>
     </li>
     <li>
-      <a href="#">平台服务</a>
+      <a href="javascript:;">平台服务</a>
     </li>
     <li>
-      <a href="#">集团官网</a>
+      <a href="javascript:;">集团官网</a>
     </li>
   </ul>
 </div>
@@ -88,12 +91,12 @@
 
 <!-- import the breadcrumb -->
 <div class="breadcrumb">
-  您的位置：
-  <a href="#">首页</a>
-    >
-  <a href="#">我的立购</a>
-    >
-  <a href="#">我的订单</a>
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="index.html">我的立购</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="javascript:;">我的订单</a>
 </div>
 
 
@@ -102,8 +105,10 @@
   <div class="catalog clearfix">
   <div class="catalog-personal">
     <div class="catalog-pic">
-      <img src="/src/images/temp/p3.jpg" alt="catalog-pic">
-      <a href="#"><i class="icon"></i><span class="msg">2</span></a>
+      <img src="../src/images/temp/p3.jpg" alt="catalog-pic">
+      <a href="javascript:;">
+        <i class="iconfont">&#xe616;</i><span class="msg">2</span>
+      </a>
     </div>
     <div class="catalog-dis">
       <p>广州经销商A</p>
@@ -111,21 +116,21 @@
     </div>
   </div>
   <div class="catalog-management">
-    <dl class="catalog-market">
+    <dl class="catalog-market" id="J-catalogMarket">
       <dt>营销管理</dt>
-      <dd><a href="#">我的订单</a></dd>
-      <dd><a href="#">我的促销</a></dd>
-      <dd><a href="#">我的钱包</a></dd>
-      <dd><a href="#">我的库存</a></dd>
-      <dd><a href="#">我的门店</a></dd>
-      <dd><a href="#">我的导购</a></dd>
-      <dd><a href="#">我的消息</a></dd>
+      <dd rel="order"><a href="order-list.html">我的订单</a></dd>
+      <dd rel="promotion"><a href="promotion-liby-activity.html">我的促销</a></dd>
+      <dd rel="wallet"><a href="wallet-status.html">我的钱包</a></dd>
+      <dd rel="storage"><a href="storage-list.html">我的库存</a></dd>
+      <dd><a href="javascript:;">我的门店</a></dd>
+      <dd><a href="javascript:;">我的导购</a></dd>
+      <dd><a href="javascript:;">我的消息</a></dd>
     </dl>
     <dl  class="catalog-account">
       <dt>账户管理</dt>
-      <dd><a href="#">基本信息</a></dd>
-      <dd><a href="#">密码修改</a></dd>
-      <dd><a href="#">退出登录</a></dd>
+      <dd><a href="javascript:;">基本信息</a></dd>
+      <dd><a href="javascript:;">密码修改</a></dd>
+      <dd><a href="javascript:;">退出登录</a></dd>
     </dl>
   </div>
 
@@ -145,23 +150,23 @@
     </h3>
     <ul class="index-sales-carousel clearfix">
   <li>
-    <a href="#">
-      <img src="/src/images/temp/c1.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/c1.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/c2.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/c2.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/c3.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/c3.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/c4.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/c4.jpg" width="100%" alt="">
     </a>
   </li>
 </ul>
@@ -173,33 +178,33 @@
     </h3>
     <ul class="index-sales-product clearfix">
   <li>
-    <a href="#">
-      <img src="/src/images/temp/s1.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/s1.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/s2.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/s2.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/s3.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/s3.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/s4.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/s4.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/s5.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/s5.jpg" width="100%" alt="">
     </a>
   </li>
   <li>
-    <a href="#">
-      <img src="/src/images/temp/s6.jpg" width="100%" alt="">
+    <a href="javascript:;">
+      <img src="../src/images/temp/s6.jpg" width="100%" alt="">
     </a>
   </li>
 </ul>
@@ -209,55 +214,55 @@
 
   <div class="index-tool fr">
   <div class="index-tool-title">
-    <i class="icon icon12"></i>
+    <i class="iconfont">&#xe615;</i>
     <span>促销管理工具</span>
   </div>
   <ul class="index-tool-lists">
     <li>
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon1"></i>
         捆绑促销
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon2"></i>
         买A送B
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon3"></i>
         满额返现
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon4"></i>
         满额返现
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon5"></i>
         捆绑促销
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon6"></i>
         买A赠B
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="javascript:;">
         <i class="icon icon7"></i>
         满额免邮
       </a>
     </li>
     <li>
-      <a href="#">
-        <i class="icon"></i>
+      <a href="javascript:;">
+        <i class="iconfont">&#xe629;</i>
         我的促销
       </a>
     </li>
@@ -268,31 +273,31 @@
   <div class="index-wallet fl">
   <div class="box-title">
     <h3>
-      <i class="icon icon13"></i>
+      <i class="iconfont">&#xe619;</i>
       <span>我的钱包</span>
     </h3>
-    <a class="view-more" href="#">
+    <a class="view-more" href="wallet-status.html">
       查看详细》
     </a>
   </div>
   <ul class="index-wallet-content">
     <li>
-      <a href="#">
-        <i class="icon icon8"></i>
+      <a href="wallet-status.html">
+        <i class="iconfont">&#xe608;</i>
         <p class="index-wallet-count">38990.00</p>
         <p class="text-grey">授信余额</p>
       </a>
     </li>
     <li>
-      <a href="#">
-        <i class="icon icon9"></i>
+      <a href="javascript:;">
+        <i class="iconfont">&#xe614;</i>
         <p class="index-wallet-count">15600.00</p>
         <p class="text-grey">促销费用</p>
       </a>
     </li>
     <li>
-      <a href="#">
-        <i class="icon icon10"></i>
+      <a href="javascript:;">
+        <i class="iconfont">&#xe60e;</i>
         <p class="index-wallet-count">6792</p>
         <p class="text-grey">积分</p>
       </a>
@@ -303,13 +308,13 @@
   <div class="index-star fr">
   <div class="box-title">
     <h3>
-      <i class="icon icon15"></i>
+      <i class="iconfont">&#xe61a;</i>
       <span>本周之星</span>
     </h3>
   </div>
   <ul class="index-star-lists">
     <li class="index-star-item">
-      <img src="/src/images/temp/p3.jpg" alt="">
+      <img src="../src/images/temp/p3.jpg" alt="">
       <div class="index-star-detail">
         <p>
           <span class="fs16">王琴</span>
@@ -317,8 +322,8 @@
         </p>
         <p>
           <span class="text-light">月销售额：</span>
-          <span>2,8101 ↑</span>
-          </p>
+          <span class="index-star-up">2,8101<i class="iconfont">&#xe605;</i></span>
+        </p>
       </div>
       <div class="index-star-target">
         <i class="icon icon17"></i>
@@ -329,7 +334,7 @@
       </div>
     </li>
     <li class="index-star-item">
-      <img src="/src/images/temp/p3.jpg" alt="">
+      <img src="../src/images/temp/p3.jpg" alt="">
       <div class="index-star-detail">
         <p>
           <span class="fs16">王琴</span>
@@ -337,7 +342,7 @@
         </p>
         <p>
           <span class="text-light">月销售额：</span>
-          <span>2,8101 ↑</span>
+          <span class="index-star-down">2,8101<i class="iconfont">&#xe606;</i></span>
           </p>
       </div>
       <div class="index-star-target">
@@ -349,7 +354,7 @@
       </div>
     </li>
     <li class="index-star-item">
-      <img src="/src/images/temp/p3.jpg" alt="">
+      <img src="../src/images/temp/p3.jpg" alt="">
       <div class="index-star-detail">
         <p>
           <span class="fs16">王琴</span>
@@ -357,7 +362,7 @@
         </p>
         <p>
           <span class="text-light">月销售额：</span>
-          <span>2,8101 ↑</span>
+          <span class="index-star-up">2,8101<i class="iconfont">&#xe605;</i></span>
           </p>
       </div>
       <div class="index-star-target">
@@ -369,7 +374,7 @@
       </div>
     </li>
     <li class="index-star-item">
-      <img src="/src/images/temp/p3.jpg" alt="">
+      <img src="../src/images/temp/p3.jpg" alt="">
       <div class="index-star-detail">
         <p>
           <span class="fs16">王琴</span>
@@ -377,7 +382,7 @@
         </p>
         <p>
           <span class="text-light">月销售额：</span>
-          <span>2,8101 ↑</span>
+          <span class="index-star-down">2,8101<i class="iconfont">&#xe606;</i></span>
           </p>
       </div>
       <div class="index-star-target">
@@ -389,7 +394,7 @@
       </div>
     </li>
     <li class="index-star-item">
-      <img src="/src/images/temp/p3.jpg" alt="">
+      <img src="../src/images/temp/p3.jpg" alt="">
       <div class="index-star-detail">
         <p>
           <span class="fs16">王琴</span>
@@ -397,7 +402,7 @@
         </p>
         <p>
           <span class="text-light">月销售额：</span>
-          <span>2,8101 ↑</span>
+          <span class="index-star-down">2,8101<i class="iconfont">&#xe606;</i></span>
           </p>
       </div>
       <div class="index-star-target">
@@ -414,14 +419,14 @@
   <div class="index-order fl">
   <div class="box-title">
     <h3>
-      <i class="icon icon14"></i>
+      <i class="iconfont">&#xe604;</i>
       <span>我的订单</span>
     </h3>
-    <a class="view-more" href="#">
+    <a class="view-more" href="order-list.html">
       查看全部》
     </a>
   </div>
-  <ul class="index-order-tab">
+  <ul class="index-order-tab" id="J-indexOrderTab">
     <li>
         <p class="index-order-count">13</p>
         <p class="text-grey">已创建</p>
@@ -431,7 +436,7 @@
         <p class="text-grey">待处理</p>
     </li>
     <li>
-        <p class="index-order-count">0</p>
+        <p class="index-order-count">1</p>
         <p class="text-grey">已审核</p>
     </li>
     <li>
@@ -439,20 +444,20 @@
         <p class="text-grey">部分发货</p>
     </li>
     <li>
-        <p class="index-order-count">0</p>
+        <p class="index-order-count">1</p>
         <p class="text-grey">已发货</p>
     </li>
     <li>
-        <p class="index-order-count">0</p>
+        <p class="index-order-count">1</p>
         <p class="text-grey">已签收</p>
     </li>
   </ul>
-  <div>
+  <div id="J-indexOrderDetail">
     <ul class="index-order-lists">
       <li class="index-order-item">
         <div class="index-order-img">
-          <img src="/src/images/temp/p1.jpg" alt="">
-          <img src="/src/images/temp/p2.jpg" alt="">
+          <img src="../src/images/temp/p1.jpg" alt="">
+          <img src="../src/images/temp/p2.jpg" alt="">
         </div>
         <div class="index-order-address">
           <p>沈阳市苏家屯迎春街238号（1002255）</p>
@@ -470,8 +475,8 @@
       </li>
       <li class="index-order-item">
         <div class="index-order-img">
-          <img src="/src/images/temp/p1.jpg" alt="">
-          <img src="/src/images/temp/p2.jpg" alt="">
+          <img src="../src/images/temp/p1.jpg" alt="">
+          <img src="../src/images/temp/p2.jpg" alt="">
         </div>
         <div class="index-order-address">
           <p>沈阳市苏家屯迎春街238号（1002255）</p>
@@ -490,11 +495,22 @@
     </ul>
   </div>
 </div>
+<script type="text/javascript">
+$(function(){
+  $('#J-indexOrderTab li').on('click', function(){
+    var $this = $(this);
+    var index = $this.index();
+    $this.addClass('curr').siblings().removeClass('curr');
+
+    // some other code here
+  })
+});
+</script>
 
   <div class="index-chart">
   <div class="box-title">
     <h3>
-      <i class="icon icon16"></i>
+      <i class="iconfont">&#xe61a;</i>
       <span>我的报表</span>
     </h3>
   </div>
@@ -503,7 +519,7 @@
       <p class="chart-title">17年销售目标：10000元</p>
       <div id="J-indexChartLeft" class="chart-detail"></div>
       <div class="chart-other">
-        <p class="chart-finish chart-finish-blue"><span class="with-bg">已完成</span><span class="with-border">目标</span></p>
+        <div class="chart-finish chart-finish-blue"><span class="with-bg">已完成</span><span class="with-border">目标</span></div>
         <p><strong class="fs16">8103.00</strong><span class="fs12">元</span><p>
       </div>
     </div>
@@ -526,7 +542,7 @@
             fontWeight: 400
           },
           left: 'center',
-          top: '140'
+          top: '150'
         },
         tooltip: {
             trigger: 'item',
@@ -564,7 +580,8 @@
                 name: '已完成',
                 label: {
                   normal: {
-                    show: true
+                    show: true,
+                    shiftY: 10
                   }
                 },
                 itemStyle: {
@@ -686,42 +703,42 @@
 <!-- footer -->
   <div class="footer">
     <div class="footer-content">
-      <ul>
-        <li><a href="#">公司介绍</a></li>
-        <li><a href="#">关于立白</a></li>
-        <li><a href="#">媒体报道</a></li>
-        <li><a href="#">诚征英才</a></li>
-        <li><a href="#">友情链接</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">购物流程</a></li>
-        <li><a href="#">新用户注册</a></li>
-        <li><a href="#">购物流程</a></li>
-        <li><a href="#">配送方式</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">支付方式</a></li>
-        <li><a href="#">货到付款</a></li>
-        <li><a href="#">银联卡支付</a></li>
-        <li><a href="#">支付宝</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">售后服务</a></li>
-        <li><a href="#">退货说明</a></li>
-        <li><a href="#">退款说明</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">招商合作</a></li>
-        <li><a href="#">供应商招募</a></li>
-        <li><a href="#">广商合作</a></li>
-        <li><a href="#">联系立白</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">常见问题</a></li>
-        <li><a href="#">账户问题</a></li>
-        <li><a href="#">发票问题</a></li>
-        <li><a href="#">联系客服</a></li>
-      </ul>
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
     </div>
     <div class="footer-copyright">
       <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
@@ -730,6 +747,7 @@
 
 
 <!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
 </body>
 </html>
 

@@ -1,7 +1,7 @@
 <div class="index-chart">
   <div class="box-title">
     <h3>
-      <i class="icon icon16"></i>
+      <i class="iconfont">&#xe61a;</i>
       <span>我的报表</span>
     </h3>
   </div>
@@ -10,7 +10,7 @@
       <p class="chart-title">17年销售目标：10000元</p>
       <div id="J-indexChartLeft" class="chart-detail"></div>
       <div class="chart-other">
-        <p class="chart-finish chart-finish-blue"><span class="with-bg">已完成</span><span class="with-border">目标</span></p>
+        <div class="chart-finish chart-finish-blue"><span class="with-bg">已完成</span><span class="with-border">目标</span></div>
         <p><strong class="fs16">8103.00</strong><span class="fs12">元</span><p>
       </div>
     </div>
@@ -33,7 +33,7 @@
             fontWeight: 400
           },
           left: 'center',
-          top: '140'
+          top: '150'
         },
         tooltip: {
             trigger: 'item',
@@ -71,7 +71,8 @@
                 name: '已完成',
                 label: {
                   normal: {
-                    show: true
+                    show: true,
+                    shiftY: 10
                   }
                 },
                 itemStyle: {

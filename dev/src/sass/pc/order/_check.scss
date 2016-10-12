@@ -1,0 +1,275 @@
+.order-check{
+  margin-left:-$catalog-width;
+
+  &-content{
+  }
+
+  &-info{
+    padding:35px 70px;
+    background:#fff;
+  }
+
+  &-delivery{
+    li{
+      float:left;
+      height:35px;
+      min-width:170px;
+      position:relative;
+      margin:0 20px 20px 0;
+    }
+
+    p{
+      @include size(100%, 100%);
+      padding:0 20px;
+      line-height:35px;
+      text-align:center;
+      color:#808080;
+      border:1px solid #d5d8e3;
+      font-size:$font-size-base;
+      cursor:pointer;
+    }
+
+    input[type="radio"]{
+      display:none;
+    }
+
+    p.curr,
+    input[type="radio"]:checked + p{
+      border:1px solid $base-color;
+      background:#f0fafe;
+      color:$base-color;
+
+      &:after{
+        @include absolute(right 0 bottom -10px);
+        content:"\e62b";
+        color:$base-color;
+        font-size:14px;
+      }
+    }
+  }
+
+  &-address{
+    li{
+      @include size(270px, 150px);
+      float:left;
+      position:relative;
+      margin:0 20px 20px 0;
+    }
+
+    .order-check-address-detail{
+      @include size(100%, 100%);
+      padding:20px;
+      color:#808080;
+      cursor:pointer;
+      background:url(#{$background-root}/bg/bg-address.jpg) no-repeat;
+
+      a{
+        color:$base-color;
+      }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      .order-check-address-detail{
+        background:url(#{$background-root}/bg/bg-address@2x.jpg) no-repeat;
+        background-size:cover;
+      }
+    }
+
+    input[type="radio"]{
+      display:none;
+    }
+
+    .order-check-address-detail.curr,
+    input[type="radio"]:checked + .order-check-address-detail{
+      &:after{
+        @include absolute(right 0 bottom -3px);
+        content:"\e62b";
+        color:$red;
+        font-size:22px;
+      }
+    }
+  }
+
+  &-menu{
+    position:relative;
+    overflow:hidden;
+    height:45px;
+    line-height:45px;
+    font-size:$font-size-medium;
+    color:#656565;
+
+    &-product,
+    &-price,
+    &-quantity,
+    &-total{
+      float:left;
+    }
+
+    &-product{
+      width:435px;
+      padding-left:35px;
+      margin-right:235px;
+    }
+
+    &-price{
+      width:125px;
+      padding:0 20px;
+    }
+
+    &-quantity{
+      width:185px;
+      text-align:center;
+    }
+
+    &-total{
+      width:130px;
+      text-align:right;
+    }
+  }
+
+  &-item{
+    position:relative;
+    padding:20px 0 20px 35px;
+    height:135px;
+
+    .cart{
+      &-info{
+        width:155px;
+        margin-right:100px;
+        padding:0 20px;
+      }
+
+      &-total{
+        text-align:right;
+      }
+    }
+  }
+
+  &-sales{
+    padding:$gap 20px;
+    color:$base-color;
+
+    .with-white-bg{
+      padding:0 3px;
+      border:1px solid $base-color;
+    }
+
+    .with-blue-bg{
+      padding:0 3px;
+      background:$base-color;
+      border:1px solid $base-color;
+      color:#fff
+    }
+  }
+
+  &-remark{
+    position:relative;
+    padding:$gap 20px;
+    font-size:14px;
+
+    &-left{
+      @include absolute(top 50% left 20px);
+      height:30px;
+      margin-top:-15px;
+      line-height:30px;
+    }
+
+    &-right{
+      float:right;
+      width:30%;
+    }
+
+    .input{
+      width:330px;
+    }
+  }
+
+
+
+  &-charge{
+    margin-bottom:5px;
+    text-align:right;
+
+    &:last-child{
+      margin:0;
+    }
+
+    span{
+      float:left;
+      display:inline-block;
+      width:150px;
+      text-align:right;
+      font-size:12px;
+    }
+  }
+
+  &-payment{
+    padding:$gap 15px;
+    text-align:right;
+    line-height:36px;
+
+    .order-check-charge{
+      margin-left:70%;
+    }
+
+    strong{
+      color:$red;
+      font-size:24px;
+    }
+  }
+
+  &-product-info{
+    float:right;
+    text-align:right;
+    color:#656565;
+  }
+}
+
+.order-check,
+.order-waybill{
+  &-menu,
+  &-item,
+  &-sales,
+  &-remark,
+  &-popup,
+  &-payment{
+    border-bottom:1px solid $grey-border;
+  }
+
+  &-lists{
+    &-title{
+      height:80px;
+      line-height:100px;
+      font-size:$font-size-xlarge;
+      color:#656565;
+      background:$light-background;
+    }
+  }
+
+  &-popup{
+    position:relative;
+    height:61px;
+    padding:$gap 20px;
+    border-top:$gap solid $light-border;
+    color:#656565;
+    line-height:16px;
+
+    .button{
+      @include absolute(right 2px top 2px);
+      width:110px;
+      font-size:$font-size-large;
+    }
+  }
+
+  &-checkout{
+    padding:$gap 0;
+    text-align:right;
+    background:$light-border;
+
+    a{
+      margin-right:$gap;
+      color:#7a8290;
+      font-size:$font-size-xlarge;
+    }
+  }
+
+}

@@ -1,0 +1,208 @@
+<!-- import css files and body start -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
+</head>
+<body>
+
+
+<!-- import page header -->
+<!-- header -->
+<div class="header-top">
+  <div class="header-content">
+    <ul class="header-left">
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="index.html">我的立购</a></li>
+      <li><a href="javascript:;">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>购物车<span class="num">2</span>件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
+    </ul>
+  </div>
+</div>
+<!-- herderBtm -->
+<div class="herder-bottom">
+  <div class="header-logo">
+    <a href="javascript:;">立白立构台</a>
+  </div>
+  <div class="header-search">
+    <div class="searchtpl">
+      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
+      <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
+      <span>搜 索</span>
+    </div>
+    <div class="keywd">
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
+    </div>
+  </div>
+  <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
+    <p class="tit">
+      客服热线(7x24小时)<br>
+      <span class="num">400-687-0099</span>
+    </p>
+  </div>
+</div>
+
+
+<!-- import page nav -->
+<div class="nav">
+  <ul class="nav-content">
+    <li class="nav-all">
+      <a href="javascript:;">
+        <i class="icon icon-menu"></i>
+        <span>全部商品分类</span>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">首页</a>
+    </li>
+    <li>
+      <a href="javascript:;">促销政策</a>
+    </li>
+    <li>
+      <a href="javascript:;">平台服务</a>
+    </li>
+    <li>
+      <a href="javascript:;">集团官网</a>
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- import the breadcrumb -->
+<div class="breadcrumb">
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="javascript:;">购物车</a>
+</div>
+
+
+<!-- import the content -->
+<div class="content clearfix">
+  <div class="order-delivery">
+  <div class="box-title">
+    <h3>
+      <i class="iconfont">&#xe604;</i>
+      <span>物流信息</span>
+    </h3>
+  </div>
+  <div class="order-delivery-content">
+    <div class="order-delivery-progress">
+      <i class="order-delivery-progress-curr" style="width:33.33%">
+      <!-- order-detail-delivery-progress-curr根据当前的步骤决定，33.33% * (setp-1) -->
+      </i>
+      <ul class="order-delivery-step">
+        <li class="order-delivery-step-item0 active">
+          <i class="iconfont">&#xe62a;</i>
+          <p>揽件</p>
+          <strong>2016-09-09 16:03:23</strong>
+        </li>
+        <li class="order-delivery-step-item1 active">
+          <i class="iconfont">&#xe62a;</i>
+          <p>运输</p>
+          <strong>2016-09-09 16:03:23</strong>
+        </li>
+        <li class="order-delivery-step-item2">
+          <span>3</span>
+          <!-- 未进行部分显示数字不显示勾 -->
+          <p>派送</p>
+          <!-- 未进行步骤不显示时间 -->
+        </li>
+        <li class="order-delivery-step-item3">
+          <span>4</span>
+          <!-- 未进行部分显示数字不显示勾 -->
+          <p>签收</p>
+          <!-- 未进行步骤不显示时间 -->
+        </li>
+      </ul>
+    </div>
+
+    <div class="order-delivery-info">
+      <h3>
+        物流信息
+        <a href="javascript:history.go(-1);">返回订单详情</a>
+      </h3>
+      <ul class="order-delivery-lists">
+        <li>2016-09-09 周五 16:38:12【宿迁市】包裹正在等待揽收</li>
+        <li>2016-09-10 周六 06:21:12【宿迁市】X通快递 XX收件员已揽件</li>
+        <li>2016-09-12 周一 12:09:34【上海市】转运中心已发出</li>
+        <li>2016-09-12 周一 18:19:54【上海市】快件已到达 上海静安</li>
+      </ul>
+    </div>
+   </div>
+</div>
+
+</div>
+
+<!-- footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
+    </div>
+    <div class="footer-copyright">
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+    </div>
+  </div>
+
+
+<!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
+</body>
+</html>
+

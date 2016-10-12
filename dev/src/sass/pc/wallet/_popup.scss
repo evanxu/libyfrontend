@@ -1,7 +1,7 @@
 $wallet-popup-width:  215px;
+
 .wallet-popup{
-  margin:$gap;
-  margin-left:-(170px - $gap);
+  margin-left:-$catalog-width;
   padding:0 0 $gap 330px;
   background:$white-background;
 
@@ -41,29 +41,50 @@ $wallet-popup-width:  215px;
   float:left;
   position:relative;
   margin:0 $gap $gap 0;
-  padding:10px;
-  border:1px solid $grey-border;
-  font-size:$font-size-base;
   cursor:pointer;
 
-  img{
-    @include size(40px, 40px);
-    float:left;
-    margin-right:$gap;
-    display:inline-block;
-    vertical-align:middle;
+  input[type="radio"]{
+    display:none;
   }
 
-  p{
-    height:20px;
-    line-height:20px;
-    overflow:hidden;
+  &-detail{
+    position:relative;
+    padding:10px 10px 10px 60px;
+    font-size:$font-size-base !important;
+    border:1px solid $grey-border;
+
+    img{
+      @include absolute(top 10px left 10px);
+      @include size(40px, 40px);
+      float:left;
+      margin-right:$gap;
+      display:inline-block;
+      vertical-align:middle;
+    }
+
+    p{
+      height:20px;
+      line-height:20px;
+      overflow:hidden;
+    }
+  }
+
+  .bank-item-detail.curr,
+  input[type="radio"]:checked + .bank-item-detail{
+    border:1px solid $base-color;
+    background:#f0fafe;
+
+    &:after{
+      @include absolute(right -1px bottom -9px);
+      content:"\e62b";
+      color:$base-color;
+      font-size:12px;
+    }
   }
 
   &-add{
     @include size($wallet-popup-width - 2, 58px);
     display:block;
-    margin:-10px;
     background:$light-background;
     line-height:60px;
     text-align:center;

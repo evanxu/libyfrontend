@@ -1,15 +1,17 @@
 .index-star{
-  @include size($box-right-width, 370px);
+  @include size($box-right-width, 370px+$gap);
   position:relative;
-  margin-right:$gap;
-  margin-bottom:$gap;
-  background:$white-background;
   overflow:hidden;
+  border-bottom:$gap solid $light-background;
 
   &-item{
     padding:12px;
     height:64px;
     border-bottom:1px solid #ebebeb;
+
+    &:hover{
+      background:#f0fafe;
+    }
 
     &:last-child{
       border:0;
@@ -27,6 +29,19 @@
     line-height:22px;
   }
 
+  &-up{
+    color:$base-color;
+  }
+
+  &-down{
+    color:$red;
+  }
+
+  &-up i,
+  &-down i{
+    font-size:$font-size-base;
+    margin-top:-2px;
+  }
 
   &-detail{
     float:left;

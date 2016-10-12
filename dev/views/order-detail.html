@@ -1,0 +1,366 @@
+<!-- import css files and body start -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
+</head>
+<body>
+
+
+<!-- import page header -->
+<!-- header -->
+<div class="header-top">
+  <div class="header-content">
+    <ul class="header-left">
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="index.html">我的立购</a></li>
+      <li><a href="javascript:;">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>购物车<span class="num">2</span>件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
+    </ul>
+  </div>
+</div>
+<!-- herderBtm -->
+<div class="herder-bottom">
+  <div class="header-logo">
+    <a href="javascript:;">立白立构台</a>
+  </div>
+  <div class="header-search">
+    <div class="searchtpl">
+      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
+      <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
+      <span>搜 索</span>
+    </div>
+    <div class="keywd">
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
+    </div>
+  </div>
+  <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
+    <p class="tit">
+      客服热线(7x24小时)<br>
+      <span class="num">400-687-0099</span>
+    </p>
+  </div>
+</div>
+
+
+<!-- import page nav -->
+<div class="nav">
+  <ul class="nav-content">
+    <li class="nav-all">
+      <a href="javascript:;">
+        <i class="icon icon-menu"></i>
+        <span>全部商品分类</span>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">首页</a>
+    </li>
+    <li>
+      <a href="javascript:;">促销政策</a>
+    </li>
+    <li>
+      <a href="javascript:;">平台服务</a>
+    </li>
+    <li>
+      <a href="javascript:;">集团官网</a>
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- import the breadcrumb -->
+<div class="breadcrumb">
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="javascript:;">购物车</a>
+</div>
+
+
+<!-- import the content -->
+<div class="content clearfix">
+  <div class="order-detail">
+  <div class="box-title">
+    <h3>
+      <i class="iconfont">&#xe604;</i>
+      <span>订单详情</span>
+    </h3>
+  </div>
+  <a href="javascript:;" class="order-detail-print">
+    <i class="iconfont"></i>
+    <span>打印订单</span>
+  </a>
+  <div class="order-detail-content">
+    <div class="order-detail-delivery-progress">
+      <i class="order-detail-delivery-progress-curr" style="width:25%">
+      <!-- order-detail-delivery-progress-curr根据当前的步骤决定，25% * (setp-1) -->
+      </i>
+      <ul class="order-detail-delivery-step">
+        <li class="order-detail-delivery-step-item0 active">
+          <i class="iconfont">&#xe62a;</i>
+          <p>拍下商品</p>
+          <strong>2016-09-09 16:03:23</strong>
+        </li>
+        <li class="order-detail-delivery-step-item1 active">
+          <i class="iconfont">&#xe62a;</i>
+          <p>付款</p>
+          <strong>2016-09-09 16:03:23</strong>
+        </li>
+        <li class="order-detail-delivery-step-item2">
+          <span>3</span>
+          <!-- 未进行部分显示数字不显示勾 -->
+          <p>部分发货</p>
+          <!-- 未进行步骤不显示时间 -->
+        </li>
+        <li class="order-detail-delivery-step-item3">
+          <span>4</span>
+          <!-- 未进行部分显示数字不显示勾 -->
+          <p>确认收货</p>
+          <!-- 未进行步骤不显示时间 -->
+        </li>
+        <li class="order-detail-delivery-step-item4">
+          <span>5</span>
+          <!-- 未进行部分显示数字不显示勾 -->
+          <p>订单关闭</p>
+          <!-- 未进行步骤不显示时间 -->
+        </li>
+      </ul>
+    </div>
+
+    <div class="order-detail-info">
+      <h3 class="order-detail-title">订单信息</h3>
+      <dl>
+        <dt>
+          <span>订单号码：15109928</span>
+          <span>订单状态: 部分发货</span>
+        </dt>
+        <dd class="order-detail-info-left">
+          <p>
+            <span>客户名称：</span>
+            十堰万捷贸易有限公司
+          </p>
+          <p>
+            <span>送达方：</span>
+            刘晓雪：沈阳市苏家屯迎春街238号（6000956）
+          </p>
+          <p>
+            <span>送货地址：</span>
+            沈阳市苏家屯迎春街238号（1002255）
+          </p>
+          <p>
+            <span>承运商：</span>
+            四平市通达运输有限公司（C220361238） 
+          </p>
+        </dd>
+        <dd class="order-detail-info-right">
+          <p>
+            <span>吨位上限：</span>
+            13
+          </p>
+          <p>
+            <span> 吨位下限：</span>
+            13
+          </p>
+          <p>
+            <span>方位上限：</span>
+            55
+          </p>
+          <p>
+            <span>请求发货日期：</span>
+            2016-09-09
+          </p>
+          <p>
+            <span>总数量（件）：</span>
+            15000
+          </p>
+          <p>
+            <span>已发货总数量（件）：</span>
+            5000
+          </p>
+          <p>
+            <span>总吨位（吨）：</span>
+            15000 
+          </p>
+          <p>
+            <span>已发货总吨位（吨）：</span>
+            5000 
+          </p>
+          <p>
+            <span>总体积（立方米）：</span>
+            15000
+          </p>
+          <p>
+            <span>已发货体积（立方米）：</span>
+            5000
+          </p>
+          <p>
+            <span>金额：</span>
+            ￥15,000 
+          </p>
+          <p>
+            <span>已发货金额：</span>
+            ￥5,000 
+          </p>
+        </dd>
+      </dl>
+    </div>
+
+    <div class="order-detail-lists">
+      <h3 class="order-detail-title">
+        已发货商品
+        <span class="order-detail-title-right">
+          <a href="order-delivery.html">查看物流</a>
+          <a href="javascript:;">分销订单</a>
+        </span>
+      </h3>
+      <dl>
+        <dt>
+          <p>货批号</p>
+          <p>商品名称</p>
+          <p>单价</p>
+          <p>数量</p>
+        </dt>
+        <dd>
+          <p>SKU98334H22</p>
+          <p>立白去渍洗洁精</p>
+          <p>￥50.00</p>
+          <p>5,000</p>
+        </dd>
+        <dd>
+          <p>SKU98334H22</p>
+          <p>立白去渍洗洁精</p>
+          <p>￥50.00</p>
+          <p>5,000</p>
+        </dd>
+        <dd>
+          <p>SKU98334H22</p>
+          <p>立白去渍洗洁精</p>
+          <p>￥50.00</p>
+          <p>5,000</p>
+        </dd>
+        <dd>
+          <p>SKU98334H22</p>
+          <p>立白去渍洗洁精</p>
+          <p>￥50.00</p>
+          <p>5,000</p>
+        </dd>
+        <dd>
+          <p class="order-detail-lists-total">
+            总数量：<strong>25,000</strong>
+          </p>
+        </dd>
+      </dl>
+    </div>
+
+    <div class="order-detail-lists order-detail-deliver">
+      <h3 class="order-detail-title">待发货商品</h3>
+      <dl>
+        <dt>
+          <p>货批号</p>
+          <p>商品名称</p>
+          <p>单价</p>
+          <p>数量</p>
+          <p>已有库存</p>
+          <p>预计发货时间</p>
+        </dt>
+        <dd>
+          <p>SKU98334H22</p>
+          <p>立白去渍洗洁精</p>
+          <p>￥50.00</p>
+          <p>5,000</p>
+          <p>10,000</p>
+          <p>2016-9-25</p>
+        </dd>
+        <dd>
+          <p>SKU98334H22</p>
+          <p>立白去渍洗洁精</p>
+          <p>￥50.00</p>
+          <p>5,000</p>
+          <p>10,000</p>
+          <p>2016-9-25</p>
+        </dd>
+        <dd>
+          <p class="order-detail-lists-total">
+            总数量：<strong>25,000</strong>
+          </p>
+        </dd>
+      </dl>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+<!-- footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
+    </div>
+    <div class="footer-copyright">
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+    </div>
+  </div>
+
+
+<!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
+</body>
+</html>
+

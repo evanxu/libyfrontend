@@ -1,10 +1,10 @@
 <div class="wallet-status">
   <ul class="wallet-tab">
     <li class="curr">
-      <a href="#">经销商授信状态</a>
+      <a href="wallet-status.html">经销商授信状态</a>
     </li>
     <li>
-      <a href="#">我的返利</a>
+      <a href="wallet-rebate.html">我的返利</a>
     </li>
   </ul>
   <div class="wallet-status-chart">
@@ -26,12 +26,12 @@
         <span class="fl">洗护授信余额：</span><span class="fr">10000.00</span>
       </dd>
       <dd>
-        <a href="#" class="button button-blue button-radius">账户充值</a>
+        <a href="wallet-popup.html" class="button button-blue button-radius">账户充值</a>
       </dd>
     </dl>
   </div>
   <-- include('status-lists.tpl') -->
-  查看全部做分页
+  <-- include('../common/pagination.tpl') -->
 </div>
 <script type="text/javascript">
   (function(){
@@ -47,7 +47,7 @@
           fontWeight: 400
         },
         left: 'center',
-        top: '110'
+        top: '120'
       },
       tooltip: {
           trigger: 'item',
@@ -93,7 +93,8 @@
               },
               label: {
                 normal: {
-                  show: true
+                  show: true,
+                  shiftY: 10
                 }
               }
             },

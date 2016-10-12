@@ -8,8 +8,12 @@
   font-size:$font-size-large;
 
   &-blue{
-    background:#07aaeb;
+    background:$base-background;
     color:#fff;
+
+    &:active{
+      background:$darkblue-background;
+    }
   }
 
   &-grey{
@@ -17,7 +21,31 @@
     color:#7a8290;
   }
 
+  &-red{
+    background:$red;
+    color:#fff;
+  }
+
   &-radius{
     border-radius:2px;
   }
+
+  &-medium{
+    @include size(140px, 40px);
+    line-height:40px;
+  }
+
+  &-xsmall{
+    @include size(70px, 30px);
+    line-height:30px;
+  }
+
+  &-inline{
+    display:inline-block;
+    vertical-align:middle;
+  }
+}
+
+.button:disabled{
+  background:#9ea7b8;
 }

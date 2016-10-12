@@ -9,6 +9,11 @@
 
   }
 
+  i{
+    color:$base-color;
+    font-size:22px;
+  }
+
   .view-more{
     @include absolute(right $gap top 0);
     color:$light-text;

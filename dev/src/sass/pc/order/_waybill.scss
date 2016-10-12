@@ -1,0 +1,140 @@
+.order-waybill{
+  margin-left:-$catalog-width;
+  min-height:900px;
+
+  &-tit{
+    font-size: 16px;
+    line-height: 50px;
+    border-bottom: 1px solid #c2c2c2;
+    padding-left: 75px;
+  }
+
+  &-info{
+    padding:$gap 75px;
+    overflow: hidden;
+    font-size:$font-size-medium;
+
+    p{
+      color: #656565;
+    }
+
+    &-top{
+      width: 33.33%;
+      float: left;
+      padding-right:75px;
+      margin-top: 15px;
+
+      p{
+        line-height: 30px;
+        height: 30px;
+      }
+
+      &:nth-child(2){
+        padding-right:0;
+        width:66.66%;
+      }
+    }
+
+    &-btm{
+      width: 33.33%;
+      float: left;
+      margin-top:60px;
+      padding-right:75px;
+
+      &:nth-child(3){
+        clear: both;
+      }
+
+      p{
+        line-height: 35px;
+        height: 35px;
+      }
+
+    }
+  }
+
+  &-lists{
+    &-title{
+      //this style @ _check.scss
+    }
+  }
+
+  &-menu{
+    position:relative;
+    overflow:hidden;
+    height:45px;
+    line-height:45px;
+    font-size:$font-size-medium;
+    color:#656565;
+
+    &-product,
+    &-price,
+    &-quantity,
+    &-total,
+    &-discount{
+      float:left;
+    }
+
+    &-product{
+      width:435px;
+      padding-left:35px;
+      margin-right:135px;
+    }
+
+    &-price{
+      width:125px;
+      padding:0 20px;
+    }
+
+    &-quantity{
+      width:185px;
+      text-align:center;
+    }
+
+    &-discount{
+      width:100px;
+      text-align:center;
+    }
+
+    &-total{
+      width:130px;
+      text-align:right;
+    }
+  }
+
+  &-item{
+    position:relative;
+    padding:20px 0 20px 35px;
+    height:135px;
+
+    .cart{
+      &-info{
+        width:155px;
+        padding:0 20px;
+      }
+
+      &-total{
+        text-align:right;
+      }
+
+      &-discount{
+        width:100px;
+      }
+    }
+  }
+
+  &-remark{
+    padding:$gap 20px;
+    font-size:$font-size-medium;
+    color:#656565;
+  }
+
+  &-popup{
+    //this style @ _check.scss
+  }
+
+  &-checkout{
+    //this style @ _check.scss
+  }
+}
+

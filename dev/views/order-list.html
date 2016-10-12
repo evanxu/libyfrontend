@@ -1,0 +1,369 @@
+<!-- import css files and body start -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
+</head>
+<body>
+
+
+<!-- import page header -->
+<!-- header -->
+<div class="header-top">
+  <div class="header-content">
+    <ul class="header-left">
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="index.html">我的立购</a></li>
+      <li><a href="javascript:;">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>购物车<span class="num">2</span>件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
+    </ul>
+  </div>
+</div>
+<!-- herderBtm -->
+<div class="herder-bottom">
+  <div class="header-logo">
+    <a href="javascript:;">立白立构台</a>
+  </div>
+  <div class="header-search">
+    <div class="searchtpl">
+      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
+      <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
+      <span>搜 索</span>
+    </div>
+    <div class="keywd">
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
+    </div>
+  </div>
+  <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
+    <p class="tit">
+      客服热线(7x24小时)<br>
+      <span class="num">400-687-0099</span>
+    </p>
+  </div>
+</div>
+
+
+<!-- import page nav -->
+<div class="nav">
+  <ul class="nav-content">
+    <li class="nav-all">
+      <a href="javascript:;">
+        <i class="icon icon-menu"></i>
+        <span>全部商品分类</span>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">首页</a>
+    </li>
+    <li>
+      <a href="javascript:;">促销政策</a>
+    </li>
+    <li>
+      <a href="javascript:;">平台服务</a>
+    </li>
+    <li>
+      <a href="javascript:;">集团官网</a>
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- import the breadcrumb -->
+<div class="breadcrumb">
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="javascript:;">购物车</a>
+</div>
+
+
+<!-- import the content -->
+<div class="content clearfix">
+  <div class="catalog clearfix">
+  <div class="catalog-personal">
+    <div class="catalog-pic">
+      <img src="../src/images/temp/p3.jpg" alt="catalog-pic">
+      <a href="javascript:;">
+        <i class="iconfont">&#xe616;</i><span class="msg">2</span>
+      </a>
+    </div>
+    <div class="catalog-dis">
+      <p>广州经销商A</p>
+      <p>邓志勇<span class="vip">VIP6</span></p>
+    </div>
+  </div>
+  <div class="catalog-management">
+    <dl class="catalog-market" id="J-catalogMarket">
+      <dt>营销管理</dt>
+      <dd rel="order"><a href="order-list.html">我的订单</a></dd>
+      <dd rel="promotion"><a href="promotion-liby-activity.html">我的促销</a></dd>
+      <dd rel="wallet"><a href="wallet-status.html">我的钱包</a></dd>
+      <dd rel="storage"><a href="storage-list.html">我的库存</a></dd>
+      <dd><a href="javascript:;">我的门店</a></dd>
+      <dd><a href="javascript:;">我的导购</a></dd>
+      <dd><a href="javascript:;">我的消息</a></dd>
+    </dl>
+    <dl  class="catalog-account">
+      <dt>账户管理</dt>
+      <dd><a href="javascript:;">基本信息</a></dd>
+      <dd><a href="javascript:;">密码修改</a></dd>
+      <dd><a href="javascript:;">退出登录</a></dd>
+    </dl>
+  </div>
+
+</div>
+
+  <div class="order-list">
+  <ul class="order-list-tab">
+    <li class="curr">
+      <a href="javascript:;">我的订单</a>
+    </li>
+    <li>
+      <a href="javascript;">我的退货单</a>
+    </li>
+  </ul>
+  <div class="order-list-content">
+    <div class="order-list-subtab">
+      <a href="javascript:;" class="curr">全部订单</a>
+      <a href="javascript:;">已创建</a>
+      <a href="javascript:;">已审核</a>
+      <a href="javascript:;">待处理</a>
+      <a href="javascript:;">部分发货</a>
+      <a href="javascript:;">已发货</a>
+      <a href="javascript:;">已签收</a>
+    </div>
+    <div class="order-list-filter">
+      <form class="form">
+        <span>生成时间：</span>
+        <input type="text" class="input" placeholder="请选择起始时间" name="">
+        <i class="iconfont">&#xe610;</i>
+        -
+        <input type="text" class="input" placeholder="请选择结束时间" name="">
+        <i class="iconfont">&#xe610;</i>
+        <input type="button" class="button button-blue button-xsmall button-inline" value="确定">
+        <div class="order-list-filter-search">
+          <input type="text" class="input" placeholder="请输入订单号" name="">
+          <i class="iconfont">&#xe61c;</i>
+        </div>
+      </form>
+    </div>
+    <dl class="order-list-items">
+  <dt class="order-list-items-title">
+    <p class="order-list-cell-product">商品</p>
+    <p class="order-list-cell-quantity">订单数量</p>
+    <p class="order-list-cell-quantity">已发数量</p>
+    <p class="order-list-cell-quantity">缺货数量</p>
+    <p class="order-list-cell-price">单价金额</p>
+    <p class="order-list-cell-total">总金额</p>
+    <p class="order-list-cell-status">状态</p>
+    <p class="order-list-cell-action">操作</p>
+  </dt>
+  <dd class="order-list-items-detail">
+    <div class="order-list-items-date">
+      <span>2016-09-16 12:03:32</span>
+      <span>订单编号: 2358617031341219</span>
+      <a href="javascript:;">
+        展开全部明细
+        <i class="iconfont">&#xe601;</i>
+      </a>
+    </div>
+    <div class="order-list-cell-detail">
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-product">
+          <a href="javascrtip:;"><img src="../src/images/temp/q1.jpg" alt=""></a>
+          <p><a href="javascript:;">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity">10</p>
+        <p class="order-list-cell-quantity">4</p>
+        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-price">400.00</p>
+      </div>
+
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-product">
+          <a href="javascrtip:;"><img src="../src/images/temp/q2.jpg" alt=""></a>
+          <p><a href="javascript:;">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity">10</p>
+        <p class="order-list-cell-quantity">4</p>
+        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-price">400.00</p>
+      </div>
+    </div>
+
+    <p class="order-list-cell-total"><strong>1000.00</strong></p>
+    
+    <p class="order-list-cell-status">已审核</p>
+    
+    <p class="order-list-cell-action">
+      <a href="javascript:;">申请发货</a>
+      <a href="order-detail.html">订单详情</a>
+      <a href="javascript:;">取消订单</a>
+    </p>
+  
+  </dd>
+
+  <dd class="order-list-items-detail">
+    <div class="order-list-items-date">
+      <span>2016-09-16 12:03:32</span>
+      <span>订单编号: 2358617031341219</span>
+      <a href="javascript:;">
+        展开全部明细
+        <i class="iconfont">&#xe601;</i>
+      </a>
+    </div>
+    <div class="order-list-cell-detail">
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-product">
+          <a href="javascrtip:;"><img src="../src/images/temp/q4.jpg" alt=""></a>
+          <p><a href="javascript:;">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity">10</p>
+        <p class="order-list-cell-quantity">4</p>
+        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-price">400.00</p>
+      </div>
+
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-product">
+          <a href="javascrtip:;"><img src="../src/images/temp/q3.jpg" alt=""></a>
+          <p><a href="javascript:;">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity">10</p>
+        <p class="order-list-cell-quantity">4</p>
+        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-price">400.00</p>
+      </div>
+    </div>
+
+    <p class="order-list-cell-total"><strong>1000.00</strong></p>
+    
+    <p class="order-list-cell-status">已审核</p>
+    
+    <p class="order-list-cell-action">
+      <a href="javascript:;">申请发货</a>
+      <a href="order-detail.html">订单详情</a>
+      <a href="javascript:;">取消订单</a>
+    </p>
+  
+  </dd>
+</dl>
+  </div>
+  
+  <div class="pagination">
+    <ul class="items">
+        <li class="item pagination-prev">
+            <a class="icon-tag" href="javascript:;"><</a>
+        </li>
+        <li class="item pagination-active">
+            <a href="javascript:;">1</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">2</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">3</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">4</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">5</a>
+        </li>
+        <li class="item">
+            <span class="pagination-dot">···</span>
+        </li>
+        <li class="item">
+            <a href="javascript:;">24</a>
+        </li>
+        <li class="item pagination-next">
+            <a class="icon-tag" href="javascript:;">></a>
+        </li>
+    </ul>
+    <div class="pagination-form">
+        <span class="text">跳至</span>
+        <input class="input" type="text" min="1" max="100" aria-label="页码输入框" placeholder="1">
+        <span class="text">页</span>
+        <a class="pagination-btn button button-radius" href="javascript:;">跳转</a>
+    </div>
+</div>
+
+</div>
+</div>
+
+<!-- footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
+    </div>
+    <div class="footer-copyright">
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+    </div>
+  </div>
+
+
+<!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
+</body>
+</html>
+

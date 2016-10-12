@@ -1,10 +1,9 @@
 .index-wallet{
-  @include size($box-left-width, 250px);
+  @include size($box-left-width+$gap, 250px+$gap);
   position:relative;
-  margin-left:$gap;
-  margin-bottom:$gap;
-  background:$white-background;
   overflow:hidden;
+  border-right:$gap solid $light-background;
+  border-bottom:$gap solid $light-background;
 
   &-content{
 
@@ -16,17 +15,41 @@
 
       &:last-child{
         border:0;
+
+        i{
+          font-size:50px;
+        }
       }
+    }
+
+    i{
+      display:block !important;
+      height:70px;
+      line-height:70px;
+      margin:0 auto 10px;
+      font-size:60px;
+      color:$base-color;
     }
 
     a{
       @extend %block-a;
+      position:relative;
       padding-top:40px;
-    }
+      cursor:pointer;
 
-    .icon{
-      display:block;
-      margin:0 auto 10px;
+      @keyframes hoverMove{
+        0%  {transform:translateY(0)}
+        50% {transform:translateY(-10px)}
+        100% {transform:translateY(0)}
+      }
+
+      &:hover{
+        background:$light-blue;
+
+        i{
+          animation:hoverMove 0.9s linear infinite;
+        }
+      }
     }
   }
 

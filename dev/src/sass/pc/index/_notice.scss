@@ -2,6 +2,7 @@
   @include size($box-left-width + $box-right-width + 45px, auto);
   position:relative;
   padding:$gap $gap $gap 120px;
+  margin:-$gap 0 0 (-$gap);
   background:#fef9f2;
   color:$dark-text;
 

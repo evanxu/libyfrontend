@@ -118,7 +118,13 @@
 .text-red{color:$red-text;}
 
 .icon,
-.icon + *{
+.icon + *,
+i.iconfont,
+.iconfont + *{
   display:inline-block;
   vertical-align:middle;
+}
+
+.red{
+  color:$red;
 }

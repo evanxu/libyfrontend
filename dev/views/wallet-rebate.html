@@ -1,0 +1,363 @@
+<!-- import css files and body start -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
+</head>
+<body>
+
+
+<!-- import page header -->
+<!-- header -->
+<div class="header-top">
+  <div class="header-content">
+    <ul class="header-left">
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="index.html">我的立购</a></li>
+      <li><a href="javascript:;">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>购物车<span class="num">2</span>件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
+    </ul>
+  </div>
+</div>
+<!-- herderBtm -->
+<div class="herder-bottom">
+  <div class="header-logo">
+    <a href="javascript:;">立白立构台</a>
+  </div>
+  <div class="header-search">
+    <div class="searchtpl">
+      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
+      <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
+      <span>搜 索</span>
+    </div>
+    <div class="keywd">
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
+    </div>
+  </div>
+  <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
+    <p class="tit">
+      客服热线(7x24小时)<br>
+      <span class="num">400-687-0099</span>
+    </p>
+  </div>
+</div>
+
+
+<!-- import page nav -->
+<div class="nav">
+  <ul class="nav-content">
+    <li class="nav-all">
+      <a href="javascript:;">
+        <i class="icon icon-menu"></i>
+        <span>全部商品分类</span>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">首页</a>
+    </li>
+    <li>
+      <a href="javascript:;">促销政策</a>
+    </li>
+    <li>
+      <a href="javascript:;">平台服务</a>
+    </li>
+    <li>
+      <a href="javascript:;">集团官网</a>
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- import the breadcrumb -->
+<div class="breadcrumb">
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="index.html">我的立购</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="javascript:;">我的钱包</a>
+</div>
+
+
+<!-- import the content -->
+<div class="content clearfix">
+  <div class="catalog clearfix">
+  <div class="catalog-personal">
+    <div class="catalog-pic">
+      <img src="../src/images/temp/p3.jpg" alt="catalog-pic">
+      <a href="javascript:;">
+        <i class="iconfont">&#xe616;</i><span class="msg">2</span>
+      </a>
+    </div>
+    <div class="catalog-dis">
+      <p>广州经销商A</p>
+      <p>邓志勇<span class="vip">VIP6</span></p>
+    </div>
+  </div>
+  <div class="catalog-management">
+    <dl class="catalog-market" id="J-catalogMarket">
+      <dt>营销管理</dt>
+      <dd rel="order"><a href="order-list.html">我的订单</a></dd>
+      <dd rel="promotion"><a href="promotion-liby-activity.html">我的促销</a></dd>
+      <dd rel="wallet"><a href="wallet-status.html">我的钱包</a></dd>
+      <dd rel="storage"><a href="storage-list.html">我的库存</a></dd>
+      <dd><a href="javascript:;">我的门店</a></dd>
+      <dd><a href="javascript:;">我的导购</a></dd>
+      <dd><a href="javascript:;">我的消息</a></dd>
+    </dl>
+    <dl  class="catalog-account">
+      <dt>账户管理</dt>
+      <dd><a href="javascript:;">基本信息</a></dd>
+      <dd><a href="javascript:;">密码修改</a></dd>
+      <dd><a href="javascript:;">退出登录</a></dd>
+    </dl>
+  </div>
+
+</div>
+
+  <div class="wallet-rebate">
+  <ul class="wallet-tab">
+    <li>
+      <a href="wallet-status.html">经销商授信状态</a>
+    </li>
+    <li class="curr">
+      <a href="wallet-rebate.html">我的返利</a>
+    </li>
+  </ul>
+  <div class="wallet-rebate-content">
+    <h3>返利进度：<span><strong>40</strong>%</span></h3>
+<div class="wallet-rebate-progress" id="J-walletRebateProgress" data-money="1230">
+<!-- data-money的值为当前消费 -->
+  <i class="wallet-rebate-progress-curr" id="J-walletRebateProgressCurr">
+    <!-- style中的数值为（当前积分与上一级金额差/下一等级与上一级金额差/4）的百分比 + 25%，
+      如当前800w，则： （800-800）/（1600-800）*100% + 25% = 25%
+      如当前1230w，则： （1230-800）/（1600-800）/4*100% + 25% = 38.4%
+    -->
+  </i>
+  <ul class="wallet-rebate-step" id="J-walletRebateStep">
+    <li class="wallet-rebate-step-item0">
+      <span>0</span>
+    </li>
+    <li class="wallet-rebate-step-item1">
+      <span>800</span>
+    </li>
+    <li class="wallet-rebate-step-item2">
+      <span>1600</span>
+    </li>
+    <li class="wallet-rebate-step-item3">
+      <span>2400</span>
+    </li>
+    <li class="wallet-rebate-step-item4">
+      <span>5000</span>
+    </li>
+  </ul>
+</div>
+<script type="text/javascript">
+$(function(){
+  var $this = $('#J-walletRebateProgress');
+  var money = $this.data('money');
+  var level = [0, 800, 1600, 2400, 5000];
+  var currLevel, currWidth;
+  for(var i = 5; i > 0; --i){
+    if(money > level[i]){
+      currLevel = i;
+      break;
+    }
+  };
+  currWidth = currLevel == 4 ? '100%' : ((money - level[currLevel]) / (level[currLevel + 1] - level[currLevel]) / 4 + 0.25) * 100 + '%';
+
+  $this.children('#J-walletRebateProgressCurr').css('width', currWidth);
+
+  $('#J-walletRebateStep li:lt(' + (currLevel + 1) + ')').addClass('active');
+  $('<div class="wallet-rebate-tip"></div>').text('已购买金额：' + money + 'w').css('left', currWidth).appendTo($this);
+  $('<div class="wallet-rebate-subtip"></div>').text('再购买' +  (level[currLevel + 1] - money) + 'w商品可获得下一等级返利').css('left', 25 * (i + 1) + '%').appendTo($this);
+});
+</script>
+
+    <div class="wallet-rebate-lists">
+  <dl>
+    <dt>
+      <p>时间</p>
+      <p>操作</p>
+      <p>费用</p>
+      <p>余额</p>
+    </dt>
+    <dd>
+      <p>2016-10-21 <span class="text-light">21:12</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;50000.00</p>
+      <p>750000.00</p>
+    </dd>
+    <dd>
+      <p>2016-09-20 <span class="text-light">11:12</span></p>
+      <p>账户充值（流水号：<a href="javascript:;">20009383839</a>）</p>
+      <p class="tr">+&nbsp;50000.00</p>
+      <p>750000.00</p>
+    </dd>
+    <dd>
+      <p>2016-08-21 <span class="text-light">21:22</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;20000.00</p>
+      <p>350000.00</p>
+    </dd>
+    <dd>
+      <p>2016-07-21 <span class="text-light">23:12</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;5000.00</p>
+      <p>950000.00</p>
+    </dd>
+    <dd>
+      <p>2016-05-21 <span class="text-light">09:12</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;5000.00</p>
+      <p>1150000.00</p>
+    </dd>
+    <dd>
+      <p>2016-10-21 <span class="text-light">21:12</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;50000.00</p>
+      <p>750000.00</p>
+    </dd>
+    <dd>
+      <p>2016-09-20 <span class="text-light">11:12</span></p>
+      <p>账户充值（流水号：<a href="javascript:;">20009383839</a>）</p>
+      <p class="tr">+&nbsp;50000.00</p>
+      <p>750000.00</p>
+    </dd>
+    <dd>
+      <p>2016-08-21 <span class="text-light">21:22</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;20000.00</p>
+      <p>350000.00</p>
+    </dd>
+    <dd>
+      <p>2016-07-21 <span class="text-light">23:12</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;5000.00</p>
+      <p>950000.00</p>
+    </dd>
+    <dd>
+      <p>2016-05-21 <span class="text-light">09:12</span></p>
+      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p class="tr">-&nbsp;5000.00</p>
+      <p>1150000.00</p>
+    </dd>
+  </dl>
+</div>
+
+    <div class="pagination">
+    <ul class="items">
+        <li class="item pagination-prev">
+            <a class="icon-tag" href="javascript:;"><</a>
+        </li>
+        <li class="item pagination-active">
+            <a href="javascript:;">1</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">2</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">3</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">4</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">5</a>
+        </li>
+        <li class="item">
+            <span class="pagination-dot">···</span>
+        </li>
+        <li class="item">
+            <a href="javascript:;">24</a>
+        </li>
+        <li class="item pagination-next">
+            <a class="icon-tag" href="javascript:;">></a>
+        </li>
+    </ul>
+    <div class="pagination-form">
+        <span class="text">跳至</span>
+        <input class="input" type="text" min="1" max="100" aria-label="页码输入框" placeholder="1">
+        <span class="text">页</span>
+        <a class="pagination-btn button button-radius" href="javascript:;">跳转</a>
+    </div>
+</div>
+
+  </div>
+</div>
+
+</div>
+
+
+<!-- footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
+    </div>
+    <div class="footer-copyright">
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+    </div>
+  </div>
+
+
+<!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
+</body>
+</html>
+

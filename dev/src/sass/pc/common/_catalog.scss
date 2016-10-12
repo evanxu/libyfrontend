@@ -1,10 +1,12 @@
 .catalog{
-  @include absolute(left 0 top 0 bottom $gap);
-  @include size(170px, auto);
-  background: rgb(4,161,233);
+  @include absolute(left (-$gap) top (-$gap) bottom 0);
+  @include size(170px + $gap, auto);
   overflow: hidden;
   text-align: center;
   color: #fff;
+  border-right:$gap solid $light-border;
+  background:$base-color url(#{$background-root}/bg/bg-catlog.png) 0 650px no-repeat;
+  background-size:100%;
 }
 .catalog a{
   color: #fff;
@@ -19,7 +21,11 @@
 .catalog-personal .catalog-pic a{
   position: absolute;
   top: 0;
-  right: 36px;
+  right: 30px;
+}
+.catalog-personal .catalog-pic i{
+  color:#fff;
+  font-size:22px;
 }
 .catalog-personal .catalog-pic img{
   width: 61px;
@@ -28,11 +34,13 @@
   border: 3px solid rgb(30,171,275);
 }
 .catalog-personal .catalog-pic .msg{
-  width: 16px;
-  height: 16px;
+  @include size(16px, 16px);
+  @include absolute(right -6px top -4px);
+  display: block;
+  text-align:center;
+  line-height:16px;
   background: rgb(255,0,0);
   border-radius: 50%;
-  display: block;
 }
 .catalog-personal .catalog-dis{
   font-size: 12px;
@@ -46,26 +54,30 @@
 /*catalog-management*/
 .catalog-management{
   margin-top: 80px;
+  //background:$base-color;
 }
 .catalog-management dd{
   cursor:pointer;
   position:relative;
 }
+
+.catalog-management a.curr,
 .catalog-management a:hover{
   background:rgb(0,154,224);
   color:#fff;
-}
-.catalog-management a:hover:after{
-  content:"";
-  display: block;
-  width: 0;
-  height: 0;
-  border-width: 5px;
-  border-style:solid;
-  border-color:#fff #fff transparent transparent;
-  position:absolute;
-  right:1px;
-  top:1px;
+
+  &:after{
+    content:"";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style:solid;
+    border-color:#fff #fff transparent transparent;
+    position:absolute;
+    right:1px;
+    top:1px;
+  }
 }
 
 .catalog-management a{

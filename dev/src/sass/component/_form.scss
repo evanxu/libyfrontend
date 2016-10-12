@@ -16,6 +16,7 @@
     line-height:30px;
   }
 }
+
 .input{
   padding:0 10px;
   height:30px;
@@ -29,6 +30,45 @@
     border-color:$red;
   }
 }
-.textarea{
 
+.input-select + i{
+  margin-left:-30px;
+}
+
+.textarea{
+  height:100px;
+  line-height:20px;
+  padding:0 10px;
+  border:1px solid $grey-border;
+  background:$light-background;
+
+}
+.input-check{
+  display:none;
+
+  &:checked + span i{
+    display:inline;
+    font-size:12px;
+  }
+
+  & + span{
+    @include size(15px, 15px);
+    display:inline-block;
+    border:1px solid $grey-border;
+    background:$light-background;
+    border-radius:3px;
+    cursor:pointer;
+    box-sizing:border-box;
+
+    i{
+    color:$base-color;
+    display:none;
+  }
+    }
+}
+
+.error{
+  color:$red;
+  margin-top:5px;
+  font-size:$font-size-base;
 }

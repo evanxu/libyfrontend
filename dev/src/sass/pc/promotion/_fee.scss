@@ -1,0 +1,56 @@
+.promotion-fee{
+  min-height:$catalog-height;
+
+  &-chart{
+    li{
+      float:left;
+      position:relative;
+      margin-bottom:$gap*5;
+      width:(100%/3);
+      height:300px;
+      color:$dark-text;
+
+      &:nth-child(3n+1) .chart-finish{
+        .with-bg{
+          padding:2px;
+          border:1px solid $base-color;
+          background:$base-background;
+          color:$white-text;
+        }
+        .with-border{
+          padding:2px;
+          border:1px solid #6fc5f3;
+          color:#6fc5f3;
+        }
+      }
+
+      &:nth-child(3n+2) .chart-finish{
+        .with-bg{
+          padding:2px;
+          border:1px solid #ffa917;
+          background:#ffa917;
+          color:$white-text;
+        }
+        .with-border{
+          padding:2px;
+          border:1px solid #ffa917;
+          color:#ffa917;
+        }
+      }
+
+      &:nth-child(3n+3) .chart-finish{
+        .with-bg{
+          padding:2px;
+          border:1px solid #8dc63f;
+          background:#8dc63f;
+          color:$white-text;
+        }
+        .with-border{
+          padding:2px;
+          border:1px solid #8dc63f;
+          color:#8dc63f;
+        }
+      }
+    }
+  }
+}

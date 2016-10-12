@@ -2,9 +2,10 @@
   @include size($box-left-width + $box-right-width + 45px, auto);
   position:relative;
   padding:$gap;
-  margin-bottom:$gap;
+  margin-left:-$gap;
   background:$white-background;
   overflow:hidden;
+  border-bottom:$gap solid $light-background;
 
   h3{
     margin-bottom:$gap;
