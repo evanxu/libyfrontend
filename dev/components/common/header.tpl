@@ -7,7 +7,7 @@
       <li><a href="javascript:;">退出</a></li>
     </ul>
     <ul class="header-right">
-      <li><a href="index.html">我的立购</a></li>
+      <li><a href="account.html">我的立购</a></li>
       <li><a href="order-list.html">我的订单<span></span></a></li>
       <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
       <li><a href="javascript:;">收藏夹</a></li>
@@ -22,7 +22,6 @@
   </div>
   <div class="header-search">
     <div class="searchtpl">
-      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
       <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
       <span>搜 索</span>
     </div>

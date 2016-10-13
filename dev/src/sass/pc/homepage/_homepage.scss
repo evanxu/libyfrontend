@@ -95,12 +95,11 @@
 
 			li{
 				float: left;
-				@include size(121px,107px);
+				@include size(121px,108px);
 				padding: 19px 0;
-				/* margin-right: 1px; */
-				margin-bottom: 1px;
 				background: #fff;
 				border-right: 1px solid #f6f6f6;
+				border-bottom: 1px solid #f6f6f6;
 				position:relative;
 
 				img{
@@ -114,7 +113,7 @@
 				}
 
 				.logo-cover{
-					@include size(121px,107px);
+					@include size(121px,100%);
 					opacity:0;
 					position:absolute;
 					top:0;

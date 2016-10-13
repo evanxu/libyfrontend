@@ -72,7 +72,7 @@
       </div>
     </li>
     <li class="nav-item">
-      <a href="index.html">首页</a>
+      <a href="homepage.html">首页</a>
     </li>
     <li class="nav-item">
       <a href="javascript:;">促销政策</a>

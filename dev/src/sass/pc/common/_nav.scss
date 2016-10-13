@@ -56,7 +56,10 @@ $nav-height:  42px;
 
   &-subnav{
     @include size(170px, 500px);
+    position:relative;
     background:rgba(255,255,255,0.95);
+    z-index:100;
+    display:none;
     
     &-item{
       position:relative;

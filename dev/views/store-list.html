@@ -166,7 +166,7 @@
   <i class="iconfont">&#xe60b;</i>
   <a href="index.html">我的立购</a>
   <i class="iconfont">&#xe60b;</i>
-  <a href="javascript:;">我的促销</a>
+  <a href="javascript:;">我的门店</a>
 </div>
 
 
@@ -207,79 +207,167 @@
 
 </div>
 
-  <div class="promotion-add">
-  <div class="box-title promotion-add-box">
+	<div class="store-list">
+  <div class="box-title">
     <h3>
       <i class="iconfont">&#xe604;</i>
-      <span>新建促销活动</span>
+      <span>我的门店</span> 
     </h3>
   </div>
-  <div class="promotion-add-form">
-    <form class="form" action="javascript:;">
-      <div class="form-item">
-        <span class="form-title">活动名称：</span>
-        <input type="tel" class="input" placeholder="" name="">
-        <p class="promotion-add-notice">名称不能为空且真实有效</p>
-      </div>
-      <div class="form-item">
-        <span class="form-title">活动时间：</span>
-          <div class="promotion-add-date">
-            <input type="text" class="input" placeholder="" name="">
-            <i class="iconfont">&#xe610;</i>
-          </div>
-          <p class="promotion-add-fromto">至</p>
-          <div class="promotion-add-date">
-            <input type="text" class="input" placeholder="" name="">
-            <i class="iconfont">&#xe610;</i>
-          </div>
-      </div>
-      <div class="form-item clearfix">
-        <span class="form-title">活动图片：</span>
-        <div class=" promotion-add-pic">
-          <a href="javascript:;">上传活动图片</a>
-          <input type="file">
-        </div>
-        <div class=" promotion-add-pic">
-          <a href="javascript:;">上传活动图片</a>
-          <input type="file">
-        </div>
-      </div>
-      <div class="promotion-add-btn promotion-add-dashedline">
-      </div>
-      <div class="form-item promotion-add-setrule">
-        <span class="form-title">设置规则：</span>
-        <input type="text" class="input input-select" placeholder="" name="">
-        <i class="iconfont">&#xe601;</i>
-      </div>
-      <div class="form-item promotion-add-rules">
-        <span class="form-title">活动规则1：</span>
-        <p>买</p>
-        <input type="text" class="input" placeholder="" name="">
-        <p>送</p>
-        <input type="text" class="input" placeholder="" name="">
-      </div>
-      <div class="form-item promotion-add-rules">
-        <span class="form-title">活动规则2：</span>
-        <p>买</p>
-        <input type="text" class="input" placeholder="" name="">
-        <p>送</p>
-        <input type="text" class="input" placeholder="" name="">
-      </div>
-      <div class="form-item promotion-add-addrule">
-        <span class="form-title"></span>
-        <a href="javascript:;">+ 新增活动规则</a>
-      </div>
-      <div class="form-item promotion-add-require">
-        <span class="form-title">活动要求：</span>
-        <textarea class="textarea" placeholder="" name=""></textarea>
-      </div>
-      <div class="promotion-add-btn">
-        <input type="button" value="确定" name="" class="button button-blue button-radius button-medium mr30">
-        <a class="button button-grey button-radius button-medium" href="javascript:history.go(-1)">取消</a>
+  <div class="store-list-bar">
+    <div class="store-list-progress">
+      <i class="store-list-progress-curr" style="width:45%;"></i>
+    </div>
+    <span class="store-list-completion">总实际销量：180</span>
+    <span class="store-list-target">总目标销量：400</span>
+  </div>
+  <div class="store-list-filter">
+    <form class="form">
+      <span>选择区域：</span>
+      <input type="text" class="input input-select" name="">
+      <i class="iconfont">&#xe601;</i>
+      <span>选择门店类型：</span>
+      <input type="text" class="input input-select" name="">
+      <i class="iconfont">&#xe601;</i>
+      <input type="button" class="button button-blue button-xsmall button-inline" value="确定">
+      <div class="store-list-filter-search">
+        <input type="text" class="input" placeholder="请输入门店名称" name="">
+        <i class="iconfont">&#xe61c;</i>
       </div>
     </form>
   </div>
+  <div class="store-list-content">
+    <div class="store-list-title">
+      <p class="store-list-item-serial">排名</p>
+      <p class="store-list-item-detail">门店介绍</p>
+      <p class="store-list-item-target">销售目标</p>
+    </div>
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item1">
+      <p class="store-list-item-serial">
+        <span>冠</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item2">
+      <p class="store-list-item-serial">
+        <span>亚</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item3">
+      <p class="store-list-item-serial">
+        <span>季</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item4">
+      <p class="store-list-item-serial">
+        <span>4</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item5">
+      <p class="store-list-item-serial">
+        <span>5</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+  </div>
+  <div class="pagination">
+    <ul class="items">
+        <li class="item pagination-prev">
+            <a class="icon-tag" href="javascript:;"><</a>
+        </li>
+        <li class="item pagination-active">
+            <a href="javascript:;">1</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">2</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">3</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">4</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">5</a>
+        </li>
+        <li class="item">
+            <span class="pagination-dot">···</span>
+        </li>
+        <li class="item">
+            <a href="javascript:;">24</a>
+        </li>
+        <li class="item pagination-next">
+            <a class="icon-tag" href="javascript:;">></a>
+        </li>
+    </ul>
+    <div class="pagination-form">
+        <span class="text">跳至</span>
+        <input class="input" type="text" min="1" max="100" aria-label="页码输入框" placeholder="1">
+        <span class="text">页</span>
+        <a class="pagination-btn button button-radius" href="javascript:;">跳转</a>
+    </div>
 </div>
+
+</div>
+
+
 
 </div>
 

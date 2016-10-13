@@ -25,8 +25,6 @@
     position:relative;
     margin:0 auto 120px;
     border:10px solid #f7f7f7;
-    border-left:0;
-    border-right:0;
     background:#bec2d3;
 
     &-curr{
@@ -95,7 +93,7 @@
     background:#fff4e0;
 
     &:after{
-      @include absolute(bottom -10px left 50%);
+      @include absolute(bottom -9px left 50%);
       @include size(0, 0);
       content:"";
       display:block;
@@ -115,7 +113,7 @@
     background:#f3f3f3;
 
     &:after{
-      @include absolute(top -10px left 50%);
+      @include absolute(top -9px left 50%);
       @include size(0, 0);
       content:"";
       display:block;
