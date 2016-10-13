@@ -8,8 +8,8 @@
     </ul>
     <ul class="header-right">
       <li><a href="index.html">我的立购</a></li>
-      <li><a href="javascript:;">我的订单<span></span></a></li>
-      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>购物车<span class="num">2</span>件</span></a></li>
+      <li><a href="order-list.html">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
       <li><a href="javascript:;">收藏夹</a></li>
       <li><a href="javascript:;">帮助中心</a></li>
     </ul>
@@ -35,11 +35,17 @@
       <a href="javascript:;">洗护套装</a>
     </div>
   </div>
-  <div class="header-tel">
+  <div class="header-cart-box">
+    <div class="header-cart-info">
+      <p>进货单1000件</p>
+      <p class="red"><strong>￥19320.00</strong></p>
+    </div>
+  </div>
+  <!-- <div class="header-tel">
     <i class="iconfont">&#xe60f;</i>
     <p class="tit">
       客服热线(7x24小时)<br>
       <span class="num">400-687-0099</span>
     </p>
-  </div>
+  </div> -->
 </div>

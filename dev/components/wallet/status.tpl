@@ -26,7 +26,7 @@
         <span class="fl">洗护授信余额：</span><span class="fr">10000.00</span>
       </dd>
       <dd>
-        <a href="wallet-popup.html" class="button button-blue button-radius">账户充值</a>
+        <a href="wallet-topup.html" class="button button-blue button-radius">账户充值</a>
       </dd>
     </dl>
   </div>

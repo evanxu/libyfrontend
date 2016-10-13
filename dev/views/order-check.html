@@ -26,8 +26,8 @@
     </ul>
     <ul class="header-right">
       <li><a href="index.html">我的立购</a></li>
-      <li><a href="javascript:;">我的订单<span></span></a></li>
-      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>购物车<span class="num">2</span>件</span></a></li>
+      <li><a href="order-list.html">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
       <li><a href="javascript:;">收藏夹</a></li>
       <li><a href="javascript:;">帮助中心</a></li>
     </ul>
@@ -53,13 +53,19 @@
       <a href="javascript:;">洗护套装</a>
     </div>
   </div>
-  <div class="header-tel">
+  <div class="header-cart-box">
+    <div class="header-cart-info">
+      <p>进货单1000件</p>
+      <p class="red"><strong>￥19320.00</strong></p>
+    </div>
+  </div>
+  <!-- <div class="header-tel">
     <i class="iconfont">&#xe60f;</i>
     <p class="tit">
       客服热线(7x24小时)<br>
       <span class="num">400-687-0099</span>
     </p>
-  </div>
+  </div> -->
 </div>
 
 
@@ -67,21 +73,86 @@
 <div class="nav">
   <ul class="nav-content">
     <li class="nav-all">
-      <a href="javascript:;">
-        <i class="icon icon-menu"></i>
+      <a href="javascript:;" class="nav-all-link iconfont">
         <span>全部商品分类</span>
       </a>
+      <div class="nav-subnav">
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">爆款洗衣液</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">好爸爸洗衣露</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">衣物护理类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">家居清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">餐具清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">驱蚊驱虫类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">空气清新类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">口腔健护类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+      </div>
     </li>
-    <li>
+    <li class="nav-item">
       <a href="index.html">首页</a>
     </li>
-    <li>
+    <li class="nav-item">
       <a href="javascript:;">促销政策</a>
     </li>
-    <li>
+    <li class="nav-item">
       <a href="javascript:;">平台服务</a>
     </li>
-    <li>
+    <li class="nav-item">
       <a href="javascript:;">集团官网</a>
     </li>
   </ul>
@@ -309,11 +380,11 @@
           </div>
       </div>
 
-      <div class="order-check-popup">
+      <div class="order-check-topup">
         <span class="mr20">金额： <strong>￥120,000.00</strong></span>
         <span class="mr20">授信金额：<strong class="fs16 red">￥1,109.00</strong></span>
         <span>已发货金额：<strong>￥0.00</strong></span>
-        <a href="javascript:;" class="button button-blue button-medium">充 值</a>
+        <a href="wallet-topup.html" class="button button-blue button-medium">充 值</a>
       </div>
 
       <div class="order-check-checkout">

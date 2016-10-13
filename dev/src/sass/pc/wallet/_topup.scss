@@ -1,0 +1,98 @@
+$wallet-topup-width:  215px;
+
+.wallet-topup{
+  margin-left:-$catalog-width;
+  padding:0 0 $gap 330px;
+  background:$white-background;
+
+  &-box{
+    margin-left:-330px;
+    margin-bottom:40px;
+    width:auto;
+  }
+
+  &-amount{
+    font-size:24px;
+    color:$red;
+  }
+
+  &-btn{
+    padding:$gap;
+    margin:0 100px 0 -230px;
+    border-top:1px dashed #dcdee8;
+    text-align:center;
+  }
+
+  a{
+    color:$blue-text;
+  }
+
+  .input{
+    width:$wallet-topup-width;
+  }
+
+  &-accept{
+    display:inline-block;
+    vertical-align:middle;
+  }
+}
+
+.bank-lists{
+  width:470px;
+}
+
+.bank-item{
+  @include size($wallet-topup-width, 60px);
+  float:left;
+  position:relative;
+  margin:0 $gap $gap 0;
+  cursor:pointer;
+
+  input[type="radio"]{
+    display:none;
+  }
+
+  &-detail{
+    position:relative;
+    padding:10px 10px 10px 60px;
+    font-size:$font-size-base !important;
+    border:1px solid $grey-border;
+
+    img{
+      @include absolute(top 10px left 10px);
+      @include size(40px, 40px);
+      float:left;
+      margin-right:$gap;
+      display:inline-block;
+      vertical-align:middle;
+    }
+
+    p{
+      height:20px;
+      line-height:20px;
+      overflow:hidden;
+    }
+  }
+
+  .bank-item-detail.curr,
+  input[type="radio"]:checked + .bank-item-detail{
+    border:1px solid $base-color;
+    background:#f0fafe;
+
+    &:after{
+      @include absolute(right -1px bottom -9px);
+      content:"\e62b";
+      color:$base-color;
+      font-size:12px;
+    }
+  }
+
+  &-add{
+    @include size($wallet-topup-width - 2, 58px);
+    display:block;
+    background:$light-background;
+    line-height:60px;
+    text-align:center;
+    color:$blue-text;
+  }
+}

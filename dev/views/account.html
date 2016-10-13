@@ -1,0 +1,824 @@
+<!-- import css files and body start -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
+</head>
+<body>
+
+
+<!-- import page header -->
+<!-- header -->
+<div class="header-top">
+  <div class="header-content">
+    <ul class="header-left">
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="index.html">我的立购</a></li>
+      <li><a href="order-list.html">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
+    </ul>
+  </div>
+</div>
+<!-- herderBtm -->
+<div class="herder-bottom">
+  <div class="header-logo">
+    <a href="javascript:;">立白立构台</a>
+  </div>
+  <div class="header-search">
+    <div class="searchtpl">
+      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
+      <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
+      <span>搜 索</span>
+    </div>
+    <div class="keywd">
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
+    </div>
+  </div>
+  <div class="header-cart-box">
+    <div class="header-cart-info">
+      <p>进货单1000件</p>
+      <p class="red"><strong>￥19320.00</strong></p>
+    </div>
+  </div>
+  <!-- <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
+    <p class="tit">
+      客服热线(7x24小时)<br>
+      <span class="num">400-687-0099</span>
+    </p>
+  </div> -->
+</div>
+
+
+<!-- import page nav -->
+<div class="nav">
+  <ul class="nav-content">
+    <li class="nav-all">
+      <a href="javascript:;" class="nav-all-link iconfont">
+        <span>全部商品分类</span>
+      </a>
+      <div class="nav-subnav">
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">爆款洗衣液</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">好爸爸洗衣露</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">衣物护理类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">家居清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">餐具清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">驱蚊驱虫类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">空气清新类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">口腔健护类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a href="index.html">首页</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">促销政策</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">平台服务</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">集团官网</a>
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- import the breadcrumb -->
+<div class="breadcrumb">
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="index.html">我的立购</a>
+</div>
+
+
+<!-- import the content -->
+<div class="content clearfix">
+  <div class="catalog clearfix">
+  <div class="catalog-personal">
+    <div class="catalog-pic">
+      <img src="../src/images/temp/p3.jpg" alt="catalog-pic">
+      <a href="javascript:;">
+        <i class="iconfont">&#xe616;</i><span class="msg">2</span>
+      </a>
+    </div>
+    <div class="catalog-dis">
+      <p>广州经销商A</p>
+      <p>邓志勇<span class="vip">VIP6</span></p>
+    </div>
+  </div>
+  <div class="catalog-management">
+    <dl class="catalog-market" id="J-catalogMarket">
+      <dt>营销管理</dt>
+      <dd rel="order"><a href="order-list.html">我的订单</a></dd>
+      <dd rel="promotion"><a href="promotion-liby-activity.html">我的促销</a></dd>
+      <dd rel="wallet"><a href="wallet-status.html">我的钱包</a></dd>
+      <dd rel="storage"><a href="storage-list.html">我的库存</a></dd>
+      <dd><a href="javascript:;">我的门店</a></dd>
+      <dd><a href="javascript:;">我的导购</a></dd>
+      <dd><a href="javascript:;">我的消息</a></dd>
+    </dl>
+    <dl  class="catalog-account">
+      <dt>账户管理</dt>
+      <dd><a href="javascript:;">基本信息</a></dd>
+      <dd><a href="javascript:;">密码修改</a></dd>
+      <dd><a href="javascript:;">退出登录</a></dd>
+    </dl>
+  </div>
+
+</div>
+
+  <div class="account-notice clearfix">
+  <i class="icon icon21"></i>
+  <p>立白全效馨香洗衣液2kg*3 送天然亮白1kg</p>
+  <p class="text-red"><span class="with-red-bg">促销</span>新品限量体验采购满3万件8.8折</p>
+</div>
+
+  <div class="account-sales clearfix">
+  <div class="account-sales-left">
+    <h3>
+      <span class="with-blue-bg">促销</span><span class="with-red-bg">活动</span>
+      <i class="text-grey">快乐健康每一天</i>
+    </h3>
+    <ul class="account-sales-carousel clearfix">
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/c1.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/c2.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/c3.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/c4.jpg" width="100%" alt="">
+    </a>
+  </li>
+</ul>
+
+  </div>
+  <div class="account-sales-right">
+    <h3>
+      <span class="with-blue-bg">限时促销</span><i class="with-grey-bg">每天都有实惠赶</i>
+    </h3>
+    <ul class="account-sales-product clearfix">
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/s1.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/s2.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/s3.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/s4.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/s5.jpg" width="100%" alt="">
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;">
+      <img src="../src/images/temp/s6.jpg" width="100%" alt="">
+    </a>
+  </li>
+</ul>
+
+  </div>
+</div>
+
+  <div class="account-tool fr">
+  <div class="account-tool-title">
+    <i class="iconfont">&#xe615;</i>
+    <span>促销管理工具</span>
+  </div>
+  <ul class="account-tool-lists">
+    <li>
+      <a href="javascript:;">
+        <i class="icon icon1"></i>
+        捆绑促销
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="icon icon2"></i>
+        买A送B
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="icon icon3"></i>
+        满额返现
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="icon icon4"></i>
+        满额返现
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="icon icon5"></i>
+        捆绑促销
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="icon icon6"></i>
+        买A赠B
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="icon icon7"></i>
+        满额免邮
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="iconfont">&#xe629;</i>
+        我的促销
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+  <div class="account-wallet fl">
+  <div class="box-title">
+    <h3>
+      <i class="iconfont">&#xe619;</i>
+      <span>我的钱包</span>
+    </h3>
+    <a class="view-more" href="wallet-status.html">
+      <span>查看详细</span>
+      <i class="iconfont">&#xe60b;</i>
+    </a>
+  </div>
+  <ul class="account-wallet-content">
+    <li>
+      <a href="wallet-status.html">
+        <i class="iconfont">&#xe608;</i>
+        <p class="account-wallet-count">38990.00</p>
+        <p class="text-grey">授信余额</p>
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="iconfont">&#xe614;</i>
+        <p class="account-wallet-count">15600.00</p>
+        <p class="text-grey">促销费用</p>
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;">
+        <i class="iconfont">&#xe60e;</i>
+        <p class="account-wallet-count">6792</p>
+        <p class="text-grey">积分</p>
+      </a>
+    </li>
+  </ul>
+</div>
+
+  <div class="account-star fr">
+  <div class="box-title">
+    <h3>
+      <i class="iconfont">&#xe61a;</i>
+      <span>本周之星</span>
+    </h3>
+  </div>
+  <ul class="account-star-lists">
+    <li class="account-star-item">
+      <img src="../src/images/temp/p3.jpg" alt="">
+      <div class="account-star-detail">
+        <p>
+          <span class="fs16">王琴</span>
+          <span class="text-grey">（北京路门店）</span>
+        </p>
+        <p>
+          <span class="text-light">月销售额：</span>
+          <span class="account-star-up">2,8101<i class="iconfont">&#xe605;</i></span>
+        </p>
+      </div>
+      <div class="account-star-target">
+        <i class="icon icon17"></i>
+        <p>
+          <span class="fs18">135</span>%
+        </p>
+        <p class="text-light">目标达成</p>
+      </div>
+    </li>
+    <li class="account-star-item">
+      <img src="../src/images/temp/p3.jpg" alt="">
+      <div class="account-star-detail">
+        <p>
+          <span class="fs16">王琴</span>
+          <span class="text-grey">（北京路门店）</span>
+        </p>
+        <p>
+          <span class="text-light">月销售额：</span>
+          <span class="account-star-down">2,8101<i class="iconfont">&#xe606;</i></span>
+          </p>
+      </div>
+      <div class="account-star-target">
+        <i class="icon icon18"></i>
+        <p>
+          <span class="fs18">135</span>%
+        </p>
+        <p class="text-light">目标达成</p>
+      </div>
+    </li>
+    <li class="account-star-item">
+      <img src="../src/images/temp/p3.jpg" alt="">
+      <div class="account-star-detail">
+        <p>
+          <span class="fs16">王琴</span>
+          <span class="text-grey">（北京路门店）</span>
+        </p>
+        <p>
+          <span class="text-light">月销售额：</span>
+          <span class="account-star-up">2,8101<i class="iconfont">&#xe605;</i></span>
+          </p>
+      </div>
+      <div class="account-star-target">
+        <i class="icon icon19"></i>
+        <p>
+          <span class="fs18">135</span>%
+        </p>
+        <p class="text-light">目标达成</p>
+      </div>
+    </li>
+    <li class="account-star-item">
+      <img src="../src/images/temp/p3.jpg" alt="">
+      <div class="account-star-detail">
+        <p>
+          <span class="fs16">王琴</span>
+          <span class="text-grey">（北京路门店）</span>
+        </p>
+        <p>
+          <span class="text-light">月销售额：</span>
+          <span class="account-star-down">2,8101<i class="iconfont">&#xe606;</i></span>
+          </p>
+      </div>
+      <div class="account-star-target">
+        <i class="icon icon20"></i>
+        <p>
+          <span class="fs18">135</span>%
+        </p>
+        <p class="text-light">目标达成</p>
+      </div>
+    </li>
+    <li class="account-star-item">
+      <img src="../src/images/temp/p3.jpg" alt="">
+      <div class="account-star-detail">
+        <p>
+          <span class="fs16">王琴</span>
+          <span class="text-grey">（北京路门店）</span>
+        </p>
+        <p>
+          <span class="text-light">月销售额：</span>
+          <span class="account-star-down">2,8101<i class="iconfont">&#xe606;</i></span>
+          </p>
+      </div>
+      <div class="account-star-target">
+        <i class="icon icon20"></i>
+        <p>
+          <span class="fs18">135</span>%
+        </p>
+        <p class="text-light">目标达成</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+  <div class="account-order fl">
+  <div class="box-title">
+    <h3>
+      <i class="iconfont">&#xe604;</i>
+      <span>我的订单</span>
+    </h3>
+    <a class="view-more" href="order-list.html">
+      <span>查看全部</span>
+      <i class="iconfont">&#xe60b;</i>
+    </a>
+  </div>
+  <ul class="account-order-tab" id="J-indexOrderTab">
+    <li>
+        <p class="account-order-count">13</p>
+        <p class="text-grey">已创建</p>
+    </li>
+    <li class="curr">
+        <p class="account-order-count">2</p>
+        <p class="text-grey">待处理</p>
+    </li>
+    <li>
+        <p class="account-order-count">1</p>
+        <p class="text-grey">已审核</p>
+    </li>
+    <li>
+        <p class="account-order-count">2</p>
+        <p class="text-grey">部分发货</p>
+    </li>
+    <li>
+        <p class="account-order-count">1</p>
+        <p class="text-grey">已发货</p>
+    </li>
+    <li>
+        <p class="account-order-count">1</p>
+        <p class="text-grey">已签收</p>
+    </li>
+  </ul>
+  <div id="J-indexOrderDetail">
+    <ul class="account-order-lists">
+      <li class="account-order-item">
+        <div class="account-order-img">
+          <img src="../src/images/temp/p1.jpg" alt="">
+          <img src="../src/images/temp/p2.jpg" alt="">
+        </div>
+        <div class="account-order-address">
+          <p>沈阳市苏家屯迎春街238号（1002255）</p>
+          <p class="text-grey">刘晓雪  13092890922</p>
+          <p class="text-light">下单时间：2016-09-11</p>
+        </div>
+        <div class="account-order-quantity">
+          <p class="text-grey">数量</p>
+          <p>1000</p>
+        </div>
+        <div class="account-order-amount">
+          <p class="text-grey">总金额</p>
+          <p class="text-red">￥28099.00</p>
+        </div>
+      </li>
+      <li class="account-order-item">
+        <div class="account-order-img">
+          <img src="../src/images/temp/p1.jpg" alt="">
+          <img src="../src/images/temp/p2.jpg" alt="">
+        </div>
+        <div class="account-order-address">
+          <p>沈阳市苏家屯迎春街238号（1002255）</p>
+          <p class="text-grey">刘晓雪  13092890922</p>
+          <p class="text-light">下单时间：2016-09-11</p>
+        </div>
+        <div class="account-order-quantity">
+          <p class="text-grey">数量</p>
+          <p>1000</p>
+        </div>
+        <div class="account-order-amount">
+          <p class="text-grey">总金额</p>
+          <p class="text-red">￥28099.00</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){
+  $('#J-indexOrderTab li').on('click', function(){
+    var $this = $(this);
+    var index = $this.index();
+    $this.addClass('curr').siblings().removeClass('curr');
+
+    // some other code here
+  })
+});
+</script>
+
+  <div class="account-chart">
+  <div class="box-title">
+    <h3>
+      <i class="iconfont">&#xe61a;</i>
+      <span>我的报表</span>
+    </h3>
+  </div>
+  <div class="account-chart-content">
+    <div class="account-chart-left chart-box">
+      <p class="chart-title">17年销售目标：10000元</p>
+      <div id="J-accountChartLeft" class="chart-detail"></div>
+      <div class="chart-other">
+        <div class="chart-finish chart-finish-blue"><span class="with-bg">已完成</span><span class="with-border">目标</span></div>
+        <p><strong class="fs16">8103.00</strong><span class="fs12">元</span><p>
+      </div>
+    </div>
+    <div class="account-chart-right" id="J-accountChartRight">
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    (function(){
+
+      //pie chart
+      var chart = echarts.init(document.getElementById('J-accountChartLeft'));
+      var optionPie = {
+        title: {
+          text: '完成目标率',
+          textStyle: {
+            color: '#898989',
+            fontSize: 12,
+            fontWeight: 400
+          },
+          left: 'center',
+          top: '150'
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{b}: {c}({d}%)"
+        },
+        series: [
+          {
+            //name:'访问来源',
+            type:'pie',
+            center: ['50%', '50%'],
+            radius: ['30%', '50%'],
+            avoidLabelOverlap: false,
+            label: {
+                normal: {
+                    show: false,
+                    position: 'center',
+                    formatter: "{d}%",
+                    textStyle: {
+                      fontWeight: 'bolder',
+                      fontSize: 22
+                    }
+                },
+                emphasis: {
+                  show: false
+                }
+            },
+            labelLine: {
+                normal: {
+                  show: false
+                }
+            },
+            data:[
+              {
+                value: 73,
+                name: '已完成',
+                label: {
+                  normal: {
+                    show: true,
+                    shiftY: 10
+                  }
+                },
+                itemStyle: {
+                  normal: {
+                    color: '#04a1e9'
+                  },
+                  emphasis: {
+                    color: '#04a1e9'
+                  }
+                }
+              },
+              {
+                value: 27,
+                name: '未完成',
+                itemStyle: {
+                  normal: {
+                    color: '#ebebeb'
+                  },
+                  emphasis: {
+                    color: '#ebebeb'
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      };
+      chart.setOption(optionPie);
+      //pie chart over
+      //
+      //line chart
+      var chartLine = echarts.init(document.getElementById('J-accountChartRight'));
+      var optionLine = {
+          tooltip: {
+              trigger: 'axis'
+          },
+          grid: {
+              left: '3%',
+              right: '4%',
+              bottom: '3%',
+              containLabel: true
+          },
+          toolbox: {
+              feature: {
+                  saveAsImage: {}
+              }
+          },
+          xAxis: {
+              type: 'category',
+              boundaryGap: false,
+              data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+              axisLine: {
+                lineStyle: {
+                  color: '#7a8290'
+                }
+              }
+          },
+          yAxis: {
+              type: 'value',
+              axisLine: {
+                lineStyle: {
+                  color: '#7a8290'
+                }
+              }
+          },
+          series: [
+              {
+                  name:'已完成',
+                  type:'line',
+                  lineStyle: {normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [{
+                        offset: 0, color: '#ff8400'
+                      }, {
+                        offset: 1, color: '#e31406'
+                      }], false)
+                  }},
+                  areaStyle: {normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                      offset: 0, color: '#ff8400'
+                    }, {
+                      offset: 1, color: '#e00707'
+                    }], false),
+                    opacity: 0.2
+                  }},
+                  data:[120, 132, 101, 134, 90, 230, 210, 301, 134, 90, 230, 210]
+              },
+              {
+                  name:'未完成',
+                  type:'line',
+                  lineStyle: {normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [{
+                        offset: 0, color: '#68dfa7'
+                      }, {
+                        offset: 1, color: '#1b9ad2'
+                      }], false)
+                  }},
+                  areaStyle: {normal: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                      offset: 0, color: '#5ae6b7'
+                    }, {
+                      offset: 1, color: '#0ea4df'
+                    }], false),
+                    opacity: 0.1
+                  }},
+                  data:[220, 82, 91, 234, 290, 330, 310, 60, 434, 190, 30, 110]
+              }
+          ]
+      };
+      chartLine.setOption(optionLine);
+      //line chart over
+    })();
+
+
+  </script>
+
+</div>
+
+
+<!-- footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
+    </div>
+    <div class="footer-copyright">
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+    </div>
+  </div>
+
+
+<!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
+</body>
+</html>
+

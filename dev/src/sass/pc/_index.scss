@@ -8,21 +8,23 @@
 @import 'common/content';
 @import 'common/chart';
 
-@import 'index/config';
-@import 'index/common';
-@import 'index/wallet';
-@import 'index/order';
-@import 'index/tool';
-@import 'index/star';
-@import 'index/chart';
-@import 'index/sales';
-@import 'index/notice';
+@import 'homepage/homepage';
+
+@import 'account/config';
+@import 'account/common';
+@import 'account/wallet';
+@import 'account/order';
+@import 'account/tool';
+@import 'account/star';
+@import 'account/chart';
+@import 'account/sales';
+@import 'account/notice';
 
 
 
 @import 'wallet/common';
 @import 'wallet/status';
-@import 'wallet/popup';
+@import 'wallet/topup';
 @import 'wallet/rebate';
 
 

@@ -1,0 +1,327 @@
+<!-- import css files and body start -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
+</head>
+<body>
+
+
+<!-- import page header -->
+<!-- header -->
+<div class="header-top">
+  <div class="header-content">
+    <ul class="header-left">
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="index.html">我的立购</a></li>
+      <li><a href="order-list.html">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
+    </ul>
+  </div>
+</div>
+<!-- herderBtm -->
+<div class="herder-bottom">
+  <div class="header-logo">
+    <a href="javascript:;">立白立构台</a>
+  </div>
+  <div class="header-search">
+    <div class="searchtpl">
+      <label for="">产品名称<i class="iconfont">&#xe601;</i></label>
+      <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
+      <span>搜 索</span>
+    </div>
+    <div class="keywd">
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
+    </div>
+  </div>
+  <div class="header-cart-box">
+    <div class="header-cart-info">
+      <p>进货单1000件</p>
+      <p class="red"><strong>￥19320.00</strong></p>
+    </div>
+  </div>
+  <!-- <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
+    <p class="tit">
+      客服热线(7x24小时)<br>
+      <span class="num">400-687-0099</span>
+    </p>
+  </div> -->
+</div>
+
+
+<!-- import page nav -->
+<div class="nav">
+  <ul class="nav-content">
+    <li class="nav-all">
+      <a href="javascript:;" class="nav-all-link iconfont">
+        <span>全部商品分类</span>
+      </a>
+      <div class="nav-subnav">
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">爆款洗衣液</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">好爸爸洗衣露</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">衣物护理类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">家居清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">餐具清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">驱蚊驱虫类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">空气清新类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">口腔健护类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a href="index.html">首页</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">促销政策</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">平台服务</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">集团官网</a>
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- import the breadcrumb -->
+<div class="breadcrumb">
+  <span>您的位置：</span>
+  <a href="javascript:;">首页</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="index.html">我的立购</a>
+  <i class="iconfont">&#xe60b;</i>
+  <a href="javascript:;">我的钱包</a>
+</div>
+
+
+<!-- import the content -->
+<div class="content clearfix">
+  <div class="wallet-topup">
+  <div class="box-title wallet-topup-box">
+    <h3>
+      <i class="iconfont">&#xe604;</i>
+      <span>我的授信账户充值</span>
+    </h3>
+  </div>
+  <form class="form" action="javascript:;">
+    <div class="form-item">
+      <span class="form-title">充值账户：</span>
+      <p>150****6386_m1215</p>
+    </div>
+    <div class="form-item">
+      <span class="form-title">收款方：</span>
+      <p>广州立白企业集团有限公司</p>
+    </div>
+    <div class="form-item">
+      <span class="form-title">充值金额：</span>
+      <input type="tel" class="input" placeholder="输入充值金额" name="">
+    </div>
+    <div class="form-item">
+      <span class="form-title">选择账户：</span>
+      <input type="hidden" name="">
+      <ul class="bank-lists clearfix">
+  <li class="bank-item">
+    <label>
+      <input type="radio" name="bank" checked>
+      <div class="bank-item-detail iconfont">
+        <img src="../src/images/temp/BOC.jpg" alt="bank">
+          <p><span class="fl">中国银行</span><span class="fr">尾号0983</span></p>
+          <p class="text-grey">广州美佳日化有限公司</p>
+        </div>
+    </label>
+  </li>
+  <li class="bank-item">
+    <label>
+      <input type="radio" name="bank">
+      <div class="bank-item-detail iconfont">
+        <img src="../src/images/temp/CMB.jpg" alt="bank">
+          <p><span class="fl">招商银行</span><span class="fr">尾号0983</span></p>
+          <p class="text-grey">广州美佳日化有限公司</p>
+        </div>
+    </label>
+  </li>
+  <li class="bank-item">
+    <label>
+      <input type="radio" name="bank">
+      <div class="bank-item-detail iconfont">
+        <img src="../src/images/temp/ICBC.jpg" alt="bank">
+          <p><span class="fl">工商银行</span><span class="fr">尾号0983</span></p>
+          <p class="text-grey">广州美佳日化有限公司</p>
+        </div>
+    </label>
+  </li>
+  <li class="bank-item">
+    <label>
+      <input type="radio" name="bank">
+      <div class="bank-item-detail iconfont">
+        <img src="../src/images/temp/CCB.png" alt="bank">
+          <p><span class="fl">中信银行</span><span class="fr">尾号0983</span></p>
+          <p class="text-grey">广州美佳日化有限公司</p>
+        </div>
+    </label>
+  </li>
+  <li class="bank-item">
+    <a href="javascript:;" class="bank-item-add">
+      +   添加新的银行卡
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div class="form-item">
+      <span class="form-title">支付金额：</span>
+      <p class="wallet-topup-amount" id="J-wallettopupAmount">￥1500000.00</p>
+    </div>
+    <div class="form-item">
+      <span class="form-title">支付密码：</span>
+      <input type="tel" class="input" placeholder="输入支付密码" name="">
+    </div>
+    <div class="form-item">
+      <label>
+        <input type="checkbox" class="input-check" name="">
+        <span>
+          <i class="iconfont">&#xe62a;</i>
+        </span>
+        <span class="wallet-topup-accept">
+          同意<a href="javascript:;">《立白经销商付费协议》</a>
+        </span>
+      </label>
+    </div>
+    <div class="wallet-topup-btn">
+      <input type="button" value="立即充值" name="" class="button button-blue button-radius mr30">
+      <a href="javascript:history.go(-1)" class="button button-grey button-radius">取消充值</a>
+    </div>
+  </form>
+</div>
+
+</div>
+
+
+<!-- footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
+    </div>
+    <div class="footer-copyright">
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+    </div>
+  </div>
+
+
+<!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
+</body>
+</html>
+

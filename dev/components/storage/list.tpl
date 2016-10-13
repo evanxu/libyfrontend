@@ -87,7 +87,6 @@
         <strong>80</strong>箱
       </p>
     </div>
-    <-- include('list-item.tpl') -->
   </div>
   
   <-- include('../common/pagination.tpl') -->

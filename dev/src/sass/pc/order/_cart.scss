@@ -4,7 +4,7 @@ $order-cart-color: #656565;
 
 .order-cart{
   margin-left:-$catalog-width;
-  min-height:900px;
+  min-height:$catalog-height;
   background:$light-background;
 
 
@@ -18,7 +18,7 @@ $order-cart-color: #656565;
     color:#656565;
 
     .order-cart-check{
-      top:0;
+      top:-1px;
     }
 
     &-product,
@@ -69,6 +69,11 @@ $order-cart-color: #656565;
 
   &-check{
     @include absolute(left 20px top 20px);
+
+    span{
+      display:inline-block;
+      vertical-align:middle;
+    }
   }
 
   &-sales{

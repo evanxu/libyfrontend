@@ -230,7 +230,7 @@
   &-item,
   &-sales,
   &-remark,
-  &-popup,
+  &-topup,
   &-payment{
     border-bottom:1px solid $grey-border;
   }
@@ -245,7 +245,7 @@
     }
   }
 
-  &-popup{
+  &-topup{
     position:relative;
     height:61px;
     padding:$gap 20px;

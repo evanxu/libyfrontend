@@ -4,7 +4,7 @@
       <a href="javascript:;">我的订单</a>
     </li>
     <li>
-      <a href="javascript;">我的退货单</a>
+      <a href="javascript:;">我的退货单</a>
     </li>
   </ul>
   <div class="order-list-content">

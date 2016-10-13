@@ -3,7 +3,7 @@
     <ul class="promotion-operate">
       <li><a href="promotion-liby-activity.html" class="curr">立白促销</a></li>
       <li><a href="javascript:;">我的促销</a></li>
-      <li><a href="javascript:;">费用核销</a></li>
+      <li><a href="promotion-fee.html">费用核销</a></li>
     </ul>
     <ul class="promotion-status">
       <li><a href="javascript:;">已开始</a></li>
