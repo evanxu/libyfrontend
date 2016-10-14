@@ -1,0 +1,509 @@
+<!-- import css files and body start -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../src/css/index.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
+</head>
+<body>
+
+
+<!-- import page header -->
+<!-- header -->
+<div class="header-top">
+  <div class="header-content">
+    <ul class="header-left">
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="account.html">我的立购</a></li>
+      <li><a href="order-list.html">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
+    </ul>
+  </div>
+</div>
+<!-- herderBtm -->
+<div class="herder-bottom">
+  <div class="header-logo">
+    <a href="javascript:;">立白立构台</a>
+  </div>
+  <div class="header-search">
+    <div class="searchtpl">
+      <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
+      <span>搜 索</span>
+    </div>
+    <div class="keywd">
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
+    </div>
+  </div>
+  <div class="header-cart-box">
+    <div class="header-cart-info">
+      <p>进货单1000件</p>
+      <p class="red"><strong>￥19320.00</strong></p>
+    </div>
+  </div>
+  <!-- <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
+    <p class="tit">
+      客服热线(7x24小时)<br>
+      <span class="num">400-687-0099</span>
+    </p>
+  </div> -->
+</div>
+
+
+<!-- import page nav -->
+<div class="nav">
+  <ul class="nav-content">
+    <li class="nav-all">
+      <a href="javascript:;" class="nav-all-link iconfont">
+        <span>全部商品分类</span>
+      </a>
+      <div class="nav-subnav">
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">爆款洗衣液</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">好爸爸洗衣露</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">衣物护理类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">家居清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">餐具清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">驱蚊驱虫类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">空气清新类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="javascript:;">口腔健护类</a>
+          <p class="nav-subnav-sublink">
+            <a href="javascript:;">皂液</a>
+            <a href="javascript:;">洗衣液</a>
+            <a href="javascript:;">洗衣粉</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a href="homepage.html">首页</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">促销政策</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">平台服务</a>
+    </li>
+    <li class="nav-item">
+      <a href="javascript:;">集团官网</a>
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- import homepage -->
+<div class="product-list">
+  <div class="product-list-con">
+
+	<!--import filter -->
+	<!-- product-list-filter -->
+<div class="product-list-filter">
+  <dl>
+    <dt>品牌：</dt>
+    <dd>
+      <a href="#">好爸爸</a>
+      <a href="#">威王</a>
+      <a href="#">六必治</a>
+    </dd>
+  </dl>
+  <dl>
+    <dt>适用范围：</dt>
+    <dd>
+      <a href="#">通用</a>
+      <a href="#">餐具专用</a>
+      <a href="#">酒店专用</a>
+      <a href="#">果蔬专用</a>
+      <a href="#">贴身衣物/婴儿衣物</a>
+      <a href="#">棉麻织物</a>
+      <a href="#">丝绸毛料</a>
+    </dd>
+  </dl>
+  <dl>
+    <dt>净含量：</dt>
+    <dd>
+      <a href="#">1L-2L</a>
+      <a href="#">2L以上</a>
+      <a href="#">00g以下</a>
+      <a href="#">101g-179g</a>
+      <a href="#">180g-299g</a>
+      <a href="#">300g-499g</a>
+      <a href="#">500g-999g</a>
+      <a href="#">1000g-2000g</a>
+      <a href="#">2000g以上</a>
+    </dd>
+  </dl>
+  <dl>
+    <dt>计价单位：</dt>
+    <dd>
+      <a href="#">瓶</a>
+      <a href="#">袋</a>
+      <a href="#">箱</a>
+      <a href="#">促销组合装</a>
+    </dd>
+  </dl>
+</div> 
+
+	<!--import search-result -->
+	
+	
+	<!--import search-result -->
+	<!-- product-list-search-result -->
+<p class="product-list-result">您好，“<span>洗洁精</span>”相关搜索结果如下：共找到<span class="product-list-result-num">100</span>件相关产品</p>
+	
+
+	<!--import search-sort -->
+	<!-- product-list-search-sort -->
+<div class="product-list-search-sort">
+    <p>综合排序</p>
+    <div class="product-list-search-sort-btns">
+        <a href="javascript:;" class="desc">人气</a>
+        <a href="javascript:;" class="desc">销量</a>
+        <a href="javascript:;" class="asc active">价格</a>
+    </div>
+</div>
+	
+
+
+	<!--import bottom -->
+	<ul class="product-list-content">
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+		<li class="product-list-item">
+  <!--import card -->
+  <div class="product-list-item-top">
+    <a href="product-detail.html"><img src="../src/images/temp/product-item.jpg" alt="product-item"></a>
+    <div class="product-list-item-remark">
+      <h4>爆款直降</h4>
+      <div class="product-list-item-promotion">
+        <p>超值50kg大包装</p>
+        <p>厂家直销</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-list-item-bottom">
+    <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一 户外950g两瓶 + 亲肤450x2瓶子</a>
+    <p class="product-list-item-tag">高端浓缩 精致护理衣物 深层去渍</p>
+    <span class="product-list-item-price">￥69.00</span>
+    <i class="iconfont" title="添加到购物车">&#xe62f;</i>
+  </div>  
+</li>
+   
+	</ul>
+
+	<!-- import pagination -->
+	<div class="pagination">
+    <ul class="items">
+        <li class="item pagination-prev">
+            <a class="icon-tag" href="javascript:;"><</a>
+        </li>
+        <li class="item pagination-active">
+            <a href="javascript:;">1</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">2</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">3</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">4</a>
+        </li>
+        <li class="item">
+            <a href="javascript:;">5</a>
+        </li>
+        <li class="item">
+            <span class="pagination-dot">···</span>
+        </li>
+        <li class="item">
+            <a href="javascript:;">24</a>
+        </li>
+        <li class="item pagination-next">
+            <a class="icon-tag" href="javascript:;">></a>
+        </li>
+    </ul>
+    <div class="pagination-form">
+        <span class="text">跳至</span>
+        <input class="input" type="text" min="1" max="100" aria-label="页码输入框" placeholder="1">
+        <span class="text">页</span>
+        <a class="pagination-btn button button-radius" href="javascript:;">跳转</a>
+    </div>
+</div>
+
+	
+    </div>
+</div>
+
+<!-- footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
+    </div>
+    <div class="footer-copyright">
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 <a href="javascript:;">营业执照</a></p>
+    </div>
+  </div>
+
+
+<!-- import page js files and /body end -->
+<-- include('common/tag.foot.tpl')

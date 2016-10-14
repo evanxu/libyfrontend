@@ -74,7 +74,7 @@
     </dd>
   </dl>
 </div>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 $(function(){
   $('#J-walletStatusListsTab a').on('click', function(){
     var $this = $(this);
@@ -84,4 +84,4 @@ $(function(){
     // some other code here
   })
 });
-</script>
+</script> -->

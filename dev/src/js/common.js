@@ -4,5 +4,11 @@ $(function(){
   $('#J-catalogMarket').find('dd[rel="' + page + '"] a').addClass('curr');
 });
 
+$(function(){
+	if(location.href.indexOf('homepage') > 0){
+		$('.nav-subnav').show();
+	}
+})
+
 
 

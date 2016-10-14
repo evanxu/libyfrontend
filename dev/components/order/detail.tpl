@@ -6,7 +6,7 @@
     </h3>
   </div>
   <a href="javascript:;" class="order-detail-print">
-    <i class="iconfont"></i>
+    <i class="iconfont">&#xe634;</i>
     <span>打印订单</span>
   </a>
   <div class="order-detail-content">

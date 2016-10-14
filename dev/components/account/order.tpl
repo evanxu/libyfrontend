@@ -78,7 +78,7 @@
     </ul>
   </div>
 </div>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 $(function(){
   $('#J-indexOrderTab li').on('click', function(){
     var $this = $(this);
@@ -88,4 +88,4 @@ $(function(){
     // some other code here
   })
 });
-</script>
+</script> -->

@@ -5,16 +5,16 @@ $footer-grey:#a1a1a1;
   background: #fff;
 
   &-content{
-  width: 800px;
-  margin: 0 auto;
-  padding:15px 0;
-  overflow: hidden;
-  border-bottom: 1px solid #dbdbdb;
+    width: 800px;
+    margin: 0 auto;
+    padding:15px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #dbdbdb;
 
-  dl{
-    width: 16.6666%;
-    float: left;
-
+    dl{
+      width: 16.6666%;
+      float: left;   
+    }
     dt{
       text-align: center;
       padding: 6px 0;
@@ -26,17 +26,21 @@ $footer-grey:#a1a1a1;
       text-align: center;
       padding: 6px 0;
       font-size: 12px;
-
-      a{
-        color:$footer-grey;
-      }
     }
   }
-}
+
   &-copyright{
-  text-align: center;
-  color:$footer-grey;
-  margin:15px 0;
+    text-align: center;
+    color:$footer-grey;
+    margin:15px 0;
+  }
+
+  a{
+    color:$footer-grey;
+
+    &:hover{
+      color:$base-color;
+    }
   }
 }
 
