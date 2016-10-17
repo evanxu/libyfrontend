@@ -142,10 +142,10 @@ module.exports = function(grunt){
           reload: true
         }
       },
-      script: {
-        files: ['<%= config.dev %>/<%= config.path.js %>/**/*.js'],
-        tasks: ['uglify:dev']
-      },
+      // script: {
+      //   files: ['<%= config.dev %>/<%= config.path.js %>/**/*.js'],
+      //   tasks: ['uglify:dev']
+      // },
       sass: {
         files: ['<%= config.dev %>/<%= config.path.sass %>/**/*.scss', '!_'],
         tasks: ['sass:dev', 'autoprefixer:dev']

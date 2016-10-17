@@ -90,7 +90,8 @@
           <i class="iconfont">&#xe62c;</i>
           <span>返回上一步</span>
         </a>
-        <input type="button" class="button button-red" value="提交交货单" disabled>
+        <!-- demo页面，临时加入onclick事件 -->
+        <input type="button" class="button button-red" value="提交交货单" onclick="javascript:location.href='order-success.html'">
       </div>
     </form>
   </div>

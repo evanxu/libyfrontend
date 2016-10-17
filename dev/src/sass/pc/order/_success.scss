@@ -1,12 +1,12 @@
-$order-success-pr:  220px;
-$order-success-pl:  160px;
+$order-success-pr:  270px;
+$order-success-pl:  270px;
 $order-success-color: #656565;
 
 .order-success{
   margin-left:-170px;
 
   &-content{
-    padding: 0 $order-success-pr 0 $order-success-pl + $catalog-width;
+    padding: 0 $order-success-pr 0 $order-success-pl;
 
     h2{
       padding-top:65px;
@@ -46,7 +46,7 @@ $order-success-color: #656565;
   }
 
   &-btn{
-    margin:50px (-$order-success-pr) 50px (-$order-success-pl - 170px);
+    margin:50px (-$order-success-pr) 50px (-$order-success-pl);
     text-align:center;
   }
 }

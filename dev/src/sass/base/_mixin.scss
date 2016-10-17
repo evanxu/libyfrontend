@@ -70,3 +70,27 @@
   height: $height;
 }
 
+
+
+/* media query */
+$max:       max-width;
+$min:       min-width;
+$large-screen:  540px;
+$medium-screen: 375px;
+$small-screen:  320px;
+
+//media query
+@mixin response($media) {
+  @if $media == mobile {
+    @media only screen and (max-width: $large-screen) { @content; }
+  }
+  @else if $media == mobile-lg {
+    @media only screen and (min-width: $medium-screen + 1) and (max-width: $large-screen - 1) { @content; }
+  }
+  @else if $media == mobile-md {
+    @media only screen and (min-width: $small-screen + 1) and (max-width: $medium-screen) { @content; }
+  }
+  @else if $media == mobile-sm {
+    @media only screen and (min-width: $small-screen) { @content; }
+  }
+}

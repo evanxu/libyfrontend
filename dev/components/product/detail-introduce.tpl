@@ -1,8 +1,8 @@
 <div class="product-detail-introduce">
-	<div class="product-detail-introduce-mobile-title">
+	<!-- <div class="product-detail-introduce-mobile-title">
 	  <i class="iconfont">&#xe642;</i>
 	  <p>商品详情</p>
-	</div>
+	</div> -->
 	<div class="product-detail-introduce-images">
 		<div class="preview">
 			<img src="../src/images/temp/a1.jpg" width="400" height="400" alt="">

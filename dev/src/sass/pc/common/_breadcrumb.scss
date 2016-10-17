@@ -4,11 +4,19 @@
   line-height:38px;
   color:$grey-text;
 
+  span,
   a{
+    display:inline-block;
+    vertical-align:middle;
     color:$grey-text;
 
     &:hover{
       color:$blue-text;
     }
+  }
+
+  i{
+    margin-left:-4px;
+    font-size:$font-size-base;
   }
 }

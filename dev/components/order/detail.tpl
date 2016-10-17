@@ -53,34 +53,73 @@
           <span>订单号码：15109928</span>
           <span>订单状态: 部分发货</span>
         </dt>
-        <dd class="order-waybill-con">
-          <div class="order-waybill-con-top">
-            <p>订单编号：<span></span>15109860</p>
-            <p>订单类型：<span>Z001</span></p> 
-            <p>订单状态<span>已创建</span></p>
-            <p>请求发货日期<span>2016-09-06</span></p>
-          </div>
-          <div class="order-waybill-con-top">
-            <p>客户名称：<span>十堰万界贸易有限公司</span></p>
-            <p>送达方：<span>刘晓雪：沈阳苏家屯迎春街232号(6009603)</span></p>
-            <p>送货地址:<span>沈阳苏家屯迎春街232号(6009603)</span></p>
-            <p>承运方：<span>沈阳苏家屯迎春街232号(6009603)</span></p>
-          </div>
-          <div class="order-waybill-con-btm">
-            <p>总数量(件)<span>15000</span></p>
-            <p>总吨位(吨)<span>19950</span></p>
-            <p>总体积(立方米)<span>69000</span></p>
-          </div>
-          <div class="order-waybill-con-btm">
-            <p>已发货总数量(件)<span>0</span></p>
-            <p>已发货总吨位(吨)<span>0</span></p>
-            <p>已发货总体积(立方米)<span>0</span></p>
-          </div>
-          <div class="order-waybill-con-btm">
-            <p>吨位上限<span>13</span></p>
-            <p>吨位下限<span>5</span></p>
-            <p>方数上限<span>55</span></p>
-          </div>
+        <dd class="order-detail-info-left">
+          <p>
+            <span>客户名称：</span>
+            十堰万捷贸易有限公司
+          </p>
+          <p>
+            <span>送达方：</span>
+            刘晓雪：沈阳市苏家屯迎春街238号（6000956）
+          </p>
+          <p>
+            <span>送货地址：</span>
+            沈阳市苏家屯迎春街238号（1002255）
+          </p>
+          <p>
+            <span>承运商：</span>
+            四平市通达运输有限公司（C220361238） 
+          </p>
+        </dd>
+        <dd class="order-detail-info-right">
+          <p>
+            <span>吨位上限：</span>
+            13
+          </p>
+          <p>
+            <span> 吨位下限：</span>
+            13
+          </p>
+          <p>
+            <span>方位上限：</span>
+            55
+          </p>
+          <p>
+            <span>请求发货日期：</span>
+            2016-09-09
+          </p>
+          <p>
+            <span>总数量（件）：</span>
+            15000
+          </p>
+          <p>
+            <span>已发货总数量（件）：</span>
+            5000
+          </p>
+          <p>
+            <span>总吨位（吨）：</span>
+            15000 
+          </p>
+          <p>
+            <span>已发货总吨位（吨）：</span>
+            5000 
+          </p>
+          <p>
+            <span>总体积（立方米）：</span>
+            15000
+          </p>
+          <p>
+            <span>已发货体积（立方米）：</span>
+            5000
+          </p>
+          <p>
+            <span>金额：</span>
+            ￥15,000 
+          </p>
+          <p>
+            <span>已发货金额：</span>
+            ￥5,000 
+          </p>
         </dd>
       </dl>
     </div>
@@ -89,7 +128,7 @@
       <h3 class="order-detail-title">
         已发货商品
         <span class="order-detail-title-right">
-          <a href="order-delivery.html">查看物流</a>
+          <a href="order-delivery.html"><i class="iconfont">&#xe603;</i><span>查看物流</span></a>
           <a href="javascript:;">分销订单</a>
         </span>
       </h3>

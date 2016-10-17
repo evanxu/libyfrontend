@@ -1,5 +1,5 @@
 .account-wallet{
-  @include size($box-left-width+$gap, 250px+$gap);
+  @include size($gap, $gap);
   position:relative;
   overflow:hidden;
   border-right:$gap solid $light-background;

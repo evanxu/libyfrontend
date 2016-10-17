@@ -83,6 +83,7 @@
       &:after{
         @include absolute(right 0 bottom -3px);
         content:"\e62b";
+        font-family:'iconfont';
         color:$red;
         font-size:22px;
       }

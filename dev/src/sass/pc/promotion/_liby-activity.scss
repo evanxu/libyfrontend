@@ -1,53 +1,8 @@
-.promotion-liby{
-  width: 1000px;
-  height: auto;
-  margin: 15px 15px 0;
+.promotion-liby,
+.promotion-mine{
   background: #fff;
   overflow: hidden;
-
-  /*promotion-tab*/
-  .promotion-tab{
-    width: 100%;
-    overflow: hidden;
-    border-bottom: 1px solid #bec2d3;
-
-    li{
-      float: left;
-
-      a{
-        border-bottom: 2px solid #fff;
-        font-size: 14px;
-        width: 100px;
-        height: 50px;
-        display: block;
-        line-height: 50px;
-        text-align: center;
-        color: #656565;
-
-        &:hover{
-          border-bottom: 2px solid #07aaeb;
-          color: #07aaeb;
-        }
-      }
-    }
-
-    .promotion-operate .curr{
-      border-bottom: 2px solid #07aaeb;
-      color: #07aaeb;
-    }
-
-    .promotion-status{
-      float: right;
-
-      li a{
-        width: 70px;
-
-        &:hover{
-          background: #f0fafe;
-        }
-      }
-    }
-  }
+  min-height:$catalog-height;
 
   /*promotion-cont*/
   .promotion-cont{
@@ -61,7 +16,9 @@
       border: 2px dashed #f8f8f8;
       float: left;
 
-      p{
+      a{
+        @include size(100%, 100%);
+        display:block;
         color: #07aaeb;
         font-size: 16px;
         text-align: center;
@@ -84,11 +41,15 @@
 
       a{
         display: block;
+        color: #656565;
+
+        &:hover{
+          color:$base-color;
+        }
       }
 
       .tit{
         font-size: 14px;
-        color: #656565;
         display: block;
         margin-top: 13px;
         width: 150px;
@@ -118,16 +79,14 @@
     position: relative;
 
     .promotion-end-txt{
+      @include absolute(left 50% bottom -12px);
       width: 140px;
       color: #c2c2c2;
       padding: 0 10px;
       background: #fff;
       font-size: 14px;
       text-align: center;
-      position: absolute;
-      left: 50%;
       margin-left:-70px;
-      bottom:-8px;
     }
   }
 }

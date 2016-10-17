@@ -7,11 +7,10 @@
   </div>
   <div class="account-chart-content">
     <div class="account-chart-left chart-box">
-      <p class="chart-title">17年销售目标：10000元</p>
+      <!-- <p class="chart-title">17年销售目标：10000元</p> -->
       <div id="J-accountChartLeft" class="chart-detail"></div>
       <div class="chart-other">
-        <div class="chart-finish chart-finish-blue"><span class="with-bg">已完成</span><span class="with-border">目标</span></div>
-        <p><strong class="fs16">8103.00</strong><span class="fs12">元</span><p>
+        <div class="chart-finish chart-finish-blue"><span class="with-bg">已完成</span><span class="with-border">2700000.00元</span></div>
       </div>
     </div>
     <div class="account-chart-right" id="J-accountChartRight">
@@ -26,11 +25,16 @@
       var chart = echarts.init(document.getElementById('J-accountChartLeft'));
       var optionPie = {
         title: {
-          text: '完成目标率',
+          text: '2017年销售目标',
           textStyle: {
             color: '#898989',
             fontSize: 12,
             fontWeight: 400
+          },
+          subtext:'3000万',
+          subtextStyle: {
+            color: '#04a1e9',
+            fontSize: 20
           },
           left: 'center',
           top: '150'
@@ -48,31 +52,29 @@
             avoidLabelOverlap: false,
             label: {
                 normal: {
-                    show: false,
-                    position: 'center',
-                    formatter: "{d}%",
+                    show: true,
+                    formatter: "{b}{d}%",
                     textStyle: {
                       fontWeight: 'bolder',
-                      fontSize: 22
+                      fontSize: 12
                     }
                 },
                 emphasis: {
-                  show: false
+                  show: true
                 }
             },
             labelLine: {
                 normal: {
-                  show: false
+                  show: true
                 }
             },
             data:[
               {
-                value: 73,
+                value: 2700000,
                 name: '已完成',
                 label: {
                   normal: {
-                    show: true,
-                    shiftY: 10
+                    show: true
                   }
                 },
                 itemStyle: {
@@ -85,8 +87,15 @@
                 }
               },
               {
-                value: 27,
+                value: 300000,
                 name: '未完成',
+                label: {
+                  normal:{
+                    textStyle: {
+                      color: "#999"
+                    }
+                  }
+                },
                 itemStyle: {
                   normal: {
                     color: '#ebebeb'
@@ -109,6 +118,11 @@
           tooltip: {
               trigger: 'axis'
           },
+          // legend: {
+          //     left: 'center',
+          //     bottom: 'bottom',
+          //     data: ['已完成', '未完成']
+          // },
           grid: {
               left: '3%',
               right: '4%',

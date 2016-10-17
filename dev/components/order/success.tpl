@@ -38,8 +38,8 @@
     <p class="order-success-text">您可以<a href="javascript:;">继续购物</a>,<span>或者去我的订单查看订单，并对该订单进行修改或提交交货单。</span></p>
 
     <div class="order-success-btn">
-      <input type="button" value="查看订单" name="" class="button button-blue button-radius mr30">
-      <input type="button" value="提交交货单" name="" class="button button-grey button-radius">
+      <a href="homepage.html" class="button button-blue button-radius mr30">继续购物</a>
+      <a href="order-detail.html" class="button button-grey button-radius">查看订单</a>
     </div>
 
   </div>

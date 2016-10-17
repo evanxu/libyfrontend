@@ -1,36 +1,37 @@
 <div class="wallet-status">
   <ul class="wallet-tab">
     <li class="curr">
-      <a href="#">经销商授信状态</a>
+      <a href="wallet-status.html">经销商授信状态</a>
     </li>
     <li>
-      <a href="#">我的返利</a>
+      <a href="wallet-rebate.html">我的返利</a>
     </li>
   </ul>
   <div class="wallet-status-chart">
     <div id="J-walletStatusChart" class="wallet-status-chart-detail"></div>
     <dl class="wallet-status-chart-text">
       <dt>
-        <span class="fl">总资产：</span><span class="fr">120万</span>
+        <span class="fl">总资产：</span><strong class="fr">120000.00</strong>
       </dt>
       <dd>
-        <span class="fl">授信余额：</span><span class="fr">70万</span>
+        <span class="fl">授信余额：</span><span class="fr">70000.00</span>
       </dd>
       <dd>
-        <span class="fl">消杀授信余额：</span><span class="fr">30万</span>
+        <span class="fl">消杀授信余额：</span><span class="fr">30000.00</span>
       </dd>
       <dd>
-        <span class="fl">母婴授信余额：</span><span class="fr">10万</span>
+        <span class="fl">母婴授信余额：</span><span class="fr">10000.00</span>
       </dd>
       <dd>
-        <span class="fl">洗护授信余额：</span><span class="fr">10万</span>
+        <span class="fl">洗护授信余额：</span><span class="fr">10000.00</span>
       </dd>
       <dd>
-        <a href="#" class="button button-blue button-radius">账户充值</a>
+        <a href="wallet-topup.html" class="button button-blue button-radius">账户充值</a>
       </dd>
     </dl>
   </div>
   <-- include('status-lists.tpl') -->
+  <-- include('../common/pagination.tpl') -->
 </div>
 <script type="text/javascript">
   (function(){
@@ -46,7 +47,7 @@
           fontWeight: 400
         },
         left: 'center',
-        top: '110'
+        top: '120'
       },
       tooltip: {
           trigger: 'item',
@@ -84,15 +85,16 @@
               name: '授信余额',
               itemStyle: {
                 normal: {
-                  color: '#1990eb'
+                  color: '#05a1e9'
                 },
                 emphasis: {
-                  color: '#1990eb'
+                  color: '#05a1e9'
                 }
               },
               label: {
                 normal: {
-                  show: true
+                  show: true,
+                  shiftY: 10
                 }
               }
             },

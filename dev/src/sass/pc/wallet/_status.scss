@@ -1,7 +1,6 @@
 .wallet-status{
-  margin: $gap $gap 0;
   background:$white-background;
-  min-height:(900px - $gap);
+  min-height:$catalog-height;
 
   &-chart{
     @include size(100%, 300px);
@@ -41,7 +40,7 @@
         }
 
         &:nth-child(2):before{
-          background:#1990eb;
+          background:$base-color;
         }
         &:nth-child(3):before{
           background:#ffc228;
@@ -69,11 +68,12 @@
 
     dt{
       height:50px;
+      overflow:hidden;
       background: #f9f9f9;
     }
 
     &-tab{
-      float:left;
+      background:$white-background;
       overflow: hidden;
 
       a{
@@ -106,24 +106,15 @@
       }
     }
 
-    &-more{
-      float: right;
-      padding-right:15px;
-
-      a{
-        color: #07aaeb;
-        height: 50px;
-        line-height: 50px;
-        display: block;
-        text-align: center;
-      }
-    }
-
     dd{
       overflow: hidden;
 
-      &:nth-child(even){
+      &:nth-child(odd){
         background: #f0fafe;
+      }
+
+      a{
+        color:$base-color;
       }
     }
 
@@ -131,11 +122,32 @@
       float: left;
       width: 25%;
       height: 55px;
+      padding:0 $gap;
       line-height: 55px;
-      text-align: center;
       font-size: 14px;
       color: #656565;
+
+      &:first-child{
+        padding-left:$gap*2;
+      }
+
+      &:nth-child(2){
+        width:35%;
+      }
+
+      &:nth-child(3){
+        width:15%;
+        font-weight:700;
+        color:#333;
+        text-align:right;
+      }
+
+      &:nth-child(4){
+        padding-right:$gap*2;
+        text-align:right;
+      }
     }
   }
+
 }
 

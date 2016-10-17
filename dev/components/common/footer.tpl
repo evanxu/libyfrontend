@@ -1,44 +1,44 @@
 <!-- footer -->
   <div class="footer">
     <div class="footer-content">
-      <ul>
-        <li><a href="#">公司介绍</a></li>
-        <li><a href="#">关于立白</a></li>
-        <li><a href="#">媒体报道</a></li>
-        <li><a href="#">诚征英才</a></li>
-        <li><a href="#">友情链接</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">购物流程</a></li>
-        <li><a href="#">新用户注册</a></li>
-        <li><a href="#">购物流程</a></li>
-        <li><a href="#">配送方式</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">支付方式</a></li>
-        <li><a href="#">货到付款</a></li>
-        <li><a href="#">银联卡支付</a></li>
-        <li><a href="#">支付宝</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">售后服务</a></li>
-        <li><a href="#">退货说明</a></li>
-        <li><a href="#">退款说明</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">招商合作</a></li>
-        <li><a href="#">供应商招募</a></li>
-        <li><a href="#">广商合作</a></li>
-        <li><a href="#">联系立白</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">常见问题</a></li>
-        <li><a href="#">账户问题</a></li>
-        <li><a href="#">发票问题</a></li>
-        <li><a href="#">联系客服</a></li>
-      </ul>
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
     </div>
     <div class="footer-copyright">
-      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 <a href="javascript:;">营业执照</a></p>
     </div>
   </div>

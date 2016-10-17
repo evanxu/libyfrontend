@@ -118,7 +118,25 @@
 .text-red{color:$red-text;}
 
 .icon,
-.icon + *{
+.icon + *,
+i.iconfont,
+.iconfont + *{
   display:inline-block;
   vertical-align:middle;
+}
+
+.red{
+  color:$red;
+}
+
+a{
+  transition:color 0.3s ease-in, background 0.3s ease-in;
+}
+
+a.nolink{
+  color:$light-text !important;
+
+  &:hover{
+    background:none !important;
+  }
 }

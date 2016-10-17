@@ -89,10 +89,11 @@
 
     &-search{
       float:right;
-      margin-right:-5px;
+      width:230px;
+      text-align:right;
     }
   }
-  
+
   &-items{
     margin:$gap;
     color:#656565;
@@ -131,7 +132,7 @@
   }
 
   &-cell{
-    
+
     &-detail,
     &-product,
     &-quantity,
@@ -156,7 +157,7 @@
       padding-left:40px;
       text-align:left;
       overflow:hidden;
-      
+
       img{
         @include size(85px,85px);
         display:block;

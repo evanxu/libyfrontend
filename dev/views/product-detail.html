@@ -5,9 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="/src/css/index.css">
-  <script type="text/javascript" src="/src/vendor/js/echarts.min.js"></script>
+	<link rel="stylesheet" href="../src/css/index.css">
+	<link rel="stylesheet" media="screen and (max-width:540px)" href="../src/css/index-mobile.css">
+  <link rel="stylesheet" href="font/iconfont.css">
 
+  <script type="text/javascript" src="../src/vendor/js/jquery.js"></script>
+  <script type="text/javascript" src="../src/vendor/js/echarts.js"></script>
+  <script type="text/javascript" src="../src/js/jquery.getChart.js"></script>
 </head>
 <body>
 
@@ -17,46 +21,53 @@
 <div class="header-top">
   <div class="header-content">
     <ul class="header-left">
-      <li>您好，<a href="#">邓志勇<span class="vip">VIP6</span></a></li>
-      <li>消息  <a  class="header-message" href="#">6</a></li>
-      <li><a href="#">退出</a></li>
+      <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
+      <li>消息  <a  class="header-message" href="javascript:;">6</a></li>
+      <li><a href="javascript:;">退出</a></li>
     </ul>
     <ul class="header-right">
-      <li><a href="#">我的购物</a></li>
-      <li><a href="#">我的订单<span></span></a></li>
-      <li><i class="icon"></i><a href="#">购物车<span class="num">2</span>件</a></li>
-      <li><a href="#">收藏夹</a></li>
-      <li><a href="#">帮助中心</a></li>
+      <li><a href="account.html">我的立购</a></li>
+      <li><a href="order-list.html">我的订单<span></span></a></li>
+      <li><a href="order-cart.html"><i class="iconfont header-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
+      <li><a href="javascript:;">收藏夹</a></li>
+      <li><a href="javascript:;">帮助中心</a></li>
     </ul>
   </div>
 </div>
-<!-- herderBtm -->
-<div class="herder-bottom">
+<!-- headerBtm -->
+<div class="header-bottom">
   <div class="header-logo">
-    <a href="#">立白立构台</a>
+    <a href="javascript:;">立白立构台</a>
   </div>
   <div class="header-search">
     <div class="searchtpl">
-      <label for="">产品名称<a href="#"></a></label>
       <input type="text" placeholder="好爸爸Kispa洗衣液" id="">
-      <span>搜索</span>
+      <span>搜 索</span>
     </div>
     <div class="keywd">
-      <a href="#">好爸爸</a>
-      <a href="#">洗衣液</a>
-      <a href="#">洗洁精</a>
-      <a href="#">洗衣粉</a>
-      <a href="#">个人护理</a>
-      <a href="#">洗护套装</a>
+      <a href="javascript:;">好爸爸</a>
+      <a href="javascript:;">洗衣液</a>
+      <a href="javascript:;">洗洁精</a>
+      <a href="javascript:;">洗衣粉</a>
+      <a href="javascript:;">个人护理</a>
+      <a href="javascript:;">洗护套装</a>
     </div>
   </div>
-  <div class="header-tel">
-    <i class="icon icon-tel"></i>
+  <div class="header-cart-box">
+    <div class="header-cart-info">
+      <a href="order-cart.html">
+        <p>进货单1000件</p>
+        <p class="red"><strong>￥19320.00</strong></p>
+      </a>
+    </div>
+  </div>
+  <!-- <div class="header-tel">
+    <i class="iconfont">&#xe60f;</i>
     <p class="tit">
       客服热线(7x24小时)<br>
       <span class="num">400-687-0099</span>
     </p>
-  </div>
+  </div> -->
 </div>
 
 
@@ -64,22 +75,87 @@
 <div class="nav">
   <ul class="nav-content">
     <li class="nav-all">
-      <a href="#">
-        <i class="icon icon-menu"></i>
+      <a href="javascript:;" class="nav-all-link iconfont">
         <span>全部商品分类</span>
       </a>
+      <div class="nav-subnav">
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">爆款洗衣液</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">好爸爸洗衣露</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">衣物护理类</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">家居清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">餐具清洁类</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">驱蚊驱虫类</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">空气清新类</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+        <div class="nav-subnav-item">
+          <a class="nav-subnav-link" href="product-detail.html">口腔健护类</a>
+          <p class="nav-subnav-sublink">
+            <a href="product-detail.html">皂液</a>
+            <a href="product-detail.html">洗衣液</a>
+            <a href="product-detail.html">洗衣粉</a>
+          </p>
+        </div>
+      </div>
     </li>
-    <li>
-      <a href="#">首页</a>
+    <li class="nav-item">
+      <a href="homepage.html">首页</a>
     </li>
-    <li>
-      <a href="#">促销政策</a>
+    <li class="nav-item">
+      <a href="javascript:;">促销政策</a>
     </li>
-    <li>
-      <a href="#">平台服务</a>
+    <li class="nav-item">
+      <a href="javascript:;">平台服务</a>
     </li>
-    <li>
-      <a href="#">集团官网</a>
+    <li class="nav-item">
+      <a href="javascript:;">集团官网</a>
     </li>
   </ul>
 </div>
@@ -88,12 +164,11 @@
 
 <!-- import homepage -->
 <div class="product-detail">
-  <!-- import detail-introduce -->
 	<div class="product-detail-introduce">
-	<div class="product-detail-introduce-mobile-title">
+	<!-- <div class="product-detail-introduce-mobile-title">
 	  <i class="iconfont">&#xe642;</i>
 	  <p>商品详情</p>
-	</div>
+	</div> -->
 	<div class="product-detail-introduce-images">
 		<div class="preview">
 			<img src="../src/images/temp/a1.jpg" width="400" height="400" alt="">
@@ -168,7 +243,8 @@
     </div>
 	</div>
 </div>
-	<!-- import detail-promotion -->
+
+	<!-- import page js files and /body end -->
 	<div class="product-detail-promotion-section">
 	<h2>套餐产品</h2>
 </div>
@@ -246,40 +322,9 @@
 	  <h3><a class="product-detail-promotion-tit" href="javascript:;">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
 	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
 	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="javascript:;">
-	    <img src="../src/images/temp/a1.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="javascript:;">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="javascript:;">
-	    <img src="../src/images/temp/a2.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="javascript:;">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="javascript:;">
-	    <img src="../src/images/temp/a3.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="javascript:;">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="javascript:;">
-	    <img src="../src/images/temp/a4.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="javascript:;">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
 </ul>
-	<!-- import detail-service -->
+
+	<!-- import page js files and /body end -->
 	<div class="product-detail-service">
 	<h2>售后服务</h2>
 	<p class="explain">支持“7天无理由退换货”的商品更为消费者提供“7天无理由退换货”服务保障。温馨提示：特价及促销、生鲜类商品、内衣内裤、奶粉、美护化妆用品、3C数码类商品、特殊商品按照国家三包规定执行退换货服务</p>
@@ -287,54 +332,56 @@
 	<p>1、 验货签收时请您与配送人员当面核对：商品及配件、商品金额及数量、发票（如有）、赠品（如有）等；如存在包装破损、商品错误、商品短缺、商品存在质量问题等影响签收的因素，您可以拒收全部商品，（相关的赠品‘配件或捆绑商品和发票应一起当场拒收）。</p>
 	<p>2、 由于部分商品包装更换较为频繁，因此您收到的货品有可能与图片不完全一致，请您以收到的商品实物为准，同时我们会尽量做到及时更新，由此给您带来不便多多谅解，如有任何问题可与我们客服人员联系，谢谢！</p>
 </div>
+	<!-- import page js files and /body end -->
 </div>
 
 <!-- footer -->
   <div class="footer">
     <div class="footer-content">
-      <ul>
-        <li><a href="#">公司介绍</a></li>
-        <li><a href="#">关于立白</a></li>
-        <li><a href="#">媒体报道</a></li>
-        <li><a href="#">诚征英才</a></li>
-        <li><a href="#">友情链接</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">购物流程</a></li>
-        <li><a href="#">新用户注册</a></li>
-        <li><a href="#">购物流程</a></li>
-        <li><a href="#">配送方式</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">支付方式</a></li>
-        <li><a href="#">货到付款</a></li>
-        <li><a href="#">银联卡支付</a></li>
-        <li><a href="#">支付宝</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">售后服务</a></li>
-        <li><a href="#">退货说明</a></li>
-        <li><a href="#">退款说明</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">招商合作</a></li>
-        <li><a href="#">供应商招募</a></li>
-        <li><a href="#">广商合作</a></li>
-        <li><a href="#">联系立白</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">常见问题</a></li>
-        <li><a href="#">账户问题</a></li>
-        <li><a href="#">发票问题</a></li>
-        <li><a href="#">联系客服</a></li>
-      </ul>
+      <dl>
+        <dt>公司介绍</dt>
+        <dd><a href="javascript:;">关于立白</a></dd>
+        <dd><a href="javascript:;">媒体报道</a></dd>
+        <dd><a href="javascript:;">诚征英才</a></dd>
+        <dd><a href="javascript:;">友情链接</a></dd>
+      </dl>
+      <dl>
+        <dt>购物流程</dt>
+        <dd><a href="javascript:;">新用户注册</a></dd>
+        <dd><a href="javascript:;">购物流程</a></dd>
+        <dd><a href="javascript:;">配送方式</a></dd>
+      </dl>
+      <dl>
+        <dt>支付方式</dt>
+        <dd><a href="javascript:;">货到付款</a></dd>
+        <dd><a href="javascript:;">银联卡支付</a></dd>
+        <dd><a href="javascript:;">支付宝</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="javascript:;">退货说明</a></dd>
+        <dd><a href="javascript:;">退款说明</a></dd>
+      </dl>
+      <dl>
+        <dt>招商合作</dt>
+        <dd><a href="javascript:;">供应商招募</a></dd>
+        <dd><a href="javascript:;">广商合作</a></dd>
+        <dd><a href="javascript:;">联系立白</a></dd>
+      </dl>
+      <dl>
+        <dt>常见问题</dt>
+        <dd><a href="javascript:;">账户问题</a></dd>
+        <dd><a href="javascript:;">发票问题</a></dd>
+        <dd><a href="javascript:;">联系客服</a></dd>
+      </dl>
     </div>
     <div class="footer-copyright">
-      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 营业执照</p>
+      <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 <a href="javascript:;">营业执照</a></p>
     </div>
   </div>
 
 
 <!-- import page js files and /body end -->
+<script type="text/javascript" src="../src/js/common.js"></script>
 </body>
 </html>

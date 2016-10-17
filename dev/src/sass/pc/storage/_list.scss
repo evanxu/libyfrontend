@@ -5,6 +5,8 @@
   &-search{
     float:right;
     margin:-40px 10px 40px;
+    width:230px;
+    text-align:right;
 
     .input{
       width:220px;
@@ -13,6 +15,9 @@
     i{
       margin-left:-30px;
       margin-right:10px;
+      margin-top:-6px;
+      height:30px;
+      line-height:24px;
       color:#656565;
     }
   }
@@ -51,7 +56,7 @@
       width:20%;
       text-align:center;
     }
-    
+
     &-serial{
       width:10%;
       line-height:85px;
@@ -67,7 +72,7 @@
         float:left;
         margin-right:$gap*2;
       }
-      
+
     }
 
     &-quantity strong{

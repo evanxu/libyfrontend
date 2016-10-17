@@ -37,7 +37,7 @@ $product-ssdetail-amount-color:#878787;
 
     &-images{
       float: none;
-      
+
       .preview{
         width: 100%;
         height: auto;
@@ -69,7 +69,7 @@ $product-ssdetail-amount-color:#878787;
       }
       .subtitle{
         height: 0.2rem;
-        font-size: 12px;  
+        font-size: 12px;
         line-height: 0.2rem;
       }
 
@@ -84,16 +84,16 @@ $product-ssdetail-amount-color:#878787;
           flex-direction: row-reverse;
           height:0.2rem;
           line-height:0.2rem;
-          text-align:right; 
+          text-align:right;
 
           &:last-child{
             text-align: left;
             flex-direction: row;
-          } 
+          }
 
           dd{
             margin-top: 0.1rem;
-          }     
+          }
         }
 
         .price-tit{
@@ -109,7 +109,7 @@ $product-ssdetail-amount-color:#878787;
 
         li{
           @include size(100%,0.3rem);
-  
+
           p{
             float: right;
           }
@@ -145,7 +145,7 @@ $product-ssdetail-amount-color:#878787;
         }
       }
     }
-  } 
+  }
 
   &-service{
     display: none;
@@ -173,11 +173,11 @@ $product-ssdetail-amount-color:#878787;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    &-list{ 
+    &-list{
        margin-bottom: 0;
        width: 49%;
        padding:0.2rem 0.1rem 0;
-       border:1px solid #ebebeb;  
+       border:1px solid #ebebeb;
        margin-bottom: 0.1rem;
 
        img{

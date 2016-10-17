@@ -25,7 +25,7 @@
       background:#ffa917;
       border-radius:0 10px 10px 0;
       box-sizing:border-box;
-    } 
+    }
   }
 
   &-delivery-step{
@@ -102,9 +102,16 @@
       font-size:$font-size-medium;
 
       a{
+        display:inline-block;
+        vertical-align:middle;
         color:$base-color;
-        margin-right:$gap;
+        margin-left:$gap;
         font-size:$font-size-base;
+      }
+
+      i{
+        margin-right:5px;
+        font-size:24px;
       }
     }
   }
@@ -224,7 +231,6 @@
 
       &:nth-child(4),
       &.order-detail-lists-total{
-        font-weight:700;
         padding-right:$gap*2;
         text-align:right;
       }
@@ -276,7 +282,9 @@
       }
 
       &:nth-child(4),
-      &:nth-child(5),
+      &:nth-child(5){
+        padding-right:$gap;
+      }
       &:nth-child(6){
         padding-right:$gap*2;
       }

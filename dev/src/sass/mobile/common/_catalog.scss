@@ -1,15 +1,15 @@
 .catalog{
   @include absolute(left (-$gap) top (-$gap) bottom 0);
-  @include size(170px + $gap, auto);
+  @include size($catalog-width + $gap, auto);
   overflow: hidden;
   text-align: center;
   color: #fff;
   border-right:$gap solid $light-border;
-  background:#05a1e9 url(#{$background-root}/bg/bg-catlog.png) 0 500px no-repeat;
+  background:$base-color url(#{$background-root}/bg/bg-catlog.png) 0 500px no-repeat;
   background-size:100%;
 
   a{
-  color: #fff;
+    color: #fff;
   }
 
   &-personal{
@@ -85,7 +85,7 @@
     }
 
     a.curr,a:hover{
-      background:#0068b6;
+      background:$dark-blue;
       color:#fff;
 
       &:after{

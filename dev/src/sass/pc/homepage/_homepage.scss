@@ -42,6 +42,8 @@
 	&-banner{
 		@include size(100%,550px);
 		overflow: hidden;
+		position:relative;
+
 		&-carousel{
 			li{
 				width: 100%;
@@ -57,9 +59,23 @@
 				display:block;
 				font-size:0;
 			}
+
+			&-dot{
+				@include absolute(bottom 80px left 0);
+				overflow:hidden;
+				width:100%;
+				text-align:center;
+				li{
+					@include size(8px, 8px);
+					display:inline-block;
+					border-radius:100%;
+					background:rgba(255,255,255,0.9);
+					margin-right:10px;
+				}
+			}
 		}
 	}
-	
+
 	&-section{
 		margin-bottom:60px;
 
@@ -74,7 +90,7 @@
 		&-newest{
 			@include homepage-subject(#4fb25e);
 		}
-		
+
 		&-recently{
 		  @include homepage-subject(#4fb25e);
 		}
@@ -125,7 +141,7 @@
 					left: 0;
 					background: rgba(0,0,0,0.7);
 					transition:opacity 0.5s ease;
-					
+
 					p{
 						text-align: center;
 						margin-top: 45px;
@@ -167,6 +183,7 @@
 		margin-bottom: 15px;
 		overflow: hidden;
 
+
 		&-top{
 			width: 1215px;
 			overflow: hidden;
@@ -177,7 +194,7 @@
 		    a,
 		    img {
 	        display: block;
-          @include size(230px, 130px);  
+          @include size(230px, 130px);
 		    }
 			}
 		}
@@ -203,7 +220,7 @@
 		        &:first-child{
 		        	display: block;
 		        }
-			  }	
+			  }
 
 			  img{
 			    display:block;
@@ -219,15 +236,15 @@
 			&-tit{
 				background: #fff;
 				height: 39px;
-				
+
 				.iconfont{
 					height:34px;
 					font-size:32px;
 					color:$red;
 				}
-				
+
 				span{
-					height:32px;
+					height:30px;
 					padding:0 10px 0 5px;
 					border:1px dashed #ebebeb;
 					line-height:30px;
@@ -275,9 +292,22 @@
 				}
 			}
 		}
+
+
+		&-countdown{
+			float:right;
+
+			span{
+				border:0;
+				background:#272636;
+				color:#fff;
+				padding:3px 4px;
+				margin-right:2px;
+			}
+		}
 	}
 
-  // homepage-newest	
+  // homepage-newest
 	&-newest{
 		width: 1200px;
 		margin: 0 auto;
@@ -299,7 +329,7 @@
         &:first-child{
         	display: block;
         }
-		  }	
+		  }
 
 		  img{
 		  	@include size(465px, 420px);
@@ -322,9 +352,9 @@
 				font-size:32px;
 				color:#39b54a;
 			}
-			
+
 			span{
-				height:32px;
+				height:30px;
 				padding:0 10px 0 5px;
 				border:1px dashed #8dc63f;
 				line-height:30px;
@@ -341,7 +371,7 @@
 				color:#f26522;
 				font-size:24px;
 			}
-		
+
 			a{
 				display: block;
 				float: right;
@@ -404,10 +434,14 @@
 		    border:1px solid #c2c2c2;
 		    position:relative;
 
+		    &:hover{
+		    	border-color:$base-color;
+		    }
+
 				&:last-child{
 					margin-right: 0;
 				}
-				
+
 				i{
 			    @include absolute(top 2px left 4px);
 			    color:#39b54a;

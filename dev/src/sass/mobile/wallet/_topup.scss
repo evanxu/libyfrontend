@@ -1,13 +1,13 @@
 $wallet-topup-width:  215px;
 
 .wallet-topup{
-  margin-left:-$catalog-width;
-  padding:0 0 $gap 330px;
+  margin-left:0;
+  padding:0;
   background:$white-background;
 
   &-box{
-    margin-left:-330px;
-    margin-bottom:40px;
+    margin-left:0;
+    margin-bottom:0.2rem;
     width:auto;
   }
 
@@ -17,10 +17,16 @@ $wallet-topup-width:  215px;
   }
 
   &-btn{
+    display:flex;
+    //flex:;
     padding:$gap;
-    margin:0 100px 0 -230px;
+    margin:0;
     border-top:1px dashed #dcdee8;
     text-align:center;
+
+    &.button{
+      flex:1;
+    }
   }
 
   a{
@@ -37,16 +43,20 @@ $wallet-topup-width:  215px;
   }
 }
 
+.form-bank-choice{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .bank-lists{
-  width:470px;
+  width:100%;
+  margin-top:$gap;
 }
 
 .bank-item{
-  @include size($wallet-topup-width, 60px);
-  float:left;
+  @include size(100%, 0.6rem);
   position:relative;
-  margin:0 $gap $gap 0;
-  cursor:pointer;
+  margin:0 0 $gap 0;
 
   input[type="radio"]{
     display:none;
@@ -88,11 +98,7 @@ $wallet-topup-width:  215px;
   }
 
   &-add{
-    @include size($wallet-topup-width - 2, 58px);
-    display:block;
-    background:$light-background;
-    line-height:60px;
-    text-align:center;
-    color:$blue-text;
+    @include size(100%, 0.58rem);
+    line-height:0.6rem;
   }
 }

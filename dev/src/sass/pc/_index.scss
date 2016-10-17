@@ -8,22 +8,56 @@
 @import 'common/content';
 @import 'common/chart';
 
-@import 'index/config';
-@import 'index/common';
-@import 'index/wallet';
-@import 'index/order';
-@import 'index/tool';
-@import 'index/star';
-@import 'index/chart';
-@import 'index/sales';
-@import 'index/notice';
+@import "component/button";
+@import "component/form";
+@import "component/box";
+@import "component/pagination";
+
+@import 'homepage/homepage';
+
+@import 'account/config';
+@import 'account/common';
+@import 'account/wallet';
+@import 'account/order';
+@import 'account/tool';
+@import 'account/star';
+@import 'account/chart';
+@import 'account/sales';
+@import 'account/notice';
 
 
 
 @import 'wallet/common';
 @import 'wallet/status';
-@import 'wallet/popup';
+@import 'wallet/topup';
+@import 'wallet/rebate';
 
 
 
+@import 'promotion/common';
 @import 'promotion/liby-activity';
+@import 'promotion/fee';
+@import 'promotion/add';
+
+
+
+@import 'order/common';
+@import 'order/success';
+@import 'order/promotion';
+@import 'order/cart';
+@import 'order/check';
+@import 'order/waybill';
+@import 'order/detail';
+@import 'order/delivery';
+@import 'order/list';
+
+
+
+@import 'storage/list';
+
+
+@import 'store/list';
+
+
+@import 'product/list';
+@import 'product/detail';

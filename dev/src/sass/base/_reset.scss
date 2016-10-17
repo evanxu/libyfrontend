@@ -1,8 +1,12 @@
-
-
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
+}
+
+html{
+  @include response(mobile){
+    font-size:100px;
+  }
 }
 
 body,

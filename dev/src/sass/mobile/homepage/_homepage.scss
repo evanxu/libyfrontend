@@ -42,6 +42,8 @@
 	&-banner{
 		@include size(100%,550px);
 		overflow: hidden;
+		position:relative;
+		
 		&-carousel{
 			li{
 				width: 100%;
@@ -56,6 +58,21 @@
 				@include size(100%, 100%);
 				display:block;
 				font-size:0;
+			}
+
+			
+			&-dot{
+				@include absolute(bottom 80px left 0);
+				overflow:hidden;
+				width:100%;
+				text-align:center;
+				li{
+					@include size(8px, 8px);
+					display:inline-block;
+					border-radius:100%;
+					background:rgba(255,255,255,0.9);
+					margin-right:10px;
+				}
 			}
 		}
 	}
@@ -167,6 +184,17 @@
 		margin-bottom: 15px;
 		overflow: hidden;
 
+		&-countdown{
+			float:right;
+
+			span{
+				border:0;
+				background:#000;
+				color:#fff;
+				padding:0 4px;
+			}
+		}
+
 		&-top{
 			width: 1215px;
 			overflow: hidden;
@@ -244,7 +272,7 @@
 					font-size:24px;
 				}
 			}
-
+			
 			&-ul{
 				width:100%;
 				border:1px dashed $grey-border;

@@ -18,7 +18,7 @@
       <span class="form-title">充值金额：</span>
       <input type="tel" class="input" placeholder="输入充值金额" name="">
     </div>
-    <div class="form-item">
+    <div class="form-item form-bank-choice">
       <span class="form-title">选择账户：</span>
       <input type="hidden" name="">
       <-- include('topup-banklist.tpl') -->

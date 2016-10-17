@@ -2,7 +2,7 @@
   <div class="promotion-tab">
     <ul class="promotion-operate">
       <li><a href="promotion-liby-activity.html">立白促销</a></li>
-      <li><a href="javascript:;">我的促销</a></li>
+      <li><a href="promotion-my-activity.html">我的促销</a></li>
       <li><a href="javascript:;" class="curr">费用核销</a></li>
     </ul>
   </div>
@@ -38,11 +38,11 @@
 	    	<p class="promotion-fee-item-name">立白周年大促</p>
 	      <div class="promotion-fee-item-amount">
 	      	<p class="fs16">￥50000.00</p>
-    			<!-- 
+    			<!--
     				下面i的长度为已核销费用比，已核销
     				< 50%, div = promotion-fee-bar-enough
     				> 50%, div = promotion-fee-bar-less
-    				= 100%, div = promotion-fee-bar-none 
+    				= 100%, div = promotion-fee-bar-none
     			 -->
 	      	<div class="promotion-fee-bar promotion-fee-bar-none">
 	      		<i style="width:100%"></i>
@@ -67,15 +67,15 @@
 	    	<p class="promotion-fee-item-name">立白周年大促</p>
 	      <div class="promotion-fee-item-amount">
 	      	<p class="fs16">￥150000.00</p>
-	      	<!-- 
+	      	<!--
 	  				下面i的长度为已核销费用比，已核销
 	  				< 50%, div = promotion-fee-bar-enough
 	  				> 50%, div = promotion-fee-bar-less
-	  				= 100%, div = promotion-fee-bar-none 
+	  				= 100%, div = promotion-fee-bar-none
 	  			 -->
 	      	<div class="promotion-fee-bar promotion-fee-bar-enough">
 	      		<i style="width:30%"></i>
-	      	</div>	      	
+	      	</div>
 	      	<p>可用余额 70%</p>
 	      </div>
 	      <div class="promotion-fee-item-price">
@@ -96,15 +96,15 @@
 	    	<p class="promotion-fee-item-name">立白周年大促</p>
 	      <div class="promotion-fee-item-amount">
 	      	<p class="fs16">￥150000.00</p>
-	      	<!-- 
+	      	<!--
 	  				下面i的长度为已核销费用比，已核销
 	  				< 50%, div = promotion-fee-bar-enough
 	  				> 50%, div = promotion-fee-bar-less
-	  				= 100%, div = promotion-fee-bar-none 
+	  				= 100%, div = promotion-fee-bar-none
 	  			 -->
 	      	<div class="promotion-fee-bar promotion-fee-bar-less">
 	      		<i style="width:60%"></i>
-	      	</div>	      	
+	      	</div>
 	      	<p>可用余额 40%</p>
 	      </div>
 	      <div class="promotion-fee-item-price">

@@ -18,27 +18,27 @@
 		<ul class="homepage-promotion-top clearfix">
 			<li>
 				<a href="product-detail.html">
-					<img src="/src/images/temp/o1.jpg" alt="promotion">
+					<img src="../src/images/temp/o1.jpg" alt="promotion">
 				</a>
 			</li>
 			<li>
 				<a href="product-detail.html">
-					<img src="/src/images/temp/o2.jpg" alt="promotion">
+					<img src="../src/images/temp/o2.jpg" alt="promotion">
 				</a>
 			</li>
 			<li>
 				<a href="product-detail.html">
-					<img src="/src/images/temp/o3.jpg" alt="promotion">
+					<img src="../src/images/temp/o3.jpg" alt="promotion">
 				</a>
 			</li>
 			<li>
 				<a href="product-detail.html">
-					<img src="/src/images/temp/o4.jpg" alt="promotion">
+					<img src="../src/images/temp/o4.jpg" alt="promotion">
 				</a>
 			</li>
 			<li>
 				<a href="product-detail.html">
-					<img src="/src/images/temp/o5.jpg" alt="promotion">
+					<img src="../src/images/temp/o5.jpg" alt="promotion">
 				</a>
 			</li>
 		</ul>
@@ -46,22 +46,22 @@
 			<ul class="homepage-promotion-bottom-carousel clearfix">
 			  <li>
 			    <a href="product-detail.html">
-			      <img src="/src/images/temp/l1.jpg" width="100%" alt="">
+			      <img src="../src/images/temp/l1.jpg" width="100%" alt="">
 			    </a>
 			  </li>
 			  <li>
 			    <a href="product-detail.html">
-			      <img src="/src/images/temp/l1.jpg" width="100%" alt="">
+			      <img src="../src/images/temp/l1.jpg" width="100%" alt="">
 			    </a>
 			  </li>
 			  <li>
 			    <a href="product-detail.html">
-			      <img src="/src/images/temp/l1.jpg" width="100%" alt="">
+			      <img src="../src/images/temp/l1.jpg" width="100%" alt="">
 			    </a>
 			  </li>
 			  <li>
 			    <a href="product-detail.html">
-			      <img src="/src/images/temp/l1.jpg" width="100%" alt="">
+			      <img src="../src/images/temp/l1.jpg" width="100%" alt="">
 			    </a>
 			  </li>
 			</ul>
@@ -69,7 +69,13 @@
 				<div class="homepage-promotion-bottom-tit">
 					<i class="iconfont">&#xe633;</i>
 					<span>每天都有<i><strong>新</strong>惊喜</i></span>
-					<a href="product-list.html">更多新品 ></a>
+					<div class="homepage-promotion-countdown">
+						剩余
+						<span>2</span>天
+						<span>12</span>时
+						<span>30</span>分
+						<span>05</span>秒
+					</div>
 				</div>
 				<ul class="homepage-promotion-bottom-ul clearfix">
 				  <li>
