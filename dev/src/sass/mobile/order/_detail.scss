@@ -101,14 +101,13 @@
 
       a{
         color:$base-color;
-        margin-right:$gap;
         font-size:$font-size-base;
       }
     }
   }
 
   &-print{
-    @include absolute(right $gap*2 top 20px);
+    @include absolute(right $gap top 20px);
     color:$base-color;
   }
 
@@ -228,7 +227,7 @@
 
       &:nth-child(4),
       &.order-detail-lists-total{
-        font-weight:700;
+        font-weight:400;
         padding-right:$gap*2;
         text-align:right;
       }

@@ -1,8 +1,13 @@
 <div class="product-detail-introduce">
+	<!-- <div class="product-detail-introduce-mobile-title">
+	  <i class="iconfont">&#xe642;</i>
+	  <p>商品详情</p>
+	</div> -->
 	<div class="product-detail-introduce-images">
 		<div class="preview">
 			<img src="../src/images/temp/a1.jpg" width="400" height="400" alt="">
 		</div>
+
 		<ul class="product-detail-introduce-images-carousel clearfix">
 		  <li class="curr">
 		    <a href="javascript:;">
@@ -46,33 +51,27 @@
 		</div>
 
 		<ul class="parameter">
-			<li><span>商品名称：</span>立白蜀国专用洗洁精1.5KG柠檬去油不伤手</li>
-			<li><span>上架时间：</span>2016-08025 10:12:09</li>
-			<li><span>商品产地：</span>中国大陆</li>
-			<li><span>商品编号：</span>1333254095</li>
-			<li><span>净含量：</span>5400ml</li>
-			<li><span>配送区域：</span>全国</li>
+			<li><span>商品名称：</span><p>立白蜀国专用洗洁精1.5KG柠檬去油不伤手</p></li>
+			<li><span>上架时间：</span><p>2016-08025 10:12:09</p></li>
+			<li><span>商品产地：</span><p>中国大陆</p></li>
+			<li><span>商品编号：</span><p>1333254095</p></li>
+			<li><span>净含量：</span><p>5400ml</p></li>
+			<li><span>配送区域：</span><p>全国</p></li>
 		</ul>
 
-    <dl class="amount">
-      <dt>数量：</dt>
-      <dd>
-			<input type="text" class="input amount-input" value="1" maxlength="8" title="请输入购买量">
-
-			<span class="amount-btn">
-		    <a class="amount-btn-plus" href="javascript:;">增加</a>
-		  	<a class="amount-btn-minus" href="javascript:;">减少</a>
-		  </span>
-
-        <span class="amount-unit">件</span>
-        <p class="amount-stock">库存106件</p>
-      </dd>
-    </dl>
+    <div class="amount">
+			<div class="amount-box">
+	      <a href="javascript:;" class="amount-minus">-</a>
+	      <input type="text" class="amount-input" value="1">
+	      <a href="javascript:;" class="amount-plus">+</a>
+	    </div>
+      <p class="amount-stock">库存：106件</p>
+    </div>
 
     <div class="action">
-    	<a class="button button-red" href="order-cart.html">加入购物车</a>
+    	<a class="action-buy button button-red" href="order-cart.html">加入购物车</a>
     	<a class="action-collection">
-    		<i class="iconfont">&#xe631;</i>
+    		<i class="iconfont">&#xe642;</i>
     		<span>收藏</span>
     	</a>
     </div>

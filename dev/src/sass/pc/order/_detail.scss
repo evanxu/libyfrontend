@@ -105,8 +105,13 @@
         display:inline-block;
         vertical-align:middle;
         color:$base-color;
-        margin-right:$gap;
+        margin-left:$gap;
         font-size:$font-size-base;
+      }
+
+      i{
+        margin-right:5px;
+        font-size:24px;
       }
     }
   }
