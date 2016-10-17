@@ -69,7 +69,7 @@ $header-grey:  rgb(149,149,149);
 
 }
 
-.herder-bottom{
+.header-bottom{
   margin:0 auto;
   width: 1200px;
   height: 130px;
@@ -78,134 +78,117 @@ $header-grey:  rgb(149,149,149);
   overflow: hidden;
   background:url(#{$background-root}/bg/bg-header.png) right 0 no-repeat;
   background-size:50%;
-}
-.header-logo{
-  float: left;
-  width: 240px;
-  height:72px;
-  margin-right: 90px;
 
-  a{
-    @include size(100%, 100%);
-    display:block;
-    background:url(#{$background-root}/bg/bg-logo.png) no-repeat;
-    background-size:100%;
-    text-indent:-9999px;
-  }
-}
-.header-search{
-  margin-right: 114px;
-  float: left;
-
-  .searchtpl{
-    @include size(100%, 38px);
-    border: 2px solid rgb(4,161,233);
+  .header-logo{
     float: left;
-    font-size: 14px;
-    overflow: hidden;
+    width: 240px;
+    height:72px;
+    margin-right: 90px;
 
-    label{
-      width: 105px;
-      background: rgb(246,246,246);
+    a{
+      @include size(100%, 100%);
+      display:block;
+      background:url(#{$background-root}/bg/bg-logo.png) no-repeat;
+      background-size:100%;
+      text-indent:-9999px;
+    }
+  }
+  .header-search{
+    margin-right: 114px;
+    float: left;
+
+    .searchtpl{
+      @include size(100%, 38px);
+      border: 2px solid rgb(4,161,233);
       float: left;
-      height: 36px;
-      line-height: 36px;
-      text-align: center;
-      color: rgb(128,128,128);
+      font-size: 14px;
+      overflow: hidden;
+
+      label{
+        width: 105px;
+        background: rgb(246,246,246);
+        float: left;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: rgb(128,128,128);
+      }
+
+      input{
+        width: 415px;
+        height: 34px;
+        font-size:$font-size-medium;
+        float: left;
+        border: none;
+        padding-left: 10px;
+      }
+
+      span{
+        width: 98px;
+        display: block;
+        background: rgb(4,161,233);
+        text-align: center;
+        height: 34px;
+        line-height: 34px;
+        float: left;
+        color: #fff;
+        cursor: pointer;
+        font-size: $font-size-xlarge;
+      }
+
+      i{
+        margin-left:5px;
+        font-size:12px;
+      }
     }
 
-    input{
-      width: 415px;
-      height: 34px;
-      font-size:$font-size-medium;
-      float: left;
-      border: none;
-      padding-left: 10px;
-    }
-
-    span{
-      width: 98px;
+    .keywd a{
       display: block;
-      background: rgb(4,161,233);
-      text-align: center;
-      height: 34px;
-      line-height: 34px;
+      padding: 5px;
+      color: rgb(128,128,128);
       float: left;
-      color: #fff;
-      cursor: pointer;
-      font-size: $font-size-xlarge;
+
+      &:hover{
+        color: rgb(4,161,233);
+      }
+
+      &:first-child{
+        padding-left:0;
+      }
+    }
+  }
+
+  .header-cart-box{
+    @include size(140px, 38px);
+    position:relative;
+    float:left;
+    padding:5px 25px 5px 30px;
+    line-height:14px;
+    font-size:$font-size-base !important;
+    background:$light-background;
+
+    &:before{
+      @include size(38px, 38px);
+      @include absolute(left -19px top 0);
+      content:"\e62f";
+      font-family:"iconfont" !important;
+      background:$base-color;
+      border-radius:100%;
+      text-align:center;
+      line-height:38px;
+      color:#fff;
+      font-size:18px;
     }
 
-    i{
-      margin-left:5px;
-      font-size:12px;
+    &:after{
+      @include size(0,0);
+      @include absolute(top 50% right $gap);
+      content:"";
+      margin-top:-1px;
+      border-style:solid;
+      border-width:5px;
+      border-color:#959595 transparent transparent;
     }
   }
 
-  .keywd a{
-    display: block;
-    padding: 5px;
-    color: rgb(128,128,128);
-    float: left;
-
-    &:hover{
-      color: rgb(4,161,233);
-    }
-
-    &:first-child{
-      padding-left:0;
-    }
-  }
 }
-
-.header-cart-box{
-  @include size(140px, 38px);
-  position:relative;
-  float:left;
-  padding:5px 25px 5px 30px;
-  line-height:16px;
-  font-size:$font-size-base !important;
-  background:$light-background;
-
-  &:before{
-    @include size(38px, 38px);
-    @include absolute(left -19px top 0);
-    content:"\e62f";
-    font-family:"iconfont" !important;
-    background:$base-color;
-    border-radius:100%;
-    text-align:center;
-    line-height:38px;
-    color:#fff;
-    font-size:18px;
-  }
-
-  &:after{
-    @include size(0,0);
-    @include absolute(top 50% right $gap);
-    content:"";
-    margin-top:-1px;
-    border-style:solid;
-    border-width:5px;
-    border-color:#959595 transparent transparent;
-  }
-}
-
-// .header-tel{
-//   float: left;
-  
-//   .tit{
-//     font-size: 12px;
-//     color: rgb(149,149,149);
-//   }
-
-//   .num{
-//     font-size: 18px;
-//     color: rgb(70,70,70);
-//   }
-
-//   i{
-//     color:#959595;
-//     font-size:32px;
-//   }
-// }

@@ -128,7 +128,7 @@
       <h3 class="order-detail-title">
         已发货商品
         <span class="order-detail-title-right">
-          <a href="order-delivery.html">查看物流</a>
+          <a href="order-delivery.html"><i class="iconfont">&#xe603;</i><span>查看物流</span></a>
           <a href="javascript:;">分销订单</a>
         </span>
       </h3>

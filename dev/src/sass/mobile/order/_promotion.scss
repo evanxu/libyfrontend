@@ -1,0 +1,57 @@
+.order-promotion{
+  background: #fff;
+  margin-left:-$catalog-width;
+
+  &-title{
+    height:80px;
+    line-height:100px;
+    font-size:$font-size-xlarge;
+    color:#656565;
+    background:$light-background;
+  }
+
+  &-list{
+    width: 100%;
+    margin-bottom:$gap*3;
+    overflow: hidden;
+
+    li{
+      width: 20%;
+      float: left;
+      padding:50px 25px 0;
+
+      a{
+        display: block;
+      }
+
+      &:hover{
+        a{
+          color:$base-color;
+        }
+      }
+    }
+
+    img{
+      display: block;
+      margin:0 auto;
+      @include size(165px,165px);
+    }
+  }
+
+  &-price{
+    font-size:$font-size-medium;
+    color: $red;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+
+  &-tit{
+    font-size:$font-size-medium;
+    color: #656565;
+  }
+  &-tag{
+    font-size: 12px;
+    color: $light-text;
+    padding: 5px 0;
+  }
+}

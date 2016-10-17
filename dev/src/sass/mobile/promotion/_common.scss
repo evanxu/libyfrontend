@@ -1,0 +1,43 @@
+.promotion-tab{
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #bec2d3;
+
+  li{
+    float: left;
+
+    a{
+      border-bottom: 2px solid #fff;
+      font-size: 14px;
+      width: 100px;
+      height: 50px;
+      display: block;
+      line-height: 50px;
+      text-align: center;
+      color: #656565;
+
+      &:hover{
+        border-bottom: 2px solid #07aaeb;
+        color: #07aaeb;
+      }
+    }
+  }
+
+  .promotion-operate .curr{
+    border-bottom: 2px solid #07aaeb;
+    color: #07aaeb;
+  }
+
+  .promotion-status{
+    float: right;
+
+    li a{
+      width: 70px;
+
+      &:hover{
+        background: #f0fafe;
+      }
+    }
+  }
+}
+

@@ -5,92 +5,105 @@
   text-align: center;
   color: #fff;
   border-right:$gap solid $light-border;
-  background:#05a1e9 url(#{$background-root}/bg/bg-catlog.png) 0 500px no-repeat;
+  background:$base-color url(#{$background-root}/bg/bg-catlog.png) 0 500px no-repeat;
   background-size:100%;
-}
-.catalog a{
-  color: #fff;
-}
-.catalog-personal{
-  margin-top: 26px;
-}
 
-.catalog-personal .catalog-pic{
-  position: relative;
-}
-.catalog-personal .catalog-pic a{
-  position: absolute;
-  top: 0;
-  right: 30px;
-}
-.catalog-personal .catalog-pic i{
-  color:#fff;
-  font-size:22px;
-}
-.catalog-personal .catalog-pic img{
-  width: 61px;
-  height: 61px;
-  border-radius: 50%;
-  border: 3px solid rgb(30,171,275);
-}
-.catalog-personal .catalog-pic .msg{
-  @include size(16px, 16px);
-  @include absolute(right -6px top -4px);
-  display: block;
-  text-align:center;
-  line-height:16px;
-  background: rgb(255,0,0);
-  border-radius: 50%;
-}
-.catalog-personal .catalog-dis{
-  font-size: 12px;
-}
-.catalog-personal .catalog-dis .vip{
-  color: rgb(255,242,0);
-  background: rgb(238,28,36);
-  padding: 0 2px;
-  margin-left: 4px;
-}
-/*catalog-management*/
-.catalog-management{
-  margin-top: 60px;
-  //background:$base-color;
-}
-.catalog-management dd{
-  cursor:pointer;
-  position:relative;
-}
-
-.catalog-management a.curr,
-.catalog-management a:hover{
-  background:#0068b6;
-  color:#fff;
-
-  &:after{
-    content:"";
-    display: block;
-    width: 0;
-    height: 0;
-    border-width: 5px;
-    border-style:solid;
-    border-color:#fff #fff transparent transparent;
-    position:absolute;
-    right:1px;
-    top:1px;
+  a{
+    color: #fff;
   }
+
+  &-personal{
+    margin-top: 26px;
+
+    .catalog-pic{
+      position: relative;
+
+      a{
+        position: absolute;
+        top: 0;
+        right: 30px;
+      }
+
+      i{
+        color:#fff;
+        font-size:22px;
+      }
+
+      img{
+        width: 61px;
+        height: 61px;
+        border-radius: 50%;
+        border: 3px solid rgb(30,171,275);
+      }
+
+      .msg{
+        @include size(16px, 16px);
+        @include absolute(right -6px top -4px);
+        display: block;
+        text-align:center;
+        line-height:16px;
+        background: rgb(255,0,0);
+        border-radius: 50%;
+      }
+    }
+
+    .catalog-dis{
+      font-size: 12px;
+
+      .vip{
+        color: rgb(255,242,0);
+        background: rgb(238,28,36);
+        padding: 0 2px;
+        margin-left: 4px;
+      }
+    }
+  }
+
+  &-management{
+    margin-top: 60px;
+
+    dd{
+      cursor:pointer;
+      position:relative;
+    }
+
+    a{
+      display:block;
+      height:40px;
+      line-height:40px;
+      font-size: 14px;
+      color:#c1ecff;
+    }
+
+    dt{
+      padding: 14px 0;
+      font-size: 18px;
+    }
+
+    .catalog-account{
+      margin-top: 40px;
+    }
+
+    a.curr,
+    a:hover{
+      background:$dark-blue;
+      color:#fff;
+    }
+
+    a.curr:after{
+      content:"";
+      display: block;
+      width: 0;
+      height: 0;
+      border-width: 5px;
+      border-style:solid;
+      border-color:#fff #fff transparent transparent;
+      position:absolute;
+      right:1px;
+      top:1px;
+    }
+  }
+
 }
 
-.catalog-management a{
-  display:block;
-  height:40px;
-  line-height:40px;
-  font-size: 14px;
-  color:#c1ecff;
-}
-.catalog-management dt{
-  padding: 14px 0;
-  font-size: 18px;
-}
-.catalog-management .catalog-account{
-  margin-top: 40px;
-}
+

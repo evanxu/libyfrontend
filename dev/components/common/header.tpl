@@ -15,8 +15,8 @@
     </ul>
   </div>
 </div>
-<!-- herderBtm -->
-<div class="herder-bottom">
+<!-- headerBtm -->
+<div class="header-bottom">
   <div class="header-logo">
     <a href="javascript:;">立白立构台</a>
   </div>
@@ -36,8 +36,10 @@
   </div>
   <div class="header-cart-box">
     <div class="header-cart-info">
-      <p>进货单1000件</p>
-      <p class="red"><strong>￥19320.00</strong></p>
+      <a href="order-cart.html">
+        <p>进货单1000件</p>
+        <p class="red"><strong>￥19320.00</strong></p>
+      </a>
     </div>
   </div>
   <!-- <div class="header-tel">

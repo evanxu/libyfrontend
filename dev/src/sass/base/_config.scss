@@ -1,7 +1,3 @@
-/* layout */
-$base-width: 		1200px;
-$gap:				15px;
-
 /* font-size */
 $font-family-base:	"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","simhei",Arial,sans-serif;
 $font-size-base:     12px;
@@ -42,18 +38,11 @@ $grey-border:		$grey;
 $light-border:    $light;
 
 
-/* media query */
-$max: 			max-width;
-$min: 			min-width;
-$large-screen:	640px;
-$medium-screen:	413px;
-$small-screen:	320px;
-
-
 /* background */
 $background-root: "../images";
 
 
-/* other */
-$catalog-width:  170px;
-$catalog-height: 790px;
+/* media screen */ 
+$mobile: "only screen and (max-width : 540px)";
+
+

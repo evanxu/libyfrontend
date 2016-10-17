@@ -2,7 +2,7 @@
   <div class="box-title">
     <h3>
       <i class="iconfont">&#xe604;</i>
-      <span>我的门店</span> 
+      <span>我的门店</span>
     </h3>
   </div>
   <div class="store-list-bar">
@@ -105,6 +105,91 @@
     <div class="store-list-item store-list-item5">
       <p class="store-list-item-serial">
         <span>5</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item6">
+      <p class="store-list-item-serial">
+        <span>6</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item7">
+      <p class="store-list-item-serial">
+        <span>7</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item8">
+      <p class="store-list-item-serial">
+        <span>8</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item9">
+      <p class="store-list-item-serial">
+        <span>9</span>
+      </p>
+      <div class="store-list-item-detail">
+        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
+        <p class="text-light">地址：福州路100号</p>
+        <p class="text-light">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+      </div>
+      <div class="store-list-item-target">
+        <p class="store-list-item-status"><strong>80</strong>%</p>
+        <p>销量／目标：80/100（万）</p>
+      </div>
+    </div>
+
+    <!-- 拿到索引值，添加名为store-list-item[index]的class-->
+    <div class="store-list-item store-list-item10">
+      <p class="store-list-item-serial">
+        <span>10</span>
       </p>
       <div class="store-list-item-detail">
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>

@@ -1,0 +1,20 @@
+.account-notice{
+  @include size($box-left-width + $box-right-width + 45px, auto);
+  position:relative;
+  padding:$gap $gap $gap 120px;
+  margin:-$gap 0 0 (-$gap);
+  background:#fef9f2;
+  color:$dark-text;
+
+  .icon{
+    @include absolute(left $gap top $gap);
+  }
+
+  .with-red-bg{
+    display: inline-block;
+    padding: 0 3px;
+    margin-right:3px;
+    background: $red-background;
+    color: $white-text;
+  }
+}

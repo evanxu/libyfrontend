@@ -1,0 +1,51 @@
+.button{
+  @include size(190px, 50px);
+  display:inline-block;
+  text-align:center;
+  line-height:50px;
+  border:0;
+  cursor:pointer;
+  font-size:$font-size-large;
+
+  &-blue{
+    background:$base-background;
+    color:#fff;
+
+    &:active{
+      background:$darkblue-background;
+    }
+  }
+
+  &-grey{
+    background:#f2f2f2;
+    color:#7a8290 !important;
+  }
+
+  &-red{
+    background:$red;
+    color:#fff;
+  }
+
+  &-radius{
+    border-radius:2px;
+  }
+
+  &-medium{
+    @include size(140px, 40px);
+    line-height:40px;
+  }
+
+  &-xsmall{
+    @include size(70px, 30px);
+    line-height:30px;
+  }
+
+  &-inline{
+    display:inline-block;
+    vertical-align:middle;
+  }
+}
+
+.button:disabled{
+  background:#9ea7b8;
+}

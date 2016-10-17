@@ -8,6 +8,11 @@
 @import 'common/content';
 @import 'common/chart';
 
+@import "component/button";
+@import "component/form";
+@import "component/box";
+@import "component/pagination";
+
 @import 'homepage/homepage';
 
 @import 'account/config';

@@ -11,6 +11,7 @@
 
   &-title{
     @include absolute(left 0 top 0);
+    display:block;
     width:100px;
     height:30px;
     line-height:30px;
@@ -37,7 +38,7 @@
   & + i{
     margin-left:-30px;
   }
-} 
+}
 
 .textarea{
   height:100px;

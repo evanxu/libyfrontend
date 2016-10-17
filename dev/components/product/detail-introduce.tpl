@@ -72,7 +72,7 @@
     <div class="action">
     	<a class="button button-red" href="order-cart.html">加入购物车</a>
     	<a class="action-collection">
-    		<i class="iconfont">&#xe642;</i>
+    		<i class="iconfont">&#xe631;</i>
     		<span>收藏</span>
     	</a>
     </div>

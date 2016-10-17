@@ -1,0 +1,104 @@
+$wallet-topup-width:  215px;
+
+.wallet-topup{
+  margin-left:0;
+  padding:$gap 0;
+  background:$white-background;
+
+  &-box{
+    margin-left:0;
+    margin-bottom:0;
+    width:auto;
+  }
+
+  &-amount{
+    font-size:24px;
+    color:$red;
+  }
+
+  &-btn{
+    display:flex;
+    //flex:;
+    padding:$gap;
+    margin:0;
+    border-top:1px dashed #dcdee8;
+    text-align:center;
+
+    &.button{
+      flex:1;
+    }
+  }
+
+  a{
+    color:$blue-text;
+  }
+
+  .input{
+    width:$wallet-topup-width;
+  }
+
+  &-accept{
+    display:inline-block;
+    vertical-align:middle;
+  }
+}
+
+.form-bank-choice{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bank-lists{
+  width:100%;
+  margin-top:$gap;
+}
+
+.bank-item{
+  @include size(100%, 0.6rem);
+  position:relative;
+  margin:0 0 $gap 0;
+
+  input[type="radio"]{
+    display:none;
+  }
+
+  &-detail{
+    position:relative;
+    padding:10px 10px 10px 60px;
+    font-size:$font-size-base !important;
+    border:1px solid $grey-border;
+
+    img{
+      @include absolute(top 10px left 10px);
+      @include size(40px, 40px);
+      float:left;
+      margin-right:$gap;
+      display:inline-block;
+      vertical-align:middle;
+    }
+
+    p{
+      height:20px;
+      line-height:20px;
+      overflow:hidden;
+    }
+  }
+
+  .bank-item-detail.curr,
+  input[type="radio"]:checked + .bank-item-detail{
+    border:1px solid $base-color;
+    background:#f0fafe;
+
+    &:after{
+      @include absolute(right -1px bottom -9px);
+      content:"\e62b";
+      color:$base-color;
+      font-size:12px;
+    }
+  }
+
+  &-add{
+    @include size(100%, 0.58rem);
+    line-height:0.6rem;
+  }
+}

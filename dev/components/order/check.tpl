@@ -67,7 +67,7 @@
             <li>
               <label>
                 <input type="radio" name="address" checked>
-                <div class="order-check-address-detail iconfont">
+                <div class="order-check-address-detail">
                   <p>
                     <strong>王小帅</strong>
                     <strong class="fr">18823645824</strong>
@@ -81,7 +81,7 @@
             <li>
               <label>
                 <input type="radio" name="address">
-                <div class="order-check-address-detail iconfont">
+                <div class="order-check-address-detail">
                   <p>
                     <strong>王小帅</strong>
                     <strong class="fr">18823645824</strong>
@@ -159,7 +159,8 @@
           <i class="iconfont">&#xe62c;</i>
           <span>返回购物车修改</span>
         </a>
-        <input type="button" class="button button-red" value="保存订单" disabled>
+        <!-- demo页面，临时加入onclick事件 -->
+        <input type="button" class="button button-red" value="保存订单" onclick="javascript:location.href='order-waybill.html'">
       </div>
     </form>
   </div>

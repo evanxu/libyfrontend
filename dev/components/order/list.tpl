@@ -34,6 +34,6 @@
     </div>
     <-- include('list-item.tpl') -->
   </div>
-  
+
   <-- include('../common/pagination.tpl') -->
 </div>

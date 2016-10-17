@@ -19,15 +19,15 @@
       <dd rel="wallet"><a href="wallet-status.html">我的钱包</a></dd>
       <dd rel="storage"><a href="storage-list.html">我的库存</a></dd>
       <dd rel="store"><a href="store-list.html">我的门店</a></dd>
-      <dd><a href="javascript:;">我的导购</a></dd>
-      <dd><a href="javascript:;">我的消息</a></dd>
-      <dd><a href="javascript:;">我的数据</a></dd>
+      <dd><a href="javascript:;" class="nolink">我的导购</a></dd>
+      <dd><a href="javascript:;" class="nolink">我的消息</a></dd>
+      <dd><a href="javascript:;" class="nolink">我的数据</a></dd>
     </dl>
     <dl  class="catalog-account">
       <dt>账户管理</dt>
-      <dd><a href="javascript:;">基本信息</a></dd>
-      <dd><a href="javascript:;">密码修改</a></dd>
-      <dd><a href="javascript:;">退出登录</a></dd>
+      <dd><a href="javascript:;" class="nolink">基本信息</a></dd>
+      <dd><a href="javascript:;" class="nolink">密码修改</a></dd>
+      <dd><a href="javascript:;" class="nolink">退出登录</a></dd>
     </dl>
   </div>
 

@@ -24,7 +24,7 @@
       overflow: hidden;
       border: 1px solid #eaeaea;
       color: #959595;
-      margin-top: -1px;   
+      margin-top: -1px;
       background: #f9f9f9;
 
       &:first-child {
@@ -45,7 +45,7 @@
         margin-left:100px;
         padding-right:$gap;
         background: #fff;
-        
+
         a {
           display: inline-block;
           height: 40px;
@@ -61,7 +61,7 @@
     }
   }
 
-  
+
   &-result {
     @include size(100%, 45px);
     margin-bottom:$gap;
@@ -121,7 +121,7 @@
         &.asc:after{
           content:"\e63b";
         }
-        
+
         &:hover,
         &.active{
           color:$base-color;
@@ -129,7 +129,7 @@
       }
     }
   }
-  
+
   @mixin product-list-triangle($direction) {
     content: "";
     width: 0;
@@ -152,13 +152,13 @@
   &-item {
     position: relative;
     float: left;
-    width:373px;
+    width:277.5px;
     margin-bottom:20px;
-    margin-right:25px;
-    padding:35px 35px 20px;
+    margin-right:20px;
+    padding:35px $gap 20px;
     border: 1px solid $grey-border;
 
-    &:nth-child(3n) {
+    &:nth-child(4n) {
       margin-right: 0;
     }
 
@@ -179,11 +179,11 @@
     }
 
     img {
-      @include size(175px, 175px);
+      @include size(125px, 125px);
     }
 
     &-remark{
-      @include size(120px, 110px);
+      @include size(110px, 110px);
       position: relative;
 
       h4 {
@@ -220,6 +220,9 @@
         color: #fff;
         line-height: 20px;
         text-align:left;
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
 
         &:before {
           @include absolute(top 8px left 3px);
@@ -238,7 +241,7 @@
       width: 100%;
       font-size: $font-size-medium;
       color: #656565;
-      
+
       &:hover {
           color:$base-color;
       }
@@ -250,12 +253,12 @@
     }
     &-price{
       @include absolute(left -5px bottom 0);
-      font-size: 36px;
+      font-size: 22px;
       color: $red;
       font-weight: 700;
     }
     .iconfont{
-      @include absolute(right 5px bottom 8px);
+      @include absolute(right 0 bottom 0);
       @include size(40px, 40px);
       line-height:40px;
       background:$red;

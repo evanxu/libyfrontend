@@ -1,0 +1,97 @@
+.account-sales{
+  @include size($box-left-width + $box-right-width + 45px, auto);
+  position:relative;
+  padding:$gap;
+  margin-left:-$gap;
+  background:$white-background;
+  overflow:hidden;
+  border-bottom:$gap solid $light-background;
+
+  h3{
+    margin-bottom:$gap;
+    font-size:$font-size-medium;
+    line-height:20px;
+  }
+
+  &-left{
+    width:465px;
+    float:left;
+  }
+
+  &-right{
+    width:520px;
+    float:right;
+
+    h3{
+      display:inline-block;
+      height:20px;
+      background:$grey-background;
+    }
+  }
+
+  .with-blue-bg,
+  .with-red-bg{
+    display:inline-block;
+    padding:0 3px;
+    background:$base-background;
+    color:$white-text;
+  }
+  .with-red-bg{
+    background:$red-background;
+  }
+  .with-grey-bg{
+    position:relative;
+    display:inline-block;
+    padding:0 10px 0 10px;
+    font-size:$font-size-base;
+    color:$grey-text;
+
+    &:after{
+      content:"";
+      display:block;
+      width:0;
+      height:0;
+      border-width:10px 4px;
+      border-style:solid;
+      border-color:$base-color transparent transparent $base-color;
+      position:absolute;
+      left:0;
+      top:-1px;
+    }
+  }
+
+  &-notice{
+    @include size(100%, 70px);
+    padding:$gap;
+    background:#fef9f2;
+  }
+
+  &-product{
+    width:100%;
+    border:1px solid $grey-border;
+    border-right:0;
+    border-bottom:0;
+
+    li{
+      @include size(100%/3, 185px);
+      float:left;
+      border:1px solid $grey-border;
+      border-top:0;
+      border-left:0;
+    }
+  }
+
+  &-carousel{
+    @include size(100%, 370px);
+    position:relative;
+    overflow:hidden;
+
+    li{
+      @include size(100%, 370px);
+    }
+
+    img{
+      display:block;
+    }
+  }
+}

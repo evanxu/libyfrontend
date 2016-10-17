@@ -132,3 +132,11 @@ i.iconfont,
 a{
   transition:color 0.3s ease-in, background 0.3s ease-in;
 }
+
+a.nolink{
+  color:$light-text !important;
+
+  &:hover{
+    background:none !important;
+  }
+}

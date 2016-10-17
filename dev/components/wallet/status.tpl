@@ -85,10 +85,10 @@
               name: '授信余额',
               itemStyle: {
                 normal: {
-                  color: '#1990eb'
+                  color: '#05a1e9'
                 },
                 emphasis: {
-                  color: '#1990eb'
+                  color: '#05a1e9'
                 }
               },
               label: {

@@ -2,20 +2,15 @@
   <div class="promotion-tab">
     <ul class="promotion-operate">
       <li><a href="promotion-liby-activity.html" class="curr">立白促销</a></li>
-      <li><a href="javascript:;">我的促销</a></li>
+      <li><a href="promotion-my-activity.html">我的促销</a></li>
       <li><a href="promotion-fee.html">费用核销</a></li>
     </ul>
-    <ul class="promotion-status">
+    <!-- <ul class="promotion-status">
       <li><a href="javascript:;">已开始</a></li>
       <li><a href="javascript:;">未开始</a></li>
-    </ul>
+    </ul> -->
   </div>
   <dl class="promotion-cont">
-    <dt>
-      <a href="promotion-add.html">
-        <p>+ 新建促销活动</p>
-      </a>
-    </dt>
     <dd>
       <a href="javascript:;">
         <img src="../src/images/temp/d1.jpg" alt="">

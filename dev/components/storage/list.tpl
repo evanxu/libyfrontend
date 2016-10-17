@@ -2,7 +2,7 @@
   <div class="box-title">
     <h3>
       <i class="iconfont">&#xe604;</i>
-      <span>我的库存</span> 
+      <span>我的库存</span>
     </h3>
   </div>
   <div class="storage-list-search">
@@ -76,6 +76,34 @@
     <div class="storage-list-item">
       <p class="storage-list-item-serial">4</p>
       <div class="storage-list-item-product">
+        <a href="javascript:;"><img src="../src/images/temp/q2.jpg" alt=""></a>
+        <p class="storage-list-item-title"><a href="javascript:;">威王洁厕至尊宝洁厕块</a></p>
+        <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
+      </div>
+      <p class="storage-list-item-price">
+        ￥470.00
+      </p>
+      <p class="storage-list-item-quantity">
+        <strong>80</strong>箱
+      </p>
+    </div>
+    <div class="storage-list-item">
+      <p class="storage-list-item-serial">5</p>
+      <div class="storage-list-item-product">
+        <a href="javascript:;"><img src="../src/images/temp/q1.jpg" alt=""></a>
+        <p class="storage-list-item-title"><a href="javascript:;">威王洁厕至尊宝洁厕块</a></p>
+        <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
+      </div>
+      <p class="storage-list-item-price">
+        ￥470.00
+      </p>
+      <p class="storage-list-item-quantity">
+        <strong>80</strong>箱
+      </p>
+    </div>
+    <div class="storage-list-item">
+      <p class="storage-list-item-serial">6</p>
+      <div class="storage-list-item-product">
         <a href="javascript:;"><img src="../src/images/temp/q4.jpg" alt=""></a>
         <p class="storage-list-item-title"><a href="javascript:;">威王洁厕至尊宝洁厕块</a></p>
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
@@ -87,7 +115,63 @@
         <strong>80</strong>箱
       </p>
     </div>
+    <div class="storage-list-item">
+      <p class="storage-list-item-serial">7</p>
+      <div class="storage-list-item-product">
+        <a href="javascript:;"><img src="../src/images/temp/q3.jpg" alt=""></a>
+        <p class="storage-list-item-title"><a href="javascript:;">威王洁厕至尊宝洁厕块</a></p>
+        <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
+      </div>
+      <p class="storage-list-item-price">
+        ￥470.00
+      </p>
+      <p class="storage-list-item-quantity">
+        <strong>80</strong>箱
+      </p>
+    </div>
+    <div class="storage-list-item">
+      <p class="storage-list-item-serial">8</p>
+      <div class="storage-list-item-product">
+        <a href="javascript:;"><img src="../src/images/temp/q1.jpg" alt=""></a>
+        <p class="storage-list-item-title"><a href="javascript:;">威王洁厕至尊宝洁厕块</a></p>
+        <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
+      </div>
+      <p class="storage-list-item-price">
+        ￥470.00
+      </p>
+      <p class="storage-list-item-quantity">
+        <strong>80</strong>箱
+      </p>
+    </div>
+    <div class="storage-list-item">
+      <p class="storage-list-item-serial">9</p>
+      <div class="storage-list-item-product">
+        <a href="javascript:;"><img src="../src/images/temp/q4.jpg" alt=""></a>
+        <p class="storage-list-item-title"><a href="javascript:;">威王洁厕至尊宝洁厕块</a></p>
+        <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
+      </div>
+      <p class="storage-list-item-price">
+        ￥470.00
+      </p>
+      <p class="storage-list-item-quantity">
+        <strong>80</strong>箱
+      </p>
+    </div>
+    <div class="storage-list-item">
+      <p class="storage-list-item-serial">10</p>
+      <div class="storage-list-item-product">
+        <a href="javascript:;"><img src="../src/images/temp/q2.jpg" alt=""></a>
+        <p class="storage-list-item-title"><a href="javascript:;">威王洁厕至尊宝洁厕块</a></p>
+        <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
+      </div>
+      <p class="storage-list-item-price">
+        ￥470.00
+      </p>
+      <p class="storage-list-item-quantity">
+        <strong>80</strong>箱
+      </p>
+    </div>
   </div>
-  
+
   <-- include('../common/pagination.tpl') -->
 </div>

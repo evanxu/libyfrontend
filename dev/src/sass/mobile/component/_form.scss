@@ -1,0 +1,87 @@
+.form{
+  &-item{
+    position:relative;
+    display:flex;
+    padding-left:0;
+    padding:0 $gap;
+    min-height:0.3rem;
+    line-height:0.3rem;
+    font-size:14px;
+    color:$dark-text;
+  }
+
+  &-title{
+    @include relative(left auto top auto);
+    display:block;
+    width:100px;
+    height:30px;
+    line-height:30px;
+
+    & + p{
+      flex:auto;
+    }
+  }
+}
+
+.input{
+  flex:auto;
+  padding:0 0.1rem;
+  height:0.3rem;
+  border:1px solid $grey-border;
+  background:$light-background;
+  line-height:0.28rem;
+  font-size:14px;
+  box-sizing:border-box;
+
+  &-error{
+    border-color:$red;
+  }
+}
+
+.input-select{
+  padding-right:30px;
+
+  & + i{
+    margin-left:-30px;
+  }
+}
+
+.textarea{
+  height:100px;
+  line-height:20px;
+  padding:0 10px;
+  border:1px solid $grey-border;
+  background:$light-background;
+
+}
+.input-check{
+  display:none;
+
+  &:checked + span i{
+    display:block;
+    font-size:12px;
+    line-height:16px;
+  }
+
+  & + span{
+    @include size(15px, 15px);
+    display:inline-block;
+    vertical-align:middle;
+    border:1px solid $grey-border;
+    background:$light-background;
+    border-radius:3px;
+    cursor:pointer;
+    box-sizing:border-box;
+
+    i{
+    color:$base-color;
+    display:none;
+  }
+    }
+}
+
+.error{
+  color:$red;
+  margin-top:5px;
+  font-size:$font-size-base;
+}
