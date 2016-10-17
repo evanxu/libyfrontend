@@ -2,7 +2,7 @@
   <div class="box-title">
     <h3>
       <i class="iconfont">&#xe604;</i>
-      <span>订单详情1</span>
+      <span>订单详情</span>
     </h3>
   </div>
   <a href="javascript:;" class="order-detail-print">
