@@ -14,20 +14,24 @@
     overflow: hidden;
     font-size:$font-size-medium;
 
-    p{
-      color: #656565;
+    dl{
+      height: 30px;
+      line-height: 30px;
+      dt{
+        text-align: right;
+        width: 160px;
+        float: left;
+        color: $light-text;
+      }   
+      dd{
+        color: #656565;
+      }
     }
 
     &-top{
       width: 33.33%;
       float: left;
-      padding-right:75px;
       margin-top: 15px;
-
-      p{
-        line-height: 30px;
-        height: 30px;
-      }
 
       &:nth-child(2){
         padding-right:0;
@@ -45,7 +49,7 @@
         clear: both;
       }
 
-      p{
+      dl{
         line-height: 35px;
         height: 35px;
       }

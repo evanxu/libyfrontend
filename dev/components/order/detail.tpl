@@ -53,73 +53,29 @@
           <span>订单号码：15109928</span>
           <span>订单状态: 部分发货</span>
         </dt>
-        <dd class="order-detail-info-left">
-          <p>
-            <span>客户名称：</span>
-            十堰万捷贸易有限公司
-          </p>
-          <p>
-            <span>送达方：</span>
-            刘晓雪：沈阳市苏家屯迎春街238号（6000956）
-          </p>
-          <p>
-            <span>送货地址：</span>
-            沈阳市苏家屯迎春街238号（1002255）
-          </p>
-          <p>
-            <span>承运商：</span>
-            四平市通达运输有限公司（C220361238） 
-          </p>
-        </dd>
-        <dd class="order-detail-info-right">
-          <p>
-            <span>吨位上限：</span>
-            13
-          </p>
-          <p>
-            <span> 吨位下限：</span>
-            13
-          </p>
-          <p>
-            <span>方位上限：</span>
-            55
-          </p>
-          <p>
-            <span>请求发货日期：</span>
-            2016-09-09
-          </p>
-          <p>
-            <span>总数量（件）：</span>
-            15000
-          </p>
-          <p>
-            <span>已发货总数量（件）：</span>
-            5000
-          </p>
-          <p>
-            <span>总吨位（吨）：</span>
-            15000 
-          </p>
-          <p>
-            <span>已发货总吨位（吨）：</span>
-            5000 
-          </p>
-          <p>
-            <span>总体积（立方米）：</span>
-            15000
-          </p>
-          <p>
-            <span>已发货体积（立方米）：</span>
-            5000
-          </p>
-          <p>
-            <span>金额：</span>
-            ￥15,000 
-          </p>
-          <p>
-            <span>已发货金额：</span>
-            ￥5,000 
-          </p>
+        <dd class="order-detail-form">
+          <div class="order-detail-form-cell">
+          <dl><dt>客户名称：</dt><dd>十堰万界贸易有限公司</dd></dl>
+          <dl><dt>送达方：</dt><dd>刘晓雪：沈阳苏家屯迎春街232号(6009603)</dd></dl>
+          <dl><dt>送货地址：</dt><dd>沈阳苏家屯迎春街232号(6009603)</dd></dl>
+          <dl><dt>承运方：</dt><dd>沈阳苏家屯迎春街232号(6009603)</dd></dl>
+          </div>
+          <div class="order-detail-form-cell">
+            <dl><dt>吨位上限：</dt><dd>0</dd></dl>
+            <dl><dt>方位上限：</dt><dd>0</dd></dl>
+            <dl><dt>总数量(件)</dt><dd>0</dd></dl>
+            <dl><dt>总吨位(吨)：</dt><dd>0</dd></dl>
+            <dl><dt>总体积(立方米)：</dt><dd>0</dd></dl>
+            <dl><dt>金额：</dt><dd>0</dd></dl>
+          </div>
+          <div class="order-detail-form-cell">
+            <dl><dt>吨位下限：</dt><dd>13</dd></dl>
+            <dl><dt>请求发货日期：</dt><dd>5</dd></dl>
+            <dl><dt>已发货总数量(件)：</dt><dd>55</dd></dl>
+            <dl><dt>已发货总吨位(吨)：</dt><dd>55</dd></dl>
+            <dl><dt>已发货体积(立方米)：</dt><dd>55</dd></dl>
+            <dl><dt>已发货金额：</dt><dd>55</dd></dl>
+          </div>
         </dd>
       </dl>
     </div>

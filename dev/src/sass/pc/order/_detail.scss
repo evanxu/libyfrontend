@@ -140,46 +140,46 @@
       }
     }
 
-    dd{
-      float:left;
-      padding-top:25px;
+    .order-detail-form{
+      padding:$gap 0;
+      overflow: hidden;
+      font-size:$font-size-medium;
 
+      &-cell{
+        width: 30%;
+        float: left;
 
-      span{
-        @include absolute(top 0 left 0);
-        display:block;
-        text-align:right;
-      }
-    }
+        dl{
+          height: 30px;
+          line-height: 30px;
+          border:none;
+          dt{
+            text-align: right;
+            width: 200px;
+            float: left;
+            color: $light-text;
+            background:none;
+            line-height: 30px;
+          }   
+          dd{
+            color: #656565;
+          }
+        }
 
-    p{
-      position:relative;
-      margin-bottom:20px;
-      padding-left:110px;
-    }
+        &:first-child{
+          width: 40%;
 
-    &-left{
-      width:40%;
-
-      span{
-        width:100px;
-      }
-    }
-
-    &-right{
-      width:60%;
-
-      span{
-        width:150px;
-      }
-
-      p{
-        float:left;
-        width:50%;
-        padding-left:160px;
+          dt{
+            width: 120px;
+            padding-left: 0;
+          }
+        }
+        
       }
     }
   }
+
+
 
   &-lists{
     margin-bottom:40px;
