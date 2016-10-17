@@ -1,0 +1,336 @@
+%amount-base{
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+}
+$product-detail-description-color:#656565;
+$product-detail-amount-color:#878787;
+
+.product-detail{
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  background: #f8f8f8;
+
+  &-introduce{
+    overflow: hidden;
+    width: 1200px;
+    padding:25px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+
+    &-mobile-title{
+      display: none;
+    }
+
+    &-images{
+      float: left;
+      .preview{
+        width: 400px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center 0;
+      }
+      &-carousel{
+        padding:12px 0 12px 30px;
+        width: 400px;
+
+        li{
+          @include size(70px, 70px);
+          float: left;
+          margin-right: 15px;
+
+          &.curr{
+            a{
+              border-color:$base-color;
+            }
+          }
+        }
+
+        a{
+          @include size(100%, 100%);
+          display:block;
+          border:2px solid #fff;
+          box-sizing:border-box;
+
+          &:hover{
+            border-color:$base-color;
+          }
+
+          img{
+            @include size(66px,66px);
+            display: block;
+          }
+        }
+      }
+    }
+
+    &-description{
+      width: 700px;
+      margin-left: 40px;
+      float: left;
+
+      .title{
+        height: 40px;
+        font-size: 24px;
+        color: #656565;
+        font-weight: 700;
+        line-height: 40px;
+
+      }
+      .subtitle{
+        height: 28px;
+        font-size: 18px;
+        color:$red;
+        line-height: 28px;
+      }
+
+      .price{
+        @include size(100%,105px);
+        background: #f9f9f9;
+        margin: 30px 0 15px;
+        padding: 8px 10px 0;
+        
+        dl{
+          height: 30px;
+          line-height: 30px;  
+          color: $product-detail-description-color;        
+        }
+        .original{
+          
+        }
+        .sale{
+          font-size: 24px;
+          color: $red;
+          font-weight: 700;
+        }
+        .activity{
+          color: #c57d03;
+        }
+        .price-tit{
+          width: 80px;
+          display: block;
+          float: left;
+          text-align: right;
+          padding-right: 10px;
+        }
+      }
+
+      .parameter{
+        display: block;
+        overflow: hidden;
+        height: 105px;
+        width: 100%;
+        padding: 0 20px;
+
+        li{
+          line-height: 30px;
+          float: left;
+          @include size(330px,30px);
+          color: $product-detail-description-color;
+
+          span{
+            text-align: right;
+            display: block;
+            width: 60px;
+            float: left;
+          }
+        }
+      }
+
+
+      .amount{
+        width:100%;
+        text-align:center;
+        border-top:1px solid #e9ebf3;
+        border-bottom:1px solid #e9ebf3;
+        padding:15px 0;
+        overflow: hidden;
+
+        &-box{
+          @include size(100px, 34px);
+          margin:0 auto;
+          position:relative;
+          float: left;
+        }
+
+        &-minus,
+        &-plus{
+          @include size(30px, 30px);
+          @include absolute(top 2px);
+          display:block;
+          line-height:30px;
+          background:#f2f2f2;
+          color:#656565;
+          text-align:center;
+        }
+
+        &-minus{
+          left:2px;
+        }
+
+        &-plus{
+          right:2px;
+        }
+
+        &-input{
+          @include size(100px, 34px);
+          padding:0 35px;
+          line-height:34px;
+          text-align:center;
+          border:1px solid $grey-border;
+          box-sizing:border-box;
+        }
+
+        &-stock{
+          @extend %amount-base;
+          margin-left: 100px;
+          color: $product-detail-description-color;
+        }
+      }
+
+      .action{
+        overflow: hidden;
+        margin-top: 20px;
+
+        a{
+          display: block; 
+          font-size: 16px;
+          line-height: 40px;  
+          text-align: center; 
+          float: left;
+          height: 40px;
+        }
+
+        &-buy{
+          width: 180px;
+          color: #fff;
+          background: #e2293f;
+        }
+
+        &-collection{
+          width: 75px;
+          color: #c57d03;
+          margin-left: 25px;
+          
+          i{
+            @include size(26px,26px);
+            line-height:26px;
+          }
+        }
+      }
+    }
+  } 
+
+  &-service{
+    width: 1200px;
+    padding:40px 135px 15px;
+    margin: 0 auto; 
+
+    h2{
+      font-size: 18px;
+      color: #7a8290;
+    }
+    p{
+      line-height: 25px;
+      color: #7a8290;
+    }
+    .explain{
+      border-top:2px solid #7a8290;
+      padding-top: 15px;
+    }
+    h3{
+      color: #7a8290;
+      margin-top: 25px;
+    }
+  }
+
+  &-promotion-section{
+    height: 65px;
+    background: #f8f8f8;
+    padding: 25px 30px 15px 25px;
+    margin: 0 auto;
+    width: 1200px;
+
+    h2{
+      float: left;
+      font-size: 18px;
+      height: 25px;
+      line-height: 25px;
+      color: #656565;
+      font-weight:700;
+
+    }
+
+    a{
+      float: right;
+      height: 25px;
+      line-height: 25px;
+      color: #04a1e9;
+    }
+  }
+  &-promotion{
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom:$gap*3;
+
+    &-title{
+      height:80px;
+      line-height:100px;
+      font-size:$font-size-xlarge;
+      color:#656565;
+      background:$light-background;
+    }
+
+    &-list{
+      width: 25%;
+      float: left;
+      padding:50px 40px 0;
+      transition:transform 0.3s ease-in;
+
+      &:hover{
+        transform:translateY(-10px);
+
+        a{
+          color:$base-color;
+        }
+      }
+
+      a{
+        display: block;
+      }
+
+      img{
+        display: block;
+        margin:0 auto;
+        @include size(215px,215px);
+      }
+    }
+
+    &-price{
+      font-size:$font-size-medium;
+      color: $red;
+      font-weight: 700;
+      padding: 10px 0;
+      margin: 0 auto;
+    }
+
+    &-tit{
+      font-size:$font-size-medium;
+      color: #656565;
+      padding: 0;
+      margin: 0 auto;
+    }
+    &-tag{
+      font-size: 12px;
+      color: $light-text;
+      padding: 5px 0;
+      margin: 0 auto;
+    }
+  }
+
+}

@@ -1,0 +1,59 @@
+.account-wallet{
+  @include size($box-left-width+$gap, 250px+$gap);
+  position:relative;
+  overflow:hidden;
+  border-right:$gap solid $light-background;
+  border-bottom:$gap solid $light-background;
+
+  &-content{
+
+    li{
+      @include size(100%/3, 198px);
+      float:left;
+      border-right:1px solid $grey-border;
+      text-align:center;
+
+      &:last-child{
+        border:0;
+
+        i{
+          font-size:50px;
+        }
+      }
+    }
+
+    i{
+      display:block !important;
+      height:70px;
+      line-height:70px;
+      margin:0 auto 10px;
+      font-size:60px;
+      color:$base-color;
+    }
+
+    a{
+      @extend %block-a;
+      position:relative;
+      padding-top:40px;
+      cursor:pointer;
+
+      @keyframes hoverMove{
+        0%  {transform:translateY(0)}
+        50% {transform:translateY(-10px)}
+        100% {transform:translateY(0)}
+      }
+
+      &:hover{
+        background:$light-blue;
+
+        i{
+          animation:hoverMove 0.9s linear infinite;
+        }
+      }
+    }
+  }
+
+  &-count{
+    font-size:$font-size-xlarge;
+  }
+}

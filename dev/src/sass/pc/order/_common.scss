@@ -1,0 +1,76 @@
+.order-title{
+  position:relative;
+  padding:20px 0 40px;
+  font-size:22px;
+  color:#656565;
+  background:$light-background;
+}
+
+.order-progress{
+  @include absolute(right 40px top 20px);
+  @include size(550px, 16px);
+  border:5px solid #f7f7f7;
+  background:#bec2d3;
+
+  &-curr{
+    @include absolute(top -5px left 0);
+    display:block;
+    height:16px;
+    border:5px solid #ffecca;
+    background:#ffa917;
+    box-sizing:border-box;
+  }
+
+  &-step{
+    position:relative;
+
+    li{
+      @include size(44px, 49px);
+      @include absolute(top -22px left -24px);
+      line-height:49px;
+      color:$white-text;
+      text-align:center;
+      background:url(#{$background-root}/bg/order-step.png) no-repeat;
+      font-size:$font-size-base;
+
+      p{
+        @include absolute(bottom -40px left 50%);
+        width:100px;
+        margin-left:-50px;
+        color:#7b819d;
+      }
+
+      &.active{
+        background:url(#{$background-root}/bg/order-step-curr.png) no-repeat;
+
+        p{
+          color:#c57d03;
+        }
+      }
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      li{
+        background:url(#{$background-root}/bg/order-step@2x.png) no-repeat;
+        background-size:cover;
+
+        &.active{
+          background:url(#{$background-root}/bg/order-step-curr@2x.png) no-repeat;
+          background-size:cover;
+        }
+      }
+    }
+
+    &-item{
+      &1{
+        margin-left:33.33%;
+      }
+      &2{
+        margin-left:66.66%;
+      }
+      &3{
+        margin-left:100%;
+      }
+    }
+  }
+}

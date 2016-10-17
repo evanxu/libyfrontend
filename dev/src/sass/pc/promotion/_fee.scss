@@ -1,0 +1,189 @@
+.promotion-fee{
+  min-height:$catalog-height;
+  
+  &-chart{
+    @include size(100%, 300px);
+    position:relative;
+    padding-left:450px;
+    padding-top:90px;
+    color:#656565;
+
+    &-detail{
+      @include size(300px, 300px);
+      @include absolute(top 50% left 100px);
+      margin-top:-150px;
+    }
+
+    &-text{
+      dd,
+      dt{
+        @include size(260px, 30px);
+      }
+
+      dt{
+        margin-bottom:$gap;
+        font-size:$font-size-xlarge;
+      }
+
+      dd{
+        position:relative;
+        height:20px;
+        margin-bottom:10px;
+        font-size:$font-size-medium;
+      }
+    }
+  }
+
+  &-lists{
+    margin:$gap;
+    border:1px solid $light-border;
+    border-bottom:0;
+
+    &-tab{
+      background:$white-background;
+      overflow: hidden;
+
+      a{
+        @include size(auto, 50px);
+        position:relative;
+        min-width:100px;
+        padding:0 10px;
+        float: left;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        color: $grey-text;
+
+        &.curr,
+        &:hover{
+          background: #ebf4f8;
+          color: $base-color;
+
+          &:after{
+            @include size(0, 0);
+            @include absolute(bottom 0 left 50%);
+            content:"";
+            display:block;
+            border-style:solid;
+            border-width:5px;
+            border-color:transparent transparent $base-color;
+            margin-left:-5px;
+          }
+        }
+      }
+    }
+
+    dt{
+      height:45px;
+      line-height:45px;
+      background:#f9f9f9;
+      font-size:$font-size-medium;
+    }
+
+  }
+
+  &-item{
+    padding:$gap 0;
+    overflow:hidden;
+    border-bottom:1px solid $light-border;
+
+    p{
+      line-height:20px;
+    }
+
+    &-name,
+    &-amount,
+    &-price,
+    &-date,
+    &-status{
+      float:left;
+      width:15%;
+    }
+
+    &-name{
+      width:30%;
+      padding-left:70px;
+      font-size:$font-size-medium;
+    }
+
+    &-amount{
+      width:25%;
+      text-align:center;
+    }
+
+    &-date,
+    &-status{
+      text-align:center;
+    }
+
+    strong{
+      font-weight:400;
+      color:$base-color;
+    }
+    
+  }
+
+  &-bar{
+    @include size(80px, 7px);
+    position:relative;
+    margin:5px auto;
+    overflow:hidden;
+    border-width:1px;
+    border-style:solid;
+    border-radius:10px;
+
+    i{
+      @include absolute(top 0 left 0);
+      display:block;
+      height:10px;
+      text-indent:-9999px;
+    }
+
+    &-enough{
+      border-color:$base-color;
+
+      i{
+        background:$base-color;
+      }
+    }
+
+    &-enough{
+      border-color:$base-color;
+      
+      i{
+        background:$base-color;
+      }
+
+      & + p{
+        color:$base-color;
+      }
+    }
+
+    &-less{
+      border-color:#8dc63f;
+      color:#8dc63f;
+
+      i{
+        background:#8dc63f;
+      }
+
+      & + p{
+        color:#8dc63f;
+      }
+    }
+
+    &-none{
+      border-color:#bec2d3;
+      color:#bec2d3;
+
+      i{
+        background:#bec2d3;
+      }
+
+      & + p{
+        color:#bec2d3;
+      }
+    }
+  }
+
+}

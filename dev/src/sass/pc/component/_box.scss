@@ -1,0 +1,23 @@
+.box-title{
+  @include size(100%, 52px);
+  padding: 0 $gap;
+  line-height:52px;
+  font-size:$font-size-medium;
+  border-bottom:1px solid $dark-border;
+
+  i{
+    color:$base-color;
+    font-size:22px;
+  }
+
+  .view-more{
+    @include absolute(right $gap top 0);
+    color:$light-text;
+
+    i{
+      color:$light-text;
+      font-size:12px;
+    }
+  }
+}
+

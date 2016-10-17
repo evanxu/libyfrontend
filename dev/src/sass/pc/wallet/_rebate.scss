@@ -1,0 +1,215 @@
+.wallet-rebate{
+  min-height:$catalog-height;
+
+  &-content{
+    padding:75px $gap $gap;
+
+    h3{
+      width:850px;
+      margin:0 auto $gap*4;
+      font-size:$font-size-medium;
+      color:#656565;
+
+      span{
+        color:#ffa917;
+      }
+
+      strong{
+        font-size:24px;
+      }
+    }
+  }
+
+  &-progress{
+    @include size(800px, 26px);
+    position:relative;
+    margin:0 auto 120px;
+    border:10px solid #f7f7f7;
+    background:#bec2d3;
+
+    &-curr{
+      @include absolute(top -10px left 0);
+      display:block;
+      height:26px;
+      border:10px solid #ffecca;
+      background:#ffa917;
+      border-radius:0 10px 10px 0;
+      box-sizing:border-box;
+      transition:width 2.5s ease;
+    }
+  }
+
+  &-step{
+    position:relative;
+
+    li{
+      @include size(52px, 58px);
+      @include absolute(top -29px left -26px);
+      line-height:58px;
+      color:$white-text;
+      text-align:center;
+      background:url(#{$background-root}/bg/step-grey.png) no-repeat;
+
+      &.active{
+        background:url(#{$background-root}/bg/step-curr.png) no-repeat;
+      }
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      li{
+        background:url(#{$background-root}/bg/step-grey@2x.png) no-repeat;
+        background-size:cover;
+
+        &.active{
+          background:url(#{$background-root}/bg/step-curr@2x.png) no-repeat;
+          background-size:cover;
+        }
+      }
+    }
+
+    &-item{
+      &1{
+        margin-left:25%;
+      }
+      &2{
+        margin-left:50%;
+      }
+      &3{
+        margin-left:75%;
+      }
+      &4{
+        margin-left:100%;
+      }
+    }
+  }
+
+  &-tip{
+    @include absolute(top -75px);
+    width:160px;
+    padding:13px 20px;
+    margin-left:-80px;
+    text-align:center;
+    color:#c57d03;
+    background:#fff4e0;
+
+    &:after{
+      @include absolute(bottom -9px left 50%);
+      @include size(0, 0);
+      content:"";
+      display:block;
+      margin-left:-5px;
+      border-width:5px;
+      border-style:solid;
+      border-color:#fff4e0 transparent transparent;
+    }
+  }
+
+  &-subtip{
+    @include absolute(bottom -95px);
+    width:160px;
+    padding:13px 20px;
+    margin-left:-80px;
+    color:#7b819d;
+    background:#f3f3f3;
+
+    &:after{
+      @include absolute(top -9px left 50%);
+      @include size(0, 0);
+      content:"";
+      display:block;
+      margin-left:-5px;
+      border-width:5px;
+      border-style:solid;
+      border-color:transparent transparent #f3f3f3;
+    }
+  }
+
+  &-lists{
+    margin:$gap;
+    overflow: hidden;
+    border: 1px solid $grey-border;
+
+    dt{
+      height:50px;
+      overflow:hidden;
+      background: #f9f9f9;
+    }
+
+    &-tab{
+      background:$white-background;
+      overflow: hidden;
+
+      a{
+        @include size(auto, 50px);
+        position:relative;
+        min-width:100px;
+        padding:0 10px;
+        float: left;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        color: $grey-text;
+
+        &.curr,
+        &:hover{
+          background: #ebf4f8;
+          color: $base-color;
+
+          &:after{
+            @include size(0, 0);
+            @include absolute(bottom 0 left 50%);
+            content:"";
+            display:block;
+            border-style:solid;
+            border-width:5px;
+            border-color:transparent transparent $base-color;
+            margin-left:-5px;
+          }
+        }
+      }
+    }
+
+    dd{
+      overflow: hidden;
+
+      &:nth-child(odd){
+        background: #f0fafe;
+      }
+
+      a{
+        color:$base-color;
+      }
+    }
+
+    p{
+      float: left;
+      width: 25%;
+      height: 55px;
+      padding:0 $gap;
+      line-height: 55px;
+      font-size: 14px;
+      color: #656565;
+
+      &:first-child{
+        padding-left:$gap*2;
+      }
+
+      &:nth-child(2){
+        width:35%;
+      }
+
+      &:nth-child(3){
+        width:15%;
+        font-weight:700;
+        color:#333;
+        text-align:right;
+      }
+
+      &:nth-child(4){
+        padding-right:$gap*2;
+        text-align:right;
+      }
+    }
+  }
+}
+

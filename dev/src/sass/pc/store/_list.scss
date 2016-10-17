@@ -1,0 +1,180 @@
+.store-list{
+  background:$white-background;
+  min-height:$catalog-height;
+
+  &-bar{
+    width:650px;
+    margin:100px auto;
+    font-size:$font-size-medium;
+  }
+
+  &-completion{
+    color:$base-color;
+  }
+  
+  &-target{
+    float:right;
+  }
+
+  &-progress{
+    @include size(650px, 14px);
+    position:relative;
+    margin-bottom:10px;
+    border:1px solid $grey-border;
+    background:#f9f9f9;
+    border-radius:10px;
+    overflow:hidden;
+
+    &-curr{
+      @include absolute(top 0 left 0);
+      display:block;
+      height:15px;
+      background:url(#{$background-root}/bg/bg-progress.png) repeat;
+      background-size:28px 15px;
+      box-sizing:border-box;      
+    }
+  }
+
+  &-filter{
+    margin:$gap;
+    color:#656565;
+
+    span,
+    .input{
+      display:inline-block;
+      vertical-align:middle;
+    }
+
+    i{
+      margin-right:20px;
+    }
+
+    .input{
+      width:170px;
+    }
+
+    &-search{
+      float:right;
+      margin-right:-5px;
+
+      i{
+        margin-left:-30px; 
+        margin-right:5px; 
+      }
+    }
+  }
+
+  &-content{
+    margin:$gap;
+    border:1px solid $light-border;
+    border-bottom:0;
+    font-size:$font-size-medium;
+    clear:both;
+  }
+
+  &-title{
+    line-height:40px;
+    overflow:hidden;
+    background:#f9f9f9;
+    border-bottom:1px solid $light-border;
+
+    .store-list-item-serial{
+      line-height:40px;
+
+      &:before{
+        display:none;
+      }
+    }
+  }
+
+  &-item{
+    padding:$gap 0;
+    width:100%;
+    color:#656565;
+    overflow:hidden;
+    border-bottom:1px solid $light-border;
+
+    &-serial,
+    &-detail,
+    &-target{
+      float:left;
+      width:25%;
+      text-align:center;
+    }
+    
+    &-serial{
+      position:relative;
+      width:10%;
+      line-height:85px;
+
+      span{
+        position:relative;
+        color:#fff;
+        font-size:$font-size-base;
+      }
+
+      &:before{
+        @include size(40px, 40px);
+        @include absolute(top 50% left 50%);
+        content:"\e63d";
+        font-family:"iconfont";
+        margin-top:-28px;
+        margin-left:-20px;
+        line-height:40px;
+        font-size:36px;
+      }
+    }
+
+    &1 &-serial{
+      &:before{
+        color:#07aaeb;
+      }
+    }
+    &1 &-status{
+      color:#07aaeb;
+    }
+    
+    &2 &-serial{
+      &:before{
+        color:#f7941d;
+      }
+    }
+    &2 &-status{
+      color:#f7941d;
+    }
+
+    &3 &-serial{
+      &:before{
+        color:#8dc63f;
+      }
+    }
+    &3 &-status{
+      color:#8dc63f;
+    }
+
+    &-detail{
+      width:65%;
+      text-align:left;
+      font-size:$font-size-base;
+
+      img{
+        @include size(85px,85px);
+        display:block;
+        float:left;
+        margin-right:$gap*2;
+      }
+      
+    }
+
+    &-target strong{
+      font-size:22px;
+    }
+
+    &-status,
+    &-title{
+      margin-bottom:5px;
+      font-size:$font-size-medium;
+    }
+  }
+}
+

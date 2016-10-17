@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;AAIZ,eAAe;AAQf,WAAW;AA+BX,iBAAiB;AAQjB,gBAAgB;ACnDhB,YAAY",
+"sources": ["../sass/base/_config.scss","../sass/mobile/_config.scss"],
+"names": [],
+"file": "index-mobile.css"
+}

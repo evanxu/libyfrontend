@@ -1,0 +1,29 @@
+.wallet{
+  &-tab{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #bec2d3;
+
+    li{
+      float: left;
+    }
+
+    a{
+      @include size(auto, 50px);
+      display: block;
+      min-width:70px;
+      padding:0 20px;
+      border-bottom: 2px solid #fff;
+      font-size: 14px;
+      line-height: 50px;
+      text-align: center;
+      color: #656565;
+    }
+
+    li.curr a,
+    a:hover{
+      border-bottom: 2px solid #07aaeb;
+      color: #07aaeb;
+    }
+  }
+}

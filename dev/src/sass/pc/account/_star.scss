@@ -1,0 +1,60 @@
+.account-star{
+  @include size($box-right-width, 370px+$gap);
+  position:relative;
+  overflow:hidden;
+  border-bottom:$gap solid $light-background;
+
+  &-item{
+    padding:12px;
+    height:64px;
+    border-bottom:1px solid #ebebeb;
+
+    &:hover{
+      background:#f0fafe;
+    }
+
+    &:last-child{
+      border:0;
+    }
+
+    img{
+      @include size(40px, 40px);
+      float:left;
+      border-radius:100%;
+    }
+  }
+
+  &-detail,
+  &-target{
+    line-height:22px;
+  }
+
+  &-up{
+    color:$base-color;
+  }
+
+  &-down{
+    color:$red;
+  }
+
+  &-up i,
+  &-down i{
+    font-size:$font-size-base;
+    margin-top:-2px;
+  }
+
+  &-detail{
+    float:left;
+    margin:0 $gap;
+  }
+
+  &-target{
+    float:right;
+    padding-left:35px;
+    position:relative;
+
+    .icon{
+      @include absolute(left 0 top 5px);
+    }
+  }
+}

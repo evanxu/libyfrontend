@@ -1,0 +1,136 @@
+
+.order-delivery{
+  margin-left:-$catalog-width;
+
+  &-progress{
+    @include size(650px, 23px);
+    position:relative;
+    margin:0 auto 100px;
+    border:7px solid #f7f7f7;
+    border-left:0;
+    border-right:0;
+    background:#bec2d3;
+
+    &-curr{
+      @include absolute(top -7px left 0);
+      display:block;
+      height:23px;
+      border:7px solid #ffecca;
+      background:#ffa917;
+      border-radius:0 10px 10px 0;
+      box-sizing:border-box;
+    } 
+  }
+
+  &-step{
+    position:relative;
+
+    li{
+      @include size(52px, 58px);
+      @include absolute(top -26px left -29px);
+      line-height:58px;
+      color:$white-text;
+      text-align:center;
+      background:url(#{$background-root}/bg/step-grey.png) no-repeat;
+      font-size:$font-size-base;
+
+      p{
+        @include absolute(top -45px left 50%);
+        width:100px;
+        margin-left:-50px;
+        color:#7b819d;
+      }
+
+      strong{
+        @include absolute(bottom -45px left 50%);
+        width:180px;
+        margin-left:-90px;
+        color:#7b819d;
+        font-weight:400;
+      }
+
+       &.active{
+        background:url(#{$background-root}/bg/step-curr.png) no-repeat;
+
+        p{
+          color:#c57d03;
+        }
+      }
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      li{
+        background:url(#{$background-root}/bg/step-grey@2x.png) no-repeat;
+        background-size:cover;
+
+        &.active{
+          background:url(#{$background-root}/bg/step-curr@2x.png) no-repeat;
+          background-size:cover;
+        }
+      }
+    }
+
+    &-item{
+      &1{
+        margin-left:33.33%;
+      }
+      &2{
+        margin-left:66.66%;
+      }
+      &3{
+        margin-left:100%;
+      }
+    }
+  }
+  
+  &-content{
+    padding:85px 100px 45px;
+  }
+
+  &-info{
+    width:970px;
+    margin:0 auto $gap*2;
+    border:1px solid $light-border;
+    color:#656565;
+
+    h3{
+      height:40px;
+      padding:0 10px;
+      font-size:$font-size-medium;
+      background:#f9f9f9;
+      line-height:40px;
+
+      a{
+        float:right;
+        color:$base-color;
+        font-size:$font-size-base;
+      }
+    }
+  }
+
+  &-lists{
+    padding:25px 120px;
+
+    li{
+      position:relative;
+      padding-left:25px;
+      margin-bottom:15px;
+
+      &:last-child{
+        margin:0;
+      }
+
+      &:before{
+        @include size(4px, 4px);
+        @include absolute(top 50% left 0);
+        content:"";
+        display:block;
+        margin-top:-2px;
+        background:#656565;
+        border-radius:100%;
+      }
+    }
+  }
+
+}
+
