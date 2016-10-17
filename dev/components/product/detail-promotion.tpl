@@ -1,5 +1,5 @@
 <div class="product-detail-promotion-section">
-	<h2>套餐产品1</h2>
+	<h2>套餐产品</h2>
 </div>
 
 <ul class="product-detail-promotion">
