@@ -1,6 +1,9 @@
 <div class="order-success">
   <div class="order-title">
-    <span>提交成功</span>
+    <a href="homepage.html">
+      <img src="../src/images/bg/bg-logo.png" width="100%">
+    </a>
+    <span class="order-title-text">提交成功</span>
     <div class="order-progress">
       <i class="order-progress-curr" style="width:100%;">
       <!-- order-progress-curr根据当前的步骤决定，33.33% * setp -->
@@ -8,7 +11,7 @@
       <ul class="order-progress-step">
         <li class="order-progress-step-item0 active">
           <span>1</span>
-          <p>我的购物车</p>
+          <p>我的进货单</p>
         </li>
         <li class="order-progress-step-item1 active">
           <span>2</span>

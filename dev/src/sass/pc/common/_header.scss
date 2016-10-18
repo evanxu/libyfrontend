@@ -1,75 +1,7 @@
 /*header*/
 $header-grey:  rgb(149,149,149);
-/*header*/
-.header-top{
-  width: 100%;
-  overflow: hidden;
-  background: rgb(246,246,246);
-  color: rgb(149,149,149);
-  height: 35px;
-  line-height: 35px;
 
-  .header-content{
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    background: rgb(246,246,246);
-  }
-
-  a{
-    color: rgb(149,149,149);
-    height: 35px;
-    line-height: 35px;
-  }
-  .header-left{
-    float: left;
-
-    li{
-      float: left;
-      display: block;
-      margin-left: 23px;
-
-      &:first-child{
-        margin-left: 0;
-      }
-    }
-
-    .news{
-      color: rgb(54,54,54);
-      font-weight: bold;
-    }
-  }
-
-  .vip{
-    color: rgb(255,242,0);
-    background: rgb(238,28,36);
-    padding: 0 2px;
-    margin-left: 4px;
-  }
-
-  .header-right{
-    float: right;
-
-    li{
-      float: left;
-      display: block;
-      margin-left: 23px;
-    }
-
-    .num{
-      color: rgb(255,0,0);
-    }
-  }
-
-  .header-cart{
-    margin-top:-3px;
-    color:$base-color;
-    font-size:18px;
-  }
-
-}
-
-.header-bottom{
+.header{
   margin:0 auto;
   width: 1200px;
   height: 130px;

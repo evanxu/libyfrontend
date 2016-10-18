@@ -1,6 +1,9 @@
 <div class="order-check">
   <div class="order-title">
-    <span>填写核对订单信息</span>
+    <a href="homepage.html">
+      <img src="../src/images/bg/bg-logo.png" width="100%">
+    </a>
+    <span class="order-title-text">填写核对订单信息</span>
     <div class="order-progress">
       <i class="order-progress-curr" style="width:33.33%">
       <!-- order-progress-curr根据当前的步骤决定，33.33% * (setp-1) -->
@@ -8,7 +11,7 @@
       <ul class="order-progress-step">
         <li class="order-progress-step-item0 active">
           <span>1</span>
-          <p>我的购物车</p>
+          <p>我的进货单</p>
         </li>
         <li class="order-progress-step-item1 active">
           <span>2</span>
@@ -157,7 +160,7 @@
       <div class="order-check-checkout">
         <a href="javascript:;">
           <i class="iconfont">&#xe62c;</i>
-          <span>返回购物车修改</span>
+          <span>返回进货单修改</span>
         </a>
         <!-- demo页面，临时加入onclick事件 -->
         <input type="button" class="button button-red" value="保存订单" onclick="javascript:location.href='order-waybill.html'">

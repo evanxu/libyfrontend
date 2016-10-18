@@ -3,10 +3,12 @@ $order-success-pl:  270px;
 $order-success-color: #656565;
 
 .order-success{
-  margin-left:-170px;
+  margin-left:-$catalog-width;
+  background:$light-background;
 
   &-content{
     padding: 0 $order-success-pr 0 $order-success-pl;
+    background:#fff;
 
     h2{
       padding-top:65px;

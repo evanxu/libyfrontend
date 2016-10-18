@@ -1,13 +1,16 @@
 <div class="order-cart">
   <div class="order-title">
-    <span>我的购物车</span>
+    <a href="homepage.html">
+      <img src="../src/images/bg/bg-logo.png" width="100%">
+    </a>
+    <span class="order-title-text">我的进货单</span>
     <div class="order-progress">
       <i class="order-progress-curr">
       </i>
       <ul class="order-progress-step">
         <li class="order-progress-step-item0 active">
           <span>1</span>
-          <p>我的购物车</p>
+          <p>我的进货单</p>
         </li>
         <li class="order-progress-step-item1">
           <span>2</span>

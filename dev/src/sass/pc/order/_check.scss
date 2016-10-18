@@ -1,7 +1,10 @@
 .order-check{
   margin-left:-$catalog-width;
+  background:$light-background;
 
   &-content{
+    min-height:$catalog-height;
+    background:#fff;
   }
 
   &-info{
