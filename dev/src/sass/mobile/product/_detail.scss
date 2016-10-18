@@ -44,7 +44,7 @@ $product-ssdetail-amount-color:#878787;
         margin-top: 0.4rem;
 
         img{
-          width: 100%;
+          @include size(100%,auto);
         }
       }
 
@@ -62,15 +62,15 @@ $product-ssdetail-amount-color:#878787;
       flex-direction: column;
 
       .title{
-        height: 0.2rem;
         font-size: 14px;
         line-height: 0.2rem;
+        padding-right: 1rem;
 
       }
       .subtitle{
-        height: 0.2rem;
         font-size: 12px;
         line-height: 0.2rem;
+        padding-right: 1rem;
       }
 
       .price{
@@ -92,7 +92,11 @@ $product-ssdetail-amount-color:#878787;
           }
 
           dd{
-            margin-top: 0.1rem;
+            margin-top: 0.05rem;
+          }
+
+          .activity{
+            margin-top: 15px;
           }
         }
 
@@ -144,6 +148,14 @@ $product-ssdetail-amount-color:#878787;
           order:1;
         }
       }
+    }
+  }
+
+  &-introduction{
+    @include size(100%,auto);
+
+    img{
+      padding-bottom: 0.2rem;
     }
   }
 

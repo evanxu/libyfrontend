@@ -1,179 +1,94 @@
 .store-list{
-  background:$white-background;
-  min-height:$catalog-height;
+  display: flex;
+  flex-flow: row wrap;
 
   &-bar{
-    width:650px;
-    margin:100px auto;
-    font-size:$font-size-medium;
-  }
+    order: 1;
+    width: 100%;
+    padding: 0 0.1rem;
+    margin: 0.5rem 0 0.2rem;
 
-  &-completion{
-    color:$base-color;
-  }
-  
-  &-target{
-    float:right;
   }
 
   &-progress{
-    @include size(650px, 14px);
-    position:relative;
-    margin-bottom:10px;
-    border:1px solid $grey-border;
-    background:#f9f9f9;
-    border-radius:10px;
-    overflow:hidden;
+    width: 100%;
+    padding: 0 0.1rem;
+  }
 
-    &-curr{
-      @include absolute(top 0 left 0);
-      display:block;
-      height:15px;
-      background:url(#{$background-root}/bg/bg-progress.png) repeat;
-      background-size:28px 15px;
-      box-sizing:border-box;      
-    }
+  .box-title{
+    order: 0;
+    flex: 1;
   }
 
   &-filter{
-    margin:$gap;
     color:#656565;
-
-    span,
-    .input{
-      display:inline-block;
-      vertical-align:middle;
-    }
-
-    i{
-      margin-right:20px;
-    }
-
-    .input{
-      width:170px;
-    }
-
-    &-search{
-      float:right;
-      margin-right:-5px;
-
+    order: 0;
+    border-bottom: 1px solid #c2c2c2;
+    margin: 0;
+    padding: 0.18rem 0.15rem 0.15rem 0;
+    flex: 0 0 60%;
+    
+    form{
+      display: flex;
+      justify-content: flex-end; 
+        
       i{
-        margin-left:-30px; 
-        margin-right:5px; 
+        margin: 0;
+        color: #ebebeb;
+        padding:0 0.05rem;
       }
+    }
+
+    .input,
+    .button{
+      display: none;
+    }
+    &-search{
+      display: none;
     }
   }
 
   &-content{
-    margin:$gap;
-    border:1px solid $light-border;
-    border-bottom:0;
-    font-size:$font-size-medium;
-    clear:both;
-  }
-
-  &-title{
-    line-height:40px;
-    overflow:hidden;
-    background:#f9f9f9;
-    border-bottom:1px solid $light-border;
-
-    .store-list-item-serial{
-      line-height:40px;
-
-      &:before{
-        display:none;
-      }
-    }
+    order: 1;
+    margin: 0;
   }
 
   &-item{
-    padding:$gap 0;
-    width:100%;
-    color:#656565;
-    overflow:hidden;
-    border-bottom:1px solid $light-border;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 
-    &-serial,
-    &-detail,
-    &-target{
-      float:left;
-      width:25%;
-      text-align:center;
-    }
-    
     &-serial{
-      position:relative;
-      width:10%;
-      line-height:85px;
-
-      span{
-        position:relative;
-        color:#fff;
-        font-size:$font-size-base;
-      }
-
-      &:before{
-        @include size(40px, 40px);
-        @include absolute(top 50% left 50%);
-        content:"\e63d";
-        font-family:"iconfont";
-        margin-top:-28px;
-        margin-left:-20px;
-        line-height:40px;
-        font-size:36px;
-      }
+      flex: 0 0 15%;
     }
-
-    &1 &-serial{
-      &:before{
-        color:#07aaeb;
-      }
-    }
-    &1 &-status{
-      color:#07aaeb;
-    }
-    
-    &2 &-serial{
-      &:before{
-        color:#f7941d;
-      }
-    }
-    &2 &-status{
-      color:#f7941d;
-    }
-
-    &3 &-serial{
-      &:before{
-        color:#8dc63f;
-      }
-    }
-    &3 &-status{
-      color:#8dc63f;
-    }
-
     &-detail{
-      width:65%;
-      text-align:left;
-      font-size:$font-size-base;
-
-      img{
-        @include size(85px,85px);
-        display:block;
-        float:left;
-        margin-right:$gap*2;
+      flex: 0 0 60%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+  
+      a{
+        flex: 0 0 35%;
+        margin-right: 5%;
       }
-      
-    }
+      img{
+        width: 100%;
+        height: auto;
+      }
 
-    &-target strong{
-      font-size:22px;
     }
+    &-txt{
+      flex: 0 0 60%; 
+      padding: 0 0.05rem;
 
-    &-status,
-    &-title{
-      margin-bottom:5px;
-      font-size:$font-size-medium;
+      &-introduction{
+        height: 0.48rem;
+        line-height: 0.16rem;
+        overflow: hidden;
+      }       
+    }
+    &-target{
+      flex: 0 0 25%;
     }
   }
 }
