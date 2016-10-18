@@ -1,3 +1,5 @@
 node_modules/
 build
 .sass-cache/
+dev/views/
+dev/src/css/
