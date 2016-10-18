@@ -1,4 +1,85 @@
 .pagination {
-  display: none;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 15px;
+  height:35px;
+  float: right;
+
+  .items {
+      float: left;
+
+      .item {
+          float: left;
+          margin-left: 3px;
+          -webkit-transition: all .1s linear;
+          -moz-transition: all .1s linear;
+          -o-transition: all .1s linear;
+          transition: all .1s linear;
+
+          a {
+              display: inline-block;
+              font-size: 14px;
+              border: solid 1px #e8e8e8;
+              @include size(33px, 33px);
+              line-height: 33px;
+              text-align: center;
+              color: #666666;
+
+              &:hover {
+                  color: #fff;
+                  background: #069de3;
+              }
+          }
+
+          .pagination-dot {
+              display: inline-block;
+              font-size: 14px;
+              @include size(35px, 35px);
+              line-height: 35px;
+              text-align: center;
+              color: #666666;
+          }
+      }
+      .pagination-prev {
+          margin-right: 2px;
+      }
+      .pagination-next {
+          margin-left: 5px;
+      }
+      .pagination-active {
+          color: #fff;
+          background: #069de3;
+
+          a{
+            color:#fff;
+          }
+      }
+  }
+
+  &-form {
+    float: left;
+    margin-left: 30px;
+
+    span,
+    input {
+        @include size(35px, 34px);
+        display: inline;
+        line-height: 34px;
+        background: #fff;
+        width: 50px;
+        margin: 0 3px;
+        color: #000;
+        text-align:center;
+    }
+  }
+  &-btn {
+      display: inline-block;
+      border: solid 1px #e8e8e8;
+      @include size(50px, 34px);
+      line-height: 32px;
+      color: #666;
+      font-size:12px;
+      box-sizing:border-box;
+  }
 }
 

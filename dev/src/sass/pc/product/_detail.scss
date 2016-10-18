@@ -73,15 +73,18 @@ $product-detail-amount-color:#878787;
       float: left;
 
       .title{
+        height: 40px;
         font-size: 24px;
         color: #656565;
         font-weight: 700;
-        padding: 10px 0;
+        line-height: 40px;
 
       }
       .subtitle{
+        height: 28px;
         font-size: 18px;
         color:$red;
+        line-height: 28px;
       }
 
       .price{
@@ -221,18 +224,6 @@ $product-detail-amount-color:#878787;
     }
   }
 
-  &-introduction{
-    @include size(1200px,auto);
-    margin: 0 auto;
-    background:#fff;
-
-    img{
-      display: block;
-      width: 100%;
-      padding-bottom: 45px;
-    }
-  }
-
   &-service{
     width: 1200px;
     padding:40px 0 15px;
@@ -269,6 +260,7 @@ $product-detail-amount-color:#878787;
       height: 25px;
       line-height: 25px;
       color: #656565;
+      font-weight:700;
 
     }
 
