@@ -1,16 +1,22 @@
 .order-title{
-  position:relative;
-  padding:20px 0 40px;
-  font-size:22px;
-  color:#656565;
-  background:$light-background;
+  padding:0.3rem 0 0.6rem;
+  margin:0;
+  background:#f6f6f6;
+  overflow:hidden;
+
+  a{
+    display:none;
+  }
+
+  &-text{
+    display:none;
+  }
 }
 
 .order-progress{
-  @include absolute(right 40px top 20px);
-  @include size(550px, 16px);
-  border:5px solid #f7f7f7;
-  background:#bec2d3;
+  @include relative(right 0 top 0);
+  @include size(80%, 16px);
+  margin:0 auto;
 
   &-curr{
     @include absolute(top -5px left 0);

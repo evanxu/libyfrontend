@@ -2,9 +2,13 @@
   width:100%;
   margin:0 auto;
   padding-left:0;
+  padding-bottom:$footer-mobile-height;
   position:relative;
   border:0;
 }
 .m-hide{
   display:none;
+}
+.pc-hide{
+  display:inline;
 }

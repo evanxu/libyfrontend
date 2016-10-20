@@ -35,7 +35,8 @@
 }
 
 .homepage{
-	@include size(100%,auto);
+	@include size(100%, auto);
+	min-width:1200px;
 	margin: 0 auto;
 	background: #f6f6f6;
 

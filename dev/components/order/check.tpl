@@ -3,7 +3,7 @@
     <a href="homepage.html">
       <img src="../src/images/bg/bg-logo.png" width="100%">
     </a>
-    <span class="order-title-text">填写核对订单信息</span>
+    <span class="order-title-text">确认订单信息</span>
     <div class="order-progress">
       <i class="order-progress-curr" style="width:33.33%">
       <!-- order-progress-curr根据当前的步骤决定，33.33% * (setp-1) -->
@@ -15,15 +15,15 @@
         </li>
         <li class="order-progress-step-item1 active">
           <span>2</span>
-          <p>填写核对订单信息</p>
+          <p>确认订单信息</p>
         </li>
         <li class="order-progress-step-item2">
           <span>3</span>
-          <p>成功提交运货单</p>
+          <p>订单提交成功</p>
         </li>
         <li class="order-progress-step-item3">
           <span>4</span>
-          <p>成功提交</p>
+          <p>生成交货单</p>
         </li>
       </ul>
     </div>

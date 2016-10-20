@@ -2,8 +2,10 @@
   &-item{
     position:relative;
     display:flex;
+    flex-wrap:wrap;
     padding-left:0;
     padding:0 $gap;
+    margin-bottom:$gap;
     min-height:0.3rem;
     line-height:0.3rem;
     font-size:14px;

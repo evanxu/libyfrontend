@@ -104,27 +104,16 @@
     <div class="order-list-items-date">
       <span>2016-09-16 12:03:32</span>
       <span>订单编号: 2358617031341219</span>
-      <a href="javascript:;" class="nolink">
+      <!-- 订单商品大于2时，显示 展开全部明细 -->
+      <!-- <a href="javascript:;" class="nolink">
         展开全部明细
         <i class="iconfont">&#xe601;</i>
-      </a>
+      </a> -->
     </div>
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-product">
           <a href="javascrtip:;"><img src="../src/images/temp/q1.jpg" alt=""></a>
-          <p><a href="javascript:;">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
-          <span>SKU98334H22-0</span>
-        </div>
-        <p class="order-list-cell-quantity">10</p>
-        <p class="order-list-cell-quantity">4</p>
-        <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">400.00</p>
-      </div>
-
-      <div class="order-list-cell-single">
-        <div class="order-list-cell-product">
-          <a href="javascrtip:;"><img src="../src/images/temp/q2.jpg" alt=""></a>
           <p><a href="javascript:;">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>

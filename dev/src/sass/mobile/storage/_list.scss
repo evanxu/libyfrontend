@@ -1,81 +1,60 @@
 .storage-list{
-  background:$white-background;
-  min-height:$catalog-height;
 
   &-search{
-    float:right;
-    margin:-40px 10px 40px;
-
-    .input{
-      width:220px;
-    }
-
-    i{
-      margin-left:-30px;
-      margin-right:10px;
-      color:#656565;
-    }
+    display: none;
   }
 
   &-content{
-    margin:$gap;
-    border:1px solid $light-border;
-    border-bottom:0;
-    font-size:$font-size-medium;
-    clear:both;
+    width: 100%;
+    margin: 0;
+    border: none;
   }
 
   &-title{
-    line-height:40px;
-    overflow:hidden;
-    background:#f9f9f9;
-    border-bottom:1px solid $light-border;
-
-    .storage-list-item-serial{
-      line-height:40px;
-    }
+    display: none;
   }
 
   &-item{
-    padding:$gap 0;
-    width:100%;
-    color:#656565;
-    overflow:hidden;
-    border-bottom:1px solid $light-border;
+    position: relative;
+    display: flex;
+    align-items: center;
 
-    &-serial,
-    &-product,
-    &-price,
-    &-quantity{
-      float:left;
-      width:20%;
-      text-align:center;
-    }
-    
     &-serial{
-      width:10%;
-      line-height:85px;
+      display: none;
     }
 
     &-product{
-      width:50%;
+      width:80%;
       text-align:left;
 
       img{
-        @include size(85px,85px);
-        display:block;
-        float:left;
-        margin-right:$gap*2;
+        margin-right: 0;
+        padding: 0 0.1rem;
       }
-      
-    }
 
-    &-quantity strong{
-      font-size:$font-size-xlarge;
+      .text-light{
+        height: 0.48rem;
+        line-height: 0.16rem;
+        overflow: hidden;
+        font-size: 12px;
+      }
     }
 
     &-title{
-      margin-bottom:5px;
+      margin-bottom: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    &-price{
+      @include absolute(left 1.03rem bottom 0.13rem);
+      text-align: left;
+      color: $red;
+    }
+
+    &-quantity{
+      width: 20%;
     }
   }
 }

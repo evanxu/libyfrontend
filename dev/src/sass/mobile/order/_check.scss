@@ -1,32 +1,30 @@
 .order-check{
-  margin-left:-$catalog-width;
+  margin-left:0;
 
   &-content{
+    width:100%;
   }
 
   &-info{
-    padding:35px 70px;
-    background:#fff;
+    padding:0;
   }
 
   &-delivery{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+
     li{
-      float:left;
-      height:35px;
-      min-width:170px;
-      position:relative;
-      margin:0 20px 20px 0;
+      @include size(45%, auto);
+      min-width:auto;
+      margin:0 0 0.2rem 0;
     }
 
     p{
       @include size(100%, 100%);
-      padding:0 20px;
-      line-height:35px;
-      text-align:center;
-      color:#808080;
-      border:1px solid #d5d8e3;
-      font-size:$font-size-base;
-      cursor:pointer;
+      padding:0.2rem;
+      line-height:0.2rem;
     }
 
     input[type="radio"]{
@@ -40,10 +38,7 @@
       color:$base-color;
 
       &:after{
-        @include absolute(right 0 bottom -10px);
-        content:"\e62b";
-        color:$base-color;
-        font-size:14px;
+        @include absolute(right 0 bottom -2px);
       }
     }
   }
@@ -91,185 +86,200 @@
   }
 
   &-menu{
-    position:relative;
-    overflow:hidden;
-    height:45px;
-    line-height:45px;
-    font-size:$font-size-medium;
-    color:#656565;
-
-    &-product,
-    &-price,
-    &-quantity,
-    &-total{
-      float:left;
-    }
-
-    &-product{
-      width:435px;
-      padding-left:35px;
-      margin-right:235px;
-    }
-
-    &-price{
-      width:125px;
-      padding:0 20px;
-    }
-
-    &-quantity{
-      width:185px;
-      text-align:center;
-    }
-
-    &-total{
-      width:130px;
-      text-align:right;
-    }
+    display:none;
   }
 
   &-item{
-    position:relative;
-    padding:20px 0 20px 35px;
-    height:135px;
+    padding:0.1rem 0.1rem 0.1rem 1.1rem;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
 
     .cart{
       &-info{
-        width:155px;
-        margin-right:100px;
-        padding:0 20px;
+        width: 100%;
+        padding: 0;
+        margin-right:0;
+        font-size: 12px;
+        display: flex;
       }
 
       &-total{
         text-align:right;
       }
+
+      &-product img{
+        left:$gap;
+      }
+
+      &-total{
+        display:block;
+        font-size:$font-size-medium;
+        border:0;
+        flex:1;
+        order:6;
+      }
+
+      &-quantity{
+        justify-content: flex-start;
+        flex-direction: row;
+
+        &-box,
+        p{
+          margin-left:0;
+          margin-right:0.05rem;
+        }
+
+        p{
+          text-align:left;
+        }
+      }
+
+      //use part of style @_cart.scss;
     }
   }
 
   &-sales{
-    padding:$gap 20px;
-    color:$base-color;
-
-    .with-white-bg{
-      padding:0 3px;
-      border:1px solid $base-color;
-    }
-
-    .with-blue-bg{
-      padding:0 3px;
-      background:$base-color;
-      border:1px solid $base-color;
-      color:#fff
-    }
+    padding:$gap;
+    display:flex;
+    flex-wrap:wrap;
   }
 
   &-remark{
-    position:relative;
-    padding:$gap 20px;
-    font-size:14px;
+    padding:$gap;
+    color:#656565;
+    display:flex;
+    flex-wrap:wrap;
 
     &-left{
-      @include absolute(top 50% left 20px);
-      height:30px;
-      margin-top:-15px;
-      line-height:30px;
+      @include relative(top 0 left 0);
+      @include size(100%, 0.3rem);
+      margin-top:0;
+      margin-bottom:$gap;
+      line-height:0.3rem;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
     }
 
     &-right{
-      float:right;
-      width:30%;
+      width:100%;
     }
 
     .input{
-      width:330px;
+      flex:1;
     }
   }
 
 
 
   &-charge{
+    width:100%;
     margin-bottom:5px;
-    text-align:right;
+    line-height:0.3rem;
+    display:flex;
+    justify-content:space-between;
 
     &:last-child{
       margin:0;
     }
 
     span{
-      float:left;
-      display:inline-block;
-      width:150px;
-      text-align:right;
-      font-size:12px;
+      text-align:left;
     }
   }
 
   &-payment{
-    padding:$gap 15px;
-    text-align:right;
-    line-height:36px;
+    line-height:0.36rem;
 
     .order-check-charge{
-      margin-left:70%;
+      margin-left:0;
     }
 
     strong{
       color:$red;
-      font-size:24px;
+      font-size:16px;
     }
   }
 
   &-product-info{
-    float:right;
-    text-align:right;
-    color:#656565;
+    width:100%;
+    margin-top:0.1rem;
+    display:flex;
+    flex-wrap:wrap;
+
+    & > span{
+      width:100%;
+      margin:0;
+      line-height:0.3rem;
+      display:flex;
+      justify-content:space-between;
+    }
+  }
+}
+
+.order-check-topup,
+.order-check-charge{
+  strong{
+    font-weight:400;
+    font-size:$font-size-medium
   }
 }
 
 .order-check,
 .order-waybill{
-  &-menu,
-  &-item,
-  &-sales,
-  &-remark,
-  &-topup,
-  &-payment{
-    border-bottom:1px solid $grey-border;
-  }
-
   &-lists{
     &-title{
-      height:80px;
-      line-height:100px;
-      font-size:$font-size-xlarge;
-      color:#656565;
-      background:$light-background;
-    }
-  }
-
-  &-topup{
-    position:relative;
-    height:61px;
-    padding:$gap 20px;
-    border-top:$gap solid $light-border;
-    color:#656565;
-    line-height:16px;
-
-    .button{
-      @include absolute(right 2px top 2px);
-      width:110px;
+      height:0.4rem;
+      padding:0 $gap;
+      line-height:0.4rem;
       font-size:$font-size-large;
     }
   }
 
+  &-topup{
+    height:auto;
+    padding:$gap;
+    border-top:0.1rem solid $light-border;
+    border-bottom:0;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+
+    & > span,
+    & > a{
+      width:100%;
+      margin-right:0;
+      line-height:0.3rem;
+      display:flex;
+      justify-content:space-between;
+    }
+
+    .button{
+      @include relative(right 0 top 0);
+      @include size(0.9rem, 0.3rem);
+      margin-top:0.1rem;
+      font-size:$font-size-medium;
+      justify-content:center;
+    }
+  }
+
   &-checkout{
-    padding:$gap 0;
-    text-align:right;
-    background:$light-border;
+    @include fixed(bottom 0 left 0);
+    @include size(100%, $footer-mobile-height);
+    margin-top:$gap;
+    padding:0;
+    border-top:1px solid #cdcdcd;
+    z-index:2;
+    display:flex;
+    justify-content:flex-end;
 
     a{
-      margin-right:$gap;
-      color:#7a8290;
-      font-size:$font-size-xlarge;
+      line-height:$footer-mobile-height;
+    }
+
+    .button{
+      width:1.5rem;
     }
   }
 

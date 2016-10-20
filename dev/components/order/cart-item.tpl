@@ -7,15 +7,15 @@
       </span>
     </label>
   </div>
-  <div class="cart-cell cart-product">
+  <div class="cart-cell cart-image">
     <a href="javascript:;"><img src="../src/images/temp/b2.jpg"></a>
-    <div>
-      <a href="javascript:;">
-        <p>好爸爸Kispa天然亲肤洗衣液（定制装）</p>
-        <p class="text-light">亲肤不刺激 薰衣草香氛 安全无残留</p>
-        <p class="cart-promotion"><span class="with-blue-bg">促销</span>送天然亮白1kg</p>
-      </a>
-    </div>
+  </div>
+  <div class="cart-cell cart-product">
+    <a href="javascript:;">
+      <p>好爸爸Kispa天然亲肤洗衣液（定制装）</p>
+      <p class="text-light">亲肤不刺激 薰衣草香氛 安全无残留</p>
+      <p class="cart-promotion"><span class="with-blue-bg">促销</span>送天然亮白1kg</p>
+    </a>
   </div>
   <div class="cart-cell cart-info">
     <p class="text-light">体积：1L</p>
@@ -34,7 +34,7 @@
     <p class="error">库存不足！</p>
   </div>
   <div class="cart-cell cart-total">
-    ￥<strong>207.00</strong>
+    <span class="pc-hide">合计：</span>￥<strong>207.00</strong>
   </div>
   <div class="cart-cell cart-action">
     <label>
@@ -47,7 +47,9 @@
     <a href="javascript:;">移入收藏夹</a>
     <a href="javascript:;">删除</a>
   </div>
+  <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>
 </div>
+
 <div class="order-cart-item">
   <div class="order-cart-check">
     <label>
@@ -57,14 +59,14 @@
       </span>
     </label>
   </div>
-  <div class="cart-cell cart-product">
+  <div class="cart-cell cart-image">
     <a href="javascript:;"><img src="../src/images/temp/b1.jpg"></a>
-    <div>
-      <a href="javascript:;">
-        <p>好爸爸Kispa天然亲肤洗衣液（定制装）</p>
-        <p class="text-light">亲肤不刺激 薰衣草香氛 安全无残留</p>
-      </a>
-    </div>
+  </div>
+  <div class="cart-cell cart-product">
+    <a href="javascript:;">
+      <p>好爸爸Kispa天然亲肤洗衣液（定制装）</p>
+      <p class="text-light">亲肤不刺激 薰衣草香氛 安全无残留</p>
+    </a>
   </div>
   <div class="cart-cell cart-info">
     <p class="text-light">体积：1L</p>
@@ -82,7 +84,7 @@
     </div>
   </div>
   <div class="cart-cell cart-total">
-    ￥<strong>207.00</strong>
+    <span class="pc-hide">合计：</span>￥<strong>207.00</strong>
   </div>
   <div class="cart-cell cart-action">
     <label>
@@ -95,4 +97,6 @@
     <a href="javascript:;">移入收藏夹</a>
     <a href="javascript:;">删除</a>
   </div>
+  <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>
 </div>
+

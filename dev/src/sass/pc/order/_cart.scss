@@ -139,16 +139,18 @@ $order-cart-color: #656565;
     color:#656565;
   }
 
-  &-product{
-    width:380px;
+  &-image{
+    width:110px;
 
     img{
       @include size(90px, 90px);
       display:block;
-      float:left;
-      margin-right:20px;
       border:1px solid $grey-border;
     }
+  }
+
+  &-product{
+    width:270px;
 
     a{
       display:block;

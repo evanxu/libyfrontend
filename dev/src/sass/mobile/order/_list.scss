@@ -1,33 +1,8 @@
 .order-list{
-  background:$white-background;
-  min-height:$catalog-height;
+  min-height:auto;
 
   &-tab{
-    width: 100%;
-    overflow: hidden;
-    border-bottom: 1px solid #bec2d3;
-
-    li{
-      float: left;
-    }
-
-    a{
-      @include size(auto, 50px);
-      display: block;
-      min-width:70px;
-      padding:0 20px;
-      border-bottom: 2px solid #fff;
-      font-size: 14px;
-      line-height: 50px;
-      text-align: center;
-      color: #656565;
-    }
-
-    li.curr a,
-    a:hover{
-      border-bottom: 2px solid #07aaeb;
-      color: #07aaeb;
-    }
+    display:none;
   }
 
   &-content{
@@ -35,88 +10,40 @@
   }
 
   &-subtab{
-    background:#f9f9f9;
-    overflow: hidden;
-
-    a{
-      @include size(auto, 50px);
-      position:relative;
-      min-width:90px;
-      padding:0 10px;
-      float: left;
-      display: block;
-      line-height: 50px;
-      text-align: center;
-      color: $grey-text;
-
-      &.curr,
-      &:hover{
-        background: #ebf4f8;
-        color: $base-color;
-
-        &:after{
-          @include size(0, 0);
-          @include absolute(bottom 0 left 50%);
-          content:"";
-          display:block;
-          border-style:solid;
-          border-width:5px;
-          border-color:transparent transparent $base-color;
-          margin-left:-5px;
-        }
-      }
-    }
+    display:none;
   }
 
   &-filter{
-    margin:$gap;
-    color:#656565;
-
-    span,
-    .input{
-      display:inline-block;
-      vertical-align:middle;
-    }
-
-    i{
-      margin-left:-30px;
-      margin-right:10px;
-    }
-
-    .button{
-      margin-left:$gap;
-    }
-
-    &-search{
-      float:right;
-      margin-right:-5px;
-    }
+    display:none;
   }
-  
+
   &-items{
-    margin:$gap;
+    margin:0;
     color:#656565;
-    border:1px solid $grey-border;
+    border:0;
 
     &-title{
-      height:38px;
-      line-height:38px;
+      display:none;
     }
 
     &-detail{
-      position:relative;
-      line-height:20px;
-      overflow:hidden;
+      line-height:0.2rem;
+      display:flex;
+      flex-wrap:wrap;
     }
 
     &-date{
-      padding:0 30px 0 40px;
-      margin-bottom:$gap;
-      background:#f9f9f9;
-      line-height:35px;
+      width:100%;
+      padding:0 $gap;
+      margin-bottom:0;
+      line-height:0.35rem;
 
       span{
         margin-right:$gap*2;
+      }
+
+      span:first-child{
+        display:none;
       }
 
       a{
@@ -131,7 +58,7 @@
   }
 
   &-cell{
-    
+
     &-detail,
     &-product,
     &-quantity,
@@ -144,28 +71,27 @@
     }
 
     &-detail{
-      float:left;
-      width:676px;
-      margin-left:-1px;
-      margin-top:-$gap;
+      width:100%;
+      margin-left:0;
+      margin-top:0;
     }
 
     &-product{
-      position:relative;
-      width:335px;
-      padding-left:40px;
-      text-align:left;
-      overflow:hidden;
-      
+      width:70%;
+      height:0.85rem;
+      padding-left:$gap;
+      display:flex;
+      flex-direction:column;
+      flex-wrap:wrap;
+
       img{
-        @include size(85px,85px);
-        display:block;
-        float:left;
-        margin-right:$gap;
+        @include size(0.85rem, 0.85rem);
+        margin-right:0.1rem;
       }
 
       span{
-        @include absolute(left 140px bottom 5px);
+        @include relative(left 0 bottom 0);
+        text-align:left;
       }
     }
 

@@ -20,13 +20,11 @@
 
 .homepage{
 	@include size(100%,auto);
-	margin: 0 auto;
-	background: #f6f6f6;
+	min-width:auto;
+	padding-bottom:$footer-mobile-height;
 
 	&-banner{
 		@include size(100%,100%);
-		overflow: hidden;
-		position:relative;
 
 		&-carousel{
 			@include size(100%, 100%);
@@ -35,14 +33,10 @@
 			li{
 				@include size(100%, 100%);
 				min-width: auto;
-				background-repeat: no-repeat;
-				background-position: center 0;
-				background-size:cover;
 			}
+
 			a{
 				@include size(100%, 100%);
-				display:block;
-				font-size:0;
 			}
 
 
@@ -79,7 +73,6 @@
 	// homepage-brands
 	&-brands{
 		width: 100%;
-		margin: 0 auto;
 
 		&-video{
 			display:none;
@@ -132,11 +125,12 @@
 
 		&-top{
 			width: 100%;
-			overflow: hidden;
 			margin-bottom:30px;
+
 			li {
 		    width: 20%;
 		    float: left;
+
 		    a,
 		    img {
 	        display: block;
@@ -147,8 +141,6 @@
 
 		&-bottom{
 			padding:0;
-			overflow: hidden;
-			background: #fff;
 
 			&-carousel{
 			  display:none;
@@ -262,7 +254,6 @@
 			.iconfont{
 				height:0.28rem;
 				font-size:26px;
-				color:#39b54a;
 			}
 
 			span{
@@ -270,7 +261,6 @@
 				padding:0 0.05rem;
 				line-height:0.24rem;
 				font-size:$font-size-base;
-				color:#39b54a;
 			}
 
 			i{
@@ -278,7 +268,6 @@
 			}
 
 			strong{
-				color:#f26522;
 				font-size:16px;
 			}
 
@@ -287,10 +276,8 @@
 				float: right;
 				height: 0.34rem;
 				line-height: 0.34rem;
-				color: #555555;
 
 				.iconfont{
-					color:#555;
 					font-size:12px;
 					line-height:24px;
 				}
@@ -352,15 +339,12 @@
 
 				i{
 			    @include absolute(top 2px left 4px);
-			    color:#39b54a;
 			    font-size:26px;
 				}
 
 		    h3 {
-	        font-size: 14px;
-	        color: #e40011;
 	        font-weight: 700;
-	        padding: 15px 0;
+	        padding: 0.15rem 0;
 		    }
 
 		    a{
@@ -378,15 +362,13 @@
 			&-tit {
 		    font-size: 14px;
 		    width: 100%;
-		    color: #363636;
 			}
+
 			&-tag {
 		    font-size: 16px;
-		    color: $red;
 
 		    del {
 	        font-size: 12px;
-	        color: #959595;
 		    }
 			}
 		}
@@ -418,7 +400,6 @@
 
       h3 {
         font-size: 14px;
-        color: #e40011;
         font-weight: 700;
         padding: $gap 0;
       }
@@ -440,12 +421,11 @@
 
     &-tag {
       font-size: 16px;
-      color: $red;
-      padding: 10px 0;
+      padding: 0.1rem 0;
       background: #fff;
+
       del {
-          font-size: 12px;
-          color: #959595;
+        font-size: 12px;
       }
     }
 
@@ -456,7 +436,8 @@
 		  p{
 		    width: 1.4rem;
 		    margin:-0.1rem auto 0;
-		    padding:0 $gap;		  }
+		    padding:0 $gap;
+		  }
     }
 	}
 }

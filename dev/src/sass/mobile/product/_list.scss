@@ -1,5 +1,6 @@
 .product-list {
   padding: 0;
+
   &-con {
     width: 100%;
     padding: 0;
@@ -11,13 +12,16 @@
       display: none;
     }
   }
+
   &-filter {
     display: none;
   }
+
   &-result {
     order: 1;
     margin-bottom: 0;
   }
+
   &-search-sort {
     order: 0;
     display: flex;
@@ -86,76 +90,74 @@
 }
 
 .product-list-filter-mobile {
-  display: block;
-  @include size(100%, 100vh);
-  background: rgba(153, 153, 153, 0.8);
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-.product-list-filter-mobile-content {
   @include size(3rem, 100vh);
+  @include fixed(top 0 right 0);
+  display:block;
   padding: 0 0.2rem;
   background: #fff;
   overflow: scroll;
+  z-index:10;
+  transform:translateX(3rem);
+  transition:transform 0.5s ease-in;
+
+  &.curr{
+    transform:translateX(0);
+  }
 
   dl {
     width: 100%;
     overflow: hidden;
+  }
 
-    dt {
-      height: 0.5rem;
-      display: flex;
-      justify-content: space-between;
-      
-      span {
-        font-size: 14px;
-        line-height: 0.5rem;
-        color: #646464;
-      }
+  dt {
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
 
-      a {
-        line-height: 0.5rem;
-        color: #999;
-      }
+    span {
+      font-size: 14px;
+      line-height: 0.5rem;
+      color: #646464;
     }
 
-    dd {
-      overflow: hidden;
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: row;
-      flex-wrap: wrap;
+    a {
+      line-height: 0.5rem;
+      color: #999;
+    }
+  }
 
-      a {
-          display: block;
-          padding: 0 0.1rem;
-          height: 0.3rem;
-          line-height: 0.3rem;
-          width: 24%;
-          text-align: center;
-          color: #656565;
-          background: #effafe;
-          border-radius: 5px;
-          margin: 0.15rem 0.05rem 0.15rem 0;
+  dd {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-          &:nth-child(3n) {
-              margin-right: 0;
-          }
-      }
-      .doublewidth {
-        width: 56%;
-      }
-      .doublewidth+a {
-        margin-right: 0.05rem;
-      }
-      .curr {
-        color: #04a1e9;
-        border: 1px solid #04a1e9;
-      }
+    a {
+        display: block;
+        padding: 0 0.1rem;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        width: 24%;
+        text-align: center;
+        color: #656565;
+        background: #effafe;
+        border-radius: 5px;
+        margin: 0.15rem 0.05rem 0.15rem 0;
+
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
+    }
+    .doublewidth {
+      width: 56%;
+    }
+    .doublewidth+a {
+      margin-right: 0.05rem;
+    }
+    .curr {
+      color: #04a1e9;
+      border: 1px solid #04a1e9;
     }
   }
 }

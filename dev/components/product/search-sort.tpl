@@ -7,7 +7,7 @@
       <a href="javascript:;" class="asc sortbutton">筛选</a>
     </div>
     <div class="product-list-search-sort-pages">
-      <span>1</span>/<span>24</span>
+      <span><strong class="red">1</strong>/24</span>
       <a href="javascript:;"><</a>
       <a href="javascript:;">></a>
     </div>

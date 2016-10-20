@@ -13,7 +13,7 @@ $footer-grey:#a1a1a1;
 
     dl{
       width: 16.6666%;
-      float: left;   
+      float: left;
     }
     dt{
       text-align: center;
@@ -44,3 +44,6 @@ $footer-grey:#a1a1a1;
   }
 }
 
+.footer-mobile{
+  display:none;
+}

@@ -14,15 +14,15 @@
         </li>
         <li class="order-progress-step-item1">
           <span>2</span>
-          <p>填写核对订单信息</p>
+          <p>确认订单信息</p>
         </li>
         <li class="order-progress-step-item2">
           <span>3</span>
-          <p>成功提交运货单</p>
+          <p>订单提交成功</p>
         </li>
         <li class="order-progress-step-item3">
           <span>4</span>
-          <p>成功提交</p>
+          <p>生成交货单</p>
         </li>
       </ul>
     </div>
@@ -73,3 +73,23 @@
     </div>
   </div>
 </div>
+
+
+
+<script type="text/javascript">
+  $(function(){
+    $('.JM-CartEdit').on('click', function(){
+      var $this = $(this);
+
+      if(!$this.data('flag')){
+        $this.siblings('.cart-product, .cart-price, .cart-info').hide();
+        $this.siblings('.cart-quantity, .cart-action').css('display', 'flex');
+        $this.data('flag', true).text('完成');
+      }else{
+        $this.siblings('.cart-product, .cart-price, .cart-info').css('display', 'flex');
+        $this.siblings('.cart-quantity, .cart-action').hide();
+        $this.data('flag', false).text('编辑');
+      }
+    });
+  })
+</script>

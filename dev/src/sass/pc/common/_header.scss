@@ -1,15 +1,17 @@
 /*header*/
 $header-grey:  rgb(149,149,149);
+.header-wrapper{
+  width:100%;
+  background:url(#{$background-root}/bg/bg-header.png) right 0 no-repeat;
+  background-size:50%;
+}
 
 .header{
   margin:0 auto;
   width: 1200px;
   height: 130px;
   padding-top: 30px;
-  background: #fff;
   overflow: hidden;
-  background:url(#{$background-root}/bg/bg-header.png) right 0 no-repeat;
-  background-size:50%;
 
   .header-logo{
     float: left;
@@ -31,47 +33,48 @@ $header-grey:  rgb(149,149,149);
 
     .searchtpl{
       @include size(100%, 38px);
-      border: 2px solid rgb(4,161,233);
+      position:relative;
       float: left;
+      padding-right:100px;
+      border: 2px solid rgb(4,161,233);
       font-size: 14px;
       overflow: hidden;
 
-      label{
-        width: 105px;
-        background: rgb(246,246,246);
-        float: left;
-        height: 36px;
-        line-height: 36px;
-        text-align: center;
-        color: rgb(128,128,128);
-      }
-
-      input{
-        width: 415px;
-        height: 34px;
-        font-size:$font-size-medium;
-        float: left;
-        border: none;
-        padding-left: 10px;
-      }
-
-      span{
-        width: 98px;
-        display: block;
-        background: rgb(4,161,233);
-        text-align: center;
-        height: 34px;
-        line-height: 34px;
-        float: left;
-        color: #fff;
-        cursor: pointer;
-        font-size: $font-size-xlarge;
-      }
+      // label{
+      //   width: 105px;
+      //   background: rgb(246,246,246);
+      //   float: left;
+      //   height: 36px;
+      //   line-height: 36px;
+      //   text-align: center;
+      //   color: rgb(128,128,128);
+      // }
 
       i{
         margin-left:5px;
         font-size:12px;
       }
+    }
+
+    &-input{
+      width: 415px;
+      height: 34px;
+      font-size:$font-size-medium;
+      border: none;
+      padding-left: 10px;
+    }
+
+    &-btn{
+      @include size(98px, 36px);
+      @include absolute(top 0 right 0);
+      display: block;
+      background: rgb(4,161,233);
+      text-align: center;
+      line-height: 34px;
+      color: #fff;
+      cursor: pointer;
+      font-size: $font-size-large;
+      border:0;
     }
 
     .keywd a{

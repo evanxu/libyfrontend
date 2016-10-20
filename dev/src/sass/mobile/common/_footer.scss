@@ -1,5 +1,48 @@
 $footer-grey:#a1a1a1;
 .footer{
- display:none;
+  display:none;
 }
 
+.footer-mobile{
+  @include size(100%, $footer-mobile-height);
+  @include fixed(bottom 0 left 0);
+  padding:0.15rem 0 0.1rem;
+  display:flex;
+  background:#fff;
+  border-top:1px solid #cdcdcd;
+
+  a{
+    @include size(100%, 100%);
+    display:block;
+    position:relative;
+    padding-top:0.15rem;
+    text-align:center;
+    color:#656565;
+    box-sizing:border-box;
+
+    &:after{
+      @include absolute(top -7px left 50%);
+      @include size(20px, 18px);
+      font-family:"iconfont";
+      margin-left:-10px;
+      font-size:20px;
+    }
+
+    &.curr{
+      color:$base-color;
+    }
+  }
+
+  &-homepage:after{
+    content:"\e627";
+  }
+  &-catlog:after{
+    content:"\e621";
+  }
+  &-cart:after{
+    content:"\e61e";
+  }
+  &-me:after{
+    content:"\e624";
+  }
+}
