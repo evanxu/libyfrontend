@@ -4,7 +4,7 @@
       <a href="wallet-status.html">经销商授信状态</a>
     </li>
     <li>
-      <a href="wallet-rebate.html">我的返利</a>
+      <a href="javascript:;" class="no-link">我的返利</a>
     </li>
   </ul>
   <div class="wallet-status-chart">

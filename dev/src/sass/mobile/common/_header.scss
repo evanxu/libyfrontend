@@ -2,3 +2,84 @@
 .header{
   display:none;
 }
+
+.header-mobile{
+  @include size(100%, $header-mobile-height);
+  @include fixed(top 0 left 0);
+  padding:0.1rem $gap;
+  background:$base-color;
+  z-index:2;
+  display:flex;
+  flex-wrap:wrap;
+
+  &-left{
+    @include size(0.3rem, 100%);
+    margin-right:$gap;
+  }
+
+  &-right{
+    @include size(0.3rem, 100%);
+    position:relative;
+    margin-left:$gap;
+  }
+
+  &-search{
+    flex:1;
+    position:relative;
+
+    &:before{
+      @include absolute(left 0.1rem top 0.02rem);
+      content:"\e61c";
+      font-family: "iconfont";
+      color:#fff;
+      font-size:22px;
+      z-index:2;
+    }
+
+    input{
+      @include size(100%, 100%);
+      padding-left:0.4rem;
+      background:$dark-blue;
+      border:0;
+      color:#fff;
+      font-size:$font-size-medium;
+
+
+      &::-webkit-input-placeholder {
+        color: #a1e1ff;
+      }
+      &:-moz-placeholder {
+        color: #a1e1ff;
+      }
+      &::-moz-placeholder {
+        color: #a1e1ff;
+      }
+      &:-ms-input-placeholder {
+        color: #a1e1ff;
+      }
+    }
+  }
+
+  &-menu,
+  &-back,
+  &-tools{
+    @include size(100%, 100%);
+    display:block;
+    color:#fff;
+    text-align:center;
+    line-height:0.3rem;
+    font-size:24px;
+    font-family: "iconfont";
+  }
+
+  &-msg{
+    @include size(0.2rem, 0.2rem);
+    @include absolute(right -0.1rem top -0.05rem);
+    line-height:0.2rem;
+    text-align:center;
+    background:$red;
+    color:#fff;
+    border-radius:100%;
+  }
+
+}

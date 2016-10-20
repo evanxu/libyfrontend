@@ -33,6 +33,15 @@ $nav-height:  42px;
     }
   }
 
+  &-hotline{
+    margin-left:200px;
+    color:#fff;
+
+    i{
+      font-size:20px;
+    }
+  }
+
   &-all{
     @include size(170px, $nav-height);
     background:$darkblue-background;
@@ -60,7 +69,7 @@ $nav-height:  42px;
     background:rgba(255,255,255,0.95);
     z-index:100;
     display:none;
-    
+
     &-item{
       position:relative;
       height:12.5%;

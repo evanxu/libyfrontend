@@ -35,7 +35,10 @@
 	      <p class="promotion-fee-item-status">状态</p>
 	    </dt>
 	    <dd class="promotion-fee-item">
-	    	<p class="promotion-fee-item-name">立白周年大促</p>
+	    	<div class="promotion-fee-item-name">
+          <p>立白十周年庆典大促倾情回馈全场8折起</p>
+          <p>2016.8.10 - 2016.9.30</p>
+        </div>
 	      <div class="promotion-fee-item-amount">
 	      	<p class="fs16">￥50000.00</p>
     			<!--
@@ -64,7 +67,10 @@
 	    </dd>
 
 	    <dd class="promotion-fee-item">
-	    	<p class="promotion-fee-item-name">立白周年大促</p>
+	    	<div class="promotion-fee-item-name">
+          <p>立白十周年庆典大促倾情回馈全场8折起</p>
+          <p>2016.8.10 - 2016.9.30</p>
+        </div>
 	      <div class="promotion-fee-item-amount">
 	      	<p class="fs16">￥150000.00</p>
 	      	<!--
@@ -93,7 +99,10 @@
 	    </dd>
 
 	    <dd class="promotion-fee-item">
-	    	<p class="promotion-fee-item-name">立白周年大促</p>
+	    	<div class="promotion-fee-item-name">
+          <p>立白十周年庆典大促倾情回馈全场8折起</p>
+          <p>2016.8.10 - 2016.9.30</p>
+        </div>
 	      <div class="promotion-fee-item-amount">
 	      	<p class="fs16">￥150000.00</p>
 	      	<!--
@@ -160,7 +169,7 @@
                   position: 'center',
                   formatter: "{d}%",
                   textStyle: {
-                  	color:'#04a1e9',
+                  	color:'#05a1e9',
                     fontWeight: 'bolder',
                     fontSize: 22
                   }
@@ -180,10 +189,10 @@
               name: '已核销费用',
               itemStyle: {
                 normal: {
-                  color: '#8dc63f'
+                  color: '#05a1e9'
                 },
                 emphasis: {
-                  color: '#8dc63f'
+                  color: '#05a1e9'
                 }
               },
               label: {

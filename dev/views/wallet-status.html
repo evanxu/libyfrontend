@@ -24,17 +24,19 @@
     <ul class="site-nav-left">
       <li>您好，<a href="javascript:;">邓志勇<span class="vip">VIP6</span></a></li>
       <li>消息  <a  class="site-nav-message" href="javascript:;">6</a></li>
-      <li><a href="javascript:;">退出</a></li>
+      <li><a href="javascript:;" class="no-link">退出</a></li>
     </ul>
     <ul class="site-nav-right">
       <li><a href="account.html">我的立购</a></li>
       <li><a href="order-list.html">我的订单<span></span></a></li>
       <li><a href="order-cart.html"><i class="iconfont site-nav-cart">&#xe600;</i><span>进货单 <span class="num">1000</span> 件</span></a></li>
-      <li><a href="javascript:;">收藏夹</a></li>
-      <li><a href="javascript:;">帮助中心</a></li>
+      <li><a href="javascript:;" class="no-link">收藏夹</a></li>
+      <li><a href="javascript:;" class="no-link">帮助中心</a></li>
     </ul>
   </div>
 </div>
+
+
 
 <div class="header-wrapper">
   <div class="header">
@@ -44,15 +46,16 @@
     <div class="header-search">
       <div class="searchtpl">
         <input type="text" placeholder="好爸爸Kispa洗衣液" class="header-search-input" id="">
-        <input type="button" value="搜 索" class="header-search-btn">
+        <!-- for demo, add onclick event -->
+        <input type="button" value="搜 索" class="header-search-btn" onclick="javascript:location.href='product-search.html'">
       </div>
       <div class="keywd">
-        <a href="javascript:;">好爸爸</a>
-        <a href="javascript:;">洗衣液</a>
-        <a href="javascript:;">洗洁精</a>
-        <a href="javascript:;">洗衣粉</a>
-        <a href="javascript:;">个人护理</a>
-        <a href="javascript:;">洗护套装</a>
+        <a href="product-detail.html">好爸爸</a>
+        <a href="product-detail.html">洗衣液</a>
+        <a href="product-detail.html">洗洁精</a>
+        <a href="product-detail.html">洗衣粉</a>
+        <a href="product-detail.html">个人护理</a>
+        <a href="product-detail.html">洗护套装</a>
       </div>
     </div>
     <div class="header-cart-box">
@@ -73,6 +76,24 @@
   </div>
 </div>
 
+<!-- mobile-site-nav -->
+<header class="header-mobile">
+  <div class="header-mobile-left">
+    <!-- menu -->
+    <a href="javascript:;" class="header-mobile-menu">&#xe607;</a>
+    <!-- back, if needs hide, addClass none-->
+    <a href="javascript:;" class="header-mobile-back none">&#xe654;</a>
+  </div>
+  <section class="header-mobile-search">
+    <input type="search" name="" placeholder="搜产品名称或订单编号">
+  </section>
+  <div class="header-mobile-right">
+    <!-- tools -->
+    <a href="javascript:;" class="header-mobile-tools">&#xe629;</a>
+    <span class="header-mobile-msg">2</span>
+  </div>
+</header>
+
 
 <!-- import page nav -->
 <div class="nav">
@@ -83,67 +104,67 @@
       </a>
       <div class="nav-subnav">
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">爆款洗衣液</a>
+          <a class="nav-subnav-link" href="product-list.html">爆款洗衣液</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">好爸爸洗衣露</a>
+          <a class="nav-subnav-link" href="product-list.html">好爸爸洗衣露</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">衣物护理类</a>
+          <a class="nav-subnav-link" href="product-list.html">衣物护理类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">家居清洁类</a>
+          <a class="nav-subnav-link" href="product-list.html">家居清洁类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">餐具清洁类</a>
+          <a class="nav-subnav-link" href="product-list.html">餐具清洁类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">驱蚊驱虫类</a>
+          <a class="nav-subnav-link" href="product-list.html">驱蚊驱虫类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">空气清新类</a>
+          <a class="nav-subnav-link" href="product-list.html">空气清新类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-detail.html">口腔健护类</a>
+          <a class="nav-subnav-link" href="product-list.html">口腔健护类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-detail.html">皂液</a>
-            <a href="product-detail.html">洗衣液</a>
-            <a href="product-detail.html">洗衣粉</a>
+            <a href="product-list.html">皂液</a>
+            <a href="product-list.html">洗衣液</a>
+            <a href="product-list.html">洗衣粉</a>
           </p>
         </div>
       </div>
@@ -159,6 +180,10 @@
     </li>
     <li class="nav-item">
       <a href="javascript:;">集团官网</a>
+    </li>
+    <li class="nav-item nav-hotline">
+      <i class="iconfont">&#xe60f;</i>
+      <span>客服热线 400-678-0099</span>
     </li>
   </ul>
 </div>
@@ -201,7 +226,7 @@
       <dd rel="store"><a href="store-list.html">我的门店</a></dd>
       <dd><a href="javascript:;" class="nolink">我的导购</a></dd>
       <dd><a href="javascript:;" class="nolink">我的消息</a></dd>
-      <dd><a href="javascript:;" class="nolink">我的数据</a></dd>
+      <dd rel="data"><a href="data-center.html">我的数据</a></dd>
     </dl>
     <dl  class="catalog-account">
       <dt>账户管理</dt>
@@ -219,7 +244,7 @@
       <a href="wallet-status.html">经销商授信状态</a>
     </li>
     <li>
-      <a href="wallet-rebate.html">我的返利</a>
+      <a href="javascript:;" class="no-link">我的返利</a>
     </li>
   </ul>
   <div class="wallet-status-chart">
@@ -261,61 +286,61 @@
     </dt>
     <dd>
       <p>2016-10-21 <span class="text-light">21:12</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;50000.00</p>
       <p>750000.00</p>
     </dd>
     <dd>
       <p>2016-09-20 <span class="text-light">11:12</span></p>
-      <p>账户充值（流水号：<a href="javascript:;">20009383839</a>）</p>
+      <p>账户充值（流水号：<a href="order-detail.html">20009383839</a>）</p>
       <p class="tr">+&nbsp;50000.00</p>
       <p>750000.00</p>
     </dd>
     <dd>
       <p>2016-08-21 <span class="text-light">21:22</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;20000.00</p>
       <p>350000.00</p>
     </dd>
     <dd>
       <p>2016-07-21 <span class="text-light">23:12</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;5000.00</p>
       <p>950000.00</p>
     </dd>
     <dd>
       <p>2016-05-21 <span class="text-light">09:12</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;5000.00</p>
       <p>1150000.00</p>
     </dd>
     <dd>
       <p>2016-10-21 <span class="text-light">21:12</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;50000.00</p>
       <p>750000.00</p>
     </dd>
     <dd>
       <p>2016-09-20 <span class="text-light">11:12</span></p>
-      <p>账户充值（流水号：<a href="javascript:;">20009383839</a>）</p>
+      <p>账户充值（流水号：<a href="order-detail.html">20009383839</a>）</p>
       <p class="tr">+&nbsp;50000.00</p>
       <p>750000.00</p>
     </dd>
     <dd>
       <p>2016-08-21 <span class="text-light">21:22</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;20000.00</p>
       <p>350000.00</p>
     </dd>
     <dd>
       <p>2016-07-21 <span class="text-light">23:12</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;5000.00</p>
       <p>950000.00</p>
     </dd>
     <dd>
       <p>2016-05-21 <span class="text-light">09:12</span></p>
-      <p>购买商品（订单号：<a href="javascript:;">1929383839</a>）</p>
+      <p>购买商品（订单号：<a href="order-detail.html">1929383839</a>）</p>
       <p class="tr">-&nbsp;5000.00</p>
       <p>1150000.00</p>
     </dd>
@@ -530,12 +555,12 @@ $(function(){
   </div>
 </div>
 <!-- footer for mobile -->
-<div class="footer-mobile">
+<footer class="footer-mobile">
   <a href="javascript:;" class="footer-mobile-homepage curr">首页</a>
   <a href="javascript:;" class="footer-mobile-catlog">分类</a>
   <a href="javascript:;" class="footer-mobile-cart">购物车</a>
   <a href="javascript:;" class="footer-mobile-me">我</a>
-</div>
+</footer>
 
 
 <!-- import page js files and /body end -->

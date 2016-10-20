@@ -38,10 +38,10 @@
     <form class="form">
       <div class="order-check-info">
         <div class="form-item">
-          <span class="form-title">售达方：</span>
+          <span class="form-title">收货方：</span>
           <p>十堰万捷贸易有限公司</p>
         </div>
-        <div class="form-item">
+        <!-- <div class="form-item">
           <span class="form-title">选择承运商：</span>
           <ul class="order-check-delivery clearfix">
             <li class="iconfont">
@@ -63,20 +63,20 @@
               </label>
             </li>
           </ul>
-        </div>
+        </div> -->
         <div class="form-item">
-          <span class="form-title">选择送达方：</span>
+          <span class="form-title">收货地址：</span>
           <ul class="order-check-address clearfix">
             <li>
               <label>
                 <input type="radio" name="address" checked>
                 <div class="order-check-address-detail">
-                  <p>
-                    <strong>王小帅</strong>
-                    <strong class="fr">18823645824</strong>
+                  <p class="order-check-address-name">
+                    <span>王小帅</span>
+                    <span class="fr">18823645824</span>
                   </p>
-                  <p class="fs12">上海杨浦区内环以内</p>
-                  <p class="fs12">北京东路180号广澳大厦2单元11室</p>
+                  <p>上海杨浦区内环以内</p>
+                  <p>北京东路180号广澳大厦2单元11室</p>
                   <a href="javascript:;">修改</a>
                 </div>
               </label>
@@ -85,12 +85,12 @@
               <label>
                 <input type="radio" name="address">
                 <div class="order-check-address-detail">
-                  <p>
-                    <strong>王小帅</strong>
-                    <strong class="fr">18823645824</strong>
+                  <p class="order-check-address-name">
+                    <span>王小帅</span>
+                    <span class="fr">18823645824</span>
                   </p>
-                  <p class="fs12">上海杨浦区内环以内</p>
-                  <p class="fs12">北京东路180号广澳大厦2单元11室</p>
+                  <p>上海杨浦区内环以内</p>
+                  <p>北京东路180号广澳大厦2单元11室</p>
                   <a href="javascript:;">修改</a>
                 </div>
               </label>
@@ -158,12 +158,12 @@
       </div>
 
       <div class="order-check-checkout">
-        <a href="javascript:;">
+        <a href="order-cart.html">
           <i class="iconfont">&#xe62c;</i>
           <span>返回进货单修改</span>
         </a>
         <!-- demo页面，临时加入onclick事件 -->
-        <input type="button" class="button button-red" value="保存订单" onclick="javascript:location.href='order-waybill.html'">
+        <input type="button" class="button button-red" value="保存订单" onclick="javascript:location.href='order-save.html'">
       </div>
     </form>
   </div>

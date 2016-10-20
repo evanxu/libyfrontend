@@ -1,11 +1,12 @@
 <!-- product-list-filter -->
 <div class="product-list-filter">
-  <div class="product-list-filter-box">
+  <!-- <div class="product-list-filter-box">
     <span>筛选条件：</span>
     <a href="javascript:;" class="product-list-filter-item">品牌：好爸爸</a>
     <a href="javascript:;" class="product-list-filter-item">适用范围：酒店专用</a>
     <a href="javascript:;">全部清空</a>
-  </div>
+  </div> -->
+  <-- include('breadcrumb.tpl') -->
   <dl>
     <dt>品牌：</dt>
     <dd>

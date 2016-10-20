@@ -78,13 +78,13 @@
       vertical-align:middle;
     }
 
-    i{
-      margin-left:-30px;
-      margin-right:10px;
+    .input{
+      padding-right:30px;
     }
 
-    .button{
-      margin-left:$gap;
+    i{
+      margin-left:-30px;
+      margin-right:11px;
     }
 
     &-search{
@@ -111,7 +111,7 @@
     }
 
     &-date{
-      padding:0 30px 0 40px;
+      padding-left:$gap;
       margin-bottom:$gap;
       background:#f9f9f9;
       line-height:35px;
@@ -121,7 +121,6 @@
       }
 
       a{
-        float:right;
         color:$base-color;
       }
 
@@ -138,7 +137,7 @@
     &-quantity,
     &-price,
     &-total,
-    &-status,
+    &-check,
     &-action{
       float:left;
       text-align:center;
@@ -146,7 +145,7 @@
 
     &-detail{
       float:left;
-      width:676px;
+      width:674px;
       margin-left:-1px;
       margin-top:-$gap;
     }
@@ -154,7 +153,7 @@
     &-product{
       position:relative;
       width:335px;
-      padding-left:40px;
+      padding-left:$gap;
       text-align:left;
       overflow:hidden;
 
@@ -166,7 +165,8 @@
       }
 
       span{
-        @include absolute(left 140px bottom 5px);
+        @include absolute(left 115px bottom 5px);
+        color:$light-text;
       }
     }
 
@@ -177,17 +177,18 @@
     &-price,
     &-total,
     &-action{
-      width:100px;
+      width:98px;
 
       strong{
         font-size:$font-size-medium
       }
     }
 
-    &-status{
-      width:90px;
+    &-check{
+      width:99px;
     }
 
+    &-check a,
     &-action a{
       display:block;
       margin-bottom:5px;
@@ -209,20 +210,23 @@
       &:before,
       &:after{
         @include size(1px, 900px);
-        @include absolute(top 0 right -100px);
+        @include absolute(top 0 right -99px);
         content:"";
         display:block;
         background:#f5f5f5;
       }
 
       &:after{
-        right:-190px;
+        right:-199px;
       }
     }
-  }
 
-  .pagination{
-    margin-right:$gap;
+    &-status{
+      @include size(98px, 35px);
+      @include absolute(top 0 right 0);
+      text-align:center;
+      line-height:35px;
+    }
   }
 }
 

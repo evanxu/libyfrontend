@@ -4,29 +4,27 @@
 
   &-search{
     float:right;
-    margin:-40px 10px 40px;
+    margin:-40px 15px 40px;
     width:230px;
     text-align:right;
+    color:#656565;
 
     .input{
+      display:inline-block;
       width:220px;
+      vertical-align:middle;
     }
 
     i{
       margin-left:-30px;
-      margin-right:10px;
-      margin-top:-6px;
-      height:30px;
-      line-height:24px;
-      color:#656565;
+      margin-right:11px;
     }
   }
 
   &-content{
     margin:$gap;
-    border:1px solid $light-border;
+    border:1px solid $grey-border;
     border-bottom:0;
-    font-size:$font-size-medium;
     clear:both;
   }
 
@@ -34,6 +32,7 @@
     line-height:40px;
     overflow:hidden;
     background:#f9f9f9;
+    color:$grey-text;
     border-bottom:1px solid $light-border;
 
     .storage-list-item-serial{

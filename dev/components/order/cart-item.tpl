@@ -8,13 +8,13 @@
     </label>
   </div>
   <div class="cart-cell cart-image">
-    <a href="javascript:;"><img src="../src/images/temp/b2.jpg"></a>
+    <a href="product-detail.html"><img src="../src/images/temp/b2.jpg"></a>
   </div>
   <div class="cart-cell cart-product">
-    <a href="javascript:;">
-      <p>好爸爸Kispa天然亲肤洗衣液（定制装）</p>
-      <p class="text-light">亲肤不刺激 薰衣草香氛 安全无残留</p>
-      <p class="cart-promotion"><span class="with-blue-bg">促销</span>送天然亮白1kg</p>
+    <a href="product-detail.html">
+      <p class="fs14">好爸爸Kispa天然亲肤洗衣液（定制装）</p>
+      <p class="text-grey">亲肤不刺激 薰衣草香氛 安全无残留</p>
+      <p class="cart-promotion"><span class="with-blue-bg">促销</span><span>送天然亮白1kg</span></p>
     </a>
   </div>
   <div class="cart-cell cart-info">
@@ -31,7 +31,7 @@
       <input type="text" class="cart-quantity-input" value="1">
       <a href="javascript:;" class="cart-quantity-plus">+</a>
     </div>
-    <p class="error">库存不足！</p>
+    <p class="error">库存不足</p>
   </div>
   <div class="cart-cell cart-total">
     <span class="pc-hide">合计：</span>￥<strong>207.00</strong>
@@ -44,8 +44,8 @@
       </span>
       <span>必装</span>
     </label>
-    <a href="javascript:;">移入收藏夹</a>
-    <a href="javascript:;">删除</a>
+    <a href="javascript:;" class="no-link">移入收藏夹</a>
+    <a href="javascript:;" class="no-link">删除</a>
   </div>
   <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>
 </div>
@@ -60,12 +60,12 @@
     </label>
   </div>
   <div class="cart-cell cart-image">
-    <a href="javascript:;"><img src="../src/images/temp/b1.jpg"></a>
+    <a href="product-detail.html"><img src="../src/images/temp/b1.jpg"></a>
   </div>
   <div class="cart-cell cart-product">
-    <a href="javascript:;">
-      <p>好爸爸Kispa天然亲肤洗衣液（定制装）</p>
-      <p class="text-light">亲肤不刺激 薰衣草香氛 安全无残留</p>
+    <a href="product-detail.html">
+      <p class="fs14">好爸爸Kispa天然亲肤洗衣液（定制装）</p>
+      <p class="text-grey">亲肤不刺激 薰衣草香氛 安全无残留</p>
     </a>
   </div>
   <div class="cart-cell cart-info">
@@ -94,8 +94,8 @@
       </span>
       <span>必装</span>
     </label>
-    <a href="javascript:;">移入收藏夹</a>
-    <a href="javascript:;">删除</a>
+    <a href="javascript:;" class="no-link">移入收藏夹</a>
+    <a href="javascript:;" class="no-link">删除</a>
   </div>
   <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>
 </div>

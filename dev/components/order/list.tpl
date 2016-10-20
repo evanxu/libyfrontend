@@ -10,12 +10,12 @@
   <div class="order-list-content">
     <div class="order-list-subtab">
       <a href="javascript:;" class="curr">全部订单</a>
-      <a href="javascript:;">已创建</a>
-      <a href="javascript:;">已审核</a>
-      <a href="javascript:;">待处理</a>
-      <a href="javascript:;">部分发货</a>
-      <a href="javascript:;">已发货</a>
-      <a href="javascript:;">已签收</a>
+      <a href="javascript:;">已创建<span class="red ml5">1</span></a>
+      <a href="javascript:;">已审核<span class="red ml5">2</span></a>
+      <a href="javascript:;">待处理<span class="red ml5">11</span></a>
+      <a href="javascript:;">部分发货<span class="red ml5">0</span></a>
+      <a href="javascript:;">已发货<span class="red ml5">6</span></a>
+      <a href="javascript:;">已签收<span class="red ml5">1</span></a>
     </div>
     <div class="order-list-filter">
       <form class="form">

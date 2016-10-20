@@ -95,7 +95,6 @@
   &-title{
     padding:0 $gap;
     margin-bottom:$gap;
-    font-size:$font-size-medium;
 
     &-right{
       float:right;
@@ -131,7 +130,7 @@
 
     dt{
       line-height:40px;
-      padding:0 $gap*2;
+      padding:0 $gap;
       overflow:hidden;
       background: #f9f9f9;
 
@@ -143,27 +142,28 @@
     .order-detail-form{
       padding:$gap 0;
       overflow: hidden;
-      font-size:$font-size-medium;
 
       &-cell{
         width: 30%;
         float: left;
+        padding-right:30px;
 
         dl{
           height: 30px;
           line-height: 30px;
           border:none;
-          dt{
-            text-align: right;
-            width: 200px;
-            float: left;
-            color: $light-text;
-            background:none;
-            line-height: 30px;
-          }   
-          dd{
-            color: #656565;
-          }
+        }
+
+        dt{
+          text-align: right;
+          width: 200px;
+          float: left;
+          color: $light-text;
+          background:none;
+          line-height: 30px;
+        }
+        dd{
+          color: #656565;
         }
 
         &:first-child{
@@ -174,7 +174,7 @@
             padding-left: 0;
           }
         }
-        
+
       }
     }
   }
@@ -193,6 +193,7 @@
       height:50px;
       overflow:hidden;
       background: #f9f9f9;
+      color:$grey-text;
     }
 
     dd{
@@ -213,7 +214,6 @@
       height: 55px;
       padding:0 $gap;
       line-height: 55px;
-      font-size: 14px;
 
       &:first-child{
         padding-left:$gap*2;
@@ -225,7 +225,6 @@
 
       &:nth-child(3){
         width:15%;
-        color:#333;
         text-align:right;
       }
 
@@ -261,7 +260,6 @@
 
       &:nth-child(3){
         width:10%;
-        color:#333;
         text-align:center;
       }
 

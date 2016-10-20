@@ -28,7 +28,7 @@ $header-grey:  rgb(149,149,149);
     }
   }
   .header-search{
-    margin-right: 114px;
+    margin-right: 80px;
     float: left;
 
     .searchtpl{
@@ -65,12 +65,12 @@ $header-grey:  rgb(149,149,149);
     }
 
     &-btn{
-      @include size(98px, 36px);
+      @include size(98px, 34px);
       @include absolute(top 0 right 0);
       display: block;
       background: rgb(4,161,233);
       text-align: center;
-      line-height: 34px;
+      line-height: 32px;
       color: #fff;
       cursor: pointer;
       font-size: $font-size-large;
@@ -126,4 +126,8 @@ $header-grey:  rgb(149,149,149);
     }
   }
 
+}
+
+.header-mobile{
+  display:none;
 }

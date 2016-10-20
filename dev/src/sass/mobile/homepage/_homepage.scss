@@ -21,6 +21,7 @@
 .homepage{
 	@include size(100%,auto);
 	min-width:auto;
+	padding-top:$header-mobile-height;
 	padding-bottom:$footer-mobile-height;
 
 	&-banner{

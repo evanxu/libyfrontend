@@ -17,14 +17,13 @@
   &-info{
     padding:$gap 75px $gap 35px;
     overflow: hidden;
-    font-size:$font-size-medium;
 
     dl{
       height: 30px;
       line-height: 30px;
       dt{
         text-align: right;
-        width: 160px;
+        width: 130px;
         float: left;
         color: $light-text;
       }
@@ -73,7 +72,6 @@
     overflow:hidden;
     height:45px;
     line-height:45px;
-    font-size:$font-size-medium;
     color:#656565;
 
     &-product,
@@ -86,7 +84,7 @@
 
     &-product{
       width:435px;
-      padding-left:35px;
+      padding:0 $gap*2;
       margin-right:135px;
     }
 
@@ -113,7 +111,7 @@
 
   &-item{
     position:relative;
-    padding:20px 0 20px 35px;
+    padding:20px $gap*2;
     height:135px;
 
     .cart{
@@ -133,7 +131,7 @@
   }
 
   &-remark{
-    padding:$gap 20px;
+    padding:$gap $gap*2;
     font-size:$font-size-medium;
     color:#656565;
   }

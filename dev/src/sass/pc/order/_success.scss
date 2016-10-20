@@ -1,5 +1,5 @@
 $order-success-pr:  270px;
-$order-success-pl:  270px;
+$order-success-pl:  380px;
 $order-success-color: #656565;
 
 .order-success{
@@ -7,48 +7,54 @@ $order-success-color: #656565;
   background:$light-background;
 
   &-content{
-    padding: 0 $order-success-pr 0 $order-success-pl;
+    padding: 65px $order-success-pr 0 $order-success-pl;
     background:#fff;
 
     h2{
-      padding-top:65px;
+      position:relative;
       margin-bottom:30px;
       font-size:24px;
       font-weight:700;
       color:$order-success-color;
 
       i{
+        @include absolute(left -50px top 0);
         margin-right:$gap;
         color:#8dc63f;
         font-size:32px;
       }
     }
+  }
 
-    p{
-      margin-bottom: 30px;
-      font-size:$font-size-xlarge;
-      line-height: 25px;
-      overflow:hidden;
-      color:$order-success-color;
+  &-text{
+    position:relative;
+    margin-bottom: 30px;
+    font-size:$font-size-xlarge;
+    line-height: 25px;
+    color:$order-success-color;
 
-      &:last-of-type{
-        font-size:$font-size-large;
-      }
+    &:last-of-type{
+      font-size:$font-size-large;
+    }
 
-      span{
-        width: 490px;
-        display: block;
-        float: right;
-      }
+    span{
+      @include absolute(left -290px top 0);
+      width: 290px;
+      display: block;
+      text-align:right;
+    }
 
-      a{
-        color: #07aaeb;
-      }
+    a{
+      color: #07aaeb;
+    }
+
+    strong{
+      color:$red;
+      font-size:24px;
     }
   }
 
   &-btn{
-    margin:50px (-$order-success-pr) 50px (-$order-success-pl);
-    text-align:center;
+    margin:50px 0;
   }
 }

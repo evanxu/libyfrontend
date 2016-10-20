@@ -183,7 +183,7 @@ $product-detail-amount-color:#878787;
 
         &-stock{
           @extend %amount-base;
-          margin-left: 100px;
+          margin-left: $gap;
           color: $product-detail-description-color;
         }
       }
@@ -214,7 +214,7 @@ $product-detail-amount-color:#878787;
 
           i{
             @include size(26px,26px);
-            line-height:26px;
+            line-height:30px;
           }
         }
       }
@@ -259,7 +259,7 @@ $product-detail-amount-color:#878787;
   &-promotion-section{
     height: 65px;
     background: #f8f8f8;
-    padding: 25px 30px 15px 25px;
+    padding: 25px 0 15px 0;
     margin: 0 auto;
     width: 1200px;
 

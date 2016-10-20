@@ -8,7 +8,7 @@
   }
 
   &-info{
-    padding:35px 70px;
+    padding:35px $gap;
     background:#fff;
   }
 
@@ -52,27 +52,30 @@
   }
 
   &-address{
+    line-height:20px;
+
     li{
-      @include size(270px, 150px);
+      @include size(270px, 102px);
       float:left;
       position:relative;
       margin:0 20px 20px 0;
     }
 
-    .order-check-address-detail{
+    &-detail{
       @include size(100%, 100%);
-      padding:20px;
+      padding:10px $gap;
       color:#808080;
       cursor:pointer;
-      background:url(#{$background-root}/bg/bg-address.jpg) no-repeat;
+      background:url(#{$background-root}/bg/bg-address.png) no-repeat;
 
       a{
         color:$base-color;
       }
     }
+
     @media screen and (-webkit-min-device-pixel-ratio: 2) {
-      .order-check-address-detail{
-        background:url(#{$background-root}/bg/bg-address@2x.jpg) no-repeat;
+      &-detail{
+        background:url(#{$background-root}/bg/bg-address@2x.png) no-repeat;
         background-size:cover;
       }
     }
@@ -81,15 +84,20 @@
       display:none;
     }
 
-    .order-check-address-detail.curr,
-    input[type="radio"]:checked + .order-check-address-detail{
+    &-detail.curr,
+    input[type="radio"]:checked + &-detail{
       &:after{
-        @include absolute(right 0 bottom -3px);
+        @include absolute(right 0 bottom 0);
         content:"\e62b";
         font-family:'iconfont';
         color:$red;
         font-size:22px;
       }
+    }
+
+    &-name{
+      font-size:$font-size-medium;
+      margin-bottom:5px;
     }
   }
 
@@ -98,7 +106,6 @@
     overflow:hidden;
     height:45px;
     line-height:45px;
-    font-size:$font-size-medium;
     color:#656565;
 
     &-product,
@@ -110,7 +117,7 @@
 
     &-product{
       width:435px;
-      padding-left:35px;
+      padding:0 $gap*2;
       margin-right:235px;
     }
 
@@ -132,7 +139,7 @@
 
   &-item{
     position:relative;
-    padding:20px 0 20px 35px;
+    padding:20px $gap*2;
     height:135px;
 
     .cart{
@@ -149,7 +156,7 @@
   }
 
   &-sales{
-    padding:$gap 20px;
+    padding:$gap $gap*2;
     color:$base-color;
 
     .with-white-bg{
@@ -167,11 +174,11 @@
 
   &-remark{
     position:relative;
-    padding:$gap 20px;
+    padding:$gap $gap*2;
     font-size:14px;
 
     &-left{
-      @include absolute(top 50% left 20px);
+      @include absolute(top 50% left $gap*2);
       height:30px;
       margin-top:-15px;
       line-height:30px;
@@ -207,7 +214,7 @@
   }
 
   &-payment{
-    padding:$gap 15px;
+    padding:$gap $gap*2;
     text-align:right;
     line-height:36px;
 
@@ -252,7 +259,7 @@
   &-topup{
     position:relative;
     height:61px;
-    padding:$gap 20px;
+    padding:$gap $gap*2;
     border-top:$gap solid $light-border;
     color:#656565;
     line-height:16px;

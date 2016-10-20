@@ -42,13 +42,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -61,13 +61,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -80,13 +80,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -99,13 +99,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -118,13 +118,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -137,13 +137,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -156,13 +156,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -175,13 +175,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -194,13 +194,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
 
@@ -213,13 +213,13 @@
         <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
-          <p class="text-light">地址：福州路100号</p>
-          <p class="text-light  store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
+          <p>地址：福州路100号</p>
+          <p class="store-list-item-txt-introduction">简介：本店位于上海市福州路100号，为中国洗涤用品领域的领导品牌“立白”实体店面，源源不断地为消费者提供健康优质的产品，让每个家庭都能享受洁净、健康的幸福生活。</p>
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong>%</p>
-        <p>销量／目标：80/100（万）</p>
+        <p class="store-list-item-status"><strong>80</strong></p>
+        <p class="text-light">单位：万</p>
       </div>
     </div>
   </div>

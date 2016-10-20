@@ -46,32 +46,27 @@
     }
 
     i{
-      margin-right:20px;
+      margin-left:-30px;
+      margin-right:11px;
     }
 
     .input{
       width:170px;
+      padding-right:30px
     }
 
     &-search{
       float:right;
       width:230px;
       text-align:right;
-
-      i{
-        margin-left:-30px;
-        margin-right:5px;
-        height:30px;
-        line-height:24px;
-      }
     }
   }
 
   &-content{
     margin:$gap;
-    border:1px solid $light-border;
+    border:1px solid $grey-border;
+    color:$grey-text;
     border-bottom:0;
-    font-size:$font-size-medium;
     clear:both;
   }
 
@@ -125,6 +120,7 @@
         margin-left:-20px;
         line-height:40px;
         font-size:36px;
+        color:$light-text;
       }
     }
 
@@ -158,7 +154,6 @@
     &-detail{
       width:65%;
       text-align:left;
-      font-size:$font-size-base;
 
       img{
         @include size(85px,85px);
@@ -166,7 +161,10 @@
         float:left;
         margin-right:$gap*2;
       }
+    }
 
+    &-txt{
+      color:#656565;
     }
 
     &-target strong{
@@ -176,7 +174,6 @@
     &-status,
     &-title{
       margin-bottom:5px;
-      font-size:$font-size-medium;
     }
   }
 }

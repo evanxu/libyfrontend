@@ -1,8 +1,54 @@
-<div class="breadcrumb">
-  您的位置：
-  <a href="javascript:;">首页</a>
-    >
-  <a href="javascript:;">我的立购</a>
-    >
-  <a href="javascript:;">我的促销</a>
+<div class="order-success">
+  <div class="order-title">
+    <a href="homepage.html">
+      <img src="../src/images/bg/bg-logo.png" width="100%">
+    </a>
+    <span class="order-title-text">订单提交成功</span>
+    <div class="order-progress">
+      <i class="order-progress-curr" style="width:100%;">
+      <!-- order-progress-curr根据当前的步骤决定，33.33% * setp -->
+      </i>
+      <ul class="order-progress-step">
+        <li class="order-progress-step-item0 active">
+          <span>1</span>
+          <p>我的进货单</p>
+        </li>
+        <li class="order-progress-step-item1 active">
+          <span>2</span>
+          <p>确认订单信息</p>
+        </li>
+        <li class="order-progress-step-item2 active">
+          <span>3</span>
+          <p>订单提交成功</p>
+        </li>
+        <li class="order-progress-step-item3 active">
+          <span>4</span>
+          <p>生成交货单</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="order-success-content">
+
+    <h2><i class="iconfont">&#xe612;</i>您已成功保存订单，请及时提交交货单！</h2>
+    <p class="order-success-text">
+      <span>送达地址方式：</span>
+      上海市杨浦区内环以北北京东路180号广澳大厦2单元11室
+      <br>邓志勇 15021511111
+    </p>
+    <p class="order-success-text">
+      <span>您可以<a href="order-detail.html">继续购物</a>,</span>
+      或者去我的订单查看订单，并对该订单进行修改或提交交货单。
+    </p>
+
+<!--     <p class="order-success-text"><span >实付款：</span><span>￥150,000.00</span></p> -->
+
+    <div class="order-success-btn">
+      <a href="order-detail.html" class="button button-blue button-radius mr30">查看订单</a>
+      <a href="order-waybill.html" class="button button-grey button-radius">提交交货单</a>
+    </div>
+
+  </div>
 </div>
+
+<-- include('order-promotion.tpl') -->

@@ -49,3 +49,15 @@
 .button:disabled{
   background:#9ea7b8;
 }
+
+input.button{
+  line-height:48px;
+
+  &-medium{
+    line-height:28px;
+  }
+
+  &-xsmall{
+    line-height:28px;
+  }
+}

@@ -21,7 +21,7 @@
       <dd rel="store"><a href="store-list.html">我的门店</a></dd>
       <dd><a href="javascript:;" class="nolink">我的导购</a></dd>
       <dd><a href="javascript:;" class="nolink">我的消息</a></dd>
-      <dd><a href="javascript:;" class="nolink">我的数据</a></dd>
+      <dd rel="data"><a href="data-center.html">我的数据</a></dd>
     </dl>
     <dl  class="catalog-account">
       <dt>账户管理</dt>

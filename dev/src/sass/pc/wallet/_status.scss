@@ -124,7 +124,6 @@
       height: 55px;
       padding:0 $gap;
       line-height: 55px;
-      font-size: 14px;
       color: #656565;
 
       &:first-child{
@@ -137,8 +136,7 @@
 
       &:nth-child(3){
         width:15%;
-        font-weight:700;
-        color:#333;
+        color:#656565;
         text-align:right;
       }
 

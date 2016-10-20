@@ -5,7 +5,7 @@
       <span>订单详情</span>
     </h3>
   </div>
-  <a href="javascript:;" class="order-detail-print">
+  <a href="javascript:;" class="order-detail-print no-link">
     <i class="iconfont">&#xe634;</i>
     <span>打印订单</span>
   </a>
@@ -50,8 +50,8 @@
       <h3 class="order-detail-title">订单信息</h3>
       <dl>
         <dt>
-          <span>订单号码：15109928</span>
-          <span>订单状态: 部分发货</span>
+          <span>订单号码：<strong>15109928</strong></span>
+          <span>订单状态：<strong>部分发货</strong></span>
         </dt>
         <dd class="order-detail-form">
           <div class="order-detail-form-cell">
@@ -63,7 +63,7 @@
           <div class="order-detail-form-cell">
             <dl><dt>吨位上限：</dt><dd>0</dd></dl>
             <dl><dt>方位上限：</dt><dd>0</dd></dl>
-            <dl><dt>总数量(件)</dt><dd>0</dd></dl>
+            <dl><dt>总数量(件)：</dt><dd>0</dd></dl>
             <dl><dt>总吨位(吨)：</dt><dd>0</dd></dl>
             <dl><dt>总体积(立方米)：</dt><dd>0</dd></dl>
             <dl><dt>金额：</dt><dd>0</dd></dl>
@@ -85,7 +85,7 @@
         已发货商品
         <span class="order-detail-title-right">
           <a href="order-delivery.html"><i class="iconfont">&#xe603;</i><span>查看物流</span></a>
-          <a href="javascript:;">分销订单</a>
+          <a href="javascript:;" class="no-link">分销订单</a>
         </span>
       </h3>
       <dl>

@@ -6,7 +6,7 @@
 
   &-con {
     width: 1200px;
-    padding: 15px 15px 0;
+    padding: 0 $gap;
     overflow: hidden;
     background: #fff;
     margin: 0 auto;
@@ -17,8 +17,9 @@
     background: #fff;
 
     &-box{
+      display:inline;
       margin-bottom:10px;
-      line-height:40px;
+      line-height:20px;
 
       span,
       a{
@@ -180,7 +181,7 @@
       }
       a{
         @include size(40px, 24px);
-        margin-left:-4px;
+        margin-left:-5px;
         text-align: center;
         border: 1px solid #c2c2c2;
         color: #656565;
@@ -218,7 +219,7 @@
     width:277.5px;
     margin-bottom:20px;
     margin-right:20px;
-    padding:35px $gap 20px;
+    padding:20px $gap;
     border: 1px solid $grey-border;
 
     &:nth-child(4n) {
@@ -226,7 +227,7 @@
     }
 
     &-top{
-      margin-bottom:$gap*2;
+      margin-bottom:$gap;
       text-align:center;
 
       img,
@@ -238,11 +239,11 @@
 
     &-bottom{
       position:relative;
-      min-height:140px;
+      min-height:120px;
     }
 
     img {
-      @include size(125px, 125px);
+      @include size(90%, auto);
     }
 
     &-remark{
@@ -302,34 +303,75 @@
     &-title{
       display:block;
       width: 100%;
-      font-size: $font-size-medium;
       color: #656565;
 
       &:hover {
           color:$base-color;
       }
     }
-    &-tag{
+    &-subtitle{
       font-size: 12px;
-      color: #c2c2c2;
-      padding: 10px 0;
+      color: $light-text;
+      padding:5px 0;
     }
     &-price{
-      @include absolute(left -5px bottom 0);
+      // @include absolute(left -5px bottom 0);
       font-size: 22px;
       color: $red;
-      font-weight: 700;
     }
+
     .iconfont{
       @include absolute(right 0 bottom 0);
-      @include size(40px, 40px);
-      line-height:40px;
+      @include size(30px, 30px);
+      line-height:30px;
       background:$red;
       text-align:center;
-      font-size:20px;
+      font-size:18px;
       color:#fff;
       border-radius:100%;
       cursor:pointer;
+      display:none;
     }
+
+    &-sale span{
+      @include size(auto, 16px);
+      display:inline-block;
+      padding:0 3px;
+      color:#fff;
+      line-height:16px;
+      background:#E4393C;
+
+      &.new{
+        background:$base-color;
+      }
+    }
+
+
+    // &-tag{
+    //   @include size(30px, 30px);
+    //   @include absolute(top 0 left 0);
+    //   color:#fff;
+
+    //   &:after{
+    //     @include size(0, 0);
+    //     @include absolute(top 0 left 0);
+    //     content:"";
+    //     border-width:15px;
+    //     border-style:solid;
+    //     border-color:$base-color transparent transparent $base-color;
+    //   }
+    // }
+
+    &:hover{
+      box-shadow:0 0 3px 3px #f8f8f8;
+
+      .iconfont{
+        display:block;
+      }
+    }
+  }
+
+  .pagination{
+    margin-right:0;
   }
 }
