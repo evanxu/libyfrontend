@@ -4,52 +4,56 @@
 
   &-content{
     min-height:$catalog-height;
-    background:#fff;
   }
 
   &-info{
-    padding:35px $gap;
-    background:#fff;
+    margin-top:-5px;
+    margin-bottom:$gap;
   }
 
   &-delivery{
-    li{
-      float:left;
-      height:35px;
-      min-width:170px;
-      position:relative;
-      margin:0 20px 20px 0;
-    }
-
-    p{
-      @include size(100%, 100%);
-      padding:0 20px;
-      line-height:35px;
-      text-align:center;
-      color:#808080;
-      border:1px solid #d5d8e3;
-      font-size:$font-size-base;
-      cursor:pointer;
-    }
-
-    input[type="radio"]{
-      display:none;
-    }
-
-    p.curr,
-    input[type="radio"]:checked + p{
-      border:1px solid $base-color;
-      background:#f0fafe;
-      color:$base-color;
-
-      &:after{
-        @include absolute(right 0 bottom -10px);
-        content:"\e62b";
-        color:$base-color;
-        font-size:14px;
-      }
-    }
+    padding:$gap $gap*2;
+    background:#fff;
   }
+
+  // &-delivery{
+  //   li{
+  //     float:left;
+  //     height:35px;
+  //     min-width:170px;
+  //     position:relative;
+  //     margin:0 20px 20px 0;
+  //   }
+
+  //   p{
+  //     @include size(100%, 100%);
+  //     padding:0 20px;
+  //     line-height:35px;
+  //     text-align:center;
+  //     color:#808080;
+  //     border:1px solid #d5d8e3;
+  //     font-size:$font-size-base;
+  //     cursor:pointer;
+  //   }
+
+  //   input[type="radio"]{
+  //     display:none;
+  //   }
+
+  //   p.curr,
+  //   input[type="radio"]:checked + p{
+  //     border:1px solid $base-color;
+  //     background:#f0fafe;
+  //     color:$base-color;
+
+  //     &:after{
+  //       @include absolute(right 0 bottom -10px);
+  //       content:"\e62b";
+  //       color:$base-color;
+  //       font-size:14px;
+  //     }
+  //   }
+  // }
 
   &-address{
     line-height:20px;
@@ -58,7 +62,7 @@
       @include size(270px, 102px);
       float:left;
       position:relative;
-      margin:0 20px 20px 0;
+      margin-right:20px;
     }
 
     &-detail{
@@ -118,7 +122,7 @@
     &-product{
       width:435px;
       padding:0 $gap*2;
-      margin-right:235px;
+      margin-right:230px;
     }
 
     &-price{
@@ -175,7 +179,6 @@
   &-remark{
     position:relative;
     padding:$gap $gap*2;
-    font-size:14px;
 
     &-left{
       @include absolute(top 50% left $gap*2);
@@ -244,22 +247,17 @@
   &-topup,
   &-payment{
     border-bottom:1px solid $grey-border;
+    background:#fff;
   }
 
-  &-lists{
-    &-title{
-      height:80px;
-      line-height:100px;
-      font-size:$font-size-xlarge;
-      color:#656565;
-      background:$light-background;
-    }
+  &-title{
+    @extend %section-title;
   }
 
   &-topup{
     position:relative;
-    height:61px;
-    padding:$gap $gap*2;
+    height:60px;
+    padding:10px $gap*2;
     border-top:$gap solid $light-border;
     color:#656565;
     line-height:16px;
@@ -272,7 +270,7 @@
   }
 
   &-checkout{
-    padding:$gap 0;
+    padding-top:$gap;
     text-align:right;
     background:$light-border;
 

@@ -72,25 +72,23 @@
     margin:$gap;
     color:#656565;
 
-    span,
-    .input{
-      display:inline-block;
-      vertical-align:middle;
-    }
-
-    .input{
-      padding-right:30px;
-    }
-
-    i{
-      margin-left:-30px;
-      margin-right:11px;
+    &-date{
+      float:left;
+      margin-right:5px;
     }
 
     &-search{
       float:right;
-      width:230px;
-      text-align:right;
+
+      .input{
+        width:230px;
+      }
+    }
+
+    &-text{
+      float:left;
+      margin-right:5px;
+      line-height:30px;
     }
   }
 

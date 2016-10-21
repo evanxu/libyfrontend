@@ -14,16 +14,15 @@
   </div>
   <div class="store-list-filter">
     <form class="form">
-      <span>选择区域</span>
-      <input type="text" class="input input-select" name="">
-      <i class="iconfont">&#xe601;</i>
-      <span>选择门店类型</span>
-      <input type="text" class="input input-select" name="">
-      <i class="iconfont">&#xe601;</i>
+      <div class="form-select store-list-filter-area">
+        <input type="text" class="input input-select" name="" placeholder="选择区域">
+      </div>
+      <div class="form-select store-list-filter-area">
+        <input type="text" class="input input-select" name="" placeholder="选择门店类型">
+      </div>
       <input type="button" class="button button-blue button-xsmall button-inline" value="确定">
-      <div class="store-list-filter-search">
+      <div class="form-search store-list-filter-search">
         <input type="text" class="input" placeholder="请输入门店名称" name="">
-        <i class="iconfont">&#xe61c;</i>
       </div>
     </form>
   </div>

@@ -84,7 +84,7 @@
       <a href="javascript:;">集团官网</a>
     </li>
     <li class="nav-item nav-hotline">
-      <i class="iconfont">&#xe60f;</i>
+      <i class="iconfont">&#xe657;</i>
       <span>客服热线 400-678-0099</span>
     </li>
   </ul>

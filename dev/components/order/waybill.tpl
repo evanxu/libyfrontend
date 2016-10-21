@@ -5,7 +5,7 @@
     </a>
     <span class="order-title-text">生成交货单</span>
     <div class="order-progress">
-      <i class="order-progress-curr" style="width:66.66%">
+      <i class="order-progress-curr" style="width:100%">
       <!-- order-progress-curr根据当前的步骤决定，33.33% * (setp-1) -->
       </i>
       <ul class="order-progress-step">
@@ -21,7 +21,7 @@
           <span>3</span>
           <p>订单提交成功</p>
         </li>
-        <li class="order-progress-step-item3">
+        <li class="order-progress-step-item3 active">
           <span>4</span>
           <p>生成交货单</p>
         </li>
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class='order-waybill-lists'>
-        <p class="order-waybill-lists-title">商品信息</p>
+        <p class="order-waybill-title">商品信息</p>
         <div class="order-waybill-menu">
           <div class="order-waybill-menu-product">商品简介</div>
           <div class="order-waybill-menu-price">单价</div>

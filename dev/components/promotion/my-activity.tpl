@@ -11,13 +11,13 @@
     </ul>
   </div>
   <dl class="promotion-cont">
-    <dt>
+    <dt class="promotion-mine-add">
       <a href="promotion-add.html">
         <span>暂无促销活动，请点击新建</span>
 
+        <span class="promotion-mine-add-tag">+</span>
       </a>
     </dt>
-
   </dl>
   <!-- <div class="promotion-end">
     <div class="promotion-end-txt">

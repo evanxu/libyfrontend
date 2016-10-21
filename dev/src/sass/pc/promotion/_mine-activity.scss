@@ -1,3 +1,37 @@
 .promotion-mine{
-  // this style is in the _liby-activity.scss
+  // parts of style is in the _liby-activity.scss
+
+  &-add{
+
+    a{
+      @include size(100%, 100%);
+      display:block;
+      color: $grey-text;
+      border: 2px dashed $grey-text;
+      font-size: 16px;
+      line-height:210px;
+      text-align: center;
+      box-sizing:border-box;
+
+      &:hover{
+        border-color: $base-color;
+        color:$base-color;
+      }
+    }
+
+
+    &-tag{
+      @include absolute(left 50% top 50%);
+      @include size(50px, 50px);
+      display:block;
+      margin-top:-40px;
+      margin-left:-25px;
+      // border:1px solid $grey-text;
+      // border-radius:10px;
+      font-size:60px;
+      text-align:center;
+      line-height:36px;
+    }
+  }
 }
+

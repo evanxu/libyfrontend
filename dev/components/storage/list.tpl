@@ -5,9 +5,8 @@
       <span>我的库存</span>
     </h3>
   </div>
-  <div class="storage-list-search">
-    <input type="text" class="input" placeholder="请输入商品名" name="">
-    <i class="iconfont">&#xe61c;</i>
+  <div class="form-search storage-list-search">
+    <input type="text" class="input" placeholder="请输入商品名称或编号" name="">
   </div>
   <div class="storage-list-content">
     <!-- <div class="storage-list-filter">

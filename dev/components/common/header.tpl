@@ -3,7 +3,7 @@
 <div class="header-wrapper">
   <div class="header">
     <div class="header-logo">
-      <a href="javascript:;">立白立构台</a>
+      <a href="homepage.html">立白立构台</a>
     </div>
     <div class="header-search">
       <div class="searchtpl">

@@ -39,26 +39,23 @@
     margin:$gap;
     color:#656565;
 
-    span,
-    .input{
-      display:inline-block;
-      vertical-align:middle;
-    }
-
-    i{
-      margin-left:-30px;
-      margin-right:11px;
-    }
-
-    .input{
-      width:170px;
-      padding-right:30px
+    &-area{
+      float:left;
+      margin-right:5px;
     }
 
     &-search{
       float:right;
-      width:230px;
-      text-align:right;
+
+      .input{
+        width:230px;
+      }
+    }
+
+    span,
+    .input{
+      display:inline-block;
+      vertical-align:middle;
     }
   }
 

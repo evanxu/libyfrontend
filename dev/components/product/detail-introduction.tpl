@@ -1,4 +1,4 @@
-<div class="product-detail-promotion-section">
+<div class="product-detail-section-title">
 	<h2>产品介绍</h2>
 </div>
 

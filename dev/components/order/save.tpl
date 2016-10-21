@@ -5,7 +5,7 @@
     </a>
     <span class="order-title-text">订单提交成功</span>
     <div class="order-progress">
-      <i class="order-progress-curr" style="width:100%;">
+      <i class="order-progress-curr" style="width:66.66%;">
       <!-- order-progress-curr根据当前的步骤决定，33.33% * setp -->
       </i>
       <ul class="order-progress-step">
@@ -21,7 +21,7 @@
           <span>3</span>
           <p>订单提交成功</p>
         </li>
-        <li class="order-progress-step-item3 active">
+        <li class="order-progress-step-item3">
           <span>4</span>
           <p>生成交货单</p>
         </li>

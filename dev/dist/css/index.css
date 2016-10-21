@@ -8,6 +8,14 @@
   height: 100%;
   box-sizing: border-box; }
 
+.order-check-title,
+.order-waybill-title, .product-detail-service h2, .product-detail-section-title h2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #656565;
+  background: #f6f6f6; }
+
 .hidden {
   overflow: hidden; }
 
@@ -401,19 +409,24 @@
   filter: alpha(opacity=90); }
 
 .fs12 {
-  font-size: 12px; }
+  font-size: 12px;
+  line-height: 18px; }
 
 .fs14 {
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 22px; }
 
 .fs16 {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 24px; }
 
 .fs18 {
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 28px; }
 
 .fs20 {
-  font-size: 20px; }
+  font-size: 20px;
+  line-height: 30px; }
 
 .sfont {
   font-size: 10px; }
@@ -452,6 +465,23 @@ a.nolink {
   a.no-link:hover,
   a.nolink:hover {
     background: none !important; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
 
 body {
   font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "simhei", Arial, sans-serif;
@@ -736,7 +766,6 @@ input {
       content: "\e62f";
       font-family: "iconfont" !important;
       background: #05a1e9;
-      border-radius: 100%;
       text-align: center;
       line-height: 38px;
       color: #fff;
@@ -1084,6 +1113,38 @@ input.button {
   height: 30px;
   line-height: 30px;
   text-align: right; }
+.form-item-block {
+  padding-left: 0; }
+  .form-item-block .form-title {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: auto;
+    text-align: left;
+    font-size: 14px; }
+.form-select, .form-search, .form-datepicker {
+  position: relative; }
+  .form-select .input, .form-search .input, .form-datepicker .input {
+    padding-right: 30px; }
+  .form-select:after, .form-search:after, .form-datepicker:after {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    margin: 0 !important;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    font-family: "iconfont";
+    color: #828282; }
+.form-select:after {
+  content: "\e644"; }
+.form-search:after {
+  content: "\e61c"; }
+.form-datepicker:after {
+  content: "\e610"; }
 
 .input {
   padding: 0 10px;
@@ -1091,15 +1152,9 @@ input.button {
   border: 1px solid #ebebeb;
   background: #f6f6f6;
   line-height: 28px;
-  font-size: 14px;
   box-sizing: border-box; }
   .input-error {
     border-color: #ed1c24; }
-
-.input-select {
-  padding-right: 30px; }
-  .input-select + i {
-    margin-left: -30px; }
 
 .textarea {
   height: 100px;
@@ -2432,19 +2487,9 @@ input.button {
     .promotion-mine .promotion-cont dt {
       width: 296px;
       height: 139px;
+      position: relative;
       margin: 30px 18px 0;
-      background: #f0fafe;
-      line-height: 139px;
-      border: 2px dashed #f8f8f8;
       float: left; }
-      .promotion-liby .promotion-cont dt a,
-      .promotion-mine .promotion-cont dt a {
-        width: 100%;
-        height: 100%;
-        display: block;
-        color: #07aaeb;
-        font-size: 16px;
-        text-align: center; }
     .promotion-liby .promotion-cont dd,
     .promotion-mine .promotion-cont dd {
       margin: 30px 18px 0;
@@ -2502,6 +2547,32 @@ input.button {
       font-size: 14px;
       text-align: center;
       margin-left: -70px; }
+
+.promotion-mine-add a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #828282;
+  border: 2px dashed #828282;
+  font-size: 16px;
+  line-height: 210px;
+  text-align: center;
+  box-sizing: border-box; }
+  .promotion-mine-add a:hover {
+    border-color: #05a1e9;
+    color: #05a1e9; }
+.promotion-mine-add-tag {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-top: -40px;
+  margin-left: -25px;
+  font-size: 60px;
+  text-align: center;
+  line-height: 36px; }
 
 .promotion-fee {
   min-height: 790px; }
@@ -2839,7 +2910,7 @@ input.button {
   background: #fff;
   margin-left: -170px; }
   .order-promotion-title {
-    height: 80px;
+    height: 70px;
     line-height: 100px;
     font-size: 18px;
     color: #656565;
@@ -2995,7 +3066,8 @@ input.button {
     top: 2px;
     position: absolute;
     display: block;
-    line-height: 30px;
+    line-height: 24px;
+    font-size: 20px;
     background: #f2f2f2;
     color: #656565;
     text-align: center; }
@@ -3030,10 +3102,10 @@ input.button {
 .cart-promotion {
   margin-top: 15px; }
   .cart-promotion .with-blue-bg {
-    padding: 2px 5px;
-    margin-right: 10px;
+    padding: 1px 3px;
+    margin-right: 5px;
     color: #fff;
-    background: #05a1e9;
+    background: #E4393C;
     vertical-align: baseline; }
   .cart-promotion span {
     vertical-align: middle; }
@@ -3042,42 +3114,13 @@ input.button {
   margin-left: -170px;
   background: #f6f6f6; }
   .order-check-content {
-    min-height: 790px;
-    background: #fff; }
+    min-height: 790px; }
   .order-check-info {
-    padding: 35px 15px;
+    margin-top: -5px;
+    margin-bottom: 15px; }
+  .order-check-delivery {
+    padding: 15px 30px;
     background: #fff; }
-  .order-check-delivery li {
-    float: left;
-    height: 35px;
-    min-width: 170px;
-    position: relative;
-    margin: 0 20px 20px 0; }
-  .order-check-delivery p {
-    width: 100%;
-    height: 100%;
-    padding: 0 20px;
-    line-height: 35px;
-    text-align: center;
-    color: #808080;
-    border: 1px solid #d5d8e3;
-    font-size: 12px;
-    cursor: pointer; }
-  .order-check-delivery input[type="radio"] {
-    display: none; }
-  .order-check-delivery p.curr,
-  .order-check-delivery input[type="radio"]:checked + p {
-    border: 1px solid #05a1e9;
-    background: #f0fafe;
-    color: #05a1e9; }
-    .order-check-delivery p.curr:after,
-    .order-check-delivery input[type="radio"]:checked + p:after {
-      right: 0;
-      bottom: -10px;
-      position: absolute;
-      content: "\e62b";
-      color: #05a1e9;
-      font-size: 14px; }
   .order-check-address {
     line-height: 20px; }
     .order-check-address li {
@@ -3085,7 +3128,7 @@ input.button {
       height: 102px;
       float: left;
       position: relative;
-      margin: 0 20px 20px 0; }
+      margin-right: 20px; }
     .order-check-address-detail {
       width: 100%;
       height: 100%;
@@ -3123,7 +3166,7 @@ input.button {
     .order-check-menu-product {
       width: 435px;
       padding: 0 30px;
-      margin-right: 235px; }
+      margin-right: 230px; }
     .order-check-menu-price {
       width: 125px;
       padding: 0 20px; }
@@ -3156,8 +3199,7 @@ input.button {
       color: #fff; }
   .order-check-remark {
     position: relative;
-    padding: 15px 30px;
-    font-size: 14px; }
+    padding: 15px 30px; }
     .order-check-remark-left {
       top: 50%;
       left: 30px;
@@ -3202,19 +3244,13 @@ input.button {
 .order-waybill-remark,
 .order-waybill-topup,
 .order-waybill-payment {
-  border-bottom: 1px solid #ebebeb; }
-.order-check-lists-title,
-.order-waybill-lists-title {
-  height: 80px;
-  line-height: 100px;
-  font-size: 18px;
-  color: #656565;
-  background: #f6f6f6; }
+  border-bottom: 1px solid #ebebeb;
+  background: #fff; }
 .order-check-topup,
 .order-waybill-topup {
   position: relative;
-  height: 61px;
-  padding: 15px 30px;
+  height: 60px;
+  padding: 10px 30px;
   border-top: 15px solid #f6f6f6;
   color: #656565;
   line-height: 16px; }
@@ -3227,7 +3263,7 @@ input.button {
     font-size: 16px; }
 .order-check-checkout,
 .order-waybill-checkout {
-  padding: 15px 0;
+  padding-top: 15px;
   text-align: right;
   background: #f6f6f6; }
   .order-check-checkout a,
@@ -3288,7 +3324,7 @@ input.button {
     .order-waybill-menu-product {
       width: 435px;
       padding: 0 30px;
-      margin-right: 135px; }
+      margin-right: 130px; }
     .order-waybill-menu-price {
       width: 125px;
       padding: 0 20px; }
@@ -3311,10 +3347,10 @@ input.button {
     .order-waybill-item .cart-total {
       text-align: right; }
     .order-waybill-item .cart-discount {
-      width: 100px; }
+      width: 100px;
+      text-align: center; }
   .order-waybill-remark {
     padding: 15px 30px;
-    font-size: 14px;
     color: #656565; }
 
 .order-detail {
@@ -3390,11 +3426,12 @@ input.button {
     .order-detail-delivery-step-item4 {
       margin-left: 100%; }
   .order-detail-title {
-    padding: 0 15px;
-    margin-bottom: 15px; }
+    height: 26px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 14px; }
     .order-detail-title-right {
-      float: right;
-      font-size: 14px; }
+      float: right; }
       .order-detail-title-right a {
         display: inline-block;
         vertical-align: middle;
@@ -3404,6 +3441,9 @@ input.button {
       .order-detail-title-right i {
         margin-right: 5px;
         font-size: 24px; }
+      .order-detail-title-right i,
+      .order-detail-title-right span {
+        vertical-align: middle; }
   .order-detail-print {
     top: 20px;
     right: 30px;
@@ -3413,7 +3453,7 @@ input.button {
     margin-bottom: 40px; }
     .order-detail-info dl {
       overflow: hidden;
-      border: 1px solid #f6f6f6; }
+      border: 1px solid #ebebeb; }
     .order-detail-info dt {
       line-height: 40px;
       padding: 0 15px;
@@ -3581,7 +3621,7 @@ input.button {
   .order-delivery-info {
     width: 970px;
     margin: 0 auto 30px;
-    border: 1px solid #f6f6f6;
+    border: 1px solid #ebebeb;
     color: #656565; }
     .order-delivery-info h3 {
       height: 40px;
@@ -3671,19 +3711,17 @@ input.button {
   .order-list-filter {
     margin: 15px;
     color: #656565; }
-    .order-list-filter span,
-    .order-list-filter .input {
-      display: inline-block;
-      vertical-align: middle; }
-    .order-list-filter .input {
-      padding-right: 30px; }
-    .order-list-filter i {
-      margin-left: -30px;
-      margin-right: 11px; }
+    .order-list-filter-date {
+      float: left;
+      margin-right: 5px; }
     .order-list-filter-search {
-      float: right;
-      width: 230px;
-      text-align: right; }
+      float: right; }
+      .order-list-filter-search .input {
+        width: 230px; }
+    .order-list-filter-text {
+      float: left;
+      margin-right: 5px;
+      line-height: 30px; }
   .order-list-items {
     margin: 15px;
     color: #656565;
@@ -3776,18 +3814,13 @@ input.button {
   background: #fff;
   min-height: 790px; }
   .storage-list-search {
+    position: relative;
     float: right;
     margin: -40px 15px 40px;
-    width: 230px;
     text-align: right;
     color: #656565; }
     .storage-list-search .input {
-      display: inline-block;
-      width: 220px;
-      vertical-align: middle; }
-    .storage-list-search i {
-      margin-left: -30px;
-      margin-right: 11px; }
+      width: 220px; }
   .storage-list-content {
     margin: 15px;
     border: 1px solid #ebebeb;
@@ -3860,20 +3893,17 @@ input.button {
   .store-list-filter {
     margin: 15px;
     color: #656565; }
+    .store-list-filter-area {
+      float: left;
+      margin-right: 5px; }
+    .store-list-filter-search {
+      float: right; }
+      .store-list-filter-search .input {
+        width: 230px; }
     .store-list-filter span,
     .store-list-filter .input {
       display: inline-block;
       vertical-align: middle; }
-    .store-list-filter i {
-      margin-left: -30px;
-      margin-right: 11px; }
-    .store-list-filter .input {
-      width: 170px;
-      padding-right: 30px; }
-    .store-list-filter-search {
-      float: right;
-      width: 230px;
-      text-align: right; }
   .store-list-content {
     margin: 15px;
     border: 1px solid #ebebeb;
@@ -3954,12 +3984,12 @@ input.button {
 
 .product-list {
   width: 100%;
-  padding: 15px;
+  padding: 0 15px 15px;
   margin: 0 auto;
-  background: #f8f8f8; }
+  background: #f6f6f6; }
   .product-list-con {
     width: 1200px;
-    padding: 0 15px;
+    padding: 15px 15px 0;
     overflow: hidden;
     background: #fff;
     margin: 0 auto; }
@@ -4109,56 +4139,18 @@ input.button {
     position: relative;
     float: left;
     width: 277.5px;
+    height: 375px;
     margin-bottom: 20px;
     margin-right: 20px;
     padding: 20px 15px;
     border: 1px solid #ebebeb; }
     .product-list-item:nth-child(4n) {
       margin-right: 0; }
-    .product-list-item-top {
-      margin-bottom: 15px;
-      text-align: center; }
-      .product-list-item-top img,
-      .product-list-item-top .product-list-item-remark {
-        display: inline-block;
-        vertical-align: bottom; }
-    .product-list-item-bottom {
-      position: relative;
-      min-height: 120px; }
     .product-list-item img {
       width: 90%;
-      height: auto; }
-    .product-list-item-remark {
-      width: 110px;
-      height: 110px;
-      position: relative; }
-      .product-list-item-remark h4 {
-        position: relative;
-        display: block;
-        height: 30px;
-        line-height: 30px;
-        font-size: 14px;
-        text-align: center;
-        color: #fff;
-        background: #ffa917; }
-        .product-list-item-remark h4:before {
-          content: "";
-          width: 0;
-          height: 0;
-          border-top: 10px solid #ffa917;
-          border-left: 10px solid transparent;
-          position: absolute;
-          left: 0;
-          top: 30px; }
-        .product-list-item-remark h4:after {
-          content: "";
-          width: 0;
-          height: 0;
-          border-top: 10px solid #ffa917;
-          border-right: 10px solid transparent;
-          position: absolute;
-          right: 0;
-          top: 30px; }
+      height: auto;
+      display: block;
+      margin: 0 auto 5px; }
     .product-list-item-promotion {
       position: relative;
       margin: 0 5px;
@@ -4198,9 +4190,13 @@ input.button {
     .product-list-item-price {
       font-size: 22px;
       color: #ed1c24; }
-    .product-list-item .iconfont {
-      right: 0;
-      bottom: 0;
+      .product-list-item-price del {
+        margin-left: 5px;
+        font-size: 12px;
+        color: #b2b2b2; }
+    .product-list-item .product-list-item-addcart {
+      right: 15px;
+      bottom: 20px;
       position: absolute;
       width: 30px;
       height: 30px;
@@ -4212,6 +4208,12 @@ input.button {
       border-radius: 100%;
       cursor: pointer;
       display: none; }
+    .product-list-item .product-list-item-new {
+      top: 2px;
+      left: 4px;
+      position: absolute;
+      color: #39b54a;
+      font-size: 24px; }
     .product-list-item-sale span {
       width: auto;
       height: 16px;
@@ -4237,16 +4239,16 @@ input.button {
 
 .product-detail {
   width: 100%;
-  padding: 15px;
+  padding: 0 15px 15px;
   margin: 0 auto;
-  background: #f8f8f8; }
+  background: #f6f6f6; }
   .product-detail-introduce {
     overflow: hidden;
     width: 1200px;
     padding: 25px;
     overflow: hidden;
     background: #fff;
-    margin: 0 auto; }
+    margin: 0 auto 15px; }
     .product-detail-introduce-mobile-title {
       display: none; }
     .product-detail-introduce-images {
@@ -4348,7 +4350,8 @@ input.button {
           top: 2px;
           position: absolute;
           display: block;
-          line-height: 30px;
+          line-height: 24px;
+          font-size: 20px;
           background: #f2f2f2;
           color: #656565;
           text-align: center; }
@@ -4372,7 +4375,6 @@ input.button {
         margin-top: 20px; }
         .product-detail-introduce-description .action a {
           display: block;
-          font-size: 16px;
           line-height: 40px;
           text-align: center;
           float: left;
@@ -4386,13 +4388,15 @@ input.button {
           color: #c57d03;
           margin-left: 25px; }
           .product-detail-introduce-description .action-collection i {
-            width: 26px;
-            height: 26px;
-            line-height: 30px; }
+            width: auto;
+            height: 40px;
+            line-height: 40px; }
+          .product-detail-introduce-description .action-collection span {
+            font-size: 14px; }
   .product-detail-introduction {
     width: 1200px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     background: #fff; }
     .product-detail-introduction img {
       display: block;
@@ -4400,11 +4404,7 @@ input.button {
       padding-bottom: 45px; }
   .product-detail-service {
     width: 1200px;
-    padding: 40px 0 15px;
     margin: 0 auto; }
-    .product-detail-service h2 {
-      font-size: 18px;
-      color: #7a8290; }
     .product-detail-service p {
       line-height: 25px;
       color: #7a8290; }
@@ -4414,27 +4414,20 @@ input.button {
     .product-detail-service h3 {
       color: #7a8290;
       margin-top: 25px; }
-  .product-detail-promotion-section {
-    height: 65px;
-    background: #f8f8f8;
-    padding: 25px 0 15px 0;
+  .product-detail-section-title {
+    background: #f6f6f6;
     margin: 0 auto;
     width: 1200px; }
-    .product-detail-promotion-section h2 {
-      float: left;
-      font-size: 18px;
-      height: 25px;
-      line-height: 25px;
-      color: #656565; }
-    .product-detail-promotion-section a {
+    .product-detail-section-title h2 {
+      overflow: hidden; }
+    .product-detail-section-title a {
       float: right;
-      height: 25px;
-      line-height: 25px;
+      font-size: 12px;
       color: #04a1e9; }
   .product-detail-promotion {
     background: #fff;
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     overflow: hidden;
     padding-bottom: 45px; }
     .product-detail-promotion-title {

@@ -3,21 +3,14 @@
   min-height:$catalog-height;
 
   &-search{
+    position:relative;
     float:right;
     margin:-40px 15px 40px;
-    width:230px;
     text-align:right;
     color:#656565;
 
     .input{
-      display:inline-block;
       width:220px;
-      vertical-align:middle;
-    }
-
-    i{
-      margin-left:-30px;
-      margin-right:11px;
     }
   }
 

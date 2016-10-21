@@ -16,6 +16,51 @@
     line-height:30px;
     text-align:right;
   }
+
+  &-item-block{
+    padding-left:0;
+
+    .form-title{
+      @include relative(left 0 top 0);
+      width:auto;
+      text-align:left;
+      font-size:$font-size-medium;
+    }
+  }
+
+  &-select,
+  &-search,
+  &-datepicker{
+    position:relative;
+
+    .input{
+      padding-right:30px;
+    }
+
+    &:after{
+      @include size(30px, 30px);
+      @include absolute(right 0 top 0);
+      display:block;
+      margin:0 !important;
+      text-align:center;
+      line-height:30px;
+      font-size:12px;
+      font-family:"iconfont";
+      color:$grey-text;
+    }
+  }
+
+  &-select:after{
+    content:"\e644";
+  }
+
+  &-search:after{
+    content:"\e61c";
+  }
+
+  &-datepicker:after{
+    content:"\e610";
+  }
 }
 
 .input{
@@ -24,19 +69,10 @@
   border:1px solid $grey-border;
   background:$light-background;
   line-height:28px;
-  font-size:14px;
   box-sizing:border-box;
 
   &-error{
     border-color:$red;
-  }
-}
-
-.input-select{
-  padding-right:30px;
-
-  & + i{
-    margin-left:-30px;
   }
 }
 

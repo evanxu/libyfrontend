@@ -1,4 +1,4 @@
-<div class="product-detail-promotion-section">
+<div class="product-detail-section-title">
 	<h2>套餐产品</h2>
 </div>
 
@@ -37,9 +37,11 @@
 	</li>
 </ul>
 
-<div class="product-detail-promotion-section">
-	<h2>同类商品</h2>
-	<a href="product-detail.html">查看更多同类商品 ></a>
+<div class="product-detail-section-title">
+	<h2>
+		同类商品
+		<a href="product-detail.html">查看更多同类商品</a>
+	</h2>
 </div>
 
 <ul class="product-detail-promotion">

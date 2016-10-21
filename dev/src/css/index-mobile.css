@@ -401,19 +401,24 @@
   filter: alpha(opacity=90); }
 
 .fs12 {
-  font-size: 12px; }
+  font-size: 12px;
+  line-height: 18px; }
 
 .fs14 {
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 22px; }
 
 .fs16 {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 24px; }
 
 .fs18 {
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 28px; }
 
 .fs20 {
-  font-size: 20px; }
+  font-size: 20px;
+  line-height: 30px; }
 
 .sfont {
   font-size: 10px; }
@@ -452,6 +457,23 @@ a.nolink {
   a.no-link:hover,
   a.nolink:hover {
     background: none !important; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #b2b2b2;
+  font-size: 12px; }
 
 body {
   font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "simhei", Arial, sans-serif;

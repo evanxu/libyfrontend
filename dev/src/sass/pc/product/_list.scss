@@ -1,12 +1,12 @@
 .product-list{
   width: 100%;
-  padding: 15px;
+  padding: 0 $gap $gap;
   margin: 0 auto;
-  background: #f8f8f8;
+  background: #f6f6f6;
 
   &-con {
     width: 1200px;
-    padding: 0 $gap;
+    padding: $gap $gap 0;
     overflow: hidden;
     background: #fff;
     margin: 0 auto;
@@ -217,6 +217,7 @@
     position: relative;
     float: left;
     width:277.5px;
+    height:375px;
     margin-bottom:20px;
     margin-right:20px;
     padding:20px $gap;
@@ -226,49 +227,35 @@
       margin-right: 0;
     }
 
-    &-top{
-      margin-bottom:$gap;
-      text-align:center;
-
-      img,
-      .product-list-item-remark{
-        display:inline-block;
-        vertical-align:bottom;
-      }
-    }
-
-    &-bottom{
-      position:relative;
-      min-height:120px;
-    }
-
-    img {
+    img{
       @include size(90%, auto);
+      display:block;
+      margin:0 auto 5px;
     }
 
-    &-remark{
-      @include size(110px, 110px);
-      position: relative;
+    // &-remark{
+    //   @include size(110px, 110px);
+    //   position: relative;
 
-      h4 {
-        position: relative;
-        display: block;
-        height:30px;
-        line-height:30px;
-        font-size: 14px;
-        text-align: center;
-        color: #fff;
-        background: #ffa917;
+    //   h4 {
+    //     position: relative;
+    //     display: block;
+    //     height:30px;
+    //     line-height:30px;
+    //     font-size: 14px;
+    //     text-align: center;
+    //     color: #fff;
+    //     background: #ffa917;
 
-        &:before {
-          @include product-list-triangle(left);
-        }
+    //     &:before {
+    //       @include product-list-triangle(left);
+    //     }
 
-        &:after {
-          @include product-list-triangle(right);
-        }
-      }
-    }
+    //     &:after {
+    //       @include product-list-triangle(right);
+    //     }
+    //   }
+    // }
 
     &-promotion{
       position:relative;
@@ -309,19 +296,27 @@
           color:$base-color;
       }
     }
+
     &-subtitle{
       font-size: 12px;
       color: $light-text;
       padding:5px 0;
     }
+
     &-price{
       // @include absolute(left -5px bottom 0);
       font-size: 22px;
       color: $red;
+
+      del{
+        margin-left:5px;
+        font-size:$font-size-base;
+        color:$light-text;
+      }
     }
 
-    .iconfont{
-      @include absolute(right 0 bottom 0);
+    & &-addcart{
+      @include absolute(right 15px bottom 20px);
       @include size(30px, 30px);
       line-height:30px;
       background:$red;
@@ -331,6 +326,12 @@
       border-radius:100%;
       cursor:pointer;
       display:none;
+    }
+
+    & &-new{
+      @include absolute(top 2px left 4px);
+      color: #39b54a;
+      font-size: 24px;
     }
 
     &-sale span{

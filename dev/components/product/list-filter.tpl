@@ -6,7 +6,6 @@
     <a href="javascript:;" class="product-list-filter-item">适用范围：酒店专用</a>
     <a href="javascript:;">全部清空</a>
   </div> -->
-  <-- include('breadcrumb.tpl') -->
   <dl>
     <dt>品牌：</dt>
     <dd>

@@ -102,11 +102,11 @@
   @include opacity(0.9);
 }
 
-.fs12{font-size:12px;}
-.fs14{font-size:14px;}
-.fs16{font-size:16px;}
-.fs18{font-size:18px;}
-.fs20{font-size:20px;}
+.fs12{font-size:12px;line-height:18px;}
+.fs14{font-size:14px;line-height:22px;}
+.fs16{font-size:16px;line-height:24px;}
+.fs18{font-size:18px;line-height:28px;}
+.fs20{font-size:20px;line-height:30px;}
 .sfont{font-size:10px;}
 .lfont{font-size:18px;}
 .mfont{font-size:14px;}
@@ -136,5 +136,25 @@ a.nolink{
 
   &:hover{
     background:none !important;
+  }
+}
+
+input,
+textarea{
+   &::-webkit-input-placeholder {
+    color: $light-text;
+    font-size:$font-size-base;
+  }
+  &:-moz-placeholder {
+    color: $light-text;
+    font-size:$font-size-base;
+  }
+  &::-moz-placeholder {
+    color: $light-text;
+    font-size:$font-size-base;
+  }
+  &:-ms-input-placeholder {
+    color: $light-text;
+    font-size:$font-size-base;
   }
 }

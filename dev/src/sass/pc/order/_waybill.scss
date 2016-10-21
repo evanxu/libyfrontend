@@ -85,7 +85,7 @@
     &-product{
       width:435px;
       padding:0 $gap*2;
-      margin-right:135px;
+      margin-right:130px;
     }
 
     &-price{
@@ -126,13 +126,13 @@
 
       &-discount{
         width:100px;
+        text-align:center;
       }
     }
   }
 
   &-remark{
     padding:$gap $gap*2;
-    font-size:$font-size-medium;
     color:#656565;
   }
 
