@@ -4,11 +4,10 @@
     display:flex;
     flex-wrap:wrap;
     padding-left:0;
-    padding:0 $gap;
+    padding:0;
     margin-bottom:$gap;
     min-height:0.3rem;
     line-height:0.3rem;
-    font-size:14px;
     color:$dark-text;
   }
 
@@ -66,14 +65,8 @@
   }
 
   & + span{
-    @include size(15px, 15px);
-    display:inline-block;
-    vertical-align:middle;
-    border:1px solid $grey-border;
-    background:$light-background;
-    border-radius:3px;
-    cursor:pointer;
-    box-sizing:border-box;
+    @include size(0.2rem, 0.2rem);
+    border-radius:100%;
 
     i{
     color:$base-color;

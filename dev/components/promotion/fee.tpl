@@ -207,10 +207,10 @@
               name: '未核销费用',
               itemStyle: {
                 normal: {
-                  color: '#ebebeb'
+                  color: '#8dc63f'
                 },
                 emphasis: {
-                  color: '#ebebeb'
+                  color: '#8dc63f'
                 }
               }
             }

@@ -8,7 +8,9 @@
     </div>
     <div class="catalog-dis">
       <p>广州经销商A</p>
-      <p>邓志勇<span class="vip">VIP6</span></p>
+      <p class="user-level">
+        <span class="user-level-star">五星用户</span>
+      </p>
     </div>
   </div>
   <div class="catalog-management">

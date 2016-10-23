@@ -19,9 +19,9 @@
   </div>
   <div class="cart-cell cart-quantity">
     <div class="cart-quantity-box">
-      <a href="product-detail.html" class="cart-quantity-minus">-</a>
+      <a href="javascript:;" class="cart-quantity-minus">-</a>
       <input type="text" class="cart-quantity-input" value="1">
-      <a href="product-detail.html" class="cart-quantity-plus">+</a>
+      <a href="javascript:;" class="cart-quantity-plus">+</a>
     </div>
     <p class="error">库存不足</p>
   </div>
@@ -49,9 +49,9 @@
   </div>
   <div class="cart-cell cart-quantity">
     <div class="cart-quantity-box">
-      <a href="product-detail.html" class="cart-quantity-minus">-</a>
+      <a href="javascript:;" class="cart-quantity-minus">-</a>
       <input type="text" class="cart-quantity-input" value="3">
-      <a href="product-detail.html" class="cart-quantity-plus">+</a>
+      <a href="javascript:;" class="cart-quantity-plus">+</a>
     </div>
   </div>
   <div class="cart-cell cart-total">

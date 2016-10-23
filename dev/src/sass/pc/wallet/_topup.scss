@@ -2,11 +2,11 @@ $wallet-topup-width:  215px;
 
 .wallet-topup{
   margin-left:-$catalog-width;
-  padding:0 0 $gap 330px;
+  padding:0 0 $gap 50px;
   background:$white-background;
 
   &-box{
-    margin-left:-330px;
+    margin-left:-50px;
     margin-bottom:40px;
     width:auto;
   }
@@ -17,10 +17,9 @@ $wallet-topup-width:  215px;
   }
 
   &-btn{
-    padding:$gap;
-    margin:0 100px 0 -230px;
+    padding:$gap $gap $gap 170px;
+    margin-left:-50px;
     border-top:1px dashed #dcdee8;
-    text-align:center;
   }
 
   a{
@@ -38,7 +37,7 @@ $wallet-topup-width:  215px;
 }
 
 .bank-lists{
-  width:470px;
+  // width:470px;
 }
 
 .bank-item{

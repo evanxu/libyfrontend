@@ -1,3 +1,4 @@
+
 %ellipsis{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -14,4 +15,12 @@
   font-size:$font-size-xlarge;
   color:#656565;
   background:$light-background;
+}
+
+//mobile
+%section-title-mobile{
+  height:0.45rem;
+  padding:0 0.15rem;
+  line-height:0.55rem;
+  font-size:$font-size-medium;
 }

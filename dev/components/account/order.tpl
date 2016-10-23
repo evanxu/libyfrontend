@@ -10,29 +10,21 @@
     </a>
   </div>
   <ul class="account-order-tab" id="J-indexOrderTab">
-    <li>
-        <p class="account-order-count">13</p>
-        <p class="text-grey">已创建</p>
-    </li>
     <li class="curr">
         <p class="account-order-count">2</p>
         <p class="text-grey">待处理</p>
     </li>
     <li>
-        <p class="account-order-count">1</p>
-        <p class="text-grey">已审核</p>
-    </li>
-    <li>
         <p class="account-order-count">2</p>
-        <p class="text-grey">部分发货</p>
+        <p class="text-grey">申请交货</p>
     </li>
     <li>
         <p class="account-order-count">1</p>
-        <p class="text-grey">已发货</p>
+        <p class="text-grey">待发货</p>
     </li>
     <li>
         <p class="account-order-count">1</p>
-        <p class="text-grey">已签收</p>
+        <p class="text-grey">待收货</p>
     </li>
   </ul>
   <div id="J-indexOrderDetail">

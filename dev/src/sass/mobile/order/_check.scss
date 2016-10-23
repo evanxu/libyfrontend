@@ -11,6 +11,7 @@
 
   &-delivery{
     width:100%;
+    padding:0 $gap;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
@@ -23,7 +24,7 @@
 
     p{
       @include size(100%, 100%);
-      padding:0.2rem;
+      padding:0;
       line-height:0.2rem;
     }
 
@@ -45,7 +46,7 @@
 
   &-address{
     li{
-      @include size(270px, 150px);
+      @include size(100%, auto);
       float:left;
       position:relative;
       margin:0 20px 20px 0;
@@ -53,10 +54,10 @@
 
     .order-check-address-detail{
       @include size(100%, 100%);
-      padding:20px;
+      padding:$gap;
       color:#808080;
       cursor:pointer;
-      background:url(#{$background-root}/bg/bg-address.jpg) no-repeat;
+      background:url(#{$background-root}/bg/bg-address.png) no-repeat;
 
       a{
         color:$base-color;
@@ -64,7 +65,7 @@
     }
     @media screen and (-webkit-min-device-pixel-ratio: 2) {
       .order-check-address-detail{
-        background:url(#{$background-root}/bg/bg-address@2x.jpg) no-repeat;
+        background:url(#{$background-root}/bg/bg-address@2x.png) no-repeat;
         background-size:cover;
       }
     }
@@ -90,10 +91,11 @@
   }
 
   &-item{
-    padding:0.1rem 0.1rem 0.1rem 1.1rem;
-    height:auto;
+    padding:$gap;
+    height:1.6rem;
     display:flex;
     flex-wrap:wrap;
+    flex-direction:column;
 
     .cart{
       &-info{
@@ -190,6 +192,7 @@
   }
 
   &-payment{
+    padding:$gap;
     line-height:0.36rem;
 
     .order-check-charge{
@@ -215,6 +218,10 @@
       display:flex;
       justify-content:space-between;
     }
+  }
+
+  &-title{
+    @extend %section-title-mobile;
   }
 }
 

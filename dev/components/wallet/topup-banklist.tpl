@@ -39,9 +39,9 @@
         </div>
     </label>
   </li>
-  <li class="bank-item">
+  <!-- <li class="bank-item">
     <a href="javascript:;" class="bank-item-add">
       +   添加新的银行卡
     </a>
-  </li>
+  </li> -->
 </ul>

@@ -68,6 +68,7 @@
   }
 
   &-title{
+    height:40px;
     line-height:40px;
     overflow:hidden;
     background:#f9f9f9;
@@ -100,12 +101,18 @@
     &-serial{
       position:relative;
       width:10%;
-      line-height:85px;
+      height:85px;
 
       span{
-        position:relative;
+        @include size(18px, 18px);
+        @include absolute(top 50% left 50%);
+        display:block;
+        margin-left:-9px;
+        margin-top:-9px;
+        line-height:21px;
+        text-align:center;
         color:#fff;
-        font-size:$font-size-base;
+        font-size:11px;  //fix firefox bug;
       }
 
       &:before{
@@ -116,7 +123,7 @@
         margin-top:-28px;
         margin-left:-20px;
         line-height:40px;
-        font-size:36px;
+        font-size:39px;
         color:$light-text;
       }
     }
@@ -126,27 +133,27 @@
         color:#07aaeb;
       }
     }
-    &1 &-status{
-      color:#07aaeb;
-    }
+    // &1 &-status{
+    //   color:#07aaeb;
+    // }
 
     &2 &-serial{
       &:before{
         color:#f7941d;
       }
     }
-    &2 &-status{
-      color:#f7941d;
-    }
+    // &2 &-status{
+    //   color:#f7941d;
+    // }
 
     &3 &-serial{
       &:before{
         color:#8dc63f;
       }
     }
-    &3 &-status{
-      color:#8dc63f;
-    }
+    // &3 &-status{
+    //   color:#8dc63f;
+    // }
 
     &-detail{
       width:65%;
@@ -162,6 +169,7 @@
 
     &-txt{
       color:#656565;
+      line-height:20px;
     }
 
     &-target strong{

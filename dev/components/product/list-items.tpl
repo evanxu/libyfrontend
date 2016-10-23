@@ -50,7 +50,7 @@
   <a class="product-list-item-title" href="product-detail.html">立白丝滑柔顺洗衣液12斤装 送天然亮白2斤洗护合一<span class="red">超值50kg大包装</span></a>
   <p class="product-list-item-subtitle">高端浓缩 精致护理衣物 深层去渍</p>
   <p class="product-list-item-sale">
-    <span class="new">新品</span>
+    <span class="new">立减</span>
     <span>惠</span>
   </p>
   <i class="iconfont product-list-item-addcart" title="添加到购物车">&#xe62f;</i>

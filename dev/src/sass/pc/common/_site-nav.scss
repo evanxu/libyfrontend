@@ -64,3 +64,23 @@
   }
 
 }
+
+.user-level-star{
+  position:relative;
+  padding:3px 5px 3px 23px;
+  background:#ea5504;
+  color:#fff;
+  border-radius:20px;
+
+  &:before{
+    @include size(20px, 20px);
+    @include absolute(top 0 left 0);
+    content:"\e642";
+    font-family:"iconfont";
+    color:#ea5504;
+    text-align:center;
+    line-height:20px;
+    background:#f69914;
+    border-radius:100%;
+  }
+}

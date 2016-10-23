@@ -67,8 +67,8 @@
 
     &-detail{
       @include size(100%, 100%);
-      padding:10px $gap;
-      color:#808080;
+      padding:$gap;
+      color:$grey-text;
       cursor:pointer;
       background:url(#{$background-root}/bg/bg-address.png) no-repeat;
 
@@ -101,7 +101,7 @@
 
     &-name{
       font-size:$font-size-medium;
-      margin-bottom:5px;
+      margin-bottom:10px;
     }
   }
 

@@ -108,11 +108,23 @@ $order-cart-color: #656565;
     order:1;
     display:flex;
 
-    p:first-child{
-      height:0.42rem;
-      line-height:0.21rem;
-      overflow:hidden;
-      font-size:$font-size-medium;
+    p{
+      font-size:$font-size-base;
+
+      &:first-child{
+        height:0.42rem;
+        line-height:0.21rem;
+        overflow:hidden;
+      }
+
+      &:nth-child(2){
+        width:100%;
+        @extend %ellipsis;
+      }
+    }
+
+    a{
+      width:100%;
     }
 
     .text-light{
@@ -170,7 +182,7 @@ $order-cart-color: #656565;
     &-minus,
     &-plus{
       @include size(0.3rem, 0.3rem);
-      line-height:0.3rem;
+      line-height:0.25rem;
     }
 
     &-input{
@@ -203,23 +215,43 @@ $order-cart-color: #656565;
   }
 
   &-action{
-    @include size(60%, 0.6rem);
-    padding-right:$gap;
+    @include size(60%, 0.3rem);
+    position:relative;
+    margin-top:0.2rem;
+    padding:0;
     text-align:left;
     display:none;
     order:2;
     flex-wrap:wrap;
+    justify-content:space-between;
 
     label,
     a{
-      width:50%;
       margin-top:0;
     }
 
-    a:last-child{
-      @include size(100%, 0.3rem);
-      background:$base-color;
-      color:#fff;
+    label{
+      @include absolute(top -0.5rem right 0);
+      width:100%;
+      text-align:right;
+
+    }
+
+    a{
+      @include size(40%, 0.3rem);
+      border-radius:5px;
+      text-align:center;
+      line-height:0.3rem;
+
+      &:first-of-type{
+        border:1px solid $base-color;
+        color:$base-color;
+      }
+
+      &:last-child{
+        border:1px solid $grey-text;
+        color:$grey-text;
+      }
     }
   }
 

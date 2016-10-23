@@ -46,8 +46,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -65,8 +64,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -84,8 +82,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -103,8 +100,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -122,8 +118,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -141,8 +136,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -160,8 +154,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -179,8 +172,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -198,8 +190,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
 
@@ -217,8 +208,7 @@
         </div>
       </div>
       <div class="store-list-item-target">
-        <p class="store-list-item-status"><strong>80</strong></p>
-        <p class="text-light">单位：万</p>
+        <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
     </div>
   </div>
