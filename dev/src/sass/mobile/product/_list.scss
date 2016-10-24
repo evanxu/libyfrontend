@@ -1,5 +1,5 @@
 .product-list {
-  padding: 0;
+  padding: $header-mobile-height 0 $footer-mobile-height;
 
   &-con {
     width: 100%;
@@ -46,13 +46,17 @@
           position: static;
         }
 
-        &:hover{
-          color:#fff;
-        }
+        // &:hover{
+        //   color:#fff;
+        // }
       }
 
-      .sortbutton{
+      .sort-filter{
         display: block;
+
+        &:after{
+          content:"\e653";
+        }
       }
     }
 
@@ -67,6 +71,7 @@
 
   &-item {
     width: 50%;
+    height:3rem;
     margin: 0;
 
     &-top {
@@ -86,6 +91,24 @@
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+
+    &:hover .iconfont{
+      display:none;
+    }
+
+    // fixbug in small screen like 320px
+    @include response(mobile-sm){
+      &-price{
+        font-size:16px;
+      }
+    }
+  }
+
+  // fixbug in small screen like 320px
+  @include response(mobile-sm){
+    &-item{
+      height:2.8rem;
+    }
   }
 }
 
@@ -93,71 +116,85 @@
   @include size(3rem, 100vh);
   @include fixed(top 0 right 0);
   display:block;
+  background: #fff;
+  overflow: scroll;
+  z-index:200;
+  transform:translateX(3rem);
+  transition:transform 0.5s ease-in;
+}
+.product-list-filter-mobile-content {
+  @include size(100%, 100%);
   padding: 0 0.2rem;
   background: #fff;
   overflow: scroll;
-  z-index:10;
-  transform:translateX(3rem);
-  transition:transform 0.5s ease-in;
-
-  &.curr{
-    transform:translateX(0);
-  }
 
   dl {
     width: 100%;
-    overflow: hidden;
-  }
-
-  dt {
-    height: 0.5rem;
     display: flex;
-    justify-content: space-between;
+    flex-flow: row wrap;
 
-    span {
-      font-size: 14px;
-      line-height: 0.5rem;
-      color: #646464;
+    &:last-child{
+      margin-bottom: 0.8rem;
     }
 
-    a {
-      line-height: 0.5rem;
-      color: #999;
+    dt {
+      width: 100%;
+      height: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-size: 14px;
+        line-height: 0.5rem;
+        color: #646464;
+      }
+
+      a {
+        line-height: 0.5rem;
+        color: #999;
+      }
     }
-  }
 
-  dd {
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+    dd {
+      margin: 0.08rem 0.05rem 0.08rem 0;
 
-    a {
+      // &:nth-child(3n+1){
+      //   margin-right: 0;
+      // }
+
+      input{
+        display: none;
+      }
+      span {
         display: block;
-        padding: 0 0.1rem;
         height: 0.3rem;
         line-height: 0.3rem;
-        width: 24%;
         text-align: center;
         color: #656565;
         background: #effafe;
+        border: 1px solid #effafe;
         border-radius: 5px;
-        margin: 0.15rem 0.05rem 0.15rem 0;
+        padding: 0 0.04rem;
+        min-width: 0.7rem;
+      }
 
-        &:nth-child(3n) {
-            margin-right: 0;
-        }
-    }
-    .doublewidth {
-      width: 56%;
-    }
-    .doublewidth+a {
-      margin-right: 0.05rem;
-    }
-    .curr {
-      color: #04a1e9;
-      border: 1px solid #04a1e9;
+      input[type="checkbox"]:checked + span{
+        color: #04a1e9;
+        border: 1px solid #04a1e9;
+      }
+
+      input[type="radio"]:checked + span{
+        color: #04a1e9;
+        border: 1px solid #04a1e9;
+      }
     }
   }
+}
+
+.product-list-filter-btn{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  width: 3rem;
 }

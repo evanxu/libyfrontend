@@ -71,7 +71,7 @@
 					<span>每天都有<i><strong>新</strong>惊喜</i></span>
 					<div class="homepage-promotion-countdown">
 						剩余
-						<span>2</span>天
+						<span>02</span>天
 						<span>12</span>时
 						<span>30</span>分
 						<span>05</span>秒

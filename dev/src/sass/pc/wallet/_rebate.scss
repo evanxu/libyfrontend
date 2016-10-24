@@ -5,8 +5,9 @@
     padding:75px $gap $gap;
 
     h3{
-      width:850px;
-      margin:0 auto $gap*4;
+      height:26px;
+      padding:0 $gap;
+      margin-bottom:5px;
       font-size:$font-size-medium;
       color:#656565;
 
@@ -125,14 +126,22 @@
   }
 
   &-lists{
-    margin:$gap;
-    overflow: hidden;
-    border: 1px solid $grey-border;
+    h3{
+
+    }
+
+    dl{
+      margin:0 $gap $gap;
+      overflow: hidden;
+      border: 1px solid $grey-border;
+      color: #656565;
+    }
 
     dt{
       height:50px;
       overflow:hidden;
       background: #f9f9f9;
+      color:$grey-text;
     }
 
     &-tab{
@@ -187,8 +196,7 @@
       height: 55px;
       padding:0 $gap;
       line-height: 55px;
-      font-size: 14px;
-      color: #656565;
+      font-size: $font-size-medium;
 
       &:first-child{
         padding-left:$gap*2;
@@ -200,8 +208,6 @@
 
       &:nth-child(3){
         width:15%;
-        font-weight:700;
-        color:#333;
         text-align:right;
       }
 

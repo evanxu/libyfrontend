@@ -4,6 +4,7 @@ $order-cart-color: #656565;
 
 .order-cart{
   margin-left:0;
+  margin-top:-$header-mobile-height;
   min-height:auto;
 
   &-menu{
@@ -25,6 +26,7 @@ $order-cart-color: #656565;
 
   &-sales{
     padding:$gap;
+    border-bottom:0;
   }
 
   &-tool{

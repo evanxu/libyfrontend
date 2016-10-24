@@ -1,49 +1,79 @@
 .form{
   &-item{
-    position:relative;
     display:flex;
     flex-wrap:wrap;
     padding-left:0;
-    padding:0;
     margin-bottom:$gap;
     min-height:0.3rem;
     line-height:0.3rem;
-    color:$dark-text;
+    border-bottom:1px solid #f6f6f6;
   }
 
   &-title{
-    @include relative(left auto top auto);
+    @include relative(left 0 top 0);
+    @include size(0.75rem, 0.3rem);
     display:block;
-    width:100px;
-    height:30px;
-    line-height:30px;
+    line-height:0.3rem;
+    text-align:left;
+  }
 
-    & + p{
-      flex:auto;
+  &-item-block{
+    padding-left:0;
+
+    .form-title{
+      @include relative(left 0 top 0);
+      width:auto;
+      text-align:left;
+      font-size:$font-size-medium;
     }
+  }
+
+  &-select,
+  &-search,
+  &-datepicker{
+    position:relative;
+
+    .input{
+      padding-right:30px;
+    }
+
+    &:after{
+      @include size(30px, 30px);
+      @include absolute(right 0 top 0);
+      display:block;
+      margin:0 !important;
+      text-align:center;
+      line-height:30px;
+      font-size:12px;
+      font-family:"iconfont";
+      color:$grey-text;
+    }
+  }
+
+  &-select:after{
+    content:"\e644";
+  }
+
+  &-search:after{
+    content:"\e61c";
+  }
+
+  &-datepicker:after{
+    content:"\e610";
   }
 }
 
 .input{
-  flex:auto;
-  padding:0 0.1rem;
+  padding:0;
   height:0.3rem;
-  border:1px solid $grey-border;
-  background:$light-background;
   line-height:0.28rem;
-  font-size:14px;
-  box-sizing:border-box;
+  font-size:$font-size-medium;
+  border:0;
+  background:none;
+  flex:1;
 
   &-error{
     border-color:$red;
-  }
-}
-
-.input-select{
-  padding-right:30px;
-
-  & + i{
-    margin-left:-30px;
   }
 }
 
@@ -65,8 +95,15 @@
   }
 
   & + span{
-    @include size(0.2rem, 0.2rem);
-    border-radius:100%;
+    @include size(15px, 15px);
+    display:inline-block;
+    vertical-align:middle;
+    border:1px solid $grey-border;
+    background:$light-background;
+    border-radius:3px;
+    cursor:pointer;
+    text-align:center;
+    box-sizing:border-box;
 
     i{
     color:$base-color;

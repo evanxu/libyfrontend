@@ -5,6 +5,7 @@
       <span>我的授信账户充值</span>
     </h3>
   </div>
+  <div class="wallet-topup-content">
   <form class="form" action="javascript:;">
     <div class="form-item">
       <span class="form-title">充值账户：</span>
@@ -29,7 +30,7 @@
     </div>
     <div class="form-item">
       <span class="form-title">支付密码：</span>
-      <input type="tel" class="input" placeholder="输入支付密码" name="">
+      <input type="password" class="input" placeholder="输入支付密码" name="">
     </div>
     <div class="form-item">
       <label>
@@ -47,4 +48,5 @@
       <a href="javascript:history.go(-1)" class="button button-grey button-radius">取消充值</a>
     </div>
   </form>
+  </div>
 </div>

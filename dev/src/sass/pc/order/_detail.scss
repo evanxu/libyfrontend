@@ -129,63 +129,58 @@
   &-info{
     margin-bottom:40px;
 
-    dl{
-      overflow:hidden;
-      border:1px solid $grey-border;
-    }
-
-    dt{
+    &-message{
       line-height:40px;
       padding:0 $gap;
       overflow:hidden;
       background: #f9f9f9;
+      border:1px solid $grey-border;
+      border-bottom:0;
 
       span{
         margin-right:$gap;
       }
     }
+  }
 
-    .order-detail-form{
-      padding:$gap 0;
-      overflow: hidden;
+  &-form{
+    padding:$gap 0;
+    overflow: hidden;
+    border:1px solid $grey-border;
+    border-top:0;
 
-      &-cell{
-        width: 30%;
-        float: left;
-        padding-right:30px;
+    &-item{
+      width: 30%;
+      float: left;
 
-        dl{
-          height: 30px;
-          line-height: 30px;
-          border:none;
+      &:first-child{
+        width: 40%;
+
+        .item-title{
+          width: 85px;
         }
+      }
 
-        dt{
+      p{
+        line-height: 30px;
+
+        .item-title{
           text-align: right;
-          width: 200px;
+          width: 150px;
           float: left;
           color: $light-text;
           background:none;
           line-height: 30px;
         }
-        dd{
+
+        .item-content{
+          display: block;
+          margin-left: 80px;
           color: #656565;
         }
-
-        &:first-child{
-          width: 40%;
-
-          dt{
-            width: 120px;
-            padding-left: 0;
-          }
-        }
-
       }
     }
   }
-
-
 
   &-lists{
     margin-bottom:40px;
@@ -235,10 +230,12 @@
       }
 
       &:nth-child(4),
+      &:nth-child(5),
       &.order-detail-lists-total{
         padding-right:$gap*2;
         text-align:right;
       }
+
 
       &.order-detail-lists-total{
         width:100%;

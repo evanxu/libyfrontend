@@ -2,13 +2,14 @@
   min-height:$catalog-height;
 
   &-content{
-    padding:75px $gap $gap;
+    padding:0;
 
     h3{
-      width:850px;
-      margin:0 auto $gap*4;
-      font-size:$font-size-medium;
-      color:#656565;
+      height:0.4rem;
+      padding:0 $gap;
+      margin-bottom:0;
+      line-height:0.4rem;
+      font-size:$font-size-large;
 
       span{
         color:#ffa917;
@@ -20,22 +21,21 @@
     }
   }
 
+  &-status{
+    margin-bottom:0.7rem !important;
+  }
+
   &-progress{
-    @include size(800px, 26px);
-    position:relative;
-    margin:0 auto 120px;
-    border:10px solid #f7f7f7;
-    background:#bec2d3;
+    @include size(80%, 0.2rem);
+    margin:0 auto 1rem;
+    border-width:7px;
 
     &-curr{
       @include absolute(top -10px left 0);
       display:block;
-      height:26px;
-      border:10px solid #ffecca;
-      background:#ffa917;
-      border-radius:0 10px 10px 0;
-      box-sizing:border-box;
-      transition:width 2.5s ease;
+      height:0.2rem;
+      border-width:7px;
+      border-radius:0 0.1rem 0.1rem 0;
     }
   }
 
@@ -125,88 +125,101 @@
   }
 
   &-lists{
-    margin:$gap;
-    overflow: hidden;
-    border: 1px solid $grey-border;
+    border-top:$gap solid #f6f6f6;
+
+    h3{
+      border-bottom:1px solid #f6f6f6;
+    }
+
+    dl{
+      margin:0;
+      border:0;
+    }
 
     dt{
-      height:50px;
-      overflow:hidden;
-      background: #f9f9f9;
+      display:none;
     }
 
-    &-tab{
-      background:$white-background;
-      overflow: hidden;
+    // &-tab{
+    //   background:$white-background;
+    //   overflow: hidden;
 
-      a{
-        @include size(auto, 50px);
-        position:relative;
-        min-width:100px;
-        padding:0 10px;
-        float: left;
-        display: block;
-        line-height: 50px;
-        text-align: center;
-        color: $grey-text;
+    //   a{
+    //     @include size(auto, 50px);
+    //     position:relative;
+    //     min-width:100px;
+    //     padding:0 10px;
+    //     float: left;
+    //     display: block;
+    //     line-height: 50px;
+    //     text-align: center;
+    //     color: $grey-text;
 
-        &.curr,
-        &:hover{
-          background: #ebf4f8;
-          color: $base-color;
+    //     &.curr,
+    //     &:hover{
+    //       background: #ebf4f8;
+    //       color: $base-color;
 
-          &:after{
-            @include size(0, 0);
-            @include absolute(bottom 0 left 50%);
-            content:"";
-            display:block;
-            border-style:solid;
-            border-width:5px;
-            border-color:transparent transparent $base-color;
-            margin-left:-5px;
-          }
-        }
-      }
-    }
+    //       &:after{
+    //         @include size(0, 0);
+    //         @include absolute(bottom 0 left 50%);
+    //         content:"";
+    //         display:block;
+    //         border-style:solid;
+    //         border-width:5px;
+    //         border-color:transparent transparent $base-color;
+    //         margin-left:-5px;
+    //       }
+    //     }
+    //   }
+    // }
 
     dd{
-      overflow: hidden;
+      @include size(100%, 0.51rem);
+      padding:0 $gap;
+      border-bottom:1px solid #f6f6f6;
+      display:flex;
+      flex-direction:column;
+      flex-wrap:wrap;
 
       &:nth-child(odd){
-        background: #f0fafe;
-      }
-
-      a{
-        color:$base-color;
+        background: none;
       }
     }
 
     p{
-      float: left;
-      width: 25%;
-      height: 55px;
-      padding:0 $gap;
-      line-height: 55px;
-      font-size: 14px;
+      width: 30%;
+      height: 0.5rem;
+      padding:0;
+      line-height: 0.25rem;
+      font-size: $font-size-base;
       color: #656565;
+      order:2;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+
 
       &:first-child{
-        padding-left:$gap*2;
+        @include size(40%, 0.25rem);
+        padding-left:0;
+        color:$light-text;
+        order:1;
       }
 
       &:nth-child(2){
-        width:35%;
+        @include size(40%, 0.25rem);
+        order:0;
       }
 
       &:nth-child(3){
-        width:15%;
-        font-weight:700;
-        color:#333;
+        width:30%;
+        font-weight:400;
         text-align:right;
       }
 
       &:nth-child(4){
-        padding-right:$gap*2;
+        padding-right:0;
         text-align:right;
       }
     }

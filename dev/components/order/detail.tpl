@@ -18,12 +18,12 @@
         <li class="order-detail-delivery-step-item0 active">
           <i class="iconfont">&#xe62a;</i>
           <p>拍下商品</p>
-          <strong>2016-09-09 16:03:23</strong>
+          <strong>2016-09-09 <span>16:03:23</span></strong>
         </li>
         <li class="order-detail-delivery-step-item1 active">
           <i class="iconfont">&#xe62a;</i>
           <p>付款</p>
-          <strong>2016-09-09 16:03:23</strong>
+          <strong>2016-09-09 <span>16:03:23</span></strong>
         </li>
         <li class="order-detail-delivery-step-item2">
           <span>3</span>
@@ -47,45 +47,94 @@
     </div>
 
     <div class="order-detail-info">
-      <h3 class="order-detail-title">订单信息</h3>
-      <dl>
-        <dt>
-          <span>订单号码：<strong>15109928</strong></span>
-          <span>订单状态：<strong>部分发货</strong></span>
-        </dt>
-        <dd class="order-detail-form">
-          <div class="order-detail-form-cell">
-          <dl><dt>客户名称：</dt><dd>十堰万界贸易有限公司</dd></dl>
-          <dl><dt>送达方：</dt><dd>刘晓雪：沈阳苏家屯迎春街232号(6009603)</dd></dl>
-          <dl><dt>送货地址：</dt><dd>沈阳苏家屯迎春街232号(6009603)</dd></dl>
-          <dl><dt>承运方：</dt><dd>沈阳苏家屯迎春街232号(6009603)</dd></dl>
-          </div>
-          <div class="order-detail-form-cell">
-            <dl><dt>吨位上限：</dt><dd>0</dd></dl>
-            <dl><dt>方位上限：</dt><dd>0</dd></dl>
-            <dl><dt>总数量(件)：</dt><dd>0</dd></dl>
-            <dl><dt>总吨位(吨)：</dt><dd>0</dd></dl>
-            <dl><dt>总体积(立方米)：</dt><dd>0</dd></dl>
-            <dl><dt>金额：</dt><dd>0</dd></dl>
-          </div>
-          <div class="order-detail-form-cell">
-            <dl><dt>吨位下限：</dt><dd>13</dd></dl>
-            <dl><dt>请求发货日期：</dt><dd>5</dd></dl>
-            <dl><dt>已发货总数量(件)：</dt><dd>55</dd></dl>
-            <dl><dt>已发货总吨位(吨)：</dt><dd>55</dd></dl>
-            <dl><dt>已发货体积(立方米)：</dt><dd>55</dd></dl>
-            <dl><dt>已发货金额：</dt><dd>55</dd></dl>
-          </div>
-        </dd>
-      </dl>
+      <h3 class="order-detail-title">
+        <span class="order-detail-title-left">订单信息</span>
+      </h3>
+      <div class="order-detail-info-message">
+        <span>订单号码：<strong>15109928</strong></span>
+        <span>订单状态：<strong>部分发货</strong></span>
+      </div>
+      <div class="order-detail-form">
+        <div class="order-detail-form-item">
+          <p>
+            <span class="item-title">客户名称：</span>
+            <span class="item-content">十堰万界贸易有限公司</span>
+          </p>
+          <p>
+            <span class="item-title">送达方：</span>
+            <span class="item-content">刘晓雪：沈阳苏家屯迎春街232号(6009603)</span>
+          </p>
+          <p>
+            <span class="item-title">送货地址：</span>
+            <span class="item-content">沈阳苏家屯迎春街232号(6009603)</span>
+          </p>
+          <p>
+            <span class="item-title">承运方：</span>
+            <span class="item-content">沈阳苏家屯迎春街232号(6009603)</span>
+          </p>
+        </div>
+        <div class="order-detail-form-item">
+          <p>
+            <span class="item-title">吨位上限：</span>
+            <span class="item-content">0</span>
+          </p>
+          <p>
+            <span class="item-title">方位上限：</span>
+            <span class="item-content">0</span>
+          </p>
+          <p>
+            <span class="item-title">总数量(件)：</span>
+            <span class="item-content">0</span>
+          </p>
+          <p>
+            <span class="item-title">总吨位(吨)：</span>
+            <span class="item-content">0</span>
+          </p>
+          <p>
+            <span class="item-title">总体积(立方米)：</span>
+            <span class="item-content">0</span>
+          </p>
+          <p>
+            <span class="item-title">金额：</span>
+            <span class="item-content">0</span>
+          </p>
+        </div>
+        <div class="order-detail-form-item">
+          <p>
+            <span class="item-title">吨位下限：</span>
+            <span class="item-content">13</span>
+          </p>
+          <p>
+            <span class="item-title">请求发货日期：</span>
+            <span class="item-content">5</span>
+          </p>
+          <p>
+            <span class="item-title">已发货总数量(件)：</span>
+            <span class="item-content">55</span>
+          </p>
+          <p>
+            <span class="item-title">已发货总吨位(吨)：</span>
+            <span class="item-content">55</span>
+          </p>
+          <p>
+            <span class="item-title">已发货体积(立方米)：</span>
+            <span class="item-content">55</span>
+          </p>
+          <p>
+            <span class="item-title">已发货金额：</span>
+            <span class="item-content">55</span>
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="order-detail-lists">
       <h3 class="order-detail-title">
-        已发货商品
+        <span class="order-detail-title-left">已发货商品</span>
+        <span class="order-detail-title-number"><i class="m-hide">(</i>交货单编号：23245678901<i class="m-hide">)</i></span>
         <span class="order-detail-title-right">
           <a href="order-delivery.html"><i class="iconfont">&#xe603;</i><span>查看物流</span></a>
-          <a href="javascript:;" class="no-link">分销订单</a>
+          <a href="javascript:;">分销订单</a>
         </span>
       </h3>
       <dl>
@@ -99,25 +148,33 @@
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
           <p>￥50.00</p>
+          <p class="pc-hide">单价</p>
           <p>5,000</p>
+          <p class="pc-hide">数量</p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
           <p>￥50.00</p>
+          <p class="pc-hide">单价</p>
           <p>5,000</p>
+          <p class="pc-hide">数量</p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
           <p>￥50.00</p>
+          <p class="pc-hide">单价</p>
           <p>5,000</p>
+          <p class="pc-hide">数量</p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
           <p>￥50.00</p>
+          <p class="pc-hide">单价</p>
           <p>5,000</p>
+          <p class="pc-hide">数量</p>
         </dd>
         <dd>
           <p class="order-detail-lists-total">

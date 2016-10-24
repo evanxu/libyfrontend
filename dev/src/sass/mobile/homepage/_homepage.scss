@@ -55,7 +55,7 @@
 		margin-bottom:0.3rem;
 
 		&-brands{
-			display:none;
+			@include homepage-subject($base-color);
 		}
 
 		&-promotion{
@@ -74,18 +74,26 @@
 	// homepage-brands
 	&-brands{
 		width: 100%;
+		display:flex;
+		flex-direction:column;
 
 		&-video{
-			display:none;
+			width:100%;
+
+			img{
+				@include size(100%, auto);
+				display:block;
+			}
 		}
 
 		&-logos{
+			width:100%;
 			padding-left: 0;
-			display:flex;
+			float:none;
+			display:none;
 			flex-wrap:wrap;
 
 			li{
-
 				@include size(25%, auto);
 				padding:0.19rem 0;
 
@@ -116,26 +124,47 @@
 				}
 			}
 		}
+
+		&-more{
+			@include size(100%, 0.4rem);
+			display:block;
+			line-height:0.4rem;
+			text-align:center;
+			color:$base-color;
+			background:#fff;
+
+			&:after{
+				content:"\e656";
+				display:inline-block;
+				vertical-align:middle;
+				color:$base-color;
+				line-height:20px;
+				font-family:"iconfont";
+				font-size:16px;
+			}
+		}
 	}
 
 	// homepage-promotion
 
 	&-promotion{
 		width: 100%;
-		margin-bottom: 0.15rem;
+		margin-bottom:$gap;
 
 		&-top{
 			width: 100%;
-			margin-bottom:30px;
+			margin-bottom:$gap;
+			overflow-x:scroll;
+			display:flex;
 
 			li {
-		    width: 20%;
+		    width: auto;
 		    float: left;
 
 		    a,
 		    img {
 	        display: block;
-          @include size(230px, 130px);
+          @include size(1.3rem, auto);
 		    }
 			}
 		}
@@ -168,7 +197,7 @@
 				span{
 					height:0.24rem;
 					padding:0 0.05rem;
-					line-height:0.24rem;
+					line-height:0.3rem;
 					font-size:$font-size-base;
 					color:#555;
 				}
@@ -260,7 +289,7 @@
 			span{
 				height:0.24rem;
 				padding:0 0.05rem;
-				line-height:0.24rem;
+				line-height:0.3rem;
 				font-size:$font-size-base;
 			}
 

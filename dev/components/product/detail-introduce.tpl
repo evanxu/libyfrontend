@@ -34,20 +34,29 @@
 	<div class="product-detail-introduce-description">
 		<p class="title">立白天然皂液超值套装</p>
 		<p class="subtitle">天然椰油萃取 洗衣仅一分 椰香深层去渍</p>
+		<div class="action-collection-mobile pc-hide">
+			<i class="iconfont">&#xe631;</i>
+			<span>收藏</span>
+		</div>
 
 		<div class="price">
 			<dl>
-			<dt class="price-tit">价格：</dt>
+			<dt class="price-title">价格：</dt>
 			<dd class="original"><del>￥198.00</del></dd>
 			</dl>
 			<dl>
-				<dt class="price-tit">促销价：</dt>
+				<dt class="price-title">促销价：</dt>
 				<dd class="sale">￥99.00</dd>
 			</dl>
 			<dl>
-				<dt class="price-tit">促销活动：</dt>
+				<dt class="price-title">促销活动：</dt>
 				<dd class="activity">满100送1</dd>
 			</dl>
+		</div>
+
+		<div class="product-detail-section-title product-detail-promotion-section-mobile pc-hide">
+			<h2>产品参数</h2>
+			<!-- <a href="javascript:;"><i class="iconfont">&#xe601;</i></a> -->
 		</div>
 
 		<ul class="parameter">

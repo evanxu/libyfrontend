@@ -23,7 +23,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -31,7 +31,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -39,7 +39,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -47,7 +47,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -55,7 +55,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -63,7 +63,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -71,7 +71,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -79,7 +79,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -87,7 +87,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -95,7 +95,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -103,7 +103,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -111,7 +111,7 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 			<li>
@@ -119,17 +119,18 @@
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
-			</li>			
+			</li>
 			<li>
 				<img src="../src/images/bg/brand/jabez.png" alt="净博士">
 				<div class="logo-cover">
 					<p>有新品上市</p>
 					<a href="product-search.html">点击进入</a>
-					<i class="iconfont">&#xe631;</i>						
+					<i class="iconfont">&#xe631;</i>
 				</div>
 			</li>
 		</ul>
+		<a class="homepage-brands-more pc-hide" href="javascript:;" id="JM-moreBrands">更多品牌展示</a>
 	</div>
 </div>

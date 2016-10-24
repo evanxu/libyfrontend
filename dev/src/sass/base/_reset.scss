@@ -128,6 +128,7 @@ q:after {
   content: ""
 }
 
+:focus,
 input,
 button,
 select,
@@ -139,11 +140,18 @@ textarea {
   resize: none
 }
 
-input[type=text] {
-  -webkit-appearance: textfield;
+input{
+  -webkit-appearance: none;
   -webkit-rtl-ordering: logical;
-  -webkit-user-select: text
+  -webkit-user-select: text;
+  border-radius:0;
 }
+
+input[type=button], input[type=search], select {
+  outline: 0;
+  -webkit-appearance: none;
+}
+
 
 section,
 article,
@@ -167,7 +175,6 @@ a {
 
 }
 
-a,
-input{
-  -webkit-tap-highlight-color:transparent;
+*{
+  -webkit-tap-highlight-color: transparent;
 }

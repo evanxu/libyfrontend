@@ -11,6 +11,10 @@ $wallet-topup-width:  215px;
     width:auto;
   }
 
+  &-content{
+    padding:0 $gap;
+  }
+
   &-amount{
     font-size:24px;
     color:$red;
@@ -18,8 +22,7 @@ $wallet-topup-width:  215px;
 
   &-btn{
     display:flex;
-    //flex:;
-    padding:$gap;
+    padding:$gap 0;
     margin:0;
     border-top:1px dashed #dcdee8;
     text-align:center;
@@ -44,7 +47,7 @@ $wallet-topup-width:  215px;
 }
 
 .form-bank-choice{
-  flex-direction: column;
+  flex-direction:column;
   justify-content: space-between;
 }
 

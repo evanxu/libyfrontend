@@ -46,6 +46,6 @@
 <footer class="footer-mobile">
   <a href="javascript:;" class="footer-mobile-homepage curr">首页</a>
   <a href="javascript:;" class="footer-mobile-catlog">分类</a>
-  <a href="javascript:;" class="footer-mobile-cart">购物车</a>
-  <a href="javascript:;" class="footer-mobile-me">我</a>
+  <a href="order-cart.html" class="footer-mobile-cart">购物车</a>
+  <a href="account.html" class="footer-mobile-me">我</a>
 </footer>

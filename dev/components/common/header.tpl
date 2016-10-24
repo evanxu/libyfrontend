@@ -7,7 +7,7 @@
     </div>
     <div class="header-search">
       <div class="searchtpl">
-        <input type="text" placeholder="好爸爸Kispa洗衣液" class="header-search-input" id="">
+        <input type="text" placeholder="好爸爸Kispa洗衣液" class="header-search-input" value="好爸爸Kispa洗衣液">
         <!-- for demo, add onclick event -->
         <input type="button" value="搜 索" class="header-search-btn" onclick="javascript:location.href='product-search.html'">
       </div>
@@ -47,7 +47,9 @@
     <a href="javascript:;" class="header-mobile-back none">&#xe654;</a>
   </div>
   <section class="header-mobile-search">
-    <input type="search" name="" placeholder="搜产品名称或订单编号">
+    <form action="product-search.html">
+      <input type="search" name="mobile-search" placeholder="搜产品名称或订单编号">
+    </form>
   </section>
   <div class="header-mobile-right">
     <!-- tools -->

@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>Document</title>
 	<link rel="stylesheet" href="../src/css/index.css">
 	<link rel="stylesheet" media="screen and (max-width:540px)" href="../src/css/index-mobile.css">
@@ -53,7 +53,7 @@
     </div>
     <div class="header-search">
       <div class="searchtpl">
-        <input type="text" placeholder="好爸爸Kispa洗衣液" class="header-search-input" id="">
+        <input type="text" placeholder="好爸爸Kispa洗衣液" class="header-search-input" value="好爸爸Kispa洗衣液">
         <!-- for demo, add onclick event -->
         <input type="button" value="搜 索" class="header-search-btn" onclick="javascript:location.href='product-search.html'">
       </div>
@@ -93,7 +93,9 @@
     <a href="javascript:;" class="header-mobile-back none">&#xe654;</a>
   </div>
   <section class="header-mobile-search">
-    <input type="search" name="" placeholder="搜产品名称或订单编号">
+    <form action="product-search.html">
+      <input type="search" name="mobile-search" placeholder="搜产品名称或订单编号">
+    </form>
   </section>
   <div class="header-mobile-right">
     <!-- tools -->
@@ -245,20 +247,29 @@
 	<div class="product-detail-introduce-description">
 		<p class="title">立白天然皂液超值套装</p>
 		<p class="subtitle">天然椰油萃取 洗衣仅一分 椰香深层去渍</p>
+		<div class="action-collection-mobile pc-hide">
+			<i class="iconfont">&#xe631;</i>
+			<span>收藏</span>
+		</div>
 
 		<div class="price">
 			<dl>
-			<dt class="price-tit">价格：</dt>
+			<dt class="price-title">价格：</dt>
 			<dd class="original"><del>￥198.00</del></dd>
 			</dl>
 			<dl>
-				<dt class="price-tit">促销价：</dt>
+				<dt class="price-title">促销价：</dt>
 				<dd class="sale">￥99.00</dd>
 			</dl>
 			<dl>
-				<dt class="price-tit">促销活动：</dt>
+				<dt class="price-title">促销活动：</dt>
 				<dd class="activity">满100送1</dd>
 			</dl>
+		</div>
+
+		<div class="product-detail-section-title product-detail-promotion-section-mobile pc-hide">
+			<h2>产品参数</h2>
+			<!-- <a href="javascript:;"><i class="iconfont">&#xe601;</i></a> -->
 		</div>
 
 		<ul class="parameter">
@@ -290,95 +301,107 @@
 </div>
 
   <!-- import page js files and /body end -->
-  <div class="product-detail-section-title">
-	<h2>产品介绍</h2>
+  <div class="product-detail-section-title product-detail-promotion-section-mobile">
+  <h2>图文详情</h2>
+  <!-- <a href="javascript:;"><i class="iconfont">&#xe601;</i></a> -->
 </div>
 
 <div class="product-detail-introduction">
-	<img src="../src/images/temp/detail-introduction.jpg" alt="detail-introduction">
+  <img src="../src/images/temp/detail-introduction.jpg" alt="detail-introduction">
 </div>
 
 	<!-- import page js files and /body end -->
+	<!-- show in mobile -->
+<div class="product-detail-promotion-tabmenu pc-hide">
+	<a href="javascript:;">套餐产品</a>
+	<a href="javascript:;">同类商品</a>
+</div>
+
+
+<div class="product-detail-promotion-tab">
 	<div class="product-detail-section-title">
-	<h2>套餐产品</h2>
+		<h2>套餐产品</h2>
+	</div>
+
+	<ul class="product-detail-promotion">
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a1.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a2.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a3.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a4.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+	</ul>
 </div>
 
-<ul class="product-detail-promotion">
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a1.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a2.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a3.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a4.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-</ul>
+<div class="product-detail-promotion-tab m-hide">
+	<div class="product-detail-section-title">
+		<h2>
+			同类商品
+			<a href="product-detail.html">查看更多同类商品</a>
+		</h2>
+	</div>
 
-<div class="product-detail-section-title">
-	<h2>
-		同类商品
-		<a href="product-detail.html">查看更多同类商品</a>
-	</h2>
+	<ul class="product-detail-promotion">
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a1.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a2.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a3.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+		<li class="product-detail-promotion-list">
+		  <a href="product-detail.html">
+		    <img src="../src/images/temp/a4.jpg" alt="promotion">
+		  </a>
+		  <p class="product-detail-promotion-price">￥69.00</p>
+		  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
+		  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
+		</li>
+	</ul>
 </div>
-
-<ul class="product-detail-promotion">
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a1.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a2.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a3.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-	<li class="product-detail-promotion-list">
-	  <a href="product-detail.html">
-	    <img src="../src/images/temp/a4.jpg" alt="promotion">
-	  </a>
-	  <p class="product-detail-promotion-price">￥69.00</p>
-	  <h3><a class="product-detail-promotion-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶 + 亲肤450x2瓶子</a></h3>
-	  <p class="product-detail-promotion-tag">高端浓缩 精致护理衣物 深层去渍</p>
-	</li>
-</ul>
 
 	<!-- import page js files and /body end -->
 	<div class="product-detail-service">
@@ -388,6 +411,7 @@
 	<p>1、 验货签收时请您与配送人员当面核对：商品及配件、商品金额及数量、发票（如有）、赠品（如有）等；如存在包装破损、商品错误、商品短缺、商品存在质量问题等影响签收的因素，您可以拒收全部商品，（相关的赠品‘配件或捆绑商品和发票应一起当场拒收）。</p>
 	<p>2、 由于部分商品包装更换较为频繁，因此您收到的货品有可能与图片不完全一致，请您以收到的商品实物为准，同时我们会尽量做到及时更新，由此给您带来不便多多谅解，如有任何问题可与我们客服人员联系，谢谢！</p>
 </div>
+
 	<!-- import page js files and /body end -->
 </div>
 
@@ -439,8 +463,8 @@
 <footer class="footer-mobile">
   <a href="javascript:;" class="footer-mobile-homepage curr">首页</a>
   <a href="javascript:;" class="footer-mobile-catlog">分类</a>
-  <a href="javascript:;" class="footer-mobile-cart">购物车</a>
-  <a href="javascript:;" class="footer-mobile-me">我</a>
+  <a href="order-cart.html" class="footer-mobile-cart">购物车</a>
+  <a href="account.html" class="footer-mobile-me">我</a>
 </footer>
 
 

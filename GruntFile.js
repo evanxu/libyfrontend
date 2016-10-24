@@ -45,13 +45,14 @@ module.exports = function(grunt){
     //添加css前缀
     autoprefixer: {
       options: {
-        browsers: ['last 2 versions', 'ie 8', 'ie 9']
+        browserslist: ['last 2 versions', 'ie 8', 'ie 9', 'chrome'],
+        map: true
       },
       dev: {
         expand: true,
         flatten: true,
         src: '<%= config.dev %>/<%= config.path.css %>/**/*.css',
-        dest: '<%= config.dev %>/<%= config.dist.css %>/'
+        dest: '<%= config.dev %>/<%= config.path.css %>/'
       }
     },
 

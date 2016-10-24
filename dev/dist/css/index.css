@@ -599,6 +599,7 @@ q:before,
 q:after {
   content: ""; }
 
+:focus,
 input,
 button,
 select,
@@ -608,10 +609,15 @@ textarea {
 textarea {
   resize: none; }
 
-input[type=text] {
-  -webkit-appearance: textfield;
+input {
+  -webkit-appearance: none;
   -webkit-rtl-ordering: logical;
-  -webkit-user-select: text; }
+  -webkit-user-select: text;
+  border-radius: 0; }
+
+input[type=button], input[type=search], select {
+  outline: 0;
+  -webkit-appearance: none; }
 
 section,
 article,
@@ -630,8 +636,7 @@ a {
   a:hover {
     text-decoration: none; }
 
-a,
-input {
+* {
   -webkit-tap-highlight-color: transparent; }
 
 /* layout */
@@ -1559,11 +1564,11 @@ input.button {
         background: #fff;
         height: 39px; }
         .homepage-promotion-bottom-tit .iconfont {
-          height: 34px;
-          font-size: 32px;
+          height: 30px;
+          font-size: 28px;
           color: #ed1c24; }
         .homepage-promotion-bottom-tit span {
-          height: 30px;
+          height: 27px;
           padding: 0 10px 0 5px;
           border: 1px dashed #ebebeb;
           line-height: 30px;
@@ -1639,11 +1644,11 @@ input.button {
       background: #fff;
       height: 39px; }
       .homepage-newest-tit .iconfont {
-        height: 34px;
-        font-size: 32px;
+        height: 30px;
+        font-size: 28px;
         color: #39b54a; }
       .homepage-newest-tit span {
-        height: 30px;
+        height: 27px;
         padding: 0 10px 0 5px;
         border: 1px dashed #8dc63f;
         line-height: 30px;
@@ -2313,8 +2318,9 @@ input.button {
   .wallet-rebate-content {
     padding: 75px 15px 15px; }
     .wallet-rebate-content h3 {
-      width: 850px;
-      margin: 0 auto 60px;
+      height: 26px;
+      padding: 0 15px;
+      margin-bottom: 5px;
       font-size: 14px;
       color: #656565; }
       .wallet-rebate-content h3 span {
@@ -2409,69 +2415,68 @@ input.button {
       border-width: 5px;
       border-style: solid;
       border-color: transparent transparent #f3f3f3; }
-  .wallet-rebate-lists {
-    margin: 15px;
+  .wallet-rebate-lists dl {
+    margin: 0 15px 15px;
     overflow: hidden;
-    border: 1px solid #ebebeb; }
-    .wallet-rebate-lists dt {
+    border: 1px solid #ebebeb;
+    color: #656565; }
+  .wallet-rebate-lists dt {
+    height: 50px;
+    overflow: hidden;
+    background: #f9f9f9;
+    color: #828282; }
+  .wallet-rebate-lists-tab {
+    background: #fff;
+    overflow: hidden; }
+    .wallet-rebate-lists-tab a {
+      width: auto;
       height: 50px;
-      overflow: hidden;
-      background: #f9f9f9; }
-    .wallet-rebate-lists-tab {
-      background: #fff;
-      overflow: hidden; }
-      .wallet-rebate-lists-tab a {
-        width: auto;
-        height: 50px;
-        position: relative;
-        min-width: 100px;
-        padding: 0 10px;
-        float: left;
-        display: block;
-        line-height: 50px;
-        text-align: center;
-        color: #828282; }
-        .wallet-rebate-lists-tab a.curr, .wallet-rebate-lists-tab a:hover {
-          background: #ebf4f8;
-          color: #05a1e9; }
-          .wallet-rebate-lists-tab a.curr:after, .wallet-rebate-lists-tab a:hover:after {
-            width: 0;
-            height: 0;
-            bottom: 0;
-            left: 50%;
-            position: absolute;
-            content: "";
-            display: block;
-            border-style: solid;
-            border-width: 5px;
-            border-color: transparent transparent #05a1e9;
-            margin-left: -5px; }
-    .wallet-rebate-lists dd {
-      overflow: hidden; }
-      .wallet-rebate-lists dd:nth-child(odd) {
-        background: #f0fafe; }
-      .wallet-rebate-lists dd a {
-        color: #05a1e9; }
-    .wallet-rebate-lists p {
+      position: relative;
+      min-width: 100px;
+      padding: 0 10px;
       float: left;
-      width: 25%;
-      height: 55px;
-      padding: 0 15px;
-      line-height: 55px;
-      font-size: 14px;
-      color: #656565; }
-      .wallet-rebate-lists p:first-child {
-        padding-left: 30px; }
-      .wallet-rebate-lists p:nth-child(2) {
-        width: 35%; }
-      .wallet-rebate-lists p:nth-child(3) {
-        width: 15%;
-        font-weight: 700;
-        color: #333;
-        text-align: right; }
-      .wallet-rebate-lists p:nth-child(4) {
-        padding-right: 30px;
-        text-align: right; }
+      display: block;
+      line-height: 50px;
+      text-align: center;
+      color: #828282; }
+      .wallet-rebate-lists-tab a.curr, .wallet-rebate-lists-tab a:hover {
+        background: #ebf4f8;
+        color: #05a1e9; }
+        .wallet-rebate-lists-tab a.curr:after, .wallet-rebate-lists-tab a:hover:after {
+          width: 0;
+          height: 0;
+          bottom: 0;
+          left: 50%;
+          position: absolute;
+          content: "";
+          display: block;
+          border-style: solid;
+          border-width: 5px;
+          border-color: transparent transparent #05a1e9;
+          margin-left: -5px; }
+  .wallet-rebate-lists dd {
+    overflow: hidden; }
+    .wallet-rebate-lists dd:nth-child(odd) {
+      background: #f0fafe; }
+    .wallet-rebate-lists dd a {
+      color: #05a1e9; }
+  .wallet-rebate-lists p {
+    float: left;
+    width: 25%;
+    height: 55px;
+    padding: 0 15px;
+    line-height: 55px;
+    font-size: 14px; }
+    .wallet-rebate-lists p:first-child {
+      padding-left: 30px; }
+    .wallet-rebate-lists p:nth-child(2) {
+      width: 35%; }
+    .wallet-rebate-lists p:nth-child(3) {
+      width: 15%;
+      text-align: right; }
+    .wallet-rebate-lists p:nth-child(4) {
+      padding-right: 30px;
+      text-align: right; }
 
 .promotion-tab {
   width: 100%;
@@ -3479,41 +3484,40 @@ input.button {
     color: #05a1e9; }
   .order-detail-info {
     margin-bottom: 40px; }
-    .order-detail-info dl {
-      overflow: hidden;
-      border: 1px solid #ebebeb; }
-    .order-detail-info dt {
+    .order-detail-info-message {
       line-height: 40px;
       padding: 0 15px;
       overflow: hidden;
-      background: #f9f9f9; }
-      .order-detail-info dt span {
+      background: #f9f9f9;
+      border: 1px solid #ebebeb;
+      border-bottom: 0; }
+      .order-detail-info-message span {
         margin-right: 15px; }
-    .order-detail-info .order-detail-form {
-      padding: 15px 0;
-      overflow: hidden; }
-      .order-detail-info .order-detail-form-cell {
-        width: 30%;
-        float: left;
-        padding-right: 30px; }
-        .order-detail-info .order-detail-form-cell dl {
-          height: 30px;
-          line-height: 30px;
-          border: none; }
-        .order-detail-info .order-detail-form-cell dt {
+  .order-detail-form {
+    padding: 15px 0;
+    overflow: hidden;
+    border: 1px solid #ebebeb;
+    border-top: 0; }
+    .order-detail-form-item {
+      width: 30%;
+      float: left; }
+      .order-detail-form-item:first-child {
+        width: 40%; }
+        .order-detail-form-item:first-child .item-title {
+          width: 85px; }
+      .order-detail-form-item p {
+        line-height: 30px; }
+        .order-detail-form-item p .item-title {
           text-align: right;
-          width: 200px;
+          width: 150px;
           float: left;
           color: #b2b2b2;
           background: none;
           line-height: 30px; }
-        .order-detail-info .order-detail-form-cell dd {
+        .order-detail-form-item p .item-content {
+          display: block;
+          margin-left: 80px;
           color: #656565; }
-        .order-detail-info .order-detail-form-cell:first-child {
-          width: 40%; }
-          .order-detail-info .order-detail-form-cell:first-child dt {
-            width: 120px;
-            padding-left: 0; }
   .order-detail-lists {
     margin-bottom: 40px; }
     .order-detail-lists dl {
@@ -3543,7 +3547,7 @@ input.button {
       .order-detail-lists p:nth-child(3) {
         width: 15%;
         text-align: right; }
-      .order-detail-lists p:nth-child(4), .order-detail-lists p.order-detail-lists-total {
+      .order-detail-lists p:nth-child(4), .order-detail-lists p:nth-child(5), .order-detail-lists p.order-detail-lists-total {
         padding-right: 30px;
         text-align: right; }
       .order-detail-lists p.order-detail-lists-total {
@@ -4361,7 +4365,7 @@ input.button {
           font-weight: 700; }
         .product-detail-introduce-description .price .activity {
           color: #c57d03; }
-        .product-detail-introduce-description .price .price-tit {
+        .product-detail-introduce-description .price .price-title {
           width: 80px;
           display: block;
           float: left;

@@ -1,4 +1,4 @@
-<h3>返利进度：<span><strong>40</strong>%</span></h3>
+<h3 class="wallet-rebate-status">返利进度：<span><strong>40</strong>%</span></h3>
 <div class="wallet-rebate-progress" id="J-walletRebateProgress" data-money="1230">
 <!-- data-money的值为当前消费 -->
   <i class="wallet-rebate-progress-curr" id="J-walletRebateProgressCurr">
