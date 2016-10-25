@@ -15,20 +15,26 @@
   }
 
   &-info{
-    padding:$gap 75px $gap 35px;
+    padding:$gap 75px $gap $gap;
     overflow: hidden;
 
-    dl{
-      height: 30px;
+    span{
       line-height: 30px;
-      dt{
+
+      &:first-child{
         text-align: right;
         width: 130px;
         float: left;
-        color: $light-text;
+        color: $grey-text;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
       }
-      dd{
-        color: #656565;
+
+      &:last-child{
+        display: block;
+        margin-left: 130px;
+        color: $dark-text;
       }
     }
 
@@ -53,26 +59,26 @@
         clear: both;
       }
 
-      dl{
+      p{
         line-height: 35px;
-        height: 35px;
       }
 
     }
   }
 
-  &-lists{
-    &-title{
-      //this style @ _check.scss
-    }
+  &-lists-title{
+    @extend %section-title;
+    padding-top:$gap;
+    height:55px;
   }
+
 
   &-menu{
     position:relative;
     overflow:hidden;
     height:45px;
     line-height:45px;
-    color:#656565;
+    color:$dark-text;
 
     &-product,
     &-price,
@@ -133,7 +139,7 @@
 
   &-remark{
     padding:$gap $gap*2;
-    color:#656565;
+    color:$dark-text;
   }
 
   &-topup{

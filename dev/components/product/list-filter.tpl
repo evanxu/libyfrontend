@@ -53,7 +53,7 @@
 
 <!-- content below is for mobile -->
 <!-- product-list-filter -->
-<div class="product-list-filter">
+<!-- <div class="product-list-filter">
   <dl>
     <dt>品牌：</dt>
     <dd>
@@ -97,7 +97,7 @@
       <a href="#">促销组合装</a>
     </dd>
   </dl>
-</div>
+</div> -->
 
 <div class="product-list-filter-mobile">
   <div class="product-list-filter-mobile-content">

@@ -11,8 +11,8 @@
   </a>
   <div class="order-detail-content">
     <div class="order-detail-delivery-progress">
-      <i class="order-detail-delivery-progress-curr" style="width:25%">
-      <!-- order-detail-delivery-progress-curr根据当前的步骤决定，25% * (setp-1) -->
+      <i class="order-detail-delivery-progress-curr" style="width:33.33%">
+      <!-- order-detail-delivery-progress-curr根据当前的步骤决定，33.33% * (setp-1) -->
       </i>
       <ul class="order-detail-delivery-step">
         <li class="order-detail-delivery-step-item0 active">
@@ -34,15 +34,13 @@
         <li class="order-detail-delivery-step-item3">
           <span>4</span>
           <!-- 未进行部分显示数字不显示勾 -->
-          <p>确认收货</p>
+          <p>已收货</p>
           <!-- 未进行步骤不显示时间 -->
         </li>
-        <li class="order-detail-delivery-step-item4">
+        <!-- <li class="order-detail-delivery-step-item4">
           <span>5</span>
-          <!-- 未进行部分显示数字不显示勾 -->
           <p>订单关闭</p>
-          <!-- 未进行步骤不显示时间 -->
-        </li>
+        </li> -->
       </ul>
     </div>
 
@@ -131,7 +129,7 @@
     <div class="order-detail-lists">
       <h3 class="order-detail-title">
         <span class="order-detail-title-left">已发货商品</span>
-        <span class="order-detail-title-number"><i class="m-hide">(</i>交货单编号：23245678901<i class="m-hide">)</i></span>
+        <span class="order-detail-title-number">(交货单编号：23245678901)</span>
         <span class="order-detail-title-right">
           <a href="order-delivery.html"><i class="iconfont">&#xe603;</i><span>查看物流</span></a>
           <a href="javascript:;">分销订单</a>
@@ -147,34 +145,26 @@
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00</p>
-          <p class="pc-hide">单价</p>
-          <p>5,000</p>
-          <p class="pc-hide">数量</p>
+          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00</p>
-          <p class="pc-hide">单价</p>
-          <p>5,000</p>
-          <p class="pc-hide">数量</p>
+          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00</p>
-          <p class="pc-hide">单价</p>
-          <p>5,000</p>
-          <p class="pc-hide">数量</p>
+          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00</p>
-          <p class="pc-hide">单价</p>
-          <p>5,000</p>
-          <p class="pc-hide">数量</p>
+          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p class="order-detail-lists-total">
@@ -200,16 +190,16 @@
           <p>立白去渍洗洁精</p>
           <p>￥50.00</p>
           <p>5,000</p>
-          <p>10,000</p>
-          <p>2016-9-25</p>
+          <p>10,000<span class="pc-hide text-light">库存</span></p>
+          <p>2016-9-25<span class="pc-hide text-light">预计发货</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
           <p>￥50.00</p>
           <p>5,000</p>
-          <p>10,000</p>
-          <p>2016-9-25</p>
+          <p>10,000<span class="pc-hide text-light">库存</span></p>
+          <p>2016-9-25<span class="pc-hide text-light">预计发货</span></p>
         </dd>
         <dd>
           <p class="order-detail-lists-total">

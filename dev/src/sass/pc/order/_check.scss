@@ -6,6 +6,10 @@
     min-height:$catalog-height;
   }
 
+  &-title{
+    @extend %section-title;
+  }
+
   &-info{
     margin-top:-5px;
     margin-bottom:$gap;
@@ -110,7 +114,7 @@
     overflow:hidden;
     height:45px;
     line-height:45px;
-    color:#656565;
+    color:$dark-text;
 
     &-product,
     &-price,
@@ -234,7 +238,7 @@
   &-product-info{
     float:right;
     text-align:right;
-    color:#656565;
+    color:$dark-text;
   }
 }
 
@@ -250,16 +254,13 @@
     background:#fff;
   }
 
-  &-title{
-    @extend %section-title;
-  }
 
   &-topup{
     position:relative;
     height:60px;
     padding:10px $gap*2;
     border-top:$gap solid $light-border;
-    color:#656565;
+    color:$dark-text;
     line-height:16px;
 
     .button{

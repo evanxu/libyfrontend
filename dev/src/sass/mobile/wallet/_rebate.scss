@@ -176,7 +176,7 @@
 
     dd{
       @include size(100%, 0.51rem);
-      padding:0 $gap;
+      padding:0.1rem $gap;
       border-bottom:1px solid #f6f6f6;
       display:flex;
       flex-direction:column;
@@ -188,12 +188,11 @@
     }
 
     p{
-      width: 30%;
-      height: 0.5rem;
+      @include size(30%, 0.3rem);
       padding:0;
-      line-height: 0.25rem;
+      line-height: 0.15rem;
       font-size: $font-size-base;
-      color: #656565;
+      color: $dark-text;
       order:2;
       display:flex;
       flex-direction:column;
@@ -201,14 +200,18 @@
 
 
       &:first-child{
-        @include size(40%, 0.25rem);
+        @include size(40%, 0.15rem);
         padding-left:0;
         color:$light-text;
         order:1;
+
+        span{
+          display:none;
+        }
       }
 
       &:nth-child(2){
-        @include size(40%, 0.25rem);
+        @include size(40%, 0.15rem);
         order:0;
       }
 

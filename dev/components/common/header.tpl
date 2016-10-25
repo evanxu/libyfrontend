@@ -54,6 +54,6 @@
   <div class="header-mobile-right">
     <!-- tools -->
     <a href="javascript:;" class="header-mobile-tools">&#xe629;</a>
-    <span class="header-mobile-msg">2</span>
+    <!-- <span class="header-mobile-msg">2</span> -->
   </div>
 </header>

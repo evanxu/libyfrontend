@@ -10,18 +10,16 @@
       <div class="form-item">
         <span class="form-title">活动名称：</span>
         <input type="tel" class="input" placeholder="" name="">
-        <p class="promotion-add-notice">名称不能为空且真实有效</p>
+        <p class="error">名称不能为空且真实有效</p>
       </div>
       <div class="form-item">
         <span class="form-title">活动时间：</span>
-          <div class="promotion-add-date">
-            <input type="text" class="input" placeholder="" name="">
-            <i class="iconfont">&#xe610;</i>
+          <div class="form-datepicker promotion-add-date">
+            <input type="text" class="input" placeholder="请选择起始时间" name="">
           </div>
           <p class="promotion-add-fromto">至</p>
-          <div class="promotion-add-date">
-            <input type="text" class="input" placeholder="" name="">
-            <i class="iconfont">&#xe610;</i>
+          <div class="form-datepicker promotion-add-date">
+            <input type="text" class="input" placeholder="请选择结束时间" name="">
           </div>
       </div>
       <div class="form-item clearfix">
@@ -31,7 +29,7 @@
           <input type="file">
         </div>
         <div class=" promotion-add-pic">
-          <a href="javascript:;">上传活动图片</a>
+          <a href="javascript:;">选择产品图片</a>
           <input type="file">
         </div>
       </div>
@@ -39,8 +37,9 @@
       </div>
       <div class="form-item promotion-add-setrule">
         <span class="form-title">设置规则：</span>
-        <input type="text" class="input input-select" placeholder="" name="">
-        <i class="iconfont">&#xe601;</i>
+        <div class="form-select">
+          <input type="text" class="input input-select" name="" placeholder="选择门店类型">
+        </div>
       </div>
       <div class="form-item promotion-add-rules">
         <span class="form-title">活动规则1：</span>
@@ -57,7 +56,6 @@
         <input type="text" class="input" placeholder="" name="">
       </div>
       <div class="form-item promotion-add-addrule">
-        <span class="form-title"></span>
         <a href="javascript:;">+ 新增活动规则</a>
       </div>
       <div class="form-item promotion-add-require">

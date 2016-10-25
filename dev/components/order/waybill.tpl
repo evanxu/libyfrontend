@@ -38,41 +38,41 @@
     <form class="form">
       <div class="order-waybill-info">
         <div class="order-waybill-info-top">
-          <dl><dt>订单编号：</dt><dd>15109860</dd></dl>
-          <dl><dt>订单类型：</dt><dd>Z001</dd></dl>
-          <dl><dt>订单状态：</dt><dd>已创建</dd></dl>
-          <dl><dt>请求发货日期：</dt><dd>2016-09-06</dd></dl>
+          <p><span>订单编号：</span><span>15109860</span></p>
+          <p><span>订单类型：</span><span>Z001</span></p>
+          <p><span>订单状态：</span><span>已创建</span></p>
+          <p><span>请求发货日期：</span><span>2016-09-06</span></p>
         </div>
         <div class="order-waybill-info-top">
-          <dl><dt>客户名称：</dt><dd>十堰万界贸易有限公司</dd></dl>
-          <dl><dt>送达方：</dt><dd>刘晓雪：沈阳苏家屯迎春街232号(6009603)</dd></dl>
-          <dl><dt>送货地址：</dt><dd>沈阳苏家屯迎春街232号(6009603)</dd></dl>
-          <dl><dt>承运方：</dt><dd>沈阳苏家屯迎春街232号(6009603)</dd></dl>
+          <p><span>客户名称：</span><span>十堰万界贸易有限公司</span></p>
+          <p><span>送达方：</span><span>刘晓雪：沈阳苏家屯迎春街232号(6009603)</span></p>
+          <p><span>送货地址：</span><span>沈阳苏家屯迎春街232号(6009603)</span></p>
+          <p><span>承运方：</span><span>沈阳苏家屯迎春街232号(6009603)</span></p>
         </div>
         <div class="order-waybill-info-btm">
-          <dl><dt>总数量(件)：</dt><dd>15000</dd></dl>
-          <dl><dt>总吨位(吨)：</dt><dd>19950</dd></dl>
-          <dl><dt>总体积(立方米)：</dt><dd>69000</dd></dl>
+          <p><span>总数量(件)：</span><span>15000</span></p>
+          <p><span>总吨位(吨)：</span><span>19950</span></p>
+          <p><span>总体积(立方米)：</span><span>69000</span></p>
         </div>
         <div class="order-waybill-info-btm">
-          <dl><dt>已发货总数量(件)：</dt><dd>0</dd></dl>
-          <dl><dt>已发货总吨位(吨)：</dt><dd>0</dd></dl>
-          <dl><dt>已发货总体积(立方米)：</dt><dd>0</dd></dl>
+          <p><span>已发货总数量(件)：</span><span>0</span></p>
+          <p><span>已发货总吨位(吨)：</span><span>0</span></p>
+          <p><span>已发货总体积(立方米)：</span><span>0</span></p>
         </div>
         <div class="order-waybill-info-btm">
-          <dl><dt>吨位上限：</dt><dd>13</dd></dl>
-          <dl><dt>吨位下限：</dt><dd>5</dd></dl>
-          <dl><dt>方数上限：</dt><dd>55</dd></dl>
+          <p><span>吨位上限：</span><span>13</span></p>
+          <p><span>吨位下限：</span><span>5</span></p>
+          <p><span>方数上限：</span><span>55</span></p>
         </div>
       </div>
       <div class='order-waybill-lists'>
-        <p class="order-waybill-title">商品信息</p>
+        <p class="order-waybill-lists-title">商品信息</p>
         <div class="order-waybill-menu">
           <div class="order-waybill-menu-product">商品简介</div>
           <div class="order-waybill-menu-price">单价</div>
           <div class="order-waybill-menu-quantity">数量</div>
           <div class="order-waybill-menu-discount">优惠方式</div>
-          <div class="order-waybill-menu-total">金额（元）</div>
+          <div class="order-waybill-menu-total">金额</div>
         </div>
         <-- include('waybill-item.tpl') -->
       </div>

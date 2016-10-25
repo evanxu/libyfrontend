@@ -10,15 +10,15 @@
       <li><a href="javascript:;">未开始</a></li>
     </ul>
   </div>
-  <dl class="promotion-cont">
-    <dt class="promotion-mine-add">
+  <ul class="promotion-cont">
+    <li class="promotion-mine-add">
       <a href="promotion-add.html">
         <span>暂无促销活动，请点击新建</span>
 
         <span class="promotion-mine-add-tag">+</span>
       </a>
-    </dt>
-  </dl>
+    </li>
+  </ul>
   <!-- <div class="promotion-end">
     <div class="promotion-end-txt">
       <i class="icon"></i>

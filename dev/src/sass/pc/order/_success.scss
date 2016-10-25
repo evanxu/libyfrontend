@@ -1,6 +1,6 @@
 $order-success-pr:  270px;
 $order-success-pl:  380px;
-$order-success-color: #656565;
+$order-success-color: $dark-text;
 
 .order-success{
   margin-left:-$catalog-width;
@@ -29,7 +29,7 @@ $order-success-color: #656565;
   &-text{
     position:relative;
     margin-bottom: 30px;
-    font-size:$font-size-xlarge;
+    font-size:$font-size-large;
     line-height: 25px;
     color:$order-success-color;
 
@@ -37,7 +37,7 @@ $order-success-color: #656565;
       font-size:$font-size-large;
     }
 
-    span{
+    &-title{
       @include absolute(left -290px top 0);
       width: 290px;
       display: block;

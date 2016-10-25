@@ -1,6 +1,6 @@
 $order-cart-pr:  220px;
 $order-cart-pl:  160px;
-$order-cart-color: #656565;
+$order-cart-color: $dark-text;
 
 .order-cart{
   margin-left:0;
@@ -21,7 +21,7 @@ $order-cart-color: #656565;
   }
 
   &-check{
-    @include absolute(left 0.1rem top 0.5rem);
+    @include absolute(left 0.1rem top 0.4rem);
   }
 
   &-sales{
@@ -66,9 +66,7 @@ $order-cart-color: #656565;
 
     & > span:last-of-type{
       width:100%;
-      display:flex;
-      flex-direction:column;
-      justify-content:space-around;
+      line-height:0.36rem;
     }
 
     & > span:first-of-type,
@@ -115,7 +113,7 @@ $order-cart-color: #656565;
 
       &:first-child{
         height:0.42rem;
-        line-height:0.21rem;
+        line-height:0.18rem;
         overflow:hidden;
       }
 
@@ -210,7 +208,7 @@ $order-cart-color: #656565;
     @include absolute(bottom 0 right 0);
     padding-right:$gap;
     border-top:1px solid #f6f6f6;
-    color:#656565;
+    color:$dark-text;
     font-size:$font-size-medium;
     line-height:0.3rem;
     text-align:right;
@@ -259,7 +257,7 @@ $order-cart-color: #656565;
 
   &-promotion{
     @include absolute(bottom 6px left $gap);
-    color:#656565;
+    color:$dark-text;
     margin-top:0;
   }
 

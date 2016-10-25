@@ -122,7 +122,7 @@
       float: left;
       height: 48px;
       line-height: 48px;
-      color: #656565;
+      color: $dark-text;
       text-align: center;
     }
 
@@ -137,7 +137,7 @@
         padding: 0 20px;
         height: 48px;
         line-height: 48px;
-        color: #656565;
+        color: $dark-text;
         text-align: center;
 
         &:after{
@@ -177,14 +177,14 @@
       }
       span{
         margin-right:10px;
-        color: #656565;
+        color: $dark-text;
       }
       a{
         @include size(40px, 24px);
-        margin-left:-5px;
+        margin-left:-4px;
         text-align: center;
         border: 1px solid #c2c2c2;
-        color: #656565;
+        color: $dark-text;
         line-height:22px;
 
         &:hover{
@@ -290,7 +290,7 @@
     &-title{
       display:block;
       width: 100%;
-      color: #656565;
+      color: $dark-text;
 
       &:hover {
           color:$base-color;

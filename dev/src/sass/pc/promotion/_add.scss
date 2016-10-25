@@ -1,6 +1,7 @@
 $promotion-add-input-width:  400px;
 
-.promotion-add{
+.promotion-add,
+.promotion-mine{
   min-height:$catalog-height;
 
   .input,
@@ -16,7 +17,7 @@ $promotion-add-input-width:  400px;
     margin-bottom:40px;
     width:auto;
     span{
-      color: #656565;
+      color: $dark-text;
     }
   }
 
@@ -46,7 +47,7 @@ $promotion-add-input-width:  400px;
     position:relative;
 
     .input{
-      width:170px;
+      width:171px;
     }
 
     i{
@@ -87,12 +88,8 @@ $promotion-add-input-width:  400px;
     }
   }
 
-  &-setrule{
-    a{
-      @include absolute(left 490px top 0);
-      @include size(30px,30px);
-      text-align: center;
-    }
+  &-setrule .form-select{
+    width:$promotion-add-input-width;
   }
 
   &-rules{
@@ -108,17 +105,16 @@ $promotion-add-input-width:  400px;
     }
 
     .input{
-      width: 170px;
+      width: 173px;
     }
   }
 
   &-addrule{
     a{
+      @include size(190px, 38px);
       display: block;
-      height: 38px;
       line-height: 38px;
       text-align: center;
-      width: 190px;
       border: 1px dashed #dcdee8;
       color:$blue-text;
     }

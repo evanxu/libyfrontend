@@ -1,11 +1,11 @@
-$promotion-add-input-width:  400px;
+$promotion-add-input-width:  auto;
 
 .promotion-add{
-  min-height:$catalog-height;
+  min-height:auto;
 
   .input,
   .textarea{
-    width:$promotion-add-input-width;
+    width:100%;
   }
 
   &-notice{
@@ -13,16 +13,20 @@ $promotion-add-input-width:  400px;
   }
 
   &-box{
-    margin-bottom:40px;
+    margin-bottom:0.2rem;
     width:auto;
     span{
-      color: #656565;
+      color: $dark-text;
     }
   }
 
   &-form{
-    margin:0 50px;
-    padding:0 125px;
+    margin:0;
+    padding:0 $gap;
+
+    .form-item{
+      display:flex;
+    }
   }
 
   &-amount{
@@ -31,22 +35,22 @@ $promotion-add-input-width:  400px;
   }
 
   &-btn{
-    padding:$gap*2;
+    padding:$gap $gap*2;
     border-top:1px dashed #dcdee8;
     text-align:center;
+    display:flex;
   }
 
   &-fromto{
     float: left;
-    padding: 0 23px;
+    padding:0 0.05rem;
   }
 
   &-date{
-    float: left;
-    position:relative;
+    flex:1;
 
     .input{
-      width:170px;
+      width:100%;
     }
 
     i{
@@ -55,25 +59,18 @@ $promotion-add-input-width:  400px;
   }
 
   &-pic{
-    position: relative;
-    overflow: hidden;
-    width: 190px;
-    height: 142px;
-    float: left;
-    margin-bottom: 15px;
+    @include size(auto, 1rem);
+    margin-bottom: $gap;
+    flex:1;
 
     &:last-child{
-      margin-left: 20px;
+      margin-left: 0.2rem;
     }
 
     a{
-      display: block;
-      float: left;
-      @include size(190px,142px);
+      @include size(100%, 100%);
       text-align: center;
-      line-height: 142px;
-      background: $light-background;
-      color:$blue-text;
+      line-height: 1rem;
     }
 
     input{
@@ -87,12 +84,9 @@ $promotion-add-input-width:  400px;
     }
   }
 
-  &-setrule{
-    a{
-      @include absolute(left 490px top 0);
-      @include size(30px,30px);
-      text-align: center;
-    }
+   &-setrule .form-select{
+    width:$promotion-add-input-width;
+    flex:1;
   }
 
   &-rules{
@@ -100,7 +94,7 @@ $promotion-add-input-width:  400px;
       float: left;
     }
     p{
-      padding:0 10px;
+      padding:0 0.1rem;
 
       &:first-of-type{
         padding-left:0;
@@ -108,19 +102,15 @@ $promotion-add-input-width:  400px;
     }
 
     .input{
-      width: 170px;
+      width: 100%;
     }
   }
 
   &-addrule{
     a{
-      display: block;
-      height: 38px;
-      line-height: 38px;
-      text-align: center;
-      width: 190px;
-      border: 1px dashed #dcdee8;
-      color:$blue-text;
+      @include size(1.9rem, 0.38rem);
+      margin-left:0.75rem;
+      line-height:0.38rem;
     }
   }
 

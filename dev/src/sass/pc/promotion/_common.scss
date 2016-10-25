@@ -14,7 +14,7 @@
       display: block;
       line-height: 50px;
       text-align: center;
-      color: #656565;
+      color: $dark-text;
 
       &:hover{
         border-bottom: 2px solid #07aaeb;
@@ -36,6 +36,7 @@
 
       &:hover{
         background: #f0fafe;
+        border-bottom:none;
       }
     }
   }

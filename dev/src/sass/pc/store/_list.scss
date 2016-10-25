@@ -37,7 +37,7 @@
 
   &-filter{
     margin:$gap;
-    color:#656565;
+    color:$dark-text;
 
     &-area{
       float:left;
@@ -86,15 +86,16 @@
   &-item{
     padding:$gap 0;
     width:100%;
-    color:#656565;
+    color:$dark-text;
     overflow:hidden;
     border-bottom:1px solid $light-border;
 
     &-serial,
     &-detail,
-    &-target{
+    &-target,
+    &-action{
       float:left;
-      width:25%;
+      width:12.5%;
       text-align:center;
     }
 
@@ -167,8 +168,16 @@
       }
     }
 
+    &-action{
+      a{
+        display:block;
+        margin-bottom:5px;
+        text-align:center;
+      }
+    }
+
     &-txt{
-      color:#656565;
+      color:$dark-text;
       line-height:20px;
     }
 

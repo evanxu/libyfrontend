@@ -17,7 +17,7 @@ $footer-grey:#a1a1a1;
     position:relative;
     padding-top:0.15rem;
     text-align:center;
-    color:#656565;
+    color:$dark-text;
     box-sizing:border-box;
 
     &:after{
@@ -34,15 +34,15 @@ $footer-grey:#a1a1a1;
   }
 
   &-homepage:after{
-    content:"\e627";
+    content:"\e659";
   }
   &-catlog:after{
-    content:"\e621";
+    content:"\e65a";
   }
   &-cart:after{
-    content:"\e61e";
+    content:"\e65c";
   }
   &-me:after{
-    content:"\e624";
+    content:"\e658";
   }
 }

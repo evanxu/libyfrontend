@@ -10,64 +10,64 @@
       <li><a href="javascript:;">未开始</a></li>
     </ul> -->
   </div>
-  <dl class="promotion-cont">
-    <dd>
+  <ul class="promotion-cont">
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d1.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-    <dd>
+    </li>
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d2.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-    <dd>
+    </li>
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d3.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-    <dd>
+    </li>
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d4.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-    <dd>
+    </li>
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d5.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-    <dd>
+    </li>
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d6.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-    <dd>
+    </li>
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d7.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-    <dd>
+    </li>
+    <li>
       <a href="javascript:;">
         <img src="../src/images/temp/d8.jpg" alt="">
         <span class="tit">立白周年庆狂欢24小时</span>
         <span class="time">开始时间：2016.09.16</span>
       </a>
-    </dd>
-  </dl>
+    </li>
+  </ul>
   <div class="promotion-end">
     <div class="promotion-end-txt">
       <i class="icon"></i>

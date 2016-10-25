@@ -1,4 +1,4 @@
-$product-detail-description-color:#656565;
+$product-detail-description-color:$dark-text;
 $product-ssdetail-amount-color:#878787;
 
 .product-detail{
@@ -209,7 +209,7 @@ $product-ssdetail-amount-color:#878787;
       font-size: 14px;
       line-height: 0.2rem;
       position:relative;
-      color:#656565;
+      color:$dark-text;
 
       &:first-child:after{
         content: "";
@@ -276,7 +276,7 @@ $product-ssdetail-amount-color:#878787;
     }
 
     i{
-      color: #656565;
+      color: $dark-text;
     }
   }
 

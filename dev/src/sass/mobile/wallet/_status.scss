@@ -3,21 +3,23 @@
   min-height:$catalog-height;
 
   &-chart{
-    @include size(100%, 300px);
-    position:relative;
-    padding-left:500px;
-    padding-top:40px;
+    @include size(100%, auto);
+    padding-left:0;
+    padding-top:0;
 
     &-detail{
-      @include size(300px, 300px);
-      @include absolute(top 50% left 100px);
-      margin-top:-150px;
+      @include size(100%, 3rem);
+      @include relative(top 0 left 0);
+      margin:0 auto;
     }
 
     &-text{
+      margin:-$gap $gap $gap;
+
       dd,
       dt{
-        @include size(190px, 30px);
+        @include size(100%, 0.3rem);
+        padding:0;
       }
 
       dt{
@@ -26,10 +28,9 @@
       }
 
       dd{
-        position:relative;
-        height:20px;
-        padding-left:25px;
-        margin-bottom:10px;
+        height:0.2rem;
+        padding-left:0.25rem;
+        margin-bottom:0.1rem;
         font-size:$font-size-medium;
 
         &:before{
@@ -53,39 +54,40 @@
         }
 
         &:last-child{
-          height:auto;
-          margin-top:$gap*2;
+          @include size(100%, auto);
+          margin-top:$gap;
           padding-left:0;
+
+          .button{
+            width:100%;
+          }
         }
       }
     }
   }
 
   &-lists{
-    margin:$gap;
-    overflow: hidden;
-    border: 1px solid $grey-border;
+    margin:0;
+    border:0;
 
     dt{
-      height:50px;
-      overflow:hidden;
-      background: #f9f9f9;
+      display:none;
     }
 
     &-tab{
-      background:$white-background;
-      overflow: hidden;
+      display:table;
+      width:100%;
+      background:#f9f9f9;
 
       a{
-        @include size(auto, 50px);
-        position:relative;
-        min-width:100px;
-        padding:0 10px;
-        float: left;
-        display: block;
-        line-height: 50px;
-        text-align: center;
-        color: $grey-text;
+        @include size(25%, 0.5rem);
+        padding:0 0.1rem;
+        min-width:auto;
+        line-height: 1.5;
+        float:none;
+        display:table-cell;
+        vertical-align:middle;
+        box-sizing:border-box;
 
         &.curr,
         &:hover{
@@ -107,43 +109,54 @@
     }
 
     dd{
+      @include size(100%, 0.51rem);
+      padding:0.1rem $gap;
+      border-bottom:1px solid #f6f6f6;
       overflow: hidden;
+      display:flex;
+      flex-direction:column;
+      flex-wrap:wrap;
 
       &:nth-child(odd){
-        background: #f0fafe;
-      }
-
-      a{
-        color:$base-color;
+        background: none;
       }
     }
 
     p{
-      float: left;
-      width: 25%;
-      height: 55px;
-      padding:0 $gap;
-      line-height: 55px;
-      font-size: 14px;
-      color: #656565;
+      @include size(30%, 0.3rem);
+      padding:0;
+      line-height: 0.15rem;
+      font-size: $font-size-base;
+      color: $dark-text;
+      order:2;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
 
       &:first-child{
-        padding-left:$gap*2;
+        @include size(40%, 0.15rem);
+        padding-left:0;
+        color:$light-text;
+        order:1;
+
+        span{
+          display:none;
+        }
       }
 
       &:nth-child(2){
-        width:35%;
+        @include size(40%, 0.15rem);
+        order:0;
       }
 
       &:nth-child(3){
-        width:15%;
-        font-weight:700;
-        color:#333;
+        width:30%;
+        font-weight:400;
         text-align:right;
       }
 
       &:nth-child(4){
-        padding-right:$gap*2;
+        padding-right:0;
         text-align:right;
       }
     }

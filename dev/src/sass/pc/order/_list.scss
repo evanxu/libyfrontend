@@ -20,7 +20,7 @@
       font-size: 14px;
       line-height: 50px;
       text-align: center;
-      color: #656565;
+      color: $dark-text;
     }
 
     li.curr a,
@@ -70,7 +70,7 @@
 
   &-filter{
     margin:$gap;
-    color:#656565;
+    color:$dark-text;
 
     &-date{
       float:left;
@@ -94,12 +94,16 @@
 
   &-items{
     margin:$gap;
-    color:#656565;
+    color:$dark-text;
     border:1px solid $grey-border;
 
     &-title{
       height:38px;
       line-height:38px;
+
+      .order-list-cell-product{
+        margin-right:100px;
+      }
     }
 
     &-detail{
@@ -130,6 +134,7 @@
 
   &-cell{
 
+    &-image,
     &-detail,
     &-product,
     &-quantity,
@@ -148,22 +153,21 @@
       margin-top:-$gap;
     }
 
+    &-image img{
+      @include size(85px,85px);
+      display:block;
+      margin-left:$gap;
+    }
+
     &-product{
+      @include size(235px, 100%);
       position:relative;
-      width:335px;
       padding-left:$gap;
       text-align:left;
       overflow:hidden;
 
-      img{
-        @include size(85px,85px);
-        display:block;
-        float:left;
-        margin-right:$gap;
-      }
-
       span{
-        @include absolute(left 115px bottom 5px);
+        @include absolute(left 15px bottom 0);
         color:$light-text;
       }
     }

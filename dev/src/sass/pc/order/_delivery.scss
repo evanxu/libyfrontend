@@ -91,7 +91,7 @@
     width:970px;
     margin:0 auto $gap*2;
     border:1px solid $grey-border;
-    color:#656565;
+    color:$dark-text;
 
     h3{
       height:40px;
@@ -126,7 +126,7 @@
         content:"";
         display:block;
         margin-top:-2px;
-        background:#656565;
+        background:$dark-text;
         border-radius:100%;
       }
     }

@@ -32,12 +32,12 @@
 
     <h2><i class="iconfont">&#xe612;</i>您已成功提交交货单！</h2>
     <p class="order-success-text">
-      <span>送达地址方式：</span>
+      <span class="order-success-text-title">收货地址：</span>
       上海市杨浦区内环以北北京东路180号广澳大厦2单元11室
       <br>邓志勇 15021511111
     </p>
     <p class="order-success-text">
-      <span>实付款：</span>
+      <span class="order-success-text-title">实付款：</span>
       <strong>￥150,000</strong>
     </p>
 

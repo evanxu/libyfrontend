@@ -45,11 +45,11 @@
       }
 
       strong{
-        @include absolute(bottom -45px left 0);
+        @include absolute(bottom -0.35rem left 0);
         width:100%;
         margin-left:0;
         font-size:9px;
-        line-height:0.2rem;
+        line-height:0.15rem;
       }
 
       span{
@@ -76,21 +76,6 @@
         }
       }
     }
-
-    &-item{
-      &1{
-        margin-left:25%;
-      }
-      &2{
-        margin-left:50%;
-      }
-      &3{
-        margin-left:75%;
-      }
-      &4{
-        margin-left:100%;
-      }
-    }
   }
 
   &-title{
@@ -103,6 +88,10 @@
 
     &-right{
       display:none;
+    }
+
+    &-number{
+      font-size:$font-size-base;
     }
   }
 
@@ -184,7 +173,7 @@
 
     dd{
       height:0.51rem;
-      padding:0 $gap;
+      padding:0.1rem $gap;
       overflow: hidden;
       border-bottom:1px solid #f6f6f6;
       display:flex;
@@ -201,44 +190,46 @@
     }
 
     p{
-      height: 0.25rem;
-      line-height: 0.25rem;
-      width: 30%;
+      @include size(20%, 0.15rem);
+      line-height: 0.15rem;
       text-align: center;
       padding: 0;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow:ellipsis;
+      order:1;
 
       &:first-child,
       &:nth-child(2){
-        padding:0;
         width:50%;
+        padding:0;
         text-align: left;
+      }
+
+      &:first-child{
+        color:$light-text;
+      }
+
+      &:nth-child(2){
+        order:0;
+      }
+
+      &:nth-child(3){
+        text-align:center;
       }
 
       &:nth-child(3),
       &:nth-child(4){
         width:25%;
-        text-align: center;
+        height:0.3rem;
         padding:0;
-      }
-
-      &:nth-child(5),
-      &:nth-child(6){
-        width:25%;
-        text-align: right;
-      }
-
-      &:nth-child(even){
-        color:$light-text;
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
       }
 
       &.order-detail-lists-total{
-        @include size(100%, 0.5rem);
+        @include size(100%, 0.3rem);
         background:none;
-        line-height:0.5rem;
         text-align:right;
+        color:$dark-text !important;
       }
     }
 
@@ -247,7 +238,21 @@
     }
   }
 
-  &-deliver{
+  &-deliver p{
+    &:nth-child(3),
+    &:nth-child(4){
+      display:none;
+    }
+
+    &:nth-child(5),
+    &:nth-child(6){
+      width:25%;
+      height:0.3rem;
+      padding:0;
+      display:flex;
+      flex-direction:column;
+      flex-wrap:wrap;
+    }
     // p{
     //   width:15%;
 

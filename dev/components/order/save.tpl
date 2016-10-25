@@ -32,20 +32,19 @@
 
     <h2><i class="iconfont">&#xe612;</i>您已成功保存订单，请及时提交交货单！</h2>
     <p class="order-success-text">
-      <span>送达地址方式：</span>
+      <span class="order-success-text-title">收货地址：</span>
+      <span>
       上海市杨浦区内环以北北京东路180号广澳大厦2单元11室
       <br>邓志勇 15021511111
+      </span>
     </p>
-    <p class="order-success-text">
-      <span>您可以<a href="order-detail.html">继续购物</a>,</span>
-      或者去我的订单查看订单，并对该订单进行修改或提交交货单。
-    </p>
+    <p class="order-success-text"><span class="order-success-text-title">您可以<a href="javascript:;">继续购物</a></span>,<span>或者去我的订单查看订单，并对该订单进行修改或提交交货单。</span></p>
 
 <!--     <p class="order-success-text"><span >实付款：</span><span>￥150,000.00</span></p> -->
 
     <div class="order-success-btn">
-      <a href="order-detail.html" class="button button-blue button-radius mr30">查看订单</a>
-      <a href="order-waybill.html" class="button button-grey button-radius">提交交货单</a>
+      <a href="order-waybill.html" class="button button-blue button-radius mr30">提交交货单</a>
+      <a href="order-detail.html" class="button button-grey button-radius">查看订单</a>
     </div>
 
   </div>

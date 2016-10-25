@@ -31,6 +31,7 @@
       <p class="store-list-item-serial">排名</p>
       <p class="store-list-item-detail">门店介绍</p>
       <p class="store-list-item-target">销售目标</p>
+      <p class="store-list-item-action">操作</p>
     </div>
     <!-- 拿到索引值，添加名为store-list-item[index]的class-->
     <div class="store-list-item store-list-item1">
@@ -38,7 +39,7 @@
         <span>冠</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -47,6 +48,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -56,7 +61,7 @@
         <span>亚</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq2.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -65,6 +70,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -74,7 +83,7 @@
         <span>季</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq3.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -83,6 +92,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -92,7 +105,7 @@
         <span>4</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq4.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -101,6 +114,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -110,7 +127,7 @@
         <span>5</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq2.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -119,6 +136,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -128,7 +149,7 @@
         <span>6</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq1.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -137,6 +158,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -146,7 +171,7 @@
         <span>7</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq4.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -155,6 +180,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -164,7 +193,7 @@
         <span>8</span>
       </p>
       <div class="store-list-item-detail">
-        <a href="javascript:;"><img src="../src/images/temp/v1.jpg" alt=""></a>
+        <a href="javascript:;"><img src="../src/images/temp/qq3.jpg" alt=""></a>
         <div class="store-list-item-txt">
           <p class="store-list-item-title"><a href="javascript:;">福州路旗舰店</a></p>
           <p>地址：福州路100号</p>
@@ -173,6 +202,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
 
@@ -192,6 +225,10 @@
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
       </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
+      </div>
     </div>
 
     <!-- 拿到索引值，添加名为store-list-item[index]的class-->
@@ -209,6 +246,10 @@
       </div>
       <div class="store-list-item-target">
         <p class="store-list-item-status"><strong>80</strong>万</p>
+      </div>
+      <div class="store-list-item-action">
+        <a href="javascript:;" class="no-link">查看详情</a>
+        <a href="javascript:;" class="no-link">配置促销</a>
       </div>
     </div>
   </div>

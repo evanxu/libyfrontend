@@ -124,7 +124,7 @@
       height: 55px;
       padding:0 $gap;
       line-height: 55px;
-      color: #656565;
+      color: $dark-text;
 
       &:first-child{
         padding-left:$gap*2;
@@ -136,7 +136,7 @@
 
       &:nth-child(3){
         width:15%;
-        color:#656565;
+        color:$dark-text;
         text-align:right;
       }
 

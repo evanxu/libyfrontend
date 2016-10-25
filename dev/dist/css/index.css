@@ -13,7 +13,7 @@
   height: 40px;
   line-height: 40px;
   font-size: 18px;
-  color: #656565;
+  color: $dark-text;
   background: #f6f6f6; }
 
 .hidden {
@@ -1766,7 +1766,7 @@ input.button {
     .homepage-recently-tit {
       font-size: 14px;
       width: 215px;
-      color: #656565; }
+      color: $dark-text; }
     .homepage-recently-tag {
       font-size: 16px;
       color: #ed1c24;
@@ -2124,7 +2124,7 @@ input.button {
     font-size: 14px;
     line-height: 50px;
     text-align: center;
-    color: #656565; }
+    color: $dark-text; }
   .wallet-tab li.curr a,
   .wallet-tab a:hover {
     border-bottom: 2px solid #05a1e9;
@@ -2228,14 +2228,14 @@ input.button {
       height: 55px;
       padding: 0 15px;
       line-height: 55px;
-      color: #656565; }
+      color: $dark-text; }
       .wallet-status-lists p:first-child {
         padding-left: 30px; }
       .wallet-status-lists p:nth-child(2) {
         width: 35%; }
       .wallet-status-lists p:nth-child(3) {
         width: 15%;
-        color: #656565;
+        color: $dark-text;
         text-align: right; }
       .wallet-status-lists p:nth-child(4) {
         padding-right: 30px;
@@ -2322,7 +2322,7 @@ input.button {
       padding: 0 15px;
       margin-bottom: 5px;
       font-size: 14px;
-      color: #656565; }
+      color: $dark-text; }
       .wallet-rebate-content h3 span {
         color: #ffa917; }
       .wallet-rebate-content h3 strong {
@@ -2419,7 +2419,7 @@ input.button {
     margin: 0 15px 15px;
     overflow: hidden;
     border: 1px solid #ebebeb;
-    color: #656565; }
+    color: $dark-text; }
   .wallet-rebate-lists dt {
     height: 50px;
     overflow: hidden;
@@ -2492,7 +2492,7 @@ input.button {
       display: block;
       line-height: 50px;
       text-align: center;
-      color: #656565; }
+      color: $dark-text; }
       .promotion-tab li a:hover {
         border-bottom: 2px solid #07aaeb;
         color: #07aaeb; }
@@ -2539,7 +2539,7 @@ input.button {
       .promotion-liby .promotion-cont dd a,
       .promotion-mine .promotion-cont dd a {
         display: block;
-        color: #656565; }
+        color: $dark-text; }
         .promotion-liby .promotion-cont dd a:hover,
         .promotion-mine .promotion-cont dd a:hover {
           color: #05a1e9; }
@@ -2615,7 +2615,7 @@ input.button {
     position: relative;
     padding-left: 450px;
     padding-top: 90px;
-    color: #656565; }
+    color: $dark-text; }
     .promotion-fee-chart-detail {
       width: 300px;
       height: 300px;
@@ -2744,7 +2744,7 @@ input.button {
     margin-bottom: 40px;
     width: auto; }
     .promotion-add-box span {
-      color: #656565; }
+      color: $dark-text; }
   .promotion-add-form {
     margin: 0 50px;
     padding: 0 125px; }
@@ -2828,7 +2828,7 @@ input.button {
   padding: 20px 0 40px;
   margin: -15px -15px 15px;
   font-size: 22px;
-  color: #656565;
+  color: $dark-text;
   background: #fff; }
   .order-title a {
     width: 240px;
@@ -2908,7 +2908,7 @@ input.button {
       margin-bottom: 30px;
       font-size: 24px;
       font-weight: 700;
-      color: #656565; }
+      color: $dark-text; }
       .order-success-content h2 i {
         top: 0;
         left: -50px;
@@ -2921,7 +2921,7 @@ input.button {
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 25px;
-    color: #656565; }
+    color: $dark-text; }
     .order-success-text:last-of-type {
       font-size: 16px; }
     .order-success-text span {
@@ -2946,7 +2946,7 @@ input.button {
     height: 70px;
     line-height: 100px;
     font-size: 18px;
-    color: #656565;
+    color: $dark-text;
     background: #f6f6f6; }
   .order-promotion-list {
     width: 100%;
@@ -2972,7 +2972,7 @@ input.button {
     padding: 10px 0; }
   .order-promotion-tit {
     font-size: 14px;
-    color: #656565; }
+    color: $dark-text; }
   .order-promotion-tag {
     font-size: 12px;
     color: #b2b2b2;
@@ -2988,7 +2988,7 @@ input.button {
     height: 45px;
     line-height: 45px;
     border-bottom: 1px solid #ebebeb;
-    color: #656565; }
+    color: $dark-text; }
     .order-cart-menu .order-cart-check {
       top: -1px; }
     .order-cart-menu-product, .order-cart-menu-price, .order-cart-menu-quantity, .order-cart-menu-total, .order-cart-menu-action {
@@ -3056,7 +3056,7 @@ input.button {
       margin-left: 15px; }
   .order-cart-checkout {
     float: right;
-    color: #656565; }
+    color: $dark-text; }
     .order-cart-checkout .button {
       top: 2px;
       right: 2px;
@@ -3067,7 +3067,7 @@ input.button {
 .cart-cell {
   float: left;
   height: 100%;
-  color: #656565; }
+  color: $dark-text; }
 .cart-image {
   width: 110px; }
   .cart-image img {
@@ -3102,7 +3102,7 @@ input.button {
     line-height: 24px;
     font-size: 20px;
     background: #f2f2f2;
-    color: #656565;
+    color: $dark-text;
     text-align: center; }
   .cart-quantity-minus {
     left: 2px; }
@@ -3128,7 +3128,7 @@ input.button {
   .cart-action a {
     display: block;
     margin-top: 5px;
-    color: #656565; }
+    color: $dark-text; }
   .cart-action span {
     display: inline-block;
     vertical-align: bottom; }
@@ -3193,7 +3193,7 @@ input.button {
     overflow: hidden;
     height: 45px;
     line-height: 45px;
-    color: #656565; }
+    color: $dark-text; }
     .order-check-menu-product, .order-check-menu-price, .order-check-menu-quantity, .order-check-menu-total {
       float: left; }
     .order-check-menu-product {
@@ -3268,7 +3268,7 @@ input.button {
   .order-check-product-info {
     float: right;
     text-align: right;
-    color: #656565; }
+    color: $dark-text; }
 
 .order-check-menu, .order-check-item, .order-check-sales, .order-check-remark, .order-check-topup, .order-check-payment,
 .order-waybill-menu,
@@ -3285,7 +3285,7 @@ input.button {
   height: 60px;
   padding: 10px 30px;
   border-top: 15px solid #f6f6f6;
-  color: #656565;
+  color: $dark-text;
   line-height: 16px; }
   .order-check-topup .button,
   .order-waybill-topup .button {
@@ -3328,7 +3328,7 @@ input.button {
         float: left;
         color: #b2b2b2; }
       .order-waybill-info dl dd {
-        color: #656565; }
+        color: $dark-text; }
     .order-waybill-info-top {
       width: 33.33%;
       float: left;
@@ -3351,7 +3351,7 @@ input.button {
     overflow: hidden;
     height: 45px;
     line-height: 45px;
-    color: #656565; }
+    color: $dark-text; }
     .order-waybill-menu-product, .order-waybill-menu-price, .order-waybill-menu-quantity, .order-waybill-menu-total, .order-waybill-menu-discount {
       float: left; }
     .order-waybill-menu-product {
@@ -3384,12 +3384,12 @@ input.button {
       text-align: center; }
   .order-waybill-remark {
     padding: 15px 30px;
-    color: #656565; }
+    color: $dark-text; }
 
 .order-detail {
   position: relative;
   margin-left: -170px;
-  color: #656565; }
+  color: $dark-text; }
   .order-detail-content {
     padding: 85px 100px 45px; }
   .order-detail-delivery-progress {
@@ -3517,7 +3517,7 @@ input.button {
         .order-detail-form-item p .item-content {
           display: block;
           margin-left: 80px;
-          color: #656565; }
+          color: $dark-text; }
   .order-detail-lists {
     margin-bottom: 40px; }
     .order-detail-lists dl {
@@ -3654,7 +3654,7 @@ input.button {
     width: 970px;
     margin: 0 auto 30px;
     border: 1px solid #ebebeb;
-    color: #656565; }
+    color: $dark-text; }
     .order-delivery-info h3 {
       height: 40px;
       padding: 0 10px;
@@ -3682,7 +3682,7 @@ input.button {
         content: "";
         display: block;
         margin-top: -2px;
-        background: #656565;
+        background: $dark-text;
         border-radius: 100%; }
 
 .order-list {
@@ -3704,7 +3704,7 @@ input.button {
       font-size: 14px;
       line-height: 50px;
       text-align: center;
-      color: #656565; }
+      color: $dark-text; }
     .order-list-tab li.curr a,
     .order-list-tab a:hover {
       border-bottom: 2px solid #07aaeb;
@@ -3742,7 +3742,7 @@ input.button {
           margin-left: -5px; }
   .order-list-filter {
     margin: 15px;
-    color: #656565; }
+    color: $dark-text; }
     .order-list-filter-date {
       float: left;
       margin-right: 5px; }
@@ -3756,7 +3756,7 @@ input.button {
       line-height: 30px; }
   .order-list-items {
     margin: 15px;
-    color: #656565;
+    color: $dark-text;
     border: 1px solid #ebebeb; }
     .order-list-items-title {
       height: 38px;
@@ -3850,7 +3850,7 @@ input.button {
     float: right;
     margin: -40px 15px 40px;
     text-align: right;
-    color: #656565; }
+    color: $dark-text; }
     .storage-list-search .input {
       width: 220px; }
   .storage-list-content {
@@ -3869,7 +3869,7 @@ input.button {
   .storage-list-item {
     padding: 15px 0;
     width: 100%;
-    color: #656565;
+    color: $dark-text;
     overflow: hidden;
     border-bottom: 1px solid #f6f6f6; }
     .storage-list-item-serial, .storage-list-item-product, .storage-list-item-price, .storage-list-item-quantity {
@@ -3924,7 +3924,7 @@ input.button {
       box-sizing: border-box; }
   .store-list-filter {
     margin: 15px;
-    color: #656565; }
+    color: $dark-text; }
     .store-list-filter-area {
       float: left;
       margin-right: 5px; }
@@ -3955,7 +3955,7 @@ input.button {
   .store-list-item {
     padding: 15px 0;
     width: 100%;
-    color: #656565;
+    color: $dark-text;
     overflow: hidden;
     border-bottom: 1px solid #f6f6f6; }
     .store-list-item-serial, .store-list-item-detail, .store-list-item-target {
@@ -4008,7 +4008,7 @@ input.button {
         float: left;
         margin-right: 30px; }
     .store-list-item-txt {
-      color: #656565;
+      color: $dark-text;
       line-height: 20px; }
     .store-list-item-target strong {
       font-size: 22px; }
@@ -4135,7 +4135,7 @@ input.button {
       float: left;
       height: 48px;
       line-height: 48px;
-      color: #656565;
+      color: $dark-text;
       text-align: center; }
     .product-list-search-sort-btns {
       float: left;
@@ -4147,7 +4147,7 @@ input.button {
         padding: 0 20px;
         height: 48px;
         line-height: 48px;
-        color: #656565;
+        color: $dark-text;
         text-align: center; }
         .product-list-search-sort-btns a:after {
           top: 0;
@@ -4174,14 +4174,14 @@ input.button {
         vertical-align: middle; }
       .product-list-search-sort-pages span {
         margin-right: 10px;
-        color: #656565; }
+        color: $dark-text; }
       .product-list-search-sort-pages a {
         width: 40px;
         height: 24px;
         margin-left: -5px;
         text-align: center;
         border: 1px solid #c2c2c2;
-        color: #656565;
+        color: $dark-text;
         line-height: 22px; }
         .product-list-search-sort-pages a:hover {
           background: #f6f6f6; }
@@ -4236,7 +4236,7 @@ input.button {
     .product-list-item-title {
       display: block;
       width: 100%;
-      color: #656565; }
+      color: $dark-text; }
       .product-list-item-title:hover {
         color: #05a1e9; }
     .product-list-item-subtitle {
@@ -4343,7 +4343,7 @@ input.button {
       float: left; }
       .product-detail-introduce-description .title {
         font-size: 24px;
-        color: #656565;
+        color: $dark-text;
         font-weight: 700;
         padding: 10px 0; }
       .product-detail-introduce-description .subtitle {
@@ -4358,7 +4358,7 @@ input.button {
         .product-detail-introduce-description .price dl {
           height: 30px;
           line-height: 30px;
-          color: #656565; }
+          color: $dark-text; }
         .product-detail-introduce-description .price .sale {
           font-size: 24px;
           color: #ed1c24;
@@ -4382,7 +4382,7 @@ input.button {
           float: left;
           width: 330px;
           height: 30px;
-          color: #656565; }
+          color: $dark-text; }
           .product-detail-introduce-description .parameter li span {
             text-align: right;
             display: block;
@@ -4410,7 +4410,7 @@ input.button {
           line-height: 24px;
           font-size: 20px;
           background: #f2f2f2;
-          color: #656565;
+          color: $dark-text;
           text-align: center; }
         .product-detail-introduce-description .amount-minus {
           left: 2px; }
@@ -4426,7 +4426,7 @@ input.button {
           box-sizing: border-box; }
         .product-detail-introduce-description .amount-stock {
           margin-left: 15px;
-          color: #656565; }
+          color: $dark-text; }
       .product-detail-introduce-description .action {
         overflow: hidden;
         margin-top: 20px; }
@@ -4491,7 +4491,7 @@ input.button {
       height: 80px;
       line-height: 100px;
       font-size: 18px;
-      color: #656565;
+      color: $dark-text;
       background: #f6f6f6; }
     .product-detail-promotion-list {
       width: 25%;
@@ -4518,7 +4518,7 @@ input.button {
       margin: 0 auto; }
     .product-detail-promotion-tit {
       font-size: 14px;
-      color: #656565;
+      color: $dark-text;
       padding: 0;
       margin: 0 auto; }
     .product-detail-promotion-tag {

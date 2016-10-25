@@ -1,6 +1,7 @@
 .order-waybill{
-  margin-left:-$catalog-width;
-  min-height:900px;
+  margin-left:0;
+  margin-top:-$header-mobile-height;
+  min-height:auto;
 
   &-tit{
     font-size: 16px;
@@ -10,46 +11,36 @@
   }
 
   &-info{
-    padding:$gap 75px;
-    overflow: hidden;
-    font-size:$font-size-medium;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
 
     p{
-      color: #656565;
+      margin-bottom:0.1rem;
+      color: $dark-text;
+      display:flex;
+      justify-content:space-between;
     }
 
-    &-top{
-      width: 33.33%;
-      float: left;
-      padding-right:75px;
-      margin-top: 15px;
+    span{
+      line-height: 1.5;
 
-      p{
-        line-height: 30px;
-        height: 30px;
+      &:first-child{
+        width:1.3rem;
+        text-align: left;
       }
-
-      &:nth-child(2){
-        padding-right:0;
-        width:66.66%;
+      &:last-child{
+        margin-left: 0;
+        text-align:right;
       }
     }
 
+    &-top,
     &-btm{
-      width: 33.33%;
-      float: left;
-      margin-top:60px;
-      padding-right:75px;
-
-      &:nth-child(3){
-        clear: both;
-      }
-
-      p{
-        line-height: 35px;
-        height: 35px;
-      }
-
+      width:100% !important;
+      padding:$gap !important;
+      margin-top:0;
+      border-bottom:1px solid #f6f6f6;
     }
   }
 
@@ -60,12 +51,7 @@
   }
 
   &-menu{
-    position:relative;
-    overflow:hidden;
-    height:45px;
-    line-height:45px;
-    font-size:$font-size-medium;
-    color:#656565;
+    display:none;
 
     &-product,
     &-price,
@@ -103,22 +89,25 @@
   }
 
   &-item{
-    position:relative;
-    padding:20px 0 20px 35px;
-    height:135px;
+    padding:$gap;
+    height:1.6rem;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
 
     .cart{
       &-info{
-        width:155px;
-        padding:0 20px;
+        width:100%;
+        padding:0;
       }
 
       &-total{
         text-align:right;
+        border:0;
       }
 
       &-discount{
-        width:100px;
+        display:none;
       }
     }
   }
@@ -126,11 +115,15 @@
   &-remark{
     padding:$gap 20px;
     font-size:$font-size-medium;
-    color:#656565;
+    color:$dark-text;
   }
 
   &-topup{
     //this style @ _check.scss
+    span,
+    strong{
+      line-height:0.3rem;
+    }
   }
 
   &-checkout{

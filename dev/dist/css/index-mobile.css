@@ -755,7 +755,7 @@ a {
     position: relative;
     padding-top: 0.15rem;
     text-align: center;
-    color: #656565;
+    color: $dark-text;
     box-sizing: border-box; }
     .footer-mobile a:after {
       top: -7px;
@@ -1667,7 +1667,7 @@ a {
     font-size: 14px;
     line-height: 50px;
     text-align: center;
-    color: #656565; }
+    color: $dark-text; }
   .wallet-tab li.curr a,
   .wallet-tab a:hover {
     border-bottom: 2px solid #07aaeb;
@@ -1772,7 +1772,7 @@ a {
       padding: 0 15px;
       line-height: 55px;
       font-size: 14px;
-      color: #656565; }
+      color: $dark-text; }
       .wallet-status-lists p:first-child {
         padding-left: 30px; }
       .wallet-status-lists p:nth-child(2) {
@@ -1988,7 +1988,7 @@ a {
       padding: 0;
       line-height: 0.25rem;
       font-size: 12px;
-      color: #656565;
+      color: $dark-text;
       -ms-flex-order: 2;
           order: 2;
       -ms-flex-direction: column;
@@ -2029,7 +2029,7 @@ a {
       display: block;
       line-height: 50px;
       text-align: center;
-      color: #656565; }
+      color: $dark-text; }
       .promotion-tab li a:hover {
         border-bottom: 2px solid #07aaeb;
         color: #07aaeb; }
@@ -2076,7 +2076,7 @@ a {
         display: block; }
       .promotion-liby .promotion-cont dd a {
         display: block;
-        color: #656565; }
+        color: $dark-text; }
         .promotion-liby .promotion-cont dd a:hover {
           color: #05a1e9; }
       .promotion-liby .promotion-cont dd .tit {
@@ -2121,7 +2121,7 @@ a {
     position: relative;
     padding-left: 450px;
     padding-top: 90px;
-    color: #656565; }
+    color: $dark-text; }
     .promotion-fee-chart-detail {
       width: 300px;
       height: 300px;
@@ -2252,7 +2252,7 @@ a {
     margin-bottom: 40px;
     width: auto; }
     .promotion-add-box span {
-      color: #656565; }
+      color: $dark-text; }
   .promotion-add-form {
     margin: 0 50px;
     padding: 0 125px; }
@@ -2587,7 +2587,7 @@ a {
   position: absolute;
   padding-right: 15px;
   border-top: 1px solid #f6f6f6;
-  color: #656565;
+  color: $dark-text;
   font-size: 14px;
   line-height: 0.3rem;
   text-align: right; }
@@ -2630,7 +2630,7 @@ a {
   bottom: 6px;
   left: 15px;
   position: absolute;
-  color: #656565;
+  color: $dark-text;
   margin-top: 0; }
 .cart-edit {
   width: 100%;
@@ -2754,7 +2754,7 @@ a {
         flex-wrap: wrap; }
   .order-check-remark {
     padding: 15px;
-    color: #656565;
+    color: $dark-text;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
     .order-check-remark-left {
@@ -2875,7 +2875,7 @@ a {
     overflow: hidden;
     font-size: 14px; }
     .order-waybill-info p {
-      color: #656565; }
+      color: $dark-text; }
     .order-waybill-info-top {
       width: 33.33%;
       float: left;
@@ -2903,7 +2903,7 @@ a {
     height: 45px;
     line-height: 45px;
     font-size: 14px;
-    color: #656565; }
+    color: $dark-text; }
     .order-waybill-menu-product, .order-waybill-menu-price, .order-waybill-menu-quantity, .order-waybill-menu-total, .order-waybill-menu-discount {
       float: left; }
     .order-waybill-menu-product {
@@ -2936,7 +2936,7 @@ a {
   .order-waybill-remark {
     padding: 15px 20px;
     font-size: 14px;
-    color: #656565; }
+    color: $dark-text; }
 
 .order-detail {
   position: relative;
@@ -3161,7 +3161,7 @@ a {
     display: none; }
   .order-list-items {
     margin: 0;
-    color: #656565;
+    color: $dark-text;
     border: 0; }
     .order-list-items-title {
       display: none; }
@@ -3301,7 +3301,7 @@ a {
     -ms-flex: 1;
         flex: 1; }
   .store-list-filter {
-    color: #656565;
+    color: $dark-text;
     -ms-flex-order: 0;
         order: 0;
     border-bottom: 1px solid #c2c2c2;
@@ -3489,7 +3489,7 @@ a {
         height: 0.3rem;
         line-height: 0.3rem;
         text-align: center;
-        color: #656565;
+        color: $dark-text;
         background: #effafe;
         border: 1px solid #effafe;
         border-radius: 5px;
@@ -3668,7 +3668,7 @@ a {
       font-size: 14px;
       line-height: 0.2rem;
       position: relative;
-      color: #656565; }
+      color: $dark-text; }
       .product-detail-promotion-tabmenu a:first-child:after {
         content: "";
         width: 0.01rem;
@@ -3718,7 +3718,7 @@ a {
       background: #fff;
       font-size: 16px; }
     .product-detail .product-detail-promotion-section-mobile i {
-      color: #656565; }
+      color: $dark-text; }
 
 /*
 SCSS variables are information about icon's compiled state, stored under its original file name

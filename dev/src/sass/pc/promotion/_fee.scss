@@ -6,7 +6,7 @@
     position:relative;
     padding-left:450px;
     padding-top:90px;
-    color:#656565;
+    color:$dark-text;
 
     &-detail{
       @include size(300px, 300px);

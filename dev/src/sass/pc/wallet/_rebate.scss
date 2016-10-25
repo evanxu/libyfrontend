@@ -9,7 +9,7 @@
       padding:0 $gap;
       margin-bottom:5px;
       font-size:$font-size-medium;
-      color:#656565;
+      color:$dark-text;
 
       span{
         color:#ffa917;
@@ -134,7 +134,7 @@
       margin:0 $gap $gap;
       overflow: hidden;
       border: 1px solid $grey-border;
-      color: #656565;
+      color: $dark-text;
     }
 
     dt{

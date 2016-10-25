@@ -1,23 +1,24 @@
 .promotion-fee{
   min-height:$catalog-height;
-  
+
   &-chart{
-    @include size(100%, 300px);
-    position:relative;
-    padding-left:450px;
-    padding-top:90px;
-    color:#656565;
+    @include size(100%, auto);
+    padding-left:0;
+    padding-top:0;
 
     &-detail{
-      @include size(300px, 300px);
-      @include absolute(top 50% left 100px);
-      margin-top:-150px;
+      @include size(3rem, 3rem);
+      @include relative(top 0 left 0);
+      margin:0 auto;
     }
 
     &-text{
+      margin:-$gap $gap $gap;
+
       dd,
       dt{
-        @include size(260px, 30px);
+        @include size(100%, 0.3rem);
+        padding:0;
       }
 
       dt{
@@ -26,33 +27,33 @@
       }
 
       dd{
-        position:relative;
-        height:20px;
-        margin-bottom:10px;
+        height:0.2rem;
+        padding-left:0;
+        margin-bottom:0.05rem;
         font-size:$font-size-medium;
       }
     }
   }
 
   &-lists{
-    margin:$gap;
-    border:1px solid $light-border;
+    margin:0;
+    border:0;
     border-bottom:0;
 
     &-tab{
-      background:$white-background;
-      overflow: hidden;
+      display:table;
+      width:100%;
+      background:#f9f9f9;
 
       a{
-        @include size(auto, 50px);
-        position:relative;
-        min-width:100px;
-        padding:0 10px;
-        float: left;
-        display: block;
-        line-height: 50px;
-        text-align: center;
-        color: $grey-text;
+        @include size(33.33%, 0.5rem);
+        padding:0 0.1rem;
+        min-width:auto;
+        line-height: 1.5;
+        float:none;
+        display:table-cell;
+        vertical-align:middle;
+        box-sizing:border-box;
 
         &.curr,
         &:hover{
@@ -74,21 +75,22 @@
     }
 
     dt{
-      height:45px;
-      line-height:45px;
-      background:#f9f9f9;
-      font-size:$font-size-medium;
+      display:none;
     }
 
   }
 
   &-item{
-    padding:$gap 0;
-    overflow:hidden;
-    border-bottom:1px solid $light-border;
+    padding:0 $gap;
+    border-bottom:1px solid $grey-border;
+    color:$dark-text;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
 
     p{
-      line-height:20px;
+      font-size:$font-size-base;
+      line-height:0.2rem;
     }
 
     &-name,
@@ -96,37 +98,53 @@
     &-price,
     &-date,
     &-status{
-      float:left;
-      width:15%;
+      width:33%;
+      order:0;
     }
 
     &-name{
-      width:30%;
-      padding-left:70px;
-      font-size:$font-size-medium;
+      @include size(100%, auto);
+      padding:0.05rem 0;
+      margin-bottom:0.05rem;
+      border-bottom:1px solid $light-border;
+      line-height:0.3rem;
+      font-size:$font-size-base;
+      display:flex;
+      justify-content:space-between;
+
+      p:last-child{
+        font-size:10px;
+        color:$light-text;
+      }
     }
 
     &-amount{
       width:25%;
+      margin:0.05rem 0;
       text-align:center;
+      order:1;
     }
 
-    &-date,
-    &-status{
+    &-date{
       text-align:center;
+      color:$light-text;
+    }
+
+    &-status{
+      text-align:right;
     }
 
     strong{
       font-weight:400;
       color:$base-color;
     }
-    
+
   }
 
   &-bar{
-    @include size(80px, 7px);
+    @include size(100%, 7px);
     position:relative;
-    margin:5px auto;
+    margin:0;
     overflow:hidden;
     border-width:1px;
     border-style:solid;
@@ -149,7 +167,7 @@
 
     &-enough{
       border-color:$base-color;
-      
+
       i{
         background:$base-color;
       }

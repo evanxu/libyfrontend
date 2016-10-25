@@ -2,7 +2,7 @@
 .order-detail{
   position:relative;
   margin-left:-$catalog-width;
-  color:#656565;
+  color:$dark-text;
 
   &-content{
     padding:85px 100px 45px;
@@ -78,17 +78,17 @@
 
     &-item{
       &1{
-        margin-left:25%;
+        margin-left:33.33%;
       }
       &2{
-        margin-left:50%;
+        margin-left:66.66%;
       }
       &3{
-        margin-left:75%;
-      }
-      &4{
         margin-left:100%;
       }
+      // &4{
+      //   margin-left:100%;
+      // }
     }
   }
 
@@ -168,7 +168,7 @@
           text-align: right;
           width: 150px;
           float: left;
-          color: $light-text;
+          color: $grey-text;
           background:none;
           line-height: 30px;
         }
@@ -176,7 +176,7 @@
         .item-content{
           display: block;
           margin-left: 80px;
-          color: #656565;
+          color: $dark-text;
         }
       }
     }
