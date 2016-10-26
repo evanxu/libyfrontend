@@ -44,12 +44,15 @@
     <!-- menu -->
     <a href="javascript:;" class="header-mobile-menu">&#xe607;</a>
     <!-- back, if needs hide, addClass none-->
-    <a href="javascript:;" class="header-mobile-back none">&#xe654;</a>
+    <a href="javascript:;" class="header-mobile-back">&#xe654;</a>
   </div>
   <section class="header-mobile-search">
     <form action="product-search.html">
       <input type="search" name="mobile-search" placeholder="搜产品名称或订单编号">
     </form>
+  </section>
+  <section class="header-mobile-title">
+    用户中心
   </section>
   <div class="header-mobile-right">
     <!-- tools -->

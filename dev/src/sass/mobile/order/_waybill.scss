@@ -1,6 +1,7 @@
 .order-waybill{
   margin-left:0;
   margin-top:-$header-mobile-height;
+  padding-bottom:0.5rem;
   min-height:auto;
 
   &-tit{
@@ -91,6 +92,7 @@
   &-item{
     padding:$gap;
     height:1.6rem;
+    overflow:hidden;
     display:flex;
     flex-wrap:wrap;
     flex-direction:column;

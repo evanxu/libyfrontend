@@ -1,0 +1,66 @@
+.account-info{
+  @include size(100%, auto);
+  padding:$gap;
+  border:0;
+  order:0;
+  display:flex;
+  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -webkit-gradient(linear, 0 0, 100% 0, from(#006fbd), to(#0099e0));
+  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -moz-linear-gradient(left, #006fbd, #0099e0);
+  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -o-linear-gradient(left, #006fbd, #0099e0);
+  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -ms-linear-gradient(#006fbd 0%,#0099e0 100%);
+  // background-image:;
+  // background-repeat:no-repeat;
+  background-size:cover;
+
+  &-pic{
+    margin-right:$gap;
+
+    a{
+      position: absolute;
+      top: 0;
+      right: 30px;
+    }
+
+    i{
+      color:#fff;
+      font-size:22px;
+    }
+
+    img{
+      width: 0.6rem;
+      height: 0.6rem;
+      border: 3px solid #1a80c6;
+    }
+
+    .msg{
+      @include size(16px, 16px);
+      @include absolute(right -6px top -4px);
+      display: block;
+      text-align:center;
+      line-height:16px;
+      background: rgb(255,0,0);
+      border-radius:100%;
+    }
+  }
+
+  &-text{
+    color:#fff;
+  }
+
+  &-company{
+    margin-bottom:0.05rem;
+    font-size:$font-size-base;
+  }
+
+  &-user{
+    color:#fff;
+
+    & + span{
+      display:none
+    }
+  }
+
+  .user-level{
+    margin-top:0.1rem;
+  }
+}

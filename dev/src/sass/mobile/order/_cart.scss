@@ -5,6 +5,7 @@ $order-cart-color: $dark-text;
 .order-cart{
   margin-left:0;
   margin-top:-$header-mobile-height;
+  padding-bottom:$footer-mobile-height;
   min-height:auto;
 
   &-menu{
@@ -30,13 +31,13 @@ $order-cart-color: $dark-text;
   }
 
   &-tool{
-    @include fixed(bottom 0 left 0);
+    @include fixed(bottom $footer-mobile-height left 0);
     @include size(100%, $footer-mobile-height);
     margin-top:$gap;
     padding:0 1.2rem 0 0.1rem;
     border:0;
     z-index:2;
-    border-top:1px solid #cdcdcd;
+    border-top:1px solid #f6f6f6;
     display:flex;
   }
 

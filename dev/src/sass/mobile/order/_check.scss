@@ -1,6 +1,7 @@
 .order-check{
   margin-left:0;
   margin-top:-$header-mobile-height;
+  padding-bottom:0.5rem;
 
   &-content{
     width:100%;
@@ -94,6 +95,7 @@
   &-item{
     padding:$gap;
     height:1.6rem;
+    overflow:hidden;
     display:flex;
     flex-wrap:wrap;
     flex-direction:column;
@@ -273,11 +275,12 @@
   }
 
   &-checkout{
-    @include fixed(bottom 0 left 0);
+    @include fixed(bottom $footer-mobile-height left 0);
     @include size(100%, $footer-mobile-height);
     margin-top:$gap;
     padding:0;
-    border-top:1px solid #cdcdcd;
+    border-top:1px solid #f6f6f6;
+    background:#fff;
     z-index:2;
     display:flex;
     justify-content:flex-end;
@@ -287,7 +290,7 @@
     }
 
     .button{
-      width:1.5rem;
+      @include size(1.5rem, $footer-mobile-height);
     }
   }
 

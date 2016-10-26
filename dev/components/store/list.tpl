@@ -5,12 +5,14 @@
       <span>我的门店</span>
     </h3>
   </div>
-  <div class="store-list-bar">
+  <div class="store-list-bar clearfix">
+    <div class="store-list-target"><span>400</span>总目标销量</div>
+    <!-- style中的数值为 完成量/目标量 的百分比-->
     <div class="store-list-progress">
-      <i class="store-list-progress-curr" style="width:45%;"></i>
+      <i class="store-list-progress-curr" style="width:90%;"></i>
+      <div class="store-list-progress-text" style="left:90%;">总实际销量<span>360</span></div>
     </div>
-    <span class="store-list-completion">总实际销量：180</span>
-    <span class="store-list-target">总目标销量：400</span>
+    <div class="store-list-completion"><span>90</span>%</div>
   </div>
   <div class="store-list-filter">
     <form class="form">

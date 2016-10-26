@@ -1,0 +1,33 @@
+.account-promotion{
+  background:#f6f6f6;
+  overflow:hidden;
+
+  &-list{
+    width:1020px;
+    overflow:hidden;
+  }
+
+  &-item{
+    float:left;
+    width:340px;
+    border-right:20px solid #f6f6f6;
+    padding:5px;
+    background:#fff;
+  }
+
+  &-status{
+    position:relative;
+    height:270px;
+    margin-bottom:$gap;
+    background:#f9f9f9;
+  }
+
+  &-detail{
+    height:80px;
+    padding:0 $gap;
+    margin-bottom:$gap;
+    overflow:hidden;
+    color:$grey-text;
+    line-height:18px;
+  }
+}

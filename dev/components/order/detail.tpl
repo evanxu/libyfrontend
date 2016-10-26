@@ -170,6 +170,15 @@
           <p class="order-detail-lists-total">
             总数量：<strong>25,000</strong>
           </p>
+          <!-- <p class="pc-hide">总金额：<strong>￥1468.00</strong></p> -->
+        </dd>
+        <dd class="order-detail-lists-buttons pc-hide">
+          <a href="javascript:;">分销订单</a>
+          <a href="javascript:;">查看物流</a>
+          <a href="javascript:;">请查收</a>
+        </dd>
+        <dd class="order-detail-lists-address pc-hide">
+          <p><i class="iconfont">&#xe61e;</i>自提仓库地址：广东省广州市越秀区沿江西路999号</p>
         </dd>
       </dl>
     </div>

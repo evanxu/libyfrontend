@@ -1,0 +1,63 @@
+.account-info{
+  @include size(505px, 135px);
+  padding:25px 60px;
+  float:left;
+  border-top:1px solid #f6f6f6;
+  border-bottom:1px solid #f6f6f6;
+  position:relative;
+  overflow:hidden;
+
+  &-pic{
+    position: relative;
+    margin-right:30px;
+    float:left;
+
+    a{
+      position: absolute;
+      top: 0;
+      right: 30px;
+    }
+
+    i{
+      color:#fff;
+      font-size:22px;
+    }
+
+    img{
+      width: 61px;
+      height: 61px;
+      border-radius:100%;
+      border: 3px solid #d9d9d9;
+    }
+
+    .msg{
+      @include size(16px, 16px);
+      @include absolute(right -6px top -4px);
+      display: block;
+      text-align:center;
+      line-height:16px;
+      background: rgb(255,0,0);
+      border-radius:100%;
+    }
+  }
+
+  &-text{
+    position:relative;
+    float:left;
+    color:$dark-text;
+    font-size: 12px;
+  }
+
+  &-company{
+    margin-bottom:5px;
+    font-size:$font-size-medium;
+  }
+
+  &-user{
+    color:$base-color;
+  }
+
+  .user-level{
+    margin-top:20px;
+  }
+}

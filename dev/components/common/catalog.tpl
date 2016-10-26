@@ -1,18 +1,4 @@
 <div class="catalog clearfix">
-  <div class="catalog-personal">
-    <div class="catalog-pic">
-      <img src="../src/images/temp/p3.jpg" alt="catalog-pic">
-      <a href="javascript:;">
-        <i class="iconfont">&#xe616;</i><span class="msg">2</span>
-      </a>
-    </div>
-    <div class="catalog-dis">
-      <p>广州经销商A</p>
-      <p class="user-level">
-        <span class="user-level-star">五星用户</span>
-      </p>
-    </div>
-  </div>
   <div class="catalog-management">
     <dl class="catalog-market" id="J-catalogMarket">
       <dt>营销管理</dt>

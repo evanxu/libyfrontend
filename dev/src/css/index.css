@@ -483,6 +483,16 @@ textarea:-ms-input-placeholder {
   color: #b2b2b2;
   font-size: 12px; }
 
+.message-dot {
+  width: 16px;
+  height: 16px;
+  display: block;
+  text-align: center;
+  line-height: 16px;
+  background: red;
+  border-radius: 50%;
+  color: #fff; }
+
 body {
   font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "simhei", Arial, sans-serif;
   font-size: 12px; }
@@ -687,8 +697,8 @@ a {
 
 .user-level-star {
   position: relative;
-  padding: 3px 5px 3px 23px;
-  background: #ea5504;
+  padding: 3px 7px 3px 23px;
+  background: #ed1c24;
   color: #fff;
   border-radius: 20px; }
   .user-level-star:before {
@@ -704,6 +714,14 @@ a {
     line-height: 20px;
     background: #f69914;
     border-radius: 100%; }
+
+.user-admin {
+  position: relative;
+  padding: 3px 7px;
+  margin-left: 20px;
+  background: #05a1e9;
+  color: #fff;
+  border-radius: 20px; }
 
 /*header*/
 .header-wrapper {
@@ -956,42 +974,8 @@ a {
   background-size: 100%; }
   .catalog a {
     color: #fff; }
-  .catalog-personal {
-    margin-top: 26px; }
-    .catalog-personal .catalog-pic {
-      position: relative; }
-      .catalog-personal .catalog-pic a {
-        position: absolute;
-        top: 0;
-        right: 30px; }
-      .catalog-personal .catalog-pic i {
-        color: #fff;
-        font-size: 22px; }
-      .catalog-personal .catalog-pic img {
-        width: 61px;
-        height: 61px;
-        border-radius: 50%;
-        border: 3px solid #1eabff; }
-      .catalog-personal .catalog-pic .msg {
-        width: 16px;
-        height: 16px;
-        top: -4px;
-        right: -6px;
-        position: absolute;
-        display: block;
-        text-align: center;
-        line-height: 16px;
-        background: red;
-        border-radius: 50%; }
-    .catalog-personal .catalog-dis {
-      font-size: 12px; }
-      .catalog-personal .catalog-dis .vip {
-        color: #fff200;
-        background: #ee1c24;
-        padding: 0 2px;
-        margin-left: 4px; }
   .catalog-management {
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 200px; }
     .catalog-management dd {
       cursor: pointer;
@@ -1793,143 +1777,147 @@ input.button {
         font-size: 14px;
         text-align: center; }
 
-.account-wallet {
-  width: 695px;
-  height: 265px;
+.account-content {
   position: relative;
+  width: 1030px;
+  margin: -15px 0 0 -15px;
   overflow: hidden;
-  border-right: 15px solid #f6f6f6;
+  background: #fff;
   border-bottom: 15px solid #f6f6f6; }
-  .account-wallet-content li {
-    width: 33.33333%;
-    height: 198px;
-    float: left;
-    border-right: 1px solid #ebebeb;
-    text-align: center; }
-    .account-wallet-content li:last-child {
-      border: 0; }
-      .account-wallet-content li:last-child i {
-        font-size: 50px; }
-  .account-wallet-content i {
-    display: block !important;
-    height: 70px;
-    line-height: 70px;
-    margin: 0 auto 10px;
-    font-size: 60px;
-    color: #05a1e9; }
-  .account-wallet-content a {
-    position: relative;
-    padding-top: 40px;
-    cursor: pointer; }
-@-webkit-keyframes hoverMove {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px); }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
-@keyframes hoverMove {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px); }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
-    .account-wallet-content a:hover {
-      background: #f0fafe; }
+
+.account-wallet {
+  width: 525px;
+  height: 215px;
+  position: relative;
+  float: right;
+  border: 1px solid #f6f6f6;
+  overflow: hidden; }
+  .account-wallet-content {
+    height: 100%;
+    overflow: hidden; }
+    .account-wallet-content li {
+      width: 33.33333%;
+      height: 100%;
+      float: left;
+      border-right: 1px solid #f6f6f6;
+      text-align: center; }
+      .account-wallet-content li:last-child {
+        border: 0; }
+        .account-wallet-content li:last-child i {
+          font-size: 50px; }
+    .account-wallet-content i {
+      display: block !important;
+      height: 70px;
+      line-height: 70px;
+      margin: 0 auto 10px;
+      font-size: 60px;
+      color: #05a1e9;
+      -webkit-transition: -webkit-transform 0.5s ease-in;
+              transition: transform 0.5s ease-in; }
+    .account-wallet-content a {
+      position: relative;
+      padding-top: 20px;
+      cursor: pointer; }
       .account-wallet-content a:hover i {
-        -webkit-animation: hoverMove 0.9s linear infinite;
-                animation: hoverMove 0.9s linear infinite; }
+        -webkit-transform: translateY(-10px);
+                transform: translateY(-10px); }
   .account-wallet-count {
     font-size: 18px; }
+  .account-wallet-btn {
+    width: 70px;
+    height: 22px;
+    display: block;
+    margin: 20px auto;
+    min-width: 70px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    background: #e1e1e1;
+    color: #656565; }
+
+.account-info {
+  width: 505px;
+  height: 135px;
+  padding: 25px 60px;
+  float: left;
+  border-top: 1px solid #f6f6f6;
+  border-bottom: 1px solid #f6f6f6;
+  position: relative;
+  overflow: hidden; }
+  .account-info-pic {
+    position: relative;
+    margin-right: 30px;
+    float: left; }
+    .account-info-pic a {
+      position: absolute;
+      top: 0;
+      right: 30px; }
+    .account-info-pic i {
+      color: #fff;
+      font-size: 22px; }
+    .account-info-pic img {
+      width: 61px;
+      height: 61px;
+      border-radius: 100%;
+      border: 3px solid #d9d9d9; }
+    .account-info-pic .msg {
+      width: 16px;
+      height: 16px;
+      top: -4px;
+      right: -6px;
+      position: absolute;
+      display: block;
+      text-align: center;
+      line-height: 16px;
+      background: red;
+      border-radius: 100%; }
+  .account-info-text {
+    position: relative;
+    float: left;
+    color: #656565;
+    font-size: 12px; }
+  .account-info-company {
+    margin-bottom: 5px;
+    font-size: 14px; }
+  .account-info-user {
+    color: #05a1e9; }
+  .account-info .user-level {
+    margin-top: 20px; }
 
 .account-order {
-  width: 695px;
-  height: 315px;
+  width: 505px;
+  height: 80px;
+  float: left;
   position: relative;
-  overflow: hidden;
-  border-right: 15px solid #f6f6f6;
-  border-bottom: 15px solid #f6f6f6; }
+  border-bottom: 1px solid #f6f6f6;
+  overflow: hidden; }
   .account-order-tab {
     width: 100%;
-    height: 78px;
+    height: 80px;
     position: relative;
-    border-bottom: 1px solid #ebebeb; }
+    padding: 0 40px; }
     .account-order-tab li {
-      width: 100px;
+      width: 25%;
       height: 78px;
       position: relative;
       float: left;
-      padding: 17px 0;
-      border-right: 1px solid #ebebeb;
+      padding: 22px 0;
       text-align: center;
       line-height: 22px;
+      color: #656565;
       cursor: pointer; }
       .account-order-tab li:last-child {
         border: 0; }
-      .account-order-tab li.curr {
-        background: #05a1e9 url(../images/bg/bg-header.png) no-repeat;
-        background-size: 50%; }
-        .account-order-tab li.curr:after {
-          width: 0;
-          height: 0;
-          bottom: -10px;
-          left: 50%;
-          position: absolute;
-          content: "";
-          display: block;
-          border-style: solid;
-          border-width: 5px;
-          border-color: #05a1e9 transparent transparent;
-          margin-left: -5px; }
-        .account-order-tab li.curr p {
-          color: #fff; }
-          .account-order-tab li.curr p:first-child {
-            font-size: 24px; }
-  .account-order-count {
-    font-size: 18px; }
-  .account-order-item {
-    width: 100%;
-    height: 85px;
-    padding: 12px;
-    border-bottom: 1px solid #ebebeb; }
-    .account-order-item:last-child {
-      border: 0; }
-  .account-order-img, .account-order-address, .account-order-quantity, .account-order-amount {
-    float: left; }
-  .account-order-img {
-    width: 150px;
-    overflow: hidden;
-    padding-right: 15px; }
-    .account-order-img img {
-      width: 62px;
-      height: 62px;
-      display: block;
-      float: left;
-      border: 1px solid #c2c2c2; }
-      .account-order-img img:last-child {
-        float: right; }
-  .account-order-address {
-    width: 260px;
-    padding: 5px 0;
-    padding-right: 15px; }
-  .account-order-quantity {
-    width: 70px;
-    padding: 5px 0;
-    text-align: center;
-    line-height: 18px; }
-  .account-order-amount {
-    float: right;
-    width: 140px;
-    padding: 5px 0;
-    text-align: center;
-    line-height: 18px; }
+    .account-order-tab i,
+    .account-order-tab span {
+      display: block; }
+    .account-order-tab i {
+      font-size: 26px; }
+    .account-order-tab .message-dot {
+      top: 10px;
+      left: 57px;
+      position: absolute; }
 
 .account-tool {
   width: 305px;
@@ -2019,6 +2007,7 @@ input.button {
   height: 420px;
   position: relative;
   overflow: hidden;
+  border-bottom: 15px solid #f6f6f6;
   clear: both; }
   .account-chart-content {
     height: 350px; }
@@ -2030,6 +2019,31 @@ input.button {
     width: 650px;
     height: 350px;
     float: right; }
+
+.account-promotion {
+  background: #f6f6f6;
+  overflow: hidden; }
+  .account-promotion-list {
+    width: 1020px;
+    overflow: hidden; }
+  .account-promotion-item {
+    float: left;
+    width: 340px;
+    border-right: 20px solid #f6f6f6;
+    padding: 5px;
+    background: #fff; }
+  .account-promotion-status {
+    position: relative;
+    height: 270px;
+    margin-bottom: 15px;
+    background: #f9f9f9; }
+  .account-promotion-detail {
+    height: 80px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    color: #999999;
+    line-height: 18px; }
 
 .account-sales {
   width: 1030px;
@@ -3935,31 +3949,89 @@ input.button {
   background: #fff;
   min-height: 790px; }
   .store-list-bar {
-    width: 650px;
+    position: relative;
+    width: 750px;
     margin: 100px auto;
     font-size: 14px; }
-  .store-list-completion {
-    color: #05a1e9; }
+  .store-list-target, .store-list-completion, .store-list-progress {
+    float: left; }
   .store-list-target {
-    float: right; }
+    margin-top: -20px;
+    color: #05a1e9;
+    text-align: center; }
+    .store-list-target span {
+      display: block;
+      font-size: 28px; }
+  .store-list-completion {
+    margin-top: -18px;
+    color: #b1b1b1; }
+    .store-list-completion span {
+      font-size: 40px; }
   .store-list-progress {
-    width: 650px;
-    height: 14px;
+    width: 550px;
+    height: 15px;
     position: relative;
-    margin-bottom: 10px;
-    border: 1px solid #ebebeb;
-    background: #f9f9f9;
-    border-radius: 10px;
-    overflow: hidden; }
+    margin: 0 15px;
+    background: #ebebeb;
+    border-radius: 10px; }
     .store-list-progress-curr {
       top: 0;
       left: 0;
       position: absolute;
       display: block;
       height: 15px;
-      background: url(../images/bg/bg-progress.png) repeat;
-      background-size: 28px 15px;
+      border-radius: 10px;
+      background: -webkit-gradient(linear, 0 0, 100% 0, from(#49beea), to(#30dab5));
+      background: -ms-linear-gradient(#49beea 0%, #30dab5 100%);
+      -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#49beea',endColorstr='#30dab5',grandientType=1);
       box-sizing: border-box; }
+      .store-list-progress-curr:after {
+        width: 10px;
+        height: 10px;
+        top: -7px;
+        right: -12px;
+        position: absolute;
+        content: "";
+        display: block;
+        border: 8px solid #30dab5;
+        border-radius: 100%;
+        background: #fff; }
+    .store-list-progress-text {
+      top: -90px;
+      position: absolute;
+      width: 90px;
+      height: auto;
+      padding: 5px;
+      margin-left: -45px;
+      border: 1px solid #30dab5;
+      border-radius: 5px;
+      color: #30dab5;
+      text-align: center; }
+      .store-list-progress-text span {
+        display: block;
+        font-size: 28px; }
+      .store-list-progress-text:before {
+        width: 0;
+        height: 0;
+        bottom: -10px;
+        left: 50%;
+        position: absolute;
+        content: "";
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #30dab5 transparent transparent; }
+      .store-list-progress-text:after {
+        width: 0;
+        height: 0;
+        bottom: -8px;
+        left: 50%;
+        position: absolute;
+        content: "";
+        margin-left: -4px;
+        border-width: 4px;
+        border-style: solid;
+        border-color: #fff transparent transparent; }
   .store-list-filter {
     margin: 15px;
     color: #656565; }

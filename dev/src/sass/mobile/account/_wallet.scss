@@ -1,59 +1,49 @@
 .account-wallet{
-  @include size($gap, $gap);
-  position:relative;
-  overflow:hidden;
-  border-right:$gap solid $light-background;
-  border-bottom:$gap solid $light-background;
+  @include size(100%, auto);
+  border:0;
+  border-bottom:10px solid #f6f6f6;
+  order:1;
+
+  &-title{
+    display:block;
+    height:0.4rem;
+    padding:0 $gap;
+    border-bottom:1px solid #f6f6f6;
+    line-height:0.4rem;
+    font-size:$font-size-medium;
+    color:$grey-text;
+  }
 
   &-content{
+    height:auto;
+    display:flex;
 
     li{
-      @include size(100%/3, 198px);
-      float:left;
-      border-right:1px solid $grey-border;
+      @include size(100%/3, 100%);
+      padding:$gap 0;
       text-align:center;
-
-      &:last-child{
-        border:0;
-
-        i{
-          font-size:50px;
-        }
-      }
+      border:0;
     }
 
     i{
-      display:block !important;
-      height:70px;
-      line-height:70px;
-      margin:0 auto 10px;
-      font-size:60px;
-      color:$base-color;
+      display:none !important;
     }
 
     a{
-      @extend %block-a;
-      position:relative;
-      padding-top:40px;
-      cursor:pointer;
+      padding-top:0;
 
-      @keyframes hoverMove{
-        0%  {transform:translateY(0)}
-        50% {transform:translateY(-10px)}
-        100% {transform:translateY(0)}
-      }
-
-      &:hover{
-        background:$light-blue;
-
-        i{
-          animation:hoverMove 0.9s linear infinite;
-        }
+      &:hover i{
+        transform:translateY(0);
       }
     }
   }
 
   &-count{
-    font-size:$font-size-xlarge;
+    font-size:14px;
+    line-height:18px;
+  }
+
+  &-btn{
+    display:none;
   }
 }

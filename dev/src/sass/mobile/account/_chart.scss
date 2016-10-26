@@ -1,21 +1,19 @@
-
-@media #{$mobile}{
 .account-chart{
-  @include size($box-left-width + $box-right-width + 15px, 420px);
+  @include size(100%, auto);
   position:relative;
   overflow:hidden;
+  border-bottom:10px solid #f6f6f6;
   clear:both;
 
   &-content{
     height:350px;
+    display:flex;
+    flex-wrap:wrap;
   }
   &-left{
-    @include size(350px, 350px);
-    float:left;
+    @include size(100%, 100%);
   }
   &-right{
-    @include size(650px, 350px);
-    float:right;
+    @include size(100%, 100%);
   }
-}
 }

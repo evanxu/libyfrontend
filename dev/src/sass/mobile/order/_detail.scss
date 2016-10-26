@@ -187,6 +187,35 @@
       a{
         color:$base-color;
       }
+
+      &.order-detail-lists-buttons{
+        flex-direction: row;
+        justify-content: flex-end;
+
+        a{
+          border: 1px solid #bfc2d3;
+          border-radius: 0.03rem;
+          display: block;
+          width: 0.75rem;
+          height: 0.3rem;
+          line-height: 0.3rem;
+          text-align: center;
+          margin-left: 0.15rem;
+          color: #363636;
+        }
+      }
+      
+       &.order-detail-lists-address{
+        flex-direction: row;
+        justify-content: flex-end;
+
+        p{
+          width: 100%;
+          height: 0.3rem;
+          line-height: 0.3rem;
+          color: #05a1e9;
+        }
+      }
     }
 
     p{

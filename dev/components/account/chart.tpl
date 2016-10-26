@@ -1,10 +1,4 @@
 <div class="account-chart">
-  <div class="box-title">
-    <h3>
-      <i class="iconfont">&#xe61a;</i>
-      <span>我的报表</span>
-    </h3>
-  </div>
   <div class="account-chart-content">
     <div class="account-chart-left chart-box">
       <!-- <p class="chart-title">17年销售目标：10000元</p> -->
@@ -163,14 +157,14 @@
                         offset: 1, color: '#e31406'
                       }], false)
                   }},
-                  areaStyle: {normal: {
-                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                      offset: 0, color: '#ff8400'
-                    }, {
-                      offset: 1, color: '#e00707'
-                    }], false),
-                    opacity: 0.2
-                  }},
+                  // areaStyle: {normal: {
+                  //   color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                  //     offset: 0, color: '#ff8400'
+                  //   }, {
+                  //     offset: 1, color: '#e00707'
+                  //   }], false),
+                  //   opacity: 0.2
+                  // }},
                   data:[120, 132, 101, 134, 90, 230, 210, 301, 134, 90, 230, 210]
               },
               {
@@ -183,14 +177,14 @@
                         offset: 1, color: '#1b9ad2'
                       }], false)
                   }},
-                  areaStyle: {normal: {
-                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                      offset: 0, color: '#5ae6b7'
-                    }, {
-                      offset: 1, color: '#0ea4df'
-                    }], false),
-                    opacity: 0.1
-                  }},
+                  // areaStyle: {normal: {
+                  //   color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                  //     offset: 0, color: '#5ae6b7'
+                  //   }, {
+                  //     offset: 1, color: '#0ea4df'
+                  //   }], false),
+                  //   opacity: 0.1
+                  // }},
                   data:[220, 82, 91, 234, 290, 330, 310, 60, 434, 190, 30, 110]
               }
           ]

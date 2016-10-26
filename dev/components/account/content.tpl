@@ -1,10 +1,10 @@
 <div class="content clearfix">
   <-- include('../common/catalog.tpl') -->
-  <-- include('notice.tpl') -->
-  <-- include('sales.tpl') -->
-  <-- include('tool.tpl') -->
-  <-- include('wallet.tpl') -->
-  <-- include('star.tpl') -->
-  <-- include('order.tpl') -->
+  <div class="account-content">
+    <-- include('wallet.tpl') -->
+    <-- include('info.tpl') -->
+    <-- include('order.tpl') -->
+  </div>
   <-- include('chart.tpl') -->
+  <-- include('promotion.tpl') -->
 </div>

@@ -3,35 +3,103 @@
   min-height:$catalog-height;
 
   &-bar{
-    width:650px;
+    position:relative;
+    width:750px;
     margin:100px auto;
     font-size:$font-size-medium;
   }
 
-  &-completion{
-    color:$base-color;
+  &-target,
+  &-completion,
+  &-progress{
+    float:left;
   }
 
   &-target{
-    float:right;
+    margin-top:-20px;
+    color:$base-color;
+    text-align:center;
+
+    span{
+      display:block;
+      font-size:28px;
+    }
+  }
+
+  &-completion{
+    margin-top:-18px;
+    color:#b1b1b1;
+
+    span{
+      font-size:40px;
+    }
   }
 
   &-progress{
-    @include size(650px, 14px);
+    @include size(550px, 15px);
     position:relative;
-    margin-bottom:10px;
-    border:1px solid $grey-border;
-    background:#f9f9f9;
+    margin:0 $gap;
+    background:#ebebeb;
     border-radius:10px;
-    overflow:hidden;
 
     &-curr{
       @include absolute(top 0 left 0);
       display:block;
       height:15px;
-      background:url(#{$background-root}/bg/bg-progress.png) repeat;
-      background-size:28px 15px;
+      border-radius:10px;
+
+      background: -webkit-gradient(linear, 0 0, 100% 0, from(#49beea), to(#30dab5));
+      background: -moz-linear-gradient(left, #49beea, #30dab5);
+      background: -o-linear-gradient(left, #49beea, #30dab5);
+      background: -ms-linear-gradient(#49beea 0%,#30dab5 100%);
+      -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#49beea',endColorstr='#30dab5',grandientType=1);
       box-sizing:border-box;
+
+      &:after{
+        @include size(10px, 10px);
+        @include absolute(top -7px right -12px);
+        content:"";
+        display:block;
+        border:8px solid #30dab5;
+        border-radius:100%;
+        background:#fff;
+      }
+    }
+
+    &-text{
+      @include absolute(top -90px left auto);
+      @include size(90px, auto);
+      padding:5px;
+      margin-left:-45px;
+      border:1px solid #30dab5;
+      border-radius:5px;
+      color:#30dab5;
+      text-align:center;
+
+      span{
+        display:block;
+        font-size:28px;
+      }
+
+      &:before{
+        @include size(0, 0);
+        @include absolute(bottom -10px left 50%);
+        content:"";
+        margin-left:-5px;
+        border-width:5px;
+        border-style:solid;
+        border-color:#30dab5 transparent transparent;
+      }
+
+      &:after{
+        @include size(0, 0);
+        @include absolute(bottom -8px left 50%);
+        content:"";
+        margin-left:-4px;
+        border-width:4px;
+        border-style:solid;
+        border-color:#fff transparent transparent;
+      }
     }
   }
 

@@ -67,8 +67,8 @@
 
 .user-level-star{
   position:relative;
-  padding:3px 5px 3px 23px;
-  background:#ea5504;
+  padding:3px 7px 3px 23px;
+  background:$red;
   color:#fff;
   border-radius:20px;
 
@@ -83,4 +83,12 @@
     background:#f69914;
     border-radius:100%;
   }
+}
+.user-admin{
+  position:relative;
+  padding:3px 7px;
+  margin-left:20px;
+  background:$base-color;
+  color:#fff;
+  border-radius:20px;
 }

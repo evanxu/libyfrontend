@@ -8,7 +8,7 @@
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.account-wallet-content a, .account-tool-lists a {
+.account-tool-lists a {
   display: block;
   height: 100%;
   box-sizing: border-box; }
@@ -487,6 +487,16 @@ textarea:-ms-input-placeholder {
   color: #b2b2b2;
   font-size: 12px; }
 
+.message-dot {
+  width: 16px;
+  height: 16px;
+  display: block;
+  text-align: center;
+  line-height: 16px;
+  background: red;
+  border-radius: 50%;
+  color: #fff; }
+
 body {
   font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "simhei", Arial, sans-serif;
   font-size: 12px; }
@@ -675,25 +685,35 @@ a {
     height: 100%;
     position: relative;
     margin-left: 15px; }
+  .header-mobile-title {
+    display: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+    font-size: 16px;
+    line-height: 0.3rem;
+    color: #fff; }
   .header-mobile-search {
+    display: none;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     position: relative; }
     .header-mobile-search:before {
-      top: 0.02rem;
+      top: 0.06rem;
       left: 0.1rem;
       position: absolute;
       content: "\e61c";
       font-family: "iconfont";
       color: #fff;
-      font-size: 22px;
+      font-size: 16px;
       color: #a1e1ff;
       z-index: 2; }
     .header-mobile-search input {
       width: 100%;
       height: 0.3rem;
-      padding-left: 0.4rem;
+      padding-left: 0.3rem;
       background: #0068b6;
       border: 0;
       border-radius: 100px;
@@ -716,6 +736,10 @@ a {
     line-height: 0.3rem;
     font-size: 22px;
     font-family: "iconfont"; }
+  .header-mobile-menu, .header-mobile-back {
+    display: none; }
+  .header-mobile-tools {
+    line-height: 0.36rem; }
   .header-mobile-msg {
     width: 0.2rem;
     height: 0.2rem;
@@ -733,11 +757,11 @@ a {
 
 .footer-mobile {
   width: 100%;
-  height: 0.45rem;
+  height: 0.55rem;
   bottom: 0;
   left: 0;
   position: fixed;
-  padding: 0.1rem 0;
+  padding: 0.15rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -753,16 +777,21 @@ a {
     color: #656565;
     box-sizing: border-box; }
     .footer-mobile a:after {
-      top: -7px;
+      top: -5px;
       left: 50%;
       position: absolute;
       width: 20px;
       height: 18px;
       font-family: "iconfont";
       margin-left: -10px;
-      font-size: 20px; }
+      font-size: 16px;
+      font-weight: 700; }
     .footer-mobile a.curr {
       color: #05a1e9; }
+    .footer-mobile a:nth-child(3):after {
+      margin-left: -12px;
+      top: -7px;
+      font-size: 19px; }
   .footer-mobile-homepage:after {
     content: "\e659"; }
   .footer-mobile-catlog:after {
@@ -786,7 +815,7 @@ a {
   margin: 0 auto;
   padding-left: 0;
   padding-top: 0.5rem;
-  padding-bottom: 0.45rem;
+  padding-bottom: 0.55rem;
   position: relative;
   border: 0; }
 
@@ -991,10 +1020,11 @@ a {
   height: auto;
   min-width: auto;
   padding-top: 0.5rem;
-  padding-bottom: 0.45rem; }
+  padding-bottom: 0.55rem; }
   .homepage-banner {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    margin-bottom: 0.3rem; }
     .homepage-banner-carousel {
       width: 100%;
       height: 100%;
@@ -1353,143 +1383,148 @@ a {
         margin: -0.1rem auto 0;
         padding: 0 15px; }
 
-.account-wallet {
-  width: 15px;
-  height: 15px;
+.account-content {
   position: relative;
-  overflow: hidden;
-  border-right: 15px solid #f6f6f6;
-  border-bottom: 15px solid #f6f6f6; }
-  .account-wallet-content li {
-    width: 33.33333%;
-    height: 198px;
-    float: left;
-    border-right: 1px solid #ebebeb;
-    text-align: center; }
-    .account-wallet-content li:last-child {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+  border: 0;
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.account-wallet {
+  width: 100%;
+  height: auto;
+  border: 0;
+  border-bottom: 10px solid #f6f6f6;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1; }
+  .account-wallet-title {
+    display: block;
+    height: 0.4rem;
+    padding: 0 15px;
+    border-bottom: 1px solid #f6f6f6;
+    line-height: 0.4rem;
+    font-size: 14px;
+    color: #999999; }
+  .account-wallet-content {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .account-wallet-content li {
+      width: 33.33333%;
+      height: 100%;
+      padding: 15px 0;
+      text-align: center;
       border: 0; }
-      .account-wallet-content li:last-child i {
-        font-size: 50px; }
-  .account-wallet-content i {
-    display: block !important;
-    height: 70px;
-    line-height: 70px;
-    margin: 0 auto 10px;
-    font-size: 60px;
-    color: #05a1e9; }
-  .account-wallet-content a {
-    position: relative;
-    padding-top: 40px;
-    cursor: pointer; }
-@-webkit-keyframes hoverMove {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px); }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
-@keyframes hoverMove {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  50% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px); }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
-    .account-wallet-content a:hover {
-      background: #f0fafe; }
+    .account-wallet-content i {
+      display: none !important; }
+    .account-wallet-content a {
+      padding-top: 0; }
       .account-wallet-content a:hover i {
-        -webkit-animation: hoverMove 0.9s linear infinite;
-                animation: hoverMove 0.9s linear infinite; }
+        -webkit-transform: translateY(0);
+                transform: translateY(0); }
   .account-wallet-count {
-    font-size: 18px; }
+    font-size: 14px;
+    line-height: 18px; }
+  .account-wallet-btn {
+    display: none; }
 
 .account-order {
-  width: 15px;
-  height: 15px;
-  position: relative;
-  overflow: hidden;
-  border-right: 15px solid #f6f6f6;
-  border-bottom: 15px solid #f6f6f6; }
+  width: 100%;
+  height: auto;
+  border: 0;
+  border-bottom: 10px solid #f6f6f6;
+  overflow: hidden; }
+  .account-order-title {
+    display: block;
+    height: 0.4rem;
+    padding: 0 15px;
+    border-bottom: 1px solid #f6f6f6;
+    line-height: 0.4rem;
+    font-size: 14px;
+    color: #999999; }
   .account-order-tab {
     width: 100%;
-    height: 78px;
+    height: auto;
     position: relative;
-    border-bottom: 1px solid #ebebeb; }
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
     .account-order-tab li {
-      width: 100px;
-      height: 78px;
-      position: relative;
-      float: left;
-      padding: 17px 0;
-      border-right: 1px solid #ebebeb;
-      text-align: center;
-      line-height: 22px;
-      cursor: pointer; }
+      width: 25%;
+      height: 0.8rem;
+      padding: 0.2rem 0;
+      line-height: 0.2rem; }
       .account-order-tab li:last-child {
         border: 0; }
-      .account-order-tab li.curr {
-        background: #05a1e9 url(../images/bg/bg-header.png) no-repeat;
-        background-size: 50%; }
-        .account-order-tab li.curr:after {
-          width: 0;
-          height: 0;
-          bottom: -10px;
-          left: 50%;
-          position: absolute;
-          content: "";
-          display: block;
-          border-style: solid;
-          border-width: 5px;
-          border-color: #05a1e9 transparent transparent;
-          margin-left: -5px; }
-        .account-order-tab li.curr p {
-          color: #fff; }
-          .account-order-tab li.curr p:first-child {
-            font-size: 24px; }
-  .account-order-count {
-    font-size: 18px; }
-  .account-order-item {
-    width: 100%;
-    height: 85px;
-    padding: 12px;
-    border-bottom: 1px solid #ebebeb; }
-    .account-order-item:last-child {
-      border: 0; }
-  .account-order-img, .account-order-address, .account-order-quantity, .account-order-amount {
-    float: left; }
-  .account-order-img {
-    width: 150px;
-    overflow: hidden;
-    padding-right: 15px; }
-    .account-order-img img {
-      width: 62px;
-      height: 62px;
+    .account-order-tab i,
+    .account-order-tab span {
+      display: block; }
+    .account-order-tab i {
+      font-size: 22px; }
+    .account-order-tab .message-dot {
+      top: 0.1rem;
+      left: 50%;
+      position: absolute;
+      margin-left: 4px; }
+
+.account-info {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border: 0;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url(../images/bg/bg-header.png) no-repeat right 0, -webkit-gradient(linear, 0 0, 100% 0, from(#006fbd), to(#0099e0));
+  background: url(../images/bg/bg-header.png) no-repeat right 0, -ms-linear-gradient(#006fbd 0%, #0099e0 100%);
+  background-size: cover; }
+  .account-info-pic {
+    margin-right: 15px; }
+    .account-info-pic a {
+      position: absolute;
+      top: 0;
+      right: 30px; }
+    .account-info-pic i {
+      color: #fff;
+      font-size: 22px; }
+    .account-info-pic img {
+      width: 0.6rem;
+      height: 0.6rem;
+      border: 3px solid #1a80c6; }
+    .account-info-pic .msg {
+      width: 16px;
+      height: 16px;
+      top: -4px;
+      right: -6px;
+      position: absolute;
       display: block;
-      float: left;
-      border: 1px solid #c2c2c2; }
-      .account-order-img img:last-child {
-        float: right; }
-  .account-order-address {
-    width: 260px;
-    padding: 5px 0;
-    padding-right: 15px; }
-  .account-order-quantity {
-    width: 70px;
-    padding: 5px 0;
-    text-align: center;
-    line-height: 18px; }
-  .account-order-amount {
-    float: right;
-    width: 140px;
-    padding: 5px 0;
-    text-align: center;
-    line-height: 18px; }
+      text-align: center;
+      line-height: 16px;
+      background: red;
+      border-radius: 100%; }
+  .account-info-text {
+    color: #fff; }
+  .account-info-company {
+    margin-bottom: 0.05rem;
+    font-size: 12px; }
+  .account-info-user {
+    color: #fff; }
+    .account-info-user + span {
+      display: none; }
+  .account-info .user-level {
+    margin-top: 0.1rem; }
 
 .account-tool {
   width: 305px;
@@ -1503,7 +1538,8 @@ a {
     background: #f0fafe; }
     .account-tool-title i {
       color: #05a1e9;
-      font-size: 18px; }
+      font-size: 18px;
+      vertical-align: bottom; }
   .account-tool-lists {
     width: 100%;
     height: 75px; }
@@ -1573,23 +1609,27 @@ a {
       left: 0;
       position: absolute; }
 
-@media only screen and (max-width: 540px) {
-  .account-chart {
-    width: 1000px;
-    height: 420px;
-    position: relative;
-    overflow: hidden;
-    clear: both; }
-    .account-chart-content {
-      height: 350px; }
-    .account-chart-left {
-      width: 350px;
-      height: 350px;
-      float: left; }
-    .account-chart-right {
-      width: 650px;
-      height: 350px;
-      float: right; } }
+.account-chart {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 10px solid #f6f6f6;
+  clear: both; }
+  .account-chart-content {
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .account-chart-left {
+    width: 100%;
+    height: 100%; }
+  .account-chart-right {
+    width: 100%;
+    height: 100%; }
+
 .account-sales {
   width: 1030px;
   height: auto;
@@ -2577,6 +2617,7 @@ a {
 .order-cart {
   margin-left: 0;
   margin-top: -0.5rem;
+  padding-bottom: 0.55rem;
   min-height: auto; }
   .order-cart-menu {
     display: none; }
@@ -2601,16 +2642,16 @@ a {
     padding: 15px;
     border-bottom: 0; }
   .order-cart-tool {
-    bottom: 0;
+    bottom: 0.55rem;
     left: 0;
     position: fixed;
     width: 100%;
-    height: 0.45rem;
+    height: 0.55rem;
     margin-top: 15px;
     padding: 0 1.2rem 0 0.1rem;
     border: 0;
     z-index: 2;
-    border-top: 1px solid #cdcdcd;
+    border-top: 1px solid #f6f6f6;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
@@ -2655,7 +2696,7 @@ a {
       width: 1.1rem;
       height: 100%;
       font-size: 16px;
-      line-height: 0.45rem; }
+      line-height: 0.55rem; }
 
 .cart-cell {
   font-size: 12px; }
@@ -2815,7 +2856,8 @@ a {
 
 .order-check {
   margin-left: 0;
-  margin-top: -0.5rem; }
+  margin-top: -0.5rem;
+  padding-bottom: 0.5rem; }
   .order-check-content {
     width: 100%; }
   .order-check-info {
@@ -2888,6 +2930,7 @@ a {
   .order-check-item {
     padding: 15px;
     height: 1.6rem;
+    overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3064,14 +3107,15 @@ a {
             justify-content: center; }
 .order-check-checkout,
 .order-waybill-checkout {
-  bottom: 0;
+  bottom: 0.55rem;
   left: 0;
   position: fixed;
   width: 100%;
-  height: 0.45rem;
+  height: 0.55rem;
   margin-top: 15px;
   padding: 0;
-  border-top: 1px solid #cdcdcd;
+  border-top: 1px solid #f6f6f6;
+  background: #fff;
   z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3081,14 +3125,16 @@ a {
           justify-content: flex-end; }
   .order-check-checkout a,
   .order-waybill-checkout a {
-    line-height: 0.45rem; }
+    line-height: 0.55rem; }
   .order-check-checkout .button,
   .order-waybill-checkout .button {
-    width: 1.5rem; }
+    width: 1.5rem;
+    height: 0.55rem; }
 
 .order-waybill {
   margin-left: 0;
   margin-top: -0.5rem;
+  padding-bottom: 0.5rem;
   min-height: auto; }
   .order-waybill-tit {
     font-size: 16px;
@@ -3147,6 +3193,7 @@ a {
   .order-waybill-item {
     padding: 15px;
     height: 1.6rem;
+    overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3322,6 +3369,37 @@ a {
         background: none; }
       .order-detail-lists dd a {
         color: #05a1e9; }
+      .order-detail-lists dd.order-detail-lists-buttons {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; }
+        .order-detail-lists dd.order-detail-lists-buttons a {
+          border: 1px solid #bfc2d3;
+          border-radius: 0.03rem;
+          display: block;
+          width: 0.75rem;
+          height: 0.3rem;
+          line-height: 0.3rem;
+          text-align: center;
+          margin-left: 0.15rem;
+          color: #363636; }
+      .order-detail-lists dd.order-detail-lists-address {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; }
+        .order-detail-lists dd.order-detail-lists-address p {
+          width: 100%;
+          height: 0.3rem;
+          line-height: 0.3rem;
+          color: #05a1e9; }
     .order-detail-lists p {
       width: 20%;
       height: 0.15rem;
@@ -3703,7 +3781,7 @@ a {
               flex: 0 0 25%; }
 
 .product-list {
-  padding: 0.5rem 0 0.45rem; }
+  padding: 0.5rem 0 0.55rem; }
   .product-list-con {
     width: 100%;
     padding: 0;
@@ -3865,7 +3943,7 @@ a {
 
 .product-detail {
   background: #f6f6f6;
-  padding: 0.5rem 0 0.45rem; }
+  padding: 0.5rem 0 0.55rem; }
   .product-detail-introduce {
     width: 100%;
     padding: 0; }
@@ -3989,7 +4067,7 @@ a {
         left: 0;
         position: fixed;
         width: 100%;
-        height: 0.45rem;
+        height: 0.55rem;
         margin-top: 0;
         z-index: 10;
         background: #fff;
@@ -4006,8 +4084,8 @@ a {
         .product-detail-introduce-description .action-collection {
           display: none !important; }
         .product-detail-introduce-description .action a {
-          height: 0.45rem;
-          line-height: 0.45rem; }
+          height: 0.55rem;
+          line-height: 0.55rem; }
         .product-detail-introduce-description .action-buy {
           -webkit-box-ordinal-group: 2;
               -ms-flex-order: 1;
