@@ -1,6 +1,6 @@
 .account-info{
   @include size(100%, auto);
-  padding:$gap;
+  padding:$gap*2 $gap;
   border:0;
   order:0;
   display:flex;
@@ -14,12 +14,6 @@
 
   &-pic{
     margin-right:$gap;
-
-    a{
-      position: absolute;
-      top: 0;
-      right: 30px;
-    }
 
     i{
       color:#fff;
@@ -57,6 +51,19 @@
 
     & + span{
       display:none
+    }
+  }
+
+  &-message{
+    @include absolute(top 0.15rem right 0.2rem);
+
+    i{
+      color:#fff;
+      font-size:24px;
+    }
+
+    .message-dot{
+      @include absolute(top -0.05rem right -0.1rem);
     }
   }
 

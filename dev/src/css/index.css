@@ -483,16 +483,6 @@ textarea:-ms-input-placeholder {
   color: #b2b2b2;
   font-size: 12px; }
 
-.message-dot {
-  width: 16px;
-  height: 16px;
-  display: block;
-  text-align: center;
-  line-height: 16px;
-  background: red;
-  border-radius: 50%;
-  color: #fff; }
-
 body {
   font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "simhei", Arial, sans-serif;
   font-size: 12px; }
@@ -835,23 +825,55 @@ a {
   overflow: hidden;
   background: #fff; }
   .footer-content {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     padding: 15px 0;
     overflow: hidden;
     border-bottom: 1px solid #dbdbdb; }
-    .footer-content dl {
-      width: 16.6666%;
-      float: left; }
-    .footer-content dt {
-      text-align: center;
-      padding: 6px 0;
-      font-size: 14px;
+    .footer-content p {
       color: #a1a1a1; }
-    .footer-content dd {
-      text-align: center;
-      padding: 6px 0;
-      font-size: 12px; }
+    .footer-content-link {
+      width: 950px;
+      float: left;
+      margin-left: -30px; }
+      .footer-content-link dl {
+        width: 16.6666%;
+        float: left; }
+      .footer-content-link dt {
+        text-align: center;
+        padding: 6px 0;
+        font-size: 14px;
+        color: #a1a1a1; }
+      .footer-content-link dd {
+        text-align: center;
+        padding: 6px 0;
+        font-size: 12px; }
+    .footer-content-hotline {
+      width: 180px;
+      float: left;
+      margin-top: 10px;
+      border-left: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb; }
+      .footer-content-hotline-txt {
+        margin-top: 20px;
+        height: 75px;
+        text-align: center; }
+        .footer-content-hotline-txt p:first-child {
+          color: #05a1e9;
+          font-size: 14px; }
+    .footer-content-qrcode {
+      width: 100px;
+      float: left; }
+      .footer-content-qrcode-txt {
+        margin-top: 10px;
+        float: right; }
+        .footer-content-qrcode-txt img {
+          display: block;
+          width: 65px;
+          height: 65px; }
+        .footer-content-qrcode-txt p {
+          text-align: center;
+          margin-top: 10px; }
   .footer-copyright {
     text-align: center;
     color: #a1a1a1;
@@ -1036,6 +1058,21 @@ a {
 
 .pc-hide {
   display: none; }
+
+.message-dot {
+  width: auto;
+  height: 18px;
+  min-width: 12px;
+  padding: 0 3px;
+  display: block;
+  text-align: center;
+  line-height: 18px;
+  background: red;
+  border-radius: 18px;
+  color: #fff; }
+
+.currency {
+  font-size: 10px; }
 
 .chart-box {
   position: relative; }
@@ -1833,7 +1870,7 @@ input.button {
     text-align: center;
     border: 1px solid #c2c2c2;
     border-radius: 3px;
-    background: #e1e1e1;
+    background: #f6f6f6;
     color: #656565; }
 
 .account-info {
@@ -1882,6 +1919,17 @@ input.button {
     font-size: 14px; }
   .account-info-user {
     color: #05a1e9; }
+  .account-info-message {
+    top: 15px;
+    right: 20px;
+    position: absolute; }
+    .account-info-message i {
+      color: #fff;
+      font-size: 24px; }
+    .account-info-message .message-dot {
+      top: -5px;
+      right: -10px;
+      position: absolute; }
   .account-info .user-level {
     margin-top: 20px; }
 
@@ -4469,10 +4517,12 @@ input.button {
         background: #f9f9f9;
         margin: 30px 0 15px;
         padding: 8px 10px 0; }
-        .product-detail-introduce-description .price dl {
+        .product-detail-introduce-description .price p {
           height: 30px;
           line-height: 30px;
           color: #656565; }
+        .product-detail-introduce-description .price .original {
+          display: block; }
         .product-detail-introduce-description .price .sale {
           font-size: 24px;
           color: #ed1c24;
@@ -4480,7 +4530,7 @@ input.button {
         .product-detail-introduce-description .price .activity {
           color: #c57d03; }
         .product-detail-introduce-description .price .price-title {
-          width: 80px;
+          width: 70px;
           display: block;
           float: left;
           text-align: right;

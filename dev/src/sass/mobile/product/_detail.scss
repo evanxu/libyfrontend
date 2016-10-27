@@ -81,7 +81,7 @@ $product-ssdetail-amount-color:#878787;
         align-items: baseline;
         height: 0.3rem;
 
-        dl{
+        p{
           display:flex;
           height:0.2rem;
           line-height:0.2rem;
@@ -105,7 +105,7 @@ $product-ssdetail-amount-color:#878787;
         }
 
         .sale{
-          font-size: 14px;
+          font-size: 23px;
         }
       }
 
@@ -126,18 +126,18 @@ $product-ssdetail-amount-color:#878787;
         // }
 
         p{
-          flex: 0 0 80%;
+          flex: 0 0 78%;
         }
       }
 
       .amount{
         order:0;
         border-top:0;
-        padding:0 $gap $gap;
+        padding:0.05rem $gap $gap;
         border-bottom:$gap solid #f6f6f6;
 
         .amount-stock{
-          margin-left: 10px;
+          margin-left: 0.1rem;
         }
       }
 
@@ -148,33 +148,33 @@ $product-ssdetail-amount-color:#878787;
         z-index:10;
         background: #fff;
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-
-        &-collection{
-          display:none !important;
-        }
+        flex-direction: row;
 
         a{
+          display: flex;
+          flex-direction: column;
+          width: 20%;
           height:$footer-mobile-height;
           line-height:$footer-mobile-height;
+
+          i{
+            height: 0.22rem;
+            line-height: 0.27rem;
+          }
+
+          span{
+            height: 0.20rem;
+            line-height: 0.18rem;
+          }
         }
 
-        &-buy{
+        .action-collection{
+          margin-left: 0;
+        }
+
+        .action-buy{
           order:1;
-        }
-      }
-
-      .action-collection-mobile{
-        width: 30px;
-        position: absolute;
-        top: 0;
-        right: 0.1rem;
-        text-align: center;
-
-        i,
-        span{
-          color:#c57d03;
+          width: 40%;
         }
       }
     }
@@ -216,7 +216,7 @@ $product-ssdetail-amount-color:#878787;
         width: 0.01rem;
         position: absolute;
         right: 0;
-        top: 10px;
+        top: 0.1rem;
         color: #363636;
         height: 0.2rem;
         background: #eaeaea;

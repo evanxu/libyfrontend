@@ -57,6 +57,19 @@
     color:$base-color;
   }
 
+  &-message{
+    @include absolute(top 15px right 20px);
+
+    i{
+      color:#fff;
+      font-size:24px;
+    }
+
+    .message-dot{
+      @include absolute(top -5px right -10px);
+    }
+  }
+
   .user-level{
     margin-top:20px;
   }

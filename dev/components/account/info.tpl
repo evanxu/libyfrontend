@@ -1,9 +1,6 @@
 <div class="account-info">
   <div class="account-info-pic">
     <img src="../src/images/temp/p3.jpg" alt="account-info-pic">
-    <a href="javascript:;">
-      <i class="iconfont">&#xe616;</i><span class="msg">2</span>
-    </a>
   </div>
   <div class="account-info-text">
     <p class="account-info-company">沃尔玛（中国）投资有限公司</p>
@@ -13,4 +10,7 @@
       <span class="user-admin">超级管理员</span>
     </p>
   </div>
+  <a href="javascript:;" class="account-info-message">
+    <i class="iconfont">&#xe616;</i><span class="message-dot">2</span>
+  </a>
 </div>

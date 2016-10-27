@@ -17,6 +17,10 @@ $(function(){
 //
 //for demo, will be delete while dev
 $(function(){
+  if($('body').width() > 540){
+    return;
+  };
+
   if(location.href.indexOf('account') > 0){
     $('.header-mobile').hide();
     $('.content').css('margin-top', '-0.5rem');

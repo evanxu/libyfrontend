@@ -32,26 +32,26 @@
 		</ul>
 	</div>
 	<div class="product-detail-introduce-description">
-		<p class="title">立白天然皂液超值套装</p>
+		<p class="title">立白天然亮白洗衣液优惠套装 机洗手洗洗衣液套装</p>
 		<p class="subtitle">天然椰油萃取 洗衣仅一分 椰香深层去渍</p>
-		<div class="action-collection-mobile pc-hide">
+<!-- 		<div class="action-collection-mobile pc-hide">
 			<i class="iconfont">&#xe631;</i>
 			<span>收藏</span>
-		</div>
+		</div> -->
 
 		<div class="price">
-			<dl>
-			<dt class="price-title">价格：</dt>
-			<dd class="original"><del>￥198.00</del></dd>
-			</dl>
-			<dl>
-				<dt class="price-title">促销价：</dt>
-				<dd class="sale">￥99.00</dd>
-			</dl>
-			<dl>
-				<dt class="price-title">促销活动：</dt>
-				<dd class="activity">满100送1</dd>
-			</dl>
+			<p>
+			<span class="price-title">价格：</span>
+			<span class="original"><del>￥198.00</del></span>
+			</p>
+			<p>
+				<span class="price-title">促销价：</span>
+				<span class="sale">￥99.00</span>
+			</p>
+			<p>
+				<span class="price-title">促销活动：</span>
+				<span class="activity">满100送1</span>
+			</p>
 		</div>
 
 		<div class="product-detail-section-title product-detail-promotion-section-mobile pc-hide">
@@ -79,9 +79,17 @@
 
     <div class="action">
     	<a class="action-buy button button-red" href="order-cart.html">加入购物车</a>
+    	<a class="pc-hide">
+    		<i class="iconfont">&#xe631;</i>
+    		<span>客服</span>
+    	</a>
     	<a class="action-collection">
     		<i class="iconfont">&#xe631;</i>
     		<span>收藏</span>
+    	</a>
+    	<a class="pc-hide">
+    		<i class="iconfont">&#xe631;</i>
+    		<span>购物车</span>
     	</a>
     </div>
 	</div>

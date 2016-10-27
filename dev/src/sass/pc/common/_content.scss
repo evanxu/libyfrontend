@@ -9,3 +9,19 @@
 .pc-hide{
   display:none;
 }
+
+.message-dot{
+  @include size(auto, 18px);
+  min-width:12px;
+  padding:0 3px;
+  display: block;
+  text-align:center;
+  line-height:18px;
+  background: rgb(255,0,0);
+  border-radius:18px;
+  color:#fff;
+}
+
+.currency{
+  font-size:12px;
+}
