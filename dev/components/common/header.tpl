@@ -24,7 +24,7 @@
       <div class="header-cart-info">
         <a href="order-cart.html">
           <p>进货单1000件</p>
-          <p class="red"><strong>￥19320.00</strong></p>
+          <p class="red"><strong><span class="currency">￥</span>19320.00</strong></p>
         </a>
       </div>
     </div>

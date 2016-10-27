@@ -21,7 +21,8 @@ $wallet-topup-width:  215px;
   }
 
   &-btn{
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     padding:$gap $gap*2;
     margin:0;
     border-top:1px dashed #dcdee8;

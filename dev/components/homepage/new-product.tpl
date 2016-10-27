@@ -37,7 +37,7 @@
 		    </a>
 		  </li>
 		</ul>
-		
+
 		<div class="homepage-newest-right">
 			<div class="homepage-newest-tit">
 				<i class="iconfont">&#xe633;</i>
@@ -75,7 +75,7 @@
 					<img src="../src/images/temp/g3.jpg" alt="newest">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
-				<p class="homepage-newest-bottom-tag">￥18.90
+				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
 					<del>21.00</del>
 				</p>
 			</li>
@@ -85,7 +85,7 @@
 					<img src="../src/images/temp/g1.jpg" alt="newest">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
-				<p class="homepage-newest-bottom-tag">￥18.90
+				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
 					<del>21.00</del>
 				</p>
 			</li>
@@ -95,7 +95,7 @@
 					<img src="../src/images/temp/g2.jpg" alt="newest">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
-				<p class="homepage-newest-bottom-tag">￥18.90
+				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
 					<del>21.00</del>
 				</p>
 			</li>
@@ -105,7 +105,7 @@
 					<img src="../src/images/temp/g5.jpg" alt="newest">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
-				<p class="homepage-newest-bottom-tag">￥18.90
+				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
 					<del>21.00</del>
 				</p>
 			</li>
@@ -115,7 +115,7 @@
 					<img src="../src/images/temp/g6.jpg" alt="newest">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
-				<p class="homepage-newest-bottom-tag">￥18.90
+				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
 					<del>21.00</del>
 				</p>
 			</li>

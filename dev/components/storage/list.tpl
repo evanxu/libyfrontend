@@ -38,7 +38,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -52,7 +52,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -66,7 +66,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -80,7 +80,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -94,7 +94,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -108,7 +108,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -122,7 +122,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -136,7 +136,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -150,7 +150,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱
@@ -164,7 +164,7 @@
         <p class="text-light">威王洁厕至尊宝洁厕块 50g*10颗 超值套装 抗污性强</p>
       </div>
       <p class="storage-list-item-price">
-        ￥470.00
+        <span class="currency">￥</span>470.00
       </p>
       <p class="storage-list-item-quantity">
         <strong>80</strong>箱

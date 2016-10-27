@@ -25,7 +25,8 @@ $promotion-add-input-width:  auto;
     padding:0 $gap;
 
     .form-item{
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
     }
   }
 
@@ -38,7 +39,8 @@ $promotion-add-input-width:  auto;
     padding:$gap $gap*2;
     border-top:1px dashed #dcdee8;
     text-align:center;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
   }
 
   &-fromto{

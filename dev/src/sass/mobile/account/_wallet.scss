@@ -16,7 +16,8 @@
 
   &-content{
     height:auto;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
 
     li{
       @include size(100%/3, 100%);

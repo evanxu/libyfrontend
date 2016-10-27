@@ -67,8 +67,8 @@
     </div>
     <div class="order-cart-checkout">
       <span class="mr20">已选商品 <span class="red">2</span> 件</span>
-      <span class="mr20">已优惠：<strong class="fs16">￥405.00</strong></span>
-      <span>合计(不含运费)：<span class="red fs16">￥<strong>6,109.00</strong></span></span>
+      <span class="mr20">已优惠：<strong class="fs16"><span class="currency">￥</span>405.00</strong></span>
+      <span>合计(不含运费)：<span class="red fs16"><span class="currency">￥</span><strong>6,109.00</strong></span></span>
       <a href="order-check.html" class="button button-red button-medium">结 算</a>
     </div>
   </div>

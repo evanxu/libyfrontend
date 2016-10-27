@@ -13,13 +13,15 @@
 
   &-info{
     padding:0;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
 
     p{
       margin-bottom:0.1rem;
       color: $dark-text;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       justify-content:space-between;
     }
 
@@ -93,7 +95,8 @@
     padding:$gap;
     height:1.6rem;
     overflow:hidden;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
     flex-direction:column;
 

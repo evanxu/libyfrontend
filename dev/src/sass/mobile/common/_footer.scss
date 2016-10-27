@@ -7,7 +7,8 @@ $footer-grey:#a1a1a1;
   @include size(100%, $footer-mobile-height);
   @include fixed(bottom 0 left 0);
   padding:0.15rem 0;
-  display:flex;
+  @extend %display-flex;
+    //display:-webkit-box;
   background:#fff;
   border-top:1px solid #cdcdcd;
 

@@ -22,8 +22,8 @@
     <p class="text-light">重量：1kg</p>
   </div>
   <div class="cart-cell cart-price">
-    <p class="text-light"><del>￥179.00</del></p>
-    <p><strong>￥120.00</strong></p>
+    <p class="text-light"><del><span class="currency">￥</span>179.00</del></p>
+    <p><strong><span class="currency">￥</span>120.00</strong></p>
   </div>
   <div class="cart-cell cart-quantity">
     <div class="cart-quantity-box">
@@ -34,7 +34,7 @@
     <p class="error">库存不足</p>
   </div>
   <div class="cart-cell cart-total">
-    <span class="pc-hide">合计：</span>￥<strong>207.00</strong>
+    <span class="pc-hide">合计：</span><span class="currency">￥</span><strong>207.00</strong>
   </div>
   <div class="cart-cell cart-action">
     <label>
@@ -73,8 +73,8 @@
     <p class="text-light">重量：1kg</p>
   </div>
   <div class="cart-cell cart-price">
-    <p class="text-light"><del>￥179.00</del></p>
-    <p><strong>￥80.00</strong></p>
+    <p class="text-light"><del><span class="currency">￥</span>179.00</del></p>
+    <p><strong><span class="currency">￥</span>80.00</strong></p>
   </div>
   <div class="cart-cell cart-quantity">
     <div class="cart-quantity-box">
@@ -84,7 +84,7 @@
     </div>
   </div>
   <div class="cart-cell cart-total">
-    <span class="pc-hide">合计：</span>￥<strong>207.00</strong>
+    <span class="pc-hide">合计：</span><span class="currency">￥</span><strong>207.00</strong>
   </div>
   <div class="cart-cell cart-action">
     <label>

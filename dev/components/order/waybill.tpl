@@ -82,9 +82,9 @@
       </div>
 
       <div class="order-waybill-topup">
-        <span class="mr20">金额： <strong>￥120,000.00</strong></span>
-        <span class="mr20">授信金额：<strong class="fs16 red">￥1,109.00</strong></span>
-        <span>已发货金额：<strong>￥0.00</strong></span>
+        <span class="mr20">金额： <strong><span class="currency">￥</span>120,000.00</strong></span>
+        <span class="mr20">授信金额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
+        <span>已发货金额：<strong><span class="currency">￥</span>0.00</strong></span>
         <a href="wallet-topup.html" class="button button-blue button-medium">充 值</a>
       </div>
 

@@ -113,7 +113,8 @@
       padding:0.1rem $gap;
       border-bottom:1px solid #f6f6f6;
       overflow: hidden;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       flex-direction:column;
       flex-wrap:wrap;
 
@@ -129,7 +130,8 @@
       font-size: $font-size-base;
       color: $dark-text;
       order:2;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       flex-direction:column;
       justify-content:space-between;
 

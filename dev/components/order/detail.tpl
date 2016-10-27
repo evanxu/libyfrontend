@@ -145,32 +145,32 @@
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p><span><span class="currency">￥</span>50.00</span><span class="pc-hide text-light">单价</span></p>
           <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p><span><span class="currency">￥</span>50.00</span><span class="pc-hide text-light">单价</span></p>
           <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p><span><span class="currency">￥</span>50.00</span><span class="pc-hide text-light">单价</span></p>
           <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00<span class="pc-hide text-light">单价</span></p>
+          <p><span><span class="currency">￥</span>50.00</span><span class="pc-hide text-light">单价</span></p>
           <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
         <dd>
           <p class="order-detail-lists-total">
             总数量：<strong>25,000</strong>
           </p>
-          <!-- <p class="pc-hide">总金额：<strong>￥1468.00</strong></p> -->
+          <!-- <p class="pc-hide">总金额：<strong><span class="currency">￥</span>1468.00</strong></p> -->
         </dd>
         <dd class="order-detail-lists-buttons pc-hide">
           <a href="javascript:;">分销订单</a>
@@ -197,7 +197,7 @@
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00</p>
+          <p><span class="currency">￥</span>50.00</p>
           <p>5,000</p>
           <p>10,000<span class="pc-hide text-light">库存</span></p>
           <p>2016-9-25<span class="pc-hide text-light">预计发货</span></p>
@@ -205,7 +205,7 @@
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
-          <p>￥50.00</p>
+          <p><span class="currency">￥</span>50.00</p>
           <p>5,000</p>
           <p>10,000<span class="pc-hide text-light">库存</span></p>
           <p>2016-9-25<span class="pc-hide text-light">预计发货</span></p>

@@ -6,7 +6,7 @@
     <li>
       <a href="wallet-status.html">
         <i class="iconfont">&#xe608;</i>
-        <p class="account-wallet-count">￥38990.00</p>
+        <p class="account-wallet-count"><span class="currency">￥</span>38990.00</p>
         <p class="text-light">授信<span class="m-hide">余额</span></p>
         <span class="account-wallet-btn">充 值</span>
       </a>
@@ -14,7 +14,7 @@
     <li>
       <a href="javascript:;">
         <i class="iconfont">&#xe614;</i>
-        <p class="account-wallet-count">￥15600.00</p>
+        <p class="account-wallet-count"><span class="currency">￥</span>15600.00</p>
         <p class="text-light">促销<span class="m-hide">费用</span></p>
         <span class="account-wallet-btn">核销明细</span>
       </a>

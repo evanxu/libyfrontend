@@ -14,7 +14,8 @@
   &-delivery{
     width:100%;
     padding:0 $gap;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
     justify-content:space-between;
 
@@ -96,7 +97,8 @@
     padding:$gap;
     height:1.6rem;
     overflow:hidden;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
     flex-direction:column;
 
@@ -146,14 +148,16 @@
 
   &-sales{
     padding:$gap;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
   }
 
   &-remark{
     padding:$gap;
     color:$dark-text;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
 
     &-left{
@@ -162,7 +166,8 @@
       margin-top:0;
       margin-bottom:$gap;
       line-height:0.3rem;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       flex-wrap:wrap;
       justify-content:space-between;
     }
@@ -182,14 +187,15 @@
     width:100%;
     margin-bottom:5px;
     line-height:0.3rem;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     justify-content:space-between;
 
     &:last-child{
       margin:0;
     }
 
-    span{
+    &-title{
       text-align:left;
     }
   }
@@ -211,14 +217,16 @@
   &-product-info{
     width:100%;
     margin-top:0.1rem;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
 
     & > span{
       width:100%;
       margin:0;
       line-height:0.3rem;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       justify-content:space-between;
     }
   }
@@ -252,7 +260,8 @@
     padding:$gap;
     border-top:0.1rem solid $light-border;
     border-bottom:0;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
     flex-direction: row-reverse;
 
@@ -261,7 +270,8 @@
       width:100%;
       margin-right:0;
       line-height:0.3rem;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       justify-content:space-between;
     }
 
@@ -276,21 +286,23 @@
 
   &-checkout{
     @include fixed(bottom $footer-mobile-height left 0);
-    @include size(100%, $footer-mobile-height);
+    @include size(100%, 0.5rem);
     margin-top:$gap;
     padding:0;
     border-top:1px solid #f6f6f6;
     background:#fff;
     z-index:2;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     justify-content:flex-end;
 
     a{
-      line-height:$footer-mobile-height;
+      line-height:0.5rem;
+      font-size:$font-size-base;
     }
 
     .button{
-      @include size(1.5rem, $footer-mobile-height);
+      @include size(1rem, 0.5rem);
     }
   }
 

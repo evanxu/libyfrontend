@@ -122,32 +122,32 @@
           备注：
           <input type="text" class="input" name="" placeholder="（选填）有什么特殊需求，告诉立白吧">
         </div>
-        <div class="order-check-remark-right">
-          <div class="order-check-charge">
-            <span>优惠：</span>
-            <strong>-￥0.00</strong>
-          </div>
-          <div class="order-check-charge">
-            <span>运费：</span>
-            <strong>￥0.00</strong>
-          </div>
-          <div class="order-check-charge">
-            <span>应付总额：</span>
-            <strong>￥120,000.00</strong>
-          </div>
-        </div>
+        <ul class="order-check-remark-right">
+          <li class="order-check-charge">
+            <span class="order-check-charge-title">优惠：</span>
+            <strong>-<span class="currency">￥</span>0.00</strong>
+          </li>
+          <li class="order-check-charge">
+            <span class="order-check-charge-title">运费：</span>
+            <strong><span class="currency">￥</span>0.00</strong>
+          </li>
+          <li class="order-check-charge">
+            <span class="order-check-charge-title">应付总额：</span>
+            <strong><span class="currency">￥</span>120,000.00</strong>
+          </li>
+        </ul>
       </div>
       <div class="order-check-payment clearfix">
-          <div class="order-check-charge">
-            <span>实付款：</span>
-            <strong>￥120,000.00</strong>
-          </div>
+        <div class="order-check-charge">
+          <span class="order-check-charge-title">实付款：</span>
+          <strong><span class="currency">￥</span>120,000.00</strong>
+        </div>
       </div>
 
       <div class="order-check-topup">
-        <span class="mr20">金额： <strong>￥120,000.00</strong></span>
-        <span class="mr20">授信金额：<strong class="fs16 red">￥1,109.00</strong></span>
-        <span>已发货金额：<strong>￥0.00</strong></span>
+        <span class="mr20">金额： <strong><span class="currency">￥</span>120,000.00</strong></span>
+        <span class="mr20">授信金额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
+        <span>已发货金额：<strong><span class="currency">￥</span>0.00</strong></span>
         <a href="wallet-topup.html" class="button button-blue button-medium">充 值</a>
       </div>
 

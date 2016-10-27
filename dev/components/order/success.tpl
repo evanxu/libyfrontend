@@ -38,10 +38,10 @@
     </p>
     <p class="order-success-text">
       <span class="order-success-text-title">实付款：</span>
-      <strong>￥150,000</strong>
+      <strong><span class="currency">￥</span>150,000</strong>
     </p>
 
-<!--     <p class="order-success-text"><span >实付款：</span><span>￥150,000.00</span></p> -->
+<!--     <p class="order-success-text"><span >实付款：</span><span><span class="currency">￥</span>150,000.00</span></p> -->
 
     <div class="order-success-btn">
       <a href="homepage.html" class="button button-blue button-radius mr30">继续购物</a>

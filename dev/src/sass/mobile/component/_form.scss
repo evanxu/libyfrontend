@@ -1,6 +1,7 @@
 .form{
   &-item{
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
     padding-left:0;
     margin-bottom:$gap;

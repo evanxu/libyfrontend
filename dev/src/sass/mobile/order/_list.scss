@@ -29,7 +29,8 @@
     &-detail{
       padding-bottom:$gap;
       line-height:0.2rem;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       flex-wrap:wrap;
     }
 
@@ -125,7 +126,8 @@
     &-check,
     &-action{
       width:50%;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       flex-wrap:wrap;
 
       a{
@@ -166,7 +168,8 @@
       line-height:0.18rem;
       border:0;
       border-bottom:1px;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       flex-wrap:wrap;
       flex-direction:column;
 

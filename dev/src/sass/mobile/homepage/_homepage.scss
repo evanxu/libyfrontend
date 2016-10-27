@@ -75,7 +75,8 @@
 	// homepage-brands
 	&-brands{
 		width: 100%;
-		display:flex;
+		@extend %display-flex;
+    //display:-webkit-box;
 		flex-direction:column;
 
 		&-video{
@@ -156,7 +157,8 @@
 			width: 100%;
 			margin-bottom:$gap;
 			overflow-x:scroll;
-			display:flex;
+			@extend %display-flex;
+    //display:-webkit-box;
 
 			li {
 		    width: auto;
@@ -217,7 +219,8 @@
 				width:100%;
 				border-style:solid;
 				border-left:0;
-			  display:flex;
+			  @extend %display-flex;
+    //display:-webkit-box;
 			  flex-wrap:wrap;
 
 
@@ -319,7 +322,8 @@
 			width:100%;
 			border-style:solid;
 			border-left:0;
-			display:flex;
+			@extend %display-flex;
+    //display:-webkit-box;
 			flex-wrap:wrap;
 
 			li{
@@ -349,7 +353,8 @@
 			width: 100%;
 			margin-top: 0;
 			float: none;
-			display:flex;
+			@extend %display-flex;
+    //display:-webkit-box;
 			flex-wrap:wrap;
 
 			li {
@@ -410,7 +415,8 @@
 		width: 100%;
 		margin: 0 auto 0.25rem;
     overflow: hidden;
-		display:flex;
+		@extend %display-flex;
+    //display:-webkit-box;
 		flex-wrap:wrap;
 
     li {

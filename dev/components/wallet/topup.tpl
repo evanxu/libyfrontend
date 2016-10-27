@@ -26,7 +26,7 @@
     </div>
     <div class="form-item">
       <span class="form-title">支付金额：</span>
-      <p class="wallet-topup-amount" id="J-wallettopupAmount">￥1500000.00</p>
+      <p class="wallet-topup-amount" id="J-wallettopupAmount"><span class="currency">￥</span>1500000.00</p>
     </div>
     <div class="form-item">
       <span class="form-title">支付密码：</span>

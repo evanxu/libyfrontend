@@ -30,7 +30,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -44,11 +44,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -84,7 +84,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -98,11 +98,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -138,11 +138,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -178,7 +178,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -192,11 +192,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -231,7 +231,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -245,11 +245,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -285,7 +285,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -299,11 +299,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -338,7 +338,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -352,11 +352,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -392,7 +392,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -406,11 +406,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -445,7 +445,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -459,11 +459,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>
@@ -499,7 +499,7 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
       <div class="order-list-cell-single">
@@ -513,11 +513,11 @@
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
         <p class="order-list-cell-quantity">2</p>
-        <p class="order-list-cell-price">￥400.00</p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span>￥1000.00</p>
+    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
 
     <div class="order-list-cell-check">
       <a href="order-detail.html">订单详情</a>

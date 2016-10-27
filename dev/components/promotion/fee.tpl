@@ -10,10 +10,10 @@
     <div id="J-promotionFeeChart" class="promotion-fee-chart-detail"></div>
     <dl class="promotion-fee-chart-text">
       <dt>
-        <span class="fl">可用促销余额：</span><strong class="fr">￥100000.00</strong>
+        <span class="fl">可用促销余额：</span><strong class="fr"><span class="currency">￥</span>100000.00</strong>
       </dt>
       <dd>
-        <span class="fl">促销费用总额：</span><span class="fr">￥400000.00</span>
+        <span class="fl">促销费用总额：</span><span class="fr"><span class="currency">￥</span>400000.00</span>
       </dd>
       <dd>
         <span class="fl">促销专款数：</span><span class="fr">共3个促销费用</span>
@@ -40,7 +40,7 @@
           <p>2016.8.10 - 2016.9.30</p>
         </div>
 	      <div class="promotion-fee-item-amount">
-	      	<p class="fs16">￥50000.00</p>
+	      	<p class="fs16"><span class="currency">￥</span>50000.00</p>
     			<!--
     				下面i的长度为已核销费用比，已核销
     				< 50%, div = promotion-fee-bar-enough
@@ -53,8 +53,8 @@
 	      	<p>已全部核销</p>
 	      </div>
 	      <div class="promotion-fee-item-price">
-	      	<p>- ￥30000.00</p>
-	      	<p>- ￥20000.00</p>
+	      	<p>- <span class="currency">￥</span>30000.00</p>
+	      	<p>- <span class="currency">￥</span>20000.00</p>
 	      </div>
 	      <div class="promotion-fee-item-date">
 	      	<p>2016-09-10</p>
@@ -72,7 +72,7 @@
           <p>2016.8.10 - 2016.9.30</p>
         </div>
 	      <div class="promotion-fee-item-amount">
-	      	<p class="fs16">￥150000.00</p>
+	      	<p class="fs16"><span class="currency">￥</span>150000.00</p>
 	      	<!--
 	  				下面i的长度为已核销费用比，已核销
 	  				< 50%, div = promotion-fee-bar-enough
@@ -85,8 +85,8 @@
 	      	<p>可用余额 70%</p>
 	      </div>
 	      <div class="promotion-fee-item-price">
-	      	<p>- ￥30000.00</p>
-	      	<p>- ￥20000.00</p>
+	      	<p>- <span class="currency">￥</span>30000.00</p>
+	      	<p>- <span class="currency">￥</span>20000.00</p>
 	      </div>
 	      <div class="promotion-fee-item-date">
 	      	<p>2016-09-10</p>
@@ -104,7 +104,7 @@
           <p>2016.8.10 - 2016.9.30</p>
         </div>
 	      <div class="promotion-fee-item-amount">
-	      	<p class="fs16">￥150000.00</p>
+	      	<p class="fs16"><span class="currency">￥</span>150000.00</p>
 	      	<!--
 	  				下面i的长度为已核销费用比，已核销
 	  				< 50%, div = promotion-fee-bar-enough
@@ -117,9 +117,9 @@
 	      	<p>可用余额 40%</p>
 	      </div>
 	      <div class="promotion-fee-item-price">
-	      	<p>- ￥30000.00</p>
-	      	<p>- ￥20000.00</p>
-	      	<p>- ￥40000.00</p>
+	      	<p>- <span class="currency">￥</span>30000.00</p>
+	      	<p>- <span class="currency">￥</span>20000.00</p>
+	      	<p>- <span class="currency">￥</span>40000.00</p>
 	      </div>
 	      <div class="promotion-fee-item-date">
 	      	<p>2016-09-10</p>

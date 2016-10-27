@@ -9,7 +9,8 @@
   padding:0.1rem $gap;
   background:$base-color;
   z-index:2;
-  display:flex;
+  @extend %display-flex;
+    //display:-webkit-box;
   flex-wrap:wrap;
 
   &-left{

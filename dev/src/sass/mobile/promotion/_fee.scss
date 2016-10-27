@@ -84,7 +84,8 @@
     padding:0 $gap;
     border-bottom:1px solid $grey-border;
     color:$dark-text;
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
     flex-wrap:wrap;
     justify-content:flex-end;
 
@@ -109,7 +110,8 @@
       border-bottom:1px solid $light-border;
       line-height:0.3rem;
       font-size:$font-size-base;
-      display:flex;
+      @extend %display-flex;
+    //display:-webkit-box;
       justify-content:space-between;
 
       p:last-child{

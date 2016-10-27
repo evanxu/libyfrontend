@@ -1,6 +1,7 @@
 .wallet{
   &-tab{
-    display:flex;
+    @extend %display-flex;
+    //display:-webkit-box;
 
     li{
       flex:1;

@@ -45,7 +45,7 @@ module.exports = function(grunt){
     //添加css前缀
     autoprefixer: {
       options: {
-        browserslist: ['last 2 versions', 'ie 8', 'ie 9', 'chrome'],
+        browserslist: ['last 2 versions', 'ie 8', 'ie 9', 'Chrome', '> 5%', 'iOS 7'],
         map: true
       },
       dev: {

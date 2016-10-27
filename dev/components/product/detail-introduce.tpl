@@ -42,11 +42,11 @@
 		<div class="price">
 			<p>
 			<span class="price-title">价格：</span>
-			<span class="original"><del>￥198.00</del></span>
+			<span class="original"><del><span class="currency">￥</span>198.00</del></span>
 			</p>
 			<p>
 				<span class="price-title">促销价：</span>
-				<span class="sale">￥99.00</span>
+				<span class="sale"><span class="currency">￥</span>99.00</span>
 			</p>
 			<p>
 				<span class="price-title">促销活动：</span>

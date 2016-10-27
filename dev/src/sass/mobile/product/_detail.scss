@@ -82,7 +82,8 @@ $product-ssdetail-amount-color:#878787;
         height: 0.3rem;
 
         p{
-          display:flex;
+          @extend %display-flex;
+    //display:-webkit-box;
           height:0.2rem;
           line-height:0.2rem;
           margin-top: 0.05rem;
@@ -118,7 +119,8 @@ $product-ssdetail-amount-color:#878787;
           @include size(100%, auto);
           flex-flow: row wrap;
           justify-content: flex-start;
-          display:flex;
+          @extend %display-flex;
+    //display:-webkit-box;
         }
 
         // span{
