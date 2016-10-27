@@ -49,7 +49,7 @@
     <div class="footer-content-qrcode">
       <div class="footer-content-qrcode-txt">
         <img src="../src/images/temp/qrcode.jpg" alt="qrcode">
-        <p>官方微信</p>   
+        <p>官方微信</p>
       </div>
     </div>
   </div>
@@ -60,7 +60,7 @@
 </div>
 <!-- footer for mobile -->
 <footer class="footer-mobile">
-  <a href="javascript:;" class="footer-mobile-homepage curr">首页</a>
+  <a href="homepage.html" class="footer-mobile-homepage curr">首页</a>
   <a href="javascript:;" class="footer-mobile-catlog">分类</a>
   <a href="order-cart.html" class="footer-mobile-cart">购物车</a>
   <a href="account.html" class="footer-mobile-me">我</a>

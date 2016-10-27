@@ -1,16 +1,15 @@
 .form{
   &-item{
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
-    padding-left:0;
+    //@extend %display-flex;
+    //flex-wrap:wrap;
+    padding-left:0.85rem;
     margin-bottom:$gap;
     min-height:0.3rem;
     line-height:0.3rem;
   }
 
   &-title{
-    @include relative(left 0 top 0);
+    @include absolute(left 0 top 0);
     @include size(0.75rem, 0.3rem);
     display:block;
     line-height:0.3rem;
@@ -80,7 +79,6 @@
   padding:0 10px;
   border:1px solid $grey-border;
   background:$light-background;
-
 }
 .input-check{
   display:none;
@@ -111,9 +109,8 @@
 
 .error{
   width:100%;
-  margin-top:5px;
-  padding-left:0.75rem;
+  margin-top:0;
+  //padding-left:0.75rem;
   color:$red;
   font-size:$font-size-base;
-
 }

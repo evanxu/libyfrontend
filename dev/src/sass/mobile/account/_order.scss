@@ -12,6 +12,16 @@
     line-height:0.4rem;
     font-size:$font-size-medium;
     color:$grey-text;
+
+    a{
+      float:right;
+      color:$light-text;
+      font-size:$font-size-base;
+    }
+
+    i{
+      font-size:$font-size-base;
+    }
   }
 
   &-tab{

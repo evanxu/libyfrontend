@@ -147,7 +147,10 @@ input{
   border-radius:0;
 }
 
-input[type=button], input[type=search], select {
+input[type=button],
+input[type=search],
+select,
+textarea {
   outline: 0;
   -webkit-appearance: none;
 }

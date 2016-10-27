@@ -119,9 +119,6 @@
     width: 100%;
     padding:0;
     border:0;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
 
 
     &-item{
@@ -131,8 +128,14 @@
 
       p{
         margin: 0;
-        display: flex;
-        justify-content: space-between;
+        @extend %display-flex;
+        justify-content: space-around;
+        -webkit-box-pack:justify;
+
+        span{
+          display:block;
+          float:none !important;
+        }
 
         .item-title{
           text-align: left;
@@ -143,6 +146,7 @@
         }
 
         .item-content{
+          flex:1;
           padding: 0;
           text-align: right;
           margin-left: 0.1rem;
@@ -172,14 +176,12 @@
     }
 
     dd{
+      position:relative;
       height:0.51rem;
       padding:0.1rem $gap;
       overflow: hidden;
       border-bottom:1px solid #f6f6f6;
       @extend %display-flex;
-    //display:-webkit-box;
-      flex-direction:column;
-      flex-wrap:wrap;
 
       &:nth-child(odd){
         background: none;
@@ -190,9 +192,6 @@
       }
 
       &.order-detail-lists-buttons{
-        flex-direction: row;
-        justify-content: flex-end;
-
         a{
           border: 1px solid #bfc2d3;
           border-radius: 0.03rem;
@@ -207,20 +206,29 @@
       }
 
        &.order-detail-lists-address{
-        flex-direction: row;
-        justify-content: flex-end;
+          height: 0.5rem;
+          padding:0 $gap;
+          line-height: 0.5rem;
+          color:$base-color;
+      }
 
-        p{
-          width: 100%;
-          height: 0.3rem;
-          line-height: 0.3rem;
-          color: #05a1e9;
+      &.order-detail-lists-total{
+        @include size(100%, 0.4rem);
+        display:block;
+        padding:0 $gap;
+        line-height: 0.4rem;
+        text-align:right;
+        background:#fff;
+
+        strong{
+          font-size:$font-size-medium;
         }
       }
     }
 
     p{
       @include size(20%, 0.15rem);
+      float:none;
       line-height: 0.15rem;
       text-align: center;
       padding: 0;
@@ -234,6 +242,7 @@
       }
 
       &:first-child{
+        @include absolute(left $gap top $gap*2);
         color:$light-text;
       }
 
@@ -251,9 +260,14 @@
         height:0.3rem;
         padding:0;
         @extend %display-flex;
-    //display:-webkit-box;
-        flex-direction:column;
-        flex-wrap:wrap;
+        -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+
+        & > span{
+          display:block;
+        }
       }
 
       &.order-detail-lists-total{
@@ -262,6 +276,8 @@
         text-align:right;
         color:$dark-text !important;
       }
+
+
     }
 
     &:first-of-type{
@@ -281,9 +297,14 @@
       height:0.3rem;
       padding:0;
       @extend %display-flex;
-    //display:-webkit-box;
-      flex-direction:column;
-      flex-wrap:wrap;
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+
+      & > span{
+        display:block;
+      }
     }
     // p{
     //   width:15%;

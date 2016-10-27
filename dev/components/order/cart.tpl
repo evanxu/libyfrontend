@@ -83,10 +83,10 @@
 
       if(!$this.data('flag')){
         $this.siblings('.cart-product, .cart-price, .cart-info').hide();
-        $this.siblings('.cart-quantity, .cart-action').css('display', 'flex');
+        $this.siblings('.cart-quantity, .cart-action').css('display', 'block');
         $this.data('flag', true).text('完成');
       }else{
-        $this.siblings('.cart-product, .cart-price, .cart-info').css('display', 'flex');
+        $this.siblings('.cart-product, .cart-price, .cart-info').css('display', 'block');
         $this.siblings('.cart-quantity, .cart-action').hide();
         $this.data('flag', false).text('编辑');
       }

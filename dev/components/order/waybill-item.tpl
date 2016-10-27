@@ -29,7 +29,7 @@
     <p>满500送洗洁精</p>
   </div>
   <div class="cart-cell cart-total">
-    <span class="currency">￥</span><strong>207.00</strong>
+    <span class="pc-hide">合计：</span><span class="currency">￥</span><strong>207.00</strong>
   </div>
 </div>
 <div class="order-waybill-item">
@@ -61,6 +61,6 @@
     <p>满500送洗洁精</p>
   </div>
   <div class="cart-cell cart-total">
-    <span class="currency">￥</span><strong>207.00</strong>
+    <span class="pc-hide">合计：</span><span class="currency">￥</span><strong>207.00</strong>
   </div>
 </div>

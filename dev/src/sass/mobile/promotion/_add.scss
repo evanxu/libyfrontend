@@ -5,6 +5,7 @@ $promotion-add-input-width:  auto;
 
   .input,
   .textarea{
+    display:block;
     width:100%;
   }
 
@@ -23,11 +24,6 @@ $promotion-add-input-width:  auto;
   &-form{
     margin:0;
     padding:0 $gap;
-
-    .form-item{
-      @extend %display-flex;
-    //display:-webkit-box;
-    }
   }
 
   &-amount{
@@ -36,11 +32,18 @@ $promotion-add-input-width:  auto;
   }
 
   &-btn{
-    padding:$gap $gap*2;
+    padding:$gap;
     border-top:1px dashed #dcdee8;
     text-align:center;
     @extend %display-flex;
-    //display:-webkit-box;
+    justify-content: space-around;
+    -webkit-box-pack:justify;
+
+    .button{
+      display:block;
+      margin:0;
+      width:47%;
+    }
   }
 
   &-fromto{
@@ -49,7 +52,9 @@ $promotion-add-input-width:  auto;
   }
 
   &-date{
-    flex:1;
+    width:100%;
+    float:none;
+    margin-bottom:0.1rem;
 
     .input{
       width:100%;
@@ -62,11 +67,13 @@ $promotion-add-input-width:  auto;
 
   &-pic{
     @include size(auto, 1rem);
+    width:47%;
     margin-bottom: $gap;
-    flex:1;
+    float:left;
 
     &:last-child{
-      margin-left: 0.2rem;
+      float:right;
+      margin-left:0;
     }
 
     a{
@@ -92,9 +99,17 @@ $promotion-add-input-width:  auto;
   }
 
   &-rules{
-    p,input{
-      float: left;
+    padding-left:0.85rem;
+
+    .form-title{
+      display:block;
     }
+
+    p,
+    input{
+      float: none;
+    }
+
     p{
       padding:0 0.1rem;
 
@@ -103,15 +118,42 @@ $promotion-add-input-width:  auto;
       }
     }
 
-    .input{
-      width: 100%;
+
+    &-box{
+      position:relative;
+      float: left;
+      width:50%;
+      margin-right:0;
+      margin-bottom:0.1rem;
+      @extend %display-flex;
+
+      span{
+        @include absolute(left 0.1rem top 0);
+      }
+
+      &:first-of-type{
+        padding-right:3%;
+      }
+
+      &:last-of-type{
+        padding-left:3%;
+
+        span{
+          left:0.25rem;
+        }
+      }
+
+
+      input{
+        padding-left:0.3rem;
+      }
     }
   }
 
   &-addrule{
     a{
-      @include size(1.9rem, 0.38rem);
-      margin-left:0.75rem;
+      @include size(100%, 0.38rem);
+      //margin-left:0.75rem;
       line-height:0.38rem;
     }
   }

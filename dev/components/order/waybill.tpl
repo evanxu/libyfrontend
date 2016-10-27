@@ -45,7 +45,7 @@
         </div>
         <div class="order-waybill-info-top">
           <p><span>客户名称：</span><span>十堰万界贸易有限公司</span></p>
-          <p><span>送达方：</span><span>刘晓雪：沈阳苏家屯迎春街232号(6009603)</span></p>
+          <p><span>送达方：</span><span>刘晓雪：沈阳苏家屯迎春街232号</span></p>
           <p><span>送货地址：</span><span>沈阳苏家屯迎春街232号(6009603)</span></p>
           <p><span>承运方：</span><span>沈阳苏家屯迎春街232号(6009603)</span></p>
         </div>

@@ -50,9 +50,11 @@
 			</p>
 			<p>
 				<span class="price-title">促销活动：</span>
-				<span class="activity">满100送1</span>
+				<span class="activity">立白蔬果专用洗洁精购满100瓶送1瓶</span>
 			</p>
 		</div>
+
+    <span class="price-activity pc-hide">立白蔬果专用洗洁精购满100瓶送1瓶</span>
 
 		<div class="product-detail-section-title product-detail-promotion-section-mobile pc-hide">
 			<h2>产品参数</h2>
@@ -60,7 +62,7 @@
 		</div>
 
 		<ul class="parameter">
-			<li><span>商品名称：</span><p>立白蜀国专用洗洁精1.5KG柠檬去油不伤手</p></li>
+			<li><span>商品名称：</span><p>立白蔬果专用洗洁精1.5KG柠檬去油不伤手</p></li>
 			<li><span>上架时间：</span><p>2016-08025 10:12:09</p></li>
 			<li><span>商品产地：</span><p>中国大陆</p></li>
 			<li><span>商品编号：</span><p>1333254095</p></li>
@@ -80,15 +82,15 @@
     <div class="action">
     	<a class="action-buy button button-red" href="order-cart.html">加入购物车</a>
     	<a class="pc-hide">
-    		<i class="iconfont">&#xe631;</i>
+    		<i class="iconfont">&#xe641;</i>
     		<span>客服</span>
     	</a>
     	<a class="action-collection">
-    		<i class="iconfont">&#xe631;</i>
+    		<i class="iconfont">&#xe60e;</i>
     		<span>收藏</span>
     	</a>
     	<a class="pc-hide">
-    		<i class="iconfont">&#xe631;</i>
+    		<i class="iconfont">&#xe65f;</i>
     		<span>购物车</span>
     	</a>
     </div>

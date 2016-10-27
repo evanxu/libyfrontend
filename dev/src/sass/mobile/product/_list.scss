@@ -4,8 +4,8 @@
   &-con {
     width: 100%;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+    //display: flex;
+    //flex-wrap: wrap;
 
     .pagination {
       order: 1;
@@ -23,8 +23,6 @@
   }
 
   &-search-sort {
-    order: 0;
-    display: flex;
     margin-bottom:0;
 
     p {
@@ -65,14 +63,26 @@
     }
   }
 
-  &-content {
-    order: 1;
-  }
 
   &-item {
     width: 50%;
     height:3rem;
     margin: 0;
+    border-top:0;
+
+    &:nth-child(even){
+      border-right:0;
+    }
+
+    &:nth-child(odd){
+      border-left:0;
+      border-right:0;
+    }
+
+    &:hover{
+      box-shadow:0;
+    }
+
 
     &-top {
         .product-list-item-remark {
@@ -115,7 +125,7 @@
 .product-list-filter-mobile {
   @include size(3rem, 100vh);
   @include fixed(top 0 right 0);
-  display:block;
+  display:none;
   background: #fff;
   overflow: scroll;
   z-index:200;

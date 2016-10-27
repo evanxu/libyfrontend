@@ -1,10 +1,10 @@
 .wallet{
   &-tab{
     @extend %display-flex;
-    //display:-webkit-box;
 
     li{
-      flex:1;
+      float:none;
+      width:50%;
     }
 
     a{

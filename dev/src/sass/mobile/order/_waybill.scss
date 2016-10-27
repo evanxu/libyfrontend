@@ -13,23 +13,23 @@
 
   &-info{
     padding:0;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
+    //@extend %display-flex;
+    //flex-wrap:wrap;
 
     p{
       margin-bottom:0.1rem;
       color: $dark-text;
       @extend %display-flex;
-    //display:-webkit-box;
       justify-content:space-between;
+      -webkit-box-pack:justify;
     }
 
     span{
       line-height: 1.5;
+      float:none !important;
+      display:block;
 
       &:first-child{
-        width:1.3rem;
         text-align: left;
       }
       &:last-child{
@@ -92,15 +92,18 @@
   }
 
   &-item{
-    padding:$gap;
-    height:1.6rem;
+    padding:$gap $gap $gap 1.15rem;
+    height:1.4rem;
     overflow:hidden;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
-    flex-direction:column;
+    //@extend %display-flex;
+    //flex-wrap:wrap;
+    //flex-direction:column;
 
     .cart{
+      &-image{
+        @include absolute(top $gap left $gap);
+      }
+
       &-info{
         width:100%;
         padding:0;

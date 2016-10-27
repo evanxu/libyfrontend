@@ -615,7 +615,10 @@ input {
   -webkit-user-select: text;
   border-radius: 0; }
 
-input[type=button], input[type=search], select {
+input[type=button],
+input[type=search],
+select,
+textarea {
   outline: 0;
   -webkit-appearance: none; }
 
@@ -708,7 +711,7 @@ a {
 .user-admin {
   position: relative;
   padding: 3px 7px;
-  margin-left: 20px;
+  margin-left: 10px;
   background: #05a1e9;
   color: #fff;
   border-radius: 20px; }
@@ -827,15 +830,15 @@ a {
   .footer-content {
     width: 1200px;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 30px 0 15px;
     overflow: hidden;
     border-bottom: 1px solid #dbdbdb; }
     .footer-content p {
       color: #a1a1a1; }
     .footer-content-link {
-      width: 950px;
+      width: 970px;
       float: left;
-      margin-left: -30px; }
+      margin-left: -50px; }
       .footer-content-link dl {
         width: 16.6666%;
         float: left; }
@@ -1924,8 +1927,8 @@ input.button {
     right: 20px;
     position: absolute; }
     .account-info-message i {
-      color: #fff;
-      font-size: 24px; }
+      color: #656565;
+      font-size: 26px; }
     .account-info-message .message-dot {
       top: -5px;
       right: -10px;
@@ -2885,16 +2888,13 @@ input.button {
   .promotion-add-setrule .form-select,
   .promotion-mine-setrule .form-select {
     width: 400px; }
-  .promotion-add-rules p, .promotion-add-rules input,
-  .promotion-mine-rules p,
-  .promotion-mine-rules input {
-    float: left; }
-  .promotion-add-rules p,
-  .promotion-mine-rules p {
-    padding: 0 10px; }
-    .promotion-add-rules p:first-of-type,
-    .promotion-mine-rules p:first-of-type {
-      padding-left: 0; }
+  .promotion-add-rules-box,
+  .promotion-mine-rules-box {
+    float: left;
+    margin-right: 13px; }
+  .promotion-add-rules span,
+  .promotion-mine-rules span {
+    padding-right: 5px; }
   .promotion-add-rules .input,
   .promotion-mine-rules .input {
     width: 173px; }
@@ -3376,10 +3376,13 @@ input.button {
 .order-waybill-topup {
   position: relative;
   height: 60px;
-  padding: 10px 30px;
+  padding: 10px 120px 10px 30px;
   border-top: 15px solid #f6f6f6;
   color: #656565;
   line-height: 16px; }
+  .order-check-topup span,
+  .order-waybill-topup span {
+    line-height: 24px; }
   .order-check-topup .button,
   .order-waybill-topup .button {
     top: 2px;
@@ -3631,6 +3634,15 @@ input.button {
         background: #f0fafe; }
       .order-detail-lists dd a {
         color: #05a1e9; }
+      .order-detail-lists dd.order-detail-lists-total {
+        width: 100%;
+        height: 55px;
+        padding: 0 30px;
+        line-height: 55px;
+        text-align: right;
+        background: #f6f6f6; }
+        .order-detail-lists dd.order-detail-lists-total strong {
+          font-size: 18px; }
     .order-detail-lists p {
       float: left;
       width: 25%;
@@ -3644,14 +3656,9 @@ input.button {
       .order-detail-lists p:nth-child(3) {
         width: 15%;
         text-align: right; }
-      .order-detail-lists p:nth-child(4), .order-detail-lists p:nth-child(5), .order-detail-lists p.order-detail-lists-total {
+      .order-detail-lists p:nth-child(4), .order-detail-lists p:nth-child(5) {
         padding-right: 30px;
         text-align: right; }
-      .order-detail-lists p.order-detail-lists-total {
-        width: 100%;
-        background: #f6f6f6; }
-        .order-detail-lists p.order-detail-lists-total strong {
-          font-size: 18px; }
   .order-detail-deliver p {
     width: 15%; }
     .order-detail-deliver p:first-child {
@@ -3676,8 +3683,6 @@ input.button {
       padding-right: 15px; }
     .order-detail-deliver p:nth-child(6) {
       padding-right: 30px; }
-    .order-detail-deliver p.order-detail-lists-total {
-      width: 100%; }
 
 .order-delivery {
   margin-left: -170px; }
@@ -4599,11 +4604,14 @@ input.button {
           text-align: center;
           float: left;
           height: 40px; }
+        .product-detail-introduce-description .action .pc-hide {
+          display: none; }
         .product-detail-introduce-description .action-buy {
           width: 180px;
           color: #fff;
           background: #e2293f; }
         .product-detail-introduce-description .action-collection {
+          display: block;
           width: 75px;
           color: #c57d03;
           margin-left: 25px; }

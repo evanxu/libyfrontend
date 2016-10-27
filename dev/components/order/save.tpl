@@ -38,7 +38,7 @@
       <br>邓志勇 15021511111
       </span>
     </p>
-    <p class="order-success-text"><span class="order-success-text-title">您可以<a href="javascript:;">继续购物</a></span>,<span>或者去我的订单查看订单，并对该订单进行修改或提交交货单。</span></p>
+    <p class="order-success-text"><span class="order-success-text-title">您可以<a href="javascript:;">继续购物</a>,</span><span>或者去我的订单查看订单，并对该订单进行修改或提交交货单。</span></p>
 
 <!--     <p class="order-success-text"><span >实付款：</span><span><span class="currency">￥</span>150,000.00</span></p> -->
 

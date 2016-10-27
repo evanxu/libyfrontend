@@ -81,13 +81,10 @@
   }
 
   &-item{
-    padding:0 $gap;
+    position:relative;
+    padding:0 $gap 0.6rem;
     border-bottom:1px solid $grey-border;
     color:$dark-text;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
-    justify-content:flex-end;
 
     p{
       font-size:$font-size-base;
@@ -99,6 +96,7 @@
     &-price,
     &-date,
     &-status{
+      float:none;
       width:33%;
       order:0;
     }
@@ -111,20 +109,33 @@
       line-height:0.3rem;
       font-size:$font-size-base;
       @extend %display-flex;
-    //display:-webkit-box;
-      justify-content:space-between;
+
+      p{
+        width:60%;
+        padding-right:$gap;
+      }
+
 
       p:last-child{
+        width:40%;
+        padding:0;
         font-size:10px;
         color:$light-text;
+        text-align:right;
       }
     }
 
     &-amount{
+      @include absolute(bottom 0 right $gap);
       width:25%;
       margin:0.05rem 0;
       text-align:center;
-      order:1;
+    }
+
+    &-price,
+    &-date,
+    &-status{
+      float:left;
     }
 
     &-date{

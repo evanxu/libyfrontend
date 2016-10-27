@@ -17,7 +17,7 @@
           <div class="form-datepicker promotion-add-date">
             <input type="text" class="input" placeholder="请选择起始时间" name="">
           </div>
-          <p class="promotion-add-fromto">至</p>
+          <p class="promotion-add-fromto m-hide">至</p>
           <div class="form-datepicker promotion-add-date">
             <input type="text" class="input" placeholder="请选择结束时间" name="">
           </div>
@@ -43,17 +43,24 @@
       </div>
       <div class="form-item promotion-add-rules">
         <span class="form-title">活动规则1：</span>
-        <p>买</p>
-        <input type="text" class="input" placeholder="" name="">
-        <p>送</p>
-        <input type="text" class="input" placeholder="" name="">
+        <div class="promotion-add-rules-box">
+          <span>买</span>
+          <input type="text" class="input" placeholder="" name="">
+        </div>
+        <div class="promotion-add-rules-box">
+          <span>送</span>
+          <input type="text" class="input" placeholder="" name="">
+        </div>
       </div>
       <div class="form-item promotion-add-rules">
-        <span class="form-title">活动规则2：</span>
-        <p>买</p>
-        <input type="text" class="input" placeholder="" name="">
-        <p>送</p>
-        <input type="text" class="input" placeholder="" name="">
+        <div class="promotion-add-rules-box">
+          <span>买</span>
+          <input type="text" class="input" placeholder="" name="">
+        </div>
+        <div class="promotion-add-rules-box">
+          <span>送</span>
+          <input type="text" class="input" placeholder="" name="">
+        </div>
       </div>
       <div class="form-item promotion-add-addrule">
         <a href="javascript:;">+ 新增活动规则</a>

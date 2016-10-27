@@ -93,15 +93,13 @@ $promotion-add-input-width:  400px;
   }
 
   &-rules{
-    p,input{
+    &-box{
       float: left;
+      margin-right:13px;
     }
-    p{
-      padding:0 10px;
 
-      &:first-of-type{
-        padding-left:0;
-      }
+    span{
+      padding-right:5px;
     }
 
     .input{

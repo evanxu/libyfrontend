@@ -13,15 +13,9 @@ $order-cart-color: $dark-text;
   }
 
   &-item{
-    padding:0.4rem 0 0.4rem 0.35rem;
+    padding:0.4rem 0 0.4rem 1.35rem;
     height:1.9rem;
     border-bottom-width:10px;
-    @extend %display-flex;
-    -webkit-box-direction: normal;
-    -moz-flex-direction: column;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    flex-wrap:wrap;
   }
 
   &-check{
@@ -37,7 +31,7 @@ $order-cart-color: $dark-text;
     @include fixed(bottom $footer-mobile-height left 0);
     @include size(100%, 0.5rem);
     margin-top:$gap;
-    padding:0 1.05rem 0 0.1rem;
+    padding:0 0.95rem 0 0.1rem;
     border:0;
     z-index:2;
     border-top:1px solid #f6f6f6;
@@ -47,11 +41,11 @@ $order-cart-color: $dark-text;
 
   &-allpick{
     margin-top:0;
+    float:none;
+    line-height:0.5rem;
     font-size:$font-size-base;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-direction:column;
-    justify-content:space-around;
+    color:$dark-text;
+    flex:1;
 
     a{
       display:none;
@@ -59,45 +53,33 @@ $order-cart-color: $dark-text;
   }
 
   &-checkout{
-    height:0.36rem;
-    flex:1;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
-    align-self:center;
+    height:0.5rem;
+    float:none;
 
     span{
-      font-size:$font-size-base;
-      line-height:0.16rem;
+      line-height:0.52rem;
+      display:inline-block;
+      vertical-align:middle;
     }
 
     & > span{
-      margin-left:0.08rem;
+      margin-left:0;
       text-align:left;
-      order:0;
+    }
+
+    & > span:last-of-type{
+      width:100%;
+      text-align:right;
     }
 
     & > span:first-of-type,
-    & > span:last-of-type{
-      width:100%;
-      font-size:10px;
-    }
-
-    & > span:first-of-type{
-      order:1;
-    }
-
-    & > span:last-of-type{
-      color:#000;
-    }
-
     & > span:nth-child(2){
       display:none;
     }
 
     .button{
       @include absolute(right 0 top 0);
-      width:1rem;
+      width:0.9rem;
       height:100%;
       font-size:$font-size-large;
       line-height:0.5rem;
@@ -121,7 +103,8 @@ $order-cart-color: $dark-text;
   }
 
   &-image{
-    width:40%;
+    @include absolute(top 0.4rem left 0.35rem);
+    width:1rem;
     max-width:1rem;
     order:1;
 
@@ -134,24 +117,22 @@ $order-cart-color: $dark-text;
   }
 
   &-product{
-    @include size(60%, 0.6rem);
+    @include size(100%, 0.6rem);
+    padding-right:$gap;
     min-height:auto;
-    order:1;
-    @extend %display-flex;
     //display:-webkit-box;
 
     p{
       font-size:$font-size-base;
 
       &:first-child{
-        height:0.42rem;
+        max-height:0.42rem;
         line-height:0.18rem;
         overflow:hidden;
       }
 
       &:nth-child(2){
         width:100%;
-        font-size:10px;
         @extend %ellipsis;
       }
     }
@@ -182,22 +163,17 @@ $order-cart-color: $dark-text;
     @include size(auto, 0.18rem);
     padding:0;
     font-size:$font-size-base;
-    @extend %display-flex;
-    //display:-webkit-box;
-    order:1;
+    //@extend %display-flex;
 
     p{
-      margin-right:0.1rem;
-      order:1;
+      padding-right:0.1rem;
+      display:inline-block;
+      width:auto;
+      float:left;
     }
   }
 
-  &-info{
-    font-size:10px;
-  }
-
   &-price{
-    @include size(20%, 0.18rem);
     text-align:center;
 
     p:last-child{
@@ -248,21 +224,19 @@ $order-cart-color: $dark-text;
     padding-right:$gap;
     border-top:1px solid #f6f6f6;
     color:$dark-text;
-    font-size:$font-size-medium;
+    font-size:$font-size-base;
     line-height:0.3rem;
     text-align:right;
   }
 
   &-action{
-    @include size(60%, 0.3rem);
+    @include size(100%, 0.3rem);
     position:relative;
     margin-top:0.2rem;
     padding:0;
     text-align:left;
     display:none;
-    order:2;
-    flex-wrap:wrap;
-    justify-content:space-between;
+
 
     label,
     a{
@@ -270,19 +244,20 @@ $order-cart-color: $dark-text;
     }
 
     label{
-      @include absolute(top -0.5rem right 0);
+      @include absolute(top -0.5rem right $gap);
       width:100%;
       text-align:right;
-
     }
 
     a{
       @include size(40%, 0.3rem);
+      display:inline-block;
       border-radius:5px;
       text-align:center;
       line-height:0.3rem;
 
       &:first-of-type{
+        margin-right:10%;
         border:1px solid $base-color;
         color:$base-color;
       }
@@ -307,7 +282,7 @@ $order-cart-color: $dark-text;
     padding-right:$gap;
     text-align:right;
     border-bottom:1px solid #f9f9f9;
-    font-size:$font-size-medium;
+    font-size:$font-size-base;
     line-height:0.3rem;
     box-sizing:border-box;
   }

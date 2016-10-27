@@ -16,14 +16,14 @@
 
   &-item{
     position: relative;
-    display: flex;
-    align-items: center;
+    @extend %display-flex;
 
     &-serial{
       display: none;
     }
 
     &-product{
+      float:none;
       width:80%;
       text-align:left;
 
@@ -54,6 +54,7 @@
     }
 
     &-quantity{
+      float:none;
       width: 20%;
     }
   }

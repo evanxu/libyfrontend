@@ -44,7 +44,7 @@
   }
 
   &-company{
-    margin-bottom:0.05rem;
+    margin-bottom:0;
     font-size:$font-size-base;
   }
 
@@ -52,7 +52,8 @@
     color:#fff;
 
     & + span{
-      display:none
+      font-size:10px;
+      color:$light-text;
     }
   }
 
@@ -70,6 +71,6 @@
   }
 
   .user-level{
-    margin-top:0.1rem;
+    margin-top:$gap;
   }
 }

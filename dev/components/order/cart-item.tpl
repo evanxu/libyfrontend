@@ -42,9 +42,9 @@
       <span>
         <i class="iconfont">&#xe62a;</i>
       </span>
-      <span>必装</span>
+      <span>紧急装货</span>
     </label>
-    <a href="javascript:;" class="no-link">移入收藏夹</a>
+    <a href="javascript:;">移入收藏夹</a>
     <a href="javascript:;" class="no-link">删除</a>
   </div>
   <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>
@@ -92,9 +92,9 @@
       <span>
         <i class="iconfont">&#xe62a;</i>
       </span>
-      <span>必装</span>
+      <span>紧急装货</span>
     </label>
-    <a href="javascript:;" class="no-link">移入收藏夹</a>
+    <a href="javascript:;">移入收藏夹</a>
     <a href="javascript:;" class="no-link">删除</a>
   </div>
   <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>

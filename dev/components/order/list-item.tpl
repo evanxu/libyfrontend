@@ -27,9 +27,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -41,9 +41,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -81,9 +81,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -95,9 +95,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -135,9 +135,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -175,9 +175,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -189,9 +189,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -228,9 +228,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -242,9 +242,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -282,9 +282,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -296,9 +296,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -335,9 +335,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -349,9 +349,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -389,9 +389,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -403,9 +403,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -442,9 +442,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -456,9 +456,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>
@@ -496,9 +496,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
 
@@ -510,9 +510,9 @@
           <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span>10</p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span>4</p>
-        <p class="order-list-cell-quantity">2</p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
         <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
       </div>
     </div>

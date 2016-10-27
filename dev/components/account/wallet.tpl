@@ -21,7 +21,7 @@
     </li>
     <li>
       <a href="javascript:;">
-        <i class="iconfont">&#xe60e;</i>
+        <i class="iconfont">&#xe624;</i>
         <p class="account-wallet-count">6792</p>
         <p class="text-light">积分</p>
         <span class="account-wallet-btn">查 看</span>

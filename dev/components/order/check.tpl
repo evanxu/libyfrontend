@@ -109,17 +109,17 @@
         该订单满100元，即可参加3元换购Vichy精华水活动
         <div class="order-check-product-info">
           <span class="mr15">
-            总吨位（吨）:<strong>1.000</strong>
+            <span>总吨位（吨）:</span><strong>1.000</strong>
           </span>
           <span>
-            总体积（立方米）:<strong>1.000</strong>
+            <span>总体积（立方米）:</span><strong>1.000</strong>
           </span>
         </div>
       </div>
 
       <div class="order-check-remark clearfix">
         <div class="order-check-remark-left">
-          备注：
+          <span>备注：</span>
           <input type="text" class="input" name="" placeholder="（选填）有什么特殊需求，告诉立白吧">
         </div>
         <ul class="order-check-remark-right">
@@ -145,9 +145,19 @@
       </div>
 
       <div class="order-check-topup">
-        <span class="mr20">金额： <strong><span class="currency">￥</span>120,000.00</strong></span>
-        <span class="mr20">授信金额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
-        <span>已发货金额：<strong><span class="currency">￥</span>0.00</strong></span>
+        <!-- <span class="mr20">
+          <span>金额：</span>
+          <strong><span class="currency">￥</span>120,000.00</strong>
+        </span>
+        <span class="mr20">
+          <span>授信金额：</span>
+          <strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong>
+        </span>
+        <span>
+          <span>已发货金额：</span>
+          <strong><span class="currency">￥</span>0.00</strong>
+        </span> -->
+        <span class="fl">授信余额不足，当前余额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
         <a href="wallet-topup.html" class="button button-blue button-medium">充 值</a>
       </div>
 

@@ -14,10 +14,9 @@
   &-delivery{
     width:100%;
     padding:0 $gap;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
-    justify-content:space-between;
+    //@extend %display-flex;
+    //flex-wrap:wrap;
+    //justify-content:space-between;
 
     li{
       @include size(45%, auto);
@@ -60,15 +59,17 @@
       padding:$gap;
       color:#808080;
       cursor:pointer;
-      background:url(#{$background-root}/bg/bg-address.png) no-repeat;
+      background:none;
+      border:2px dashed $light-text;
 
       a{
         color:$base-color;
       }
     }
+
     @media screen and (-webkit-min-device-pixel-ratio: 2) {
       .order-check-address-detail{
-        background:url(#{$background-root}/bg/bg-address@2x.png) no-repeat;
+        background:none;
         background-size:cover;
       }
     }
@@ -79,11 +80,13 @@
 
     .order-check-address-detail.curr,
     input[type="radio"]:checked + .order-check-address-detail{
+      border-color:$base-color;
+
       &:after{
-        @include absolute(right 0 bottom -3px);
+        @include absolute(right 0 bottom 1px);
         content:"\e62b";
         font-family:'iconfont';
-        color:$red;
+        color:$base-color;
         font-size:22px;
       }
     }
@@ -94,15 +97,19 @@
   }
 
   &-item{
-    padding:$gap;
-    height:1.6rem;
+    padding:$gap $gap $gap 1.15rem;
+    height:1.4rem;
     overflow:hidden;
-    @extend %display-flex;
+    //@extend %display-flex;
     //display:-webkit-box;
-    flex-wrap:wrap;
-    flex-direction:column;
+    //flex-wrap:wrap;
+    //flex-direction:column;
 
     .cart{
+      &-image{
+        @include absolute(top $gap left $gap);
+      }
+
       &-info{
         width: 100%;
         padding: 0;
@@ -115,16 +122,10 @@
         text-align:right;
       }
 
-      &-product img{
-        left:$gap;
-      }
-
       &-total{
         display:block;
-        font-size:$font-size-medium;
+        font-size:$font-size-base;
         border:0;
-        flex:1;
-        order:6;
       }
 
       &-quantity{
@@ -156,9 +157,8 @@
   &-remark{
     padding:$gap;
     color:$dark-text;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
+    //@extend %display-flex;
+    //flex-wrap:wrap;
 
     &-left{
       @include relative(top 0 left 0);
@@ -167,9 +167,8 @@
       margin-bottom:$gap;
       line-height:0.3rem;
       @extend %display-flex;
-    //display:-webkit-box;
-      flex-wrap:wrap;
       justify-content:space-between;
+      -webkit-box-pack:justify;
     }
 
     &-right{
@@ -177,7 +176,7 @@
     }
 
     .input{
-      flex:1;
+      display:inherit;
     }
   }
 
@@ -185,17 +184,18 @@
 
   &-charge{
     width:100%;
-    margin-bottom:5px;
-    line-height:0.3rem;
+    margin-bottom:0;
+    line-height:0.2rem;
     @extend %display-flex;
-    //display:-webkit-box;
     justify-content:space-between;
+    -webkit-box-pack:justify;
 
     &:last-child{
       margin:0;
     }
 
     &-title{
+      float:none;
       text-align:left;
     }
   }
@@ -217,17 +217,20 @@
   &-product-info{
     width:100%;
     margin-top:0.1rem;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
+    //@extend %display-flex;
+    //flex-wrap:wrap;
 
     & > span{
       width:100%;
       margin:0;
-      line-height:0.3rem;
+      line-height:0.2rem;
       @extend %display-flex;
-    //display:-webkit-box;
       justify-content:space-between;
+      -webkit-box-pack:justify;
+    }
+
+    strong{
+      display:inherit;
     }
   }
 
@@ -240,7 +243,8 @@
 .order-check-charge{
   strong{
     font-weight:400;
-    font-size:$font-size-medium
+    font-size:$font-size-base;
+    display:inherit;
   }
 }
 
@@ -259,28 +263,30 @@
     height:auto;
     padding:$gap;
     border-top:0.1rem solid $light-border;
-    border-bottom:0;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
-    flex-direction: row-reverse;
+    border-bottom:0.1rem solid $light-border;
+    overflow:hidden;
+    //@extend %display-flex;
+    //flex-wrap:wrap;
+    //flex-direction: row-reverse;
 
-    & > span,
-    & > a{
-      width:100%;
+    & > span{
+      //width:100%;
       margin-right:0;
-      line-height:0.3rem;
-      @extend %display-flex;
-    //display:-webkit-box;
-      justify-content:space-between;
+      line-height:0.2rem;
+      overflow:hidden;
+      float:none;
+    }
+
+    strong{
+      display:inherit;
     }
 
     .button{
       @include relative(right 0 top 0);
       @include size(0.9rem, 0.3rem);
-      margin-top:0.1rem;
+      float:right;
+      line-height:0.3rem;
       font-size:$font-size-medium;
-      justify-content:center;
     }
   }
 
@@ -292,9 +298,9 @@
     border-top:1px solid #f6f6f6;
     background:#fff;
     z-index:2;
-    @extend %display-flex;
+    //@extend %display-flex;
     //display:-webkit-box;
-    justify-content:flex-end;
+    //justify-content:flex-end;
 
     a{
       line-height:0.5rem;
@@ -302,7 +308,7 @@
     }
 
     .button{
-      @include size(1rem, 0.5rem);
+      @include size(1.2rem, 0.5rem);
     }
   }
 

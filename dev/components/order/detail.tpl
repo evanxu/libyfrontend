@@ -166,10 +166,8 @@
           <p><span><span class="currency">￥</span>50.00</span><span class="pc-hide text-light">单价</span></p>
           <p>5,000<span class="pc-hide text-light">数量</span></p>
         </dd>
-        <dd>
-          <p class="order-detail-lists-total">
-            总数量：<strong>25,000</strong>
-          </p>
+        <dd class="order-detail-lists-total">
+            总数量：<strong><span class="currency">￥</span>25,000</strong>
           <!-- <p class="pc-hide">总金额：<strong><span class="currency">￥</span>1468.00</strong></p> -->
         </dd>
         <dd class="order-detail-lists-buttons pc-hide">
@@ -178,7 +176,7 @@
           <a href="javascript:;">请查收</a>
         </dd>
         <dd class="order-detail-lists-address pc-hide">
-          <p><i class="iconfont">&#xe61e;</i>自提仓库地址：广东省广州市越秀区沿江西路999号</p>
+          <i class="iconfont">&#xe61e;</i>自提仓库地址：广东省广州市越秀区沿江西路999号
         </dd>
       </dl>
     </div>
@@ -199,21 +197,19 @@
           <p>立白去渍洗洁精</p>
           <p><span class="currency">￥</span>50.00</p>
           <p>5,000</p>
-          <p>10,000<span class="pc-hide text-light">库存</span></p>
-          <p>2016-9-25<span class="pc-hide text-light">预计发货</span></p>
+          <p><span>10,000</span><span class="pc-hide text-light">库存</span></p>
+          <p><span>2016-9-25</span><span class="pc-hide text-light">预计发货</span></p>
         </dd>
         <dd>
           <p>SKU98334H22</p>
           <p>立白去渍洗洁精</p>
           <p><span class="currency">￥</span>50.00</p>
           <p>5,000</p>
-          <p>10,000<span class="pc-hide text-light">库存</span></p>
-          <p>2016-9-25<span class="pc-hide text-light">预计发货</span></p>
+          <p><span>10,000</span><span class="pc-hide text-light">库存</span></p>
+          <p><span>2016-9-25</span><span class="pc-hide text-light">预计发货</span></p>
         </dd>
-        <dd>
-          <p class="order-detail-lists-total">
-            总数量：<strong>25,000</strong>
-          </p>
+        <dd class="order-detail-lists-total">
+          总数量：<strong><span class="currency">￥</span>25,000</strong>
         </dd>
       </dl>
     </div>

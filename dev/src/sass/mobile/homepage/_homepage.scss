@@ -54,6 +54,7 @@
 
 	&-section{
 		margin-bottom:0.3rem;
+		overflow:hidden;
 
 		&-brands{
 			@include homepage-subject($base-color);
@@ -75,12 +76,12 @@
 	// homepage-brands
 	&-brands{
 		width: 100%;
-		@extend %display-flex;
-    //display:-webkit-box;
-		flex-direction:column;
+		//@extend %display-flex;
+		//flex-direction:column;
 
 		&-video{
 			width:100%;
+			float:none;
 
 			img{
 				@include size(100%, auto);
@@ -93,7 +94,6 @@
 			padding-left: 0;
 			float:none;
 			display:none;
-			flex-wrap:wrap;
 
 			li{
 				@include size(25%, auto);
@@ -162,7 +162,7 @@
 
 			li {
 		    width: auto;
-		    float: left;
+		    float: none;
 
 		    a,
 		    img {
@@ -219,9 +219,8 @@
 				width:100%;
 				border-style:solid;
 				border-left:0;
-			  @extend %display-flex;
-    //display:-webkit-box;
-			  flex-wrap:wrap;
+			  //@extend %display-flex;
+			  //flex-wrap:wrap;
 
 
 				li{
@@ -322,9 +321,8 @@
 			width:100%;
 			border-style:solid;
 			border-left:0;
-			@extend %display-flex;
-    //display:-webkit-box;
-			flex-wrap:wrap;
+			//@extend %display-flex;
+			//flex-wrap:wrap;
 
 			li{
 			  @include size(50%, auto);
@@ -415,11 +413,11 @@
 		width: 100%;
 		margin: 0 auto 0.25rem;
     overflow: hidden;
-		@extend %display-flex;
-    //display:-webkit-box;
-		flex-wrap:wrap;
+		//@extend %display-flex;
+		//flex-wrap:wrap;
 
     li {
+    	float:left;
       width: 50%;
       margin:0;
 			padding:0.2rem 0.12rem 0.1rem;

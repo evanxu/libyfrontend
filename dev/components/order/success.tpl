@@ -37,8 +37,8 @@
       <br>邓志勇 15021511111
     </p>
     <p class="order-success-text">
-      <span class="order-success-text-title">实付款：</span>
-      <strong><span class="currency">￥</span>150,000</strong>
+      <span class="order-success-text-title">实付款：<strong class="pc-hide"><span class="currency">￥</span>150,000</strong></span>
+      <strong class="m-hide"><span class="currency">￥</span>150,000</strong>
     </p>
 
 <!--     <p class="order-success-text"><span >实付款：</span><span><span class="currency">￥</span>150,000.00</span></p> -->

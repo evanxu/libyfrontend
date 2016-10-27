@@ -21,15 +21,19 @@ $wallet-topup-width:  215px;
   }
 
   &-btn{
-    @extend %display-flex;
-    //display:-webkit-box;
-    padding:$gap $gap*2;
+    padding:$gap;
     margin:0;
     border-top:1px dashed #dcdee8;
     text-align:center;
+    @extend %display-flex;
+    justify-content: space-around;
+    -webkit-box-pack: justify;
 
-    &.button{
-      flex:1;
+    .button,
+    a{
+      display:block;
+      width:47%;
+      margin:0;
     }
   }
 

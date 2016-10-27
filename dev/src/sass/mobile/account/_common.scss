@@ -6,8 +6,6 @@
   border:0;
   overflow:visible;
   @extend %display-flex;
-    //display:-webkit-box;
-  flex-wrap:wrap;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -moz-flex-direction: column;

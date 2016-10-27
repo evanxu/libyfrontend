@@ -201,6 +201,10 @@ $product-detail-amount-color:#878787;
           height: 40px;
         }
 
+        .pc-hide{
+          display:none;
+        }
+
         &-buy{
           width: 180px;
           color: #fff;
@@ -208,6 +212,7 @@ $product-detail-amount-color:#878787;
         }
 
         &-collection{
+          display: block;
           width: 75px;
           color: #c57d03;
           margin-left: 25px;

@@ -207,6 +207,18 @@
       a{
         color:$base-color;
       }
+
+      &.order-detail-lists-total{
+        @include size(100%, 55px);
+        padding:0 $gap*2;
+        line-height: 55px;
+        text-align:right;
+        background:$light-background;
+
+        strong{
+          font-size:$font-size-xlarge;
+        }
+      }
     }
 
     p{
@@ -230,20 +242,9 @@
       }
 
       &:nth-child(4),
-      &:nth-child(5),
-      &.order-detail-lists-total{
+      &:nth-child(5){
         padding-right:$gap*2;
         text-align:right;
-      }
-
-
-      &.order-detail-lists-total{
-        width:100%;
-        background:$light-background;
-
-        strong{
-          font-size:$font-size-xlarge;
-        }
       }
     }
   }
@@ -288,10 +289,6 @@
       }
       &:nth-child(6){
         padding-right:$gap*2;
-      }
-
-      &.order-detail-lists-total{
-        width:100%;
       }
 
     }

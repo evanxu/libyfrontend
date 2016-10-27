@@ -7,7 +7,7 @@ $footer-grey:#a1a1a1;
   &-content{
     width: 1200px;
     margin: 0 auto;
-    padding:15px 0;
+    padding:30px 0 15px;
     overflow: hidden;
     border-bottom: 1px solid #dbdbdb;
 
@@ -16,9 +16,9 @@ $footer-grey:#a1a1a1;
     }
 
     &-link{
-      width: 950px;
+      width: 970px;
       float: left;
-      margin-left: -30px;
+      margin-left: -50px;
   
       dl{
         width: 16.6666%;

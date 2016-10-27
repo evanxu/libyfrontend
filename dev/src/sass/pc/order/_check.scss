@@ -257,10 +257,14 @@
   &-topup{
     position:relative;
     height:60px;
-    padding:10px $gap*2;
+    padding:10px 120px 10px $gap*2;
     border-top:$gap solid $light-border;
     color:$dark-text;
     line-height:16px;
+
+    span{
+      line-height:24px;
+    }
 
     .button{
       @include absolute(right 2px top 2px);
