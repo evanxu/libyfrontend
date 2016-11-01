@@ -1,16 +1,16 @@
 <div class="order-cart">
   <div class="order-title">
-    <a href="homepage.html">
-      <img src="../src/images/bg/bg-logo.png" width="100%">
+    <a href="/views/homepage.html">
+      <img src="/src/images/bg/bg-logo.png" width="100%">
     </a>
-    <span class="order-title-text">我的进货单</span>
+    <span class="order-title-text">我的购物车</span>
     <div class="order-progress">
       <i class="order-progress-curr">
       </i>
       <ul class="order-progress-step">
         <li class="order-progress-step-item0 active">
           <span>1</span>
-          <p>我的进货单</p>
+          <p>我的购物车</p>
         </li>
         <li class="order-progress-step-item1">
           <span>2</span>
@@ -62,14 +62,14 @@
         </span>
         <span>全选</span>
       </label>
-      <a href="javascript:;">删除</a>
-      <a href="javascript:;">移入收藏夹</a>
+      <a href="javascript:;" class="no-link">删除</a>
+      <a href="javascript:;" class="no-link">移入收藏夹</a>
     </div>
     <div class="order-cart-checkout">
       <span class="mr20">已选商品 <span class="red">2</span> 件</span>
       <span class="mr20">已优惠：<strong class="fs16"><span class="currency">￥</span>405.00</strong></span>
       <span>合计(不含运费)：<span class="red fs16"><span class="currency">￥</span><strong>6,109.00</strong></span></span>
-      <a href="order-check.html" class="button button-red button-medium">结 算</a>
+      <a href="/views/order-check.html" class="button button-red button-medium">结 算</a>
     </div>
   </div>
 </div>

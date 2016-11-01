@@ -4,5 +4,5 @@
 </div>
 
 <div class="product-detail-introduction">
-  <img src="../src/images/temp/detail-introduction.jpg" alt="detail-introduction">
+  <img src="/src/images/temp/detail-introduction.jpg" alt="detail-introduction">
 </div>

@@ -1,7 +1,7 @@
 <div class="wallet-status">
   <ul class="wallet-tab">
     <li class="curr">
-      <a href="wallet-status.html">经销商授信状态</a>
+      <a href="/views/wallet-status.html">经销商授信状态</a>
     </li>
     <li>
       <a href="javascript:;" class="no-link">我的返利</a>
@@ -26,7 +26,7 @@
         <span class="fl">洗护授信余额：</span><span class="fr">10000.00</span>
       </dd>
       <dd>
-        <a href="wallet-topup.html" class="button button-blue button-radius">账户充值</a>
+        <a href="/views/wallet-topup.html" class="button button-blue button-radius">账户充值</a>
       </dd>
     </dl>
   </div>

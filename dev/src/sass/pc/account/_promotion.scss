@@ -1,33 +1,103 @@
-.account-promotion{
-  background:#f6f6f6;
-  overflow:hidden;
+.account-promotion,
+.promotion-liby{
 
   &-list{
-    width:1020px;
-    overflow:hidden;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
   }
 
   &-item{
-    float:left;
-    width:340px;
-    border-right:20px solid #f6f6f6;
-    padding:5px;
-    background:#fff;
-  }
-
-  &-status{
+    width: 25%;
+    float: left;
+    padding:30px 40px 0;
+    margin-bottom:20px;
+    transition:transform 0.3s ease-in;
     position:relative;
-    height:270px;
-    margin-bottom:$gap;
-    background:#f9f9f9;
+
+    &:hover{
+      a{
+        color:$base-color;
+      }
+    }
+
+    a{
+      display: block;
+    }
+
+    img{
+      display: block;
+      margin:0 auto;
+      @include size(160px,160px);
+    }
   }
 
-  &-detail{
-    height:80px;
-    padding:0 $gap;
-    margin-bottom:$gap;
-    overflow:hidden;
-    color:$grey-text;
-    line-height:18px;
+  &-price{
+    font-size:$font-size-large;
+    color: $red;
+    margin: 10px auto 5px;
+
+    del{
+      margin-left:5px;
+      font-size:$font-size-base;
+      color:$light-text;
+    }
+  }
+
+  &-tit{
+    font-size:$font-size-medium;
+    color: $dark-text;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  &-tag{
+    font-size: 12px;
+    color: $light-text;
+    padding: 5px 0;
+    margin: 0 auto;
+  }
+
+  &-label{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    @include size(40px,auto);
+
+    span{
+      display: block;
+      margin: 5px auto;
+      font-size:$font-size-medium;
+      line-height:16px;
+      text-align: center;
+      color:#fff;
+    }
+
+    &:after{
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-width: 10px 20px 20px;
+      border-style: solid;
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  &-green{
+    background: #8fc31f;
+
+    &:after{
+      border-color: #8fc31f transparent transparent transparent;
+    }
+  }
+
+  &-orange{
+    background: #f87a00;
+
+    &:after{
+      border-color: #f87a00 transparent transparent transparent;
+    }
   }
 }

@@ -1,0 +1,59 @@
+.privileges-level{
+  min-height: auto;
+
+  .box-title{
+    display: none;
+  }
+}
+
+.privileges-level-arrow{
+  @include size(0.30rem,0.50rem);
+
+  i{
+    font-size: 30px;
+  }
+
+  &-left{
+    left: 0;
+  }
+
+  &-right{
+    right: 0;
+  }
+}
+
+.privileges-level-wrapper{
+  @include size(80%,auto);
+  margin: 0.3rem auto;
+}
+
+.privileges-level-items{
+  width: 200%;
+}
+
+.privileges-level-item{
+  width: 50%;
+  margin-right: 0;
+
+  dt{
+    @include size(100%,0.75rem);
+    margin-bottom: 0.3rem;
+
+    span{
+      margin-top: 0.10rem;
+      margin-left: 10%;
+      line-height: 0.70rem;
+    }
+
+    h2{
+      line-height: 1rem;
+      margin-left: 35%;
+    }
+  }
+
+  &-list{
+    padding:0 0.20rem 0 0.30rem;
+  }
+
+}
+

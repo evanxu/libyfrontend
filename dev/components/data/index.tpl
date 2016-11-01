@@ -7,62 +7,32 @@
   </div>
   <ul class="data-center-chart clearfix" id="J-promotionFeeChart">
     <li>
-      <p class="chart-title">立白周年庆活动</p>
-      <div class="chart-detail J-chart" data-title="立白周年庆活动" data-id="10293892" data-total="8300.00"  data-unfinished="2300.00"></div>
+      <p class="chart-title">活动执行率</p>
+      <div class="chart-detail J-chart" data-title="活动执行率" data-title1="已执行" data-title2="未执行" data-id="10293892" data-total="200"  data-unfinished="100"></div>
       <div class="chart-other">
         <div class="chart-finish chart-finish-blue">
-          <span class="with-bg">已完成</span>
-          <span class="with-border">2700000.00元</span>
+          <span class="with-bg">已执行</span>
+          <span class="with-border">200</span>
         </div>
       </div>
     </li>
     <li>
-      <p class="chart-title">立白中秋节活动</p>
-      <div class="chart-detail J-chart" data-title="立白中秋节活动" data-id="10293892" data-total="4300.00"  data-unfinished="2320.00"></div>
+      <p class="chart-title">分销率</p>
+      <div class="chart-detail J-chart" data-title="分销率" data-title1="已分销" data-title2="未分销" data-id="10293892" data-total="100000.00"  data-unfinished="70000.00"></div>
       <div class="chart-other">
         <div class="chart-finish chart-finish-blue chart-finish-orange">
-          <span class="with-bg">已完成</span>
-          <span class="with-border">500000.00元</span>
+          <span class="with-bg">已分销</span>
+          <span class="with-border">100000.00元</span>
         </div>
       </div>
     </li>
     <li>
-      <p class="chart-title">立白端午节活动</p>
-      <div class="chart-detail J-chart" data-title="立白端午节活动" data-id="10293892" data-total="32300.00"  data-unfinished="4200.00"></div>
+      <p class="chart-title">陈列率</p>
+      <div class="chart-detail J-chart" data-title="陈列率" data-title1="已陈列" data-title2="未陈列" data-id="10293892" data-total="180"  data-unfinished="60"></div>
       <div class="chart-other">
         <div class="chart-finish chart-finish-blue chart-finish-green">
-          <span class="with-bg">已完成</span>
-          <span class="with-border">700000.00元</span>
-        </div>
-      </div>
-    </li>
-    <li>
-      <p class="chart-title">立白周年庆活动</p>
-      <div class="chart-detail J-chart" data-title="立白周年庆活动" data-id="10293892" data-total="6300.00"  data-unfinished="200.00"></div>
-      <div class="chart-other">
-        <div class="chart-finish chart-finish-blue">
-          <span class="with-bg">已完成</span>
-          <span class="with-border">320000.00元</span>
-        </div>
-      </div>
-    </li>
-    <li>
-      <p class="chart-title">立白中秋节活动</p>
-      <div class="chart-detail J-chart" data-title="立白中秋节活动" data-id="10293892" data-total="44300.00"  data-unfinished="12320.00"></div>
-      <div class="chart-other">
-        <div class="chart-finish chart-finish-blue chart-finish-orange">
-          <span class="with-bg">已完成</span>
-          <span class="with-border">2000000.00元</span>
-        </div>
-      </div>
-    </li>
-    <li>
-      <p class="chart-title">立白端午节活动</p>
-      <div class="chart-detail J-chart" data-title="立白端午节活动" data-id="10293892" data-total="2300.00"  data-unfinished="400.00"></div>
-      <div class="chart-other">
-        <div class="chart-finish chart-finish-blue chart-finish-green">
-          <span class="with-bg">已完成</span>
-          <span class="with-border">1700000.00元</span>
+          <span class="with-bg">陈列数</span>
+          <span class="with-border">180</span>
         </div>
       </div>
     </li>
@@ -70,14 +40,22 @@
 </div>
 <script type="text/javascript">
 $(function(){
-  var url = '/data/data-center.json';
+ // var url = '/data/data-center.json';
   var styleColor1 = ['#04a1e9', '#ffa917', '#8dc63f'];
   var styleColor2 = '#ebebeb';
+
+  //temp use
+  //
+  var top = 150;
+  if(device == 'mobile'){
+    top = 130;
+  }
+
   var title = {
     text: '完成目标率',
     color: '#898989',
     pos: {
-      top: '150'
+      top: top
     }
   };
 
@@ -103,11 +81,11 @@ $(function(){
     // });
     var data = [{
       "value": parseInt($this.data('total')),
-      "name": "可核销"
+      "name": $this.data('title1')
     },
     {
       "value": parseInt($this.data('unfinished')),
-      "name": "已核销"
+      "name": $this.data('title2')
     }];
     $this.drawChart({
       title: title,

@@ -23,7 +23,7 @@
       @include relative(left 0 top 0);
       width:auto;
       text-align:left;
-      font-size:$font-size-medium;
+      font-size:$font-size-base;
     }
   }
 
@@ -83,6 +83,11 @@
 .input-check{
   display:none;
 
+  &:checked + span{
+    background:$base-color;
+    border-color:$base-color;
+  }
+
   &:checked + span i{
     display:block;
     font-size:12px;
@@ -93,18 +98,18 @@
     @include size(15px, 15px);
     display:inline-block;
     vertical-align:middle;
-    border:1px solid $grey-border;
-    background:$grey-background;
-    border-radius:3px;
+    border:1px solid $dark-border;
+    background:#fff;
+    border-radius:100%;
     cursor:pointer;
     text-align:center;
     box-sizing:border-box;
 
     i{
-    color:$base-color;
-    display:none;
-  }
+      color:#fff;
+      display:none;
     }
+  }
 }
 
 .error{

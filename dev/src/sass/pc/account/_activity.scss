@@ -1,0 +1,134 @@
+.account-activity{
+  display:none;
+  background: #f6f6f6;
+  position: relative;
+
+  &-arrow{
+    @include size(50px,50px);
+    @include absolute(top 50%);
+    display: block;
+    margin-top: -25px;
+    text-align:center;
+
+
+    i{
+      display: block;
+      height: 100%;
+      font-size: 36px;
+      color:$light-text;
+    }
+
+    &-left{
+      left: 0;
+    }
+
+    &-right{
+      right: 0;
+    }
+  }
+
+  &-wrapper{
+    width:892px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    ul{
+      width: 300%;
+      overflow: hidden;
+    }
+
+    li{
+      position:relative;
+      border: 1px;
+      float: left;
+      width: 300px;
+      padding-right: 8px;
+
+      a{
+        display: block;
+        background:#fff;
+        padding: 5px 5px 15px;
+      }
+
+      img{
+        @include size(100%,150px);
+        display: block;
+      }
+
+
+    }
+  }
+
+  &-title{
+    font-size: 14px;
+    display: block;
+    margin-top: 15px;
+    width: 150px;
+    padding-left:15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &-time{
+    font-size: 12px;
+    padding-left:15px;
+    color: #c2c2c2;
+  }
+
+  &-status{
+    display: block;
+    @include size(100px,40px);
+    position: absolute;
+    right: 4px;
+    bottom: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+
+
+    &:before{
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-width: 20px;
+      border-style: solid;
+      border-color: transparent transparent transparent #fff;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+
+    &:after{
+      content: "";
+      display: block;
+      width: 0px;
+      height: 0;
+      border-width: 3px;
+      border-style: solid;
+      position: absolute;
+      right: 0px;
+      top: -6px;
+    }
+
+    &-active{
+      color: #fff;
+      background: #f99557;
+
+      &:after{
+        border-color: transparent transparent #af6a40 #af6a40;
+      }
+    }
+
+    &-quiet{
+      color: #c2c2c2;
+      background: #eaeaea;
+
+      &:after{
+        border-color: transparent transparent #b0b0b0 #b0b0b0;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.data-center{
+  background:$white-background;
+  min-height:$catalog-height;
+
+  &-chart{
+    overflow:hidden;
+
+    li{
+      @include size(100%, 300px);
+      position:relative;
+      float:left;
+    }
+  }
+
+  .chart-finish-orange{
+    .with-bg{
+      background:#ffa917;
+      border-color:#ffa917
+    }
+    .with-border{
+      border-color:#ffa917;
+      color:#ffa917
+    }
+  }
+
+  .chart-finish-green{
+    .with-bg{
+      background:#8dc63f;
+      border-color:#8dc63f
+    }
+    .with-border{
+      border-color:#8dc63f;
+      color:#8dc63f
+    }
+  }
+}
+

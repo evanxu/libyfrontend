@@ -102,6 +102,10 @@
         white-space: nowrap;
     }
 
+    &-sale{
+      margin-bottom:0.05rem;
+    }
+
     &:hover .iconfont{
       display:none;
     }

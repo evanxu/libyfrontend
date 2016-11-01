@@ -6,18 +6,18 @@
 
   /*promotion-cont*/
   .promotion-cont{
+    overflow:hidden;
 
     li{
       position:relative;
       margin: 30px 18px 0;
       width: 296px;
       height: 140px;
-      border: 1px;
       float: left;
 
       img{
         width: 100%;
-        height:110px;
+        height:auto;
         display: block;
       }
 
@@ -72,4 +72,75 @@
       margin-left:-70px;
     }
   }
+}
+
+.promotion-liby,
+.promotion-mine{
+  &-content{
+    padding:$gap;
+    color:$dark-text;
+  }
+
+  &-title{
+    margin:$gap 0;
+    font-size:$font-size-xlarge;
+  }
+
+  &-detail{
+    position:relative;
+    padding-left:90px;
+    margin:20px 0;
+    font-size:$font-size-medium;
+
+    h4{
+      @include absolute(left 0 top 0);
+    }
+
+    p{
+      margin-bottom:5px;
+    }
+  }
+}
+
+.promotion-liby .iconfont{
+  vertical-align:text-top;
+  font-size:12px;
+}
+
+.promotion-liby-detail{
+  &-date{
+    margin-right:30px;
+  }
+
+  &-buy{
+    padding:5px 10px;
+    border-radius:20px;
+    color:#fff;
+    background:#68d717;
+  }
+
+  span{
+    display:inline-block;
+    vertical-align:middle;
+  }
+}
+
+.promotion-liby-recommend{
+
+  h4{
+    padding-top:$gap;
+    margin:$gap 0;
+    font-size:$font-size-medium;
+    border-top:1px solid #f6f6f6;
+
+    a{
+      float:right;
+      color:$base-color;
+      font-size:$font-size-base;
+    }
+  }
+}
+
+.promotion-liby-list{
+  //this style is @account/promotion.scss
 }

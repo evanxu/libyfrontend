@@ -78,8 +78,8 @@ $nav-height:  42px;
 
     &-item{
       position:relative;
-      height:12.5%;
-      padding:10px 25px;
+      height:16.66%;
+      padding:10px 20px;
       border-bottom:1px solid #e0e4e0;
       text-align:left;
       font-size:$font-size-medium;
@@ -94,9 +94,9 @@ $nav-height:  42px;
       }
 
       &:after{
-        @include size(38px, 38px);
+        @include size(30px, 38px);
         @include absolute(right 0 top 50%);
-        content:"\e60b";
+        content:"\e65e";
         font-family:"iconfont" !important;
         margin-top:-19px;
         text-align:center;
@@ -121,6 +121,9 @@ $nav-height:  42px;
     }
 
     &-sublink a{
+      display:block;
+      float:left;
+      min-width:50%;
       font-size:$font-size-base;
     }
 

@@ -1,7 +1,7 @@
 <div class="order-success">
   <div class="order-title">
-    <a href="homepage.html">
-      <img src="../src/images/bg/bg-logo.png" width="100%">
+    <a href="/views/homepage.html">
+      <img src="/src/images/bg/bg-logo.png" width="100%">
     </a>
     <span class="order-title-text">订单提交成功</span>
     <div class="order-progress">
@@ -11,7 +11,7 @@
       <ul class="order-progress-step">
         <li class="order-progress-step-item0 active">
           <span>1</span>
-          <p>我的进货单</p>
+          <p>我的购物车</p>
         </li>
         <li class="order-progress-step-item1 active">
           <span>2</span>
@@ -43,8 +43,8 @@
 <!--     <p class="order-success-text"><span >实付款：</span><span><span class="currency">￥</span>150,000.00</span></p> -->
 
     <div class="order-success-btn">
-      <a href="order-waybill.html" class="button button-blue button-radius mr30">提交交货单</a>
-      <a href="order-detail.html" class="button button-grey button-radius">查看订单</a>
+      <a href="/views/order-waybill.html" class="button button-blue button-radius mr30">提交交货单</a>
+      <a href="/views/order-detail.html" class="button button-grey button-radius">查看订单</a>
     </div>
 
   </div>

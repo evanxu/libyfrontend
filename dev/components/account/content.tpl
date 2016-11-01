@@ -5,6 +5,9 @@
     <-- include('info.tpl') -->
     <-- include('order.tpl') -->
   </div>
+  <-- include('tool.tpl') -->
   <-- include('chart.tpl') -->
+  <-- include('activity.tpl') -->
+  <-- include('star.tpl') -->
   <-- include('promotion.tpl') -->
 </div>

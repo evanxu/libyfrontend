@@ -5,7 +5,7 @@
       <span>订单详情</span>
     </h3>
   </div>
-  <a href="javascript:;" class="order-detail-print no-link">
+  <a href="javascript:;" class="order-detail-print no-link m-hide">
     <i class="iconfont">&#xe634;</i>
     <span>打印订单</span>
   </a>
@@ -131,8 +131,8 @@
         <span class="order-detail-title-left">已发货商品</span>
         <span class="order-detail-title-number">(交货单编号：23245678901)</span>
         <span class="order-detail-title-right">
-          <a href="order-delivery.html"><i class="iconfont">&#xe603;</i><span>查看物流</span></a>
-          <a href="javascript:;">分销订单</a>
+          <a href="/views/order-delivery.html"><i class="iconfont">&#xe603;</i><span>查看物流</span></a>
+          <a href="javascript:;" class="no-link">分销订单</a>
         </span>
       </h3>
       <dl>
@@ -172,7 +172,7 @@
         </dd>
         <dd class="order-detail-lists-buttons pc-hide">
           <a href="javascript:;">分销订单</a>
-          <a href="javascript:;">查看物流</a>
+          <a href="order-delivery.html">查看物流</a>
           <a href="javascript:;">请查收</a>
         </dd>
         <dd class="order-detail-lists-address pc-hide">

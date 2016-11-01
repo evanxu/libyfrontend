@@ -11,17 +11,30 @@
 }
 
 .message-dot{
-  @include size(auto, 18px);
+  @include size(auto, 16px);
   min-width:12px;
-  padding:0 3px;
+  padding:0 2px;
   display: block;
   text-align:center;
-  line-height:18px;
+  line-height:16px;
   background: rgb(255,0,0);
-  border-radius:18px;
+  border-radius:100%;
   color:#fff;
 }
 
 .currency{
+  font-size:12px;
+}
+
+
+// for popup box
+.popup{
+  position:relative;
+  background:#fff;
+  color:#656565;
+  width:300px;
+  margin:0 auto;
+  padding:10px 15px 20px;
+  border-radius:5px;
   font-size:12px;
 }

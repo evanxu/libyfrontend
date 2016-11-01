@@ -1,60 +1,89 @@
 .account-star{
-  @include size($box-right-width, 370px+$gap);
-  position:relative;
-  overflow:hidden;
-  border-bottom:$gap solid $light-background;
+
+  &-list{
+    overflow:hidden;
+  }
 
   &-item{
-    padding:12px;
-    height:64px;
-    border-bottom:1px solid #ebebeb;
-
-    &:hover{
-      background:#f0fafe;
-    }
+    @include size(33.33%, 120px);
+    float: left;
+    padding: 20px;
+    background: #fff;
+    border-right:1px solid #f6f6f6;
 
     &:last-child{
       border:0;
     }
 
-    img{
-      @include size(40px, 40px);
-      float:left;
-      border-radius:100%;
+    &-left{
+      display: block;
+      margin-right:20px;
+      float: left;
+      position:relative;
+
+      span{
+        @include absolute(top -7px right -4px);
+        color:#fff;
+        z-index:2;
+      }
+
+      &:after{
+        @include absolute(top -20px right -15px);
+        font-family: "iconfont";
+        content: "\e668";
+        font-size:30px;
+        display: block;
+        text-align: center;
+      }
+
+      img{
+        @include size(80px,80px);
+        display: block;
+      }
     }
-  }
 
-  &-detail,
-  &-target{
-    line-height:22px;
-  }
+    &1{
+      .account-star-item-account{
+        color: #fc9454;
+      }
 
-  &-up{
-    color:$base-color;
-  }
+      .account-star-item-left:after{
+        color:#f5af11;
+      }
+    }
 
-  &-down{
-    color:$red;
-  }
+    &2{
+      .account-star-item-account{
+        color: #8cc129;
+      }
 
-  &-up i,
-  &-down i{
-    font-size:$font-size-base;
-    margin-top:-2px;
-  }
+      .account-star-item-left:after{
+        color:#7b989e;
+      }
+    }
 
-  &-detail{
-    float:left;
-    margin:0 $gap;
-  }
+    &3{
+      .account-star-item-account{
+        color: #009cec;
+      }
 
-  &-target{
-    float:right;
-    padding-left:35px;
-    position:relative;
+      .account-star-item-left:after{
+        color:#dd8c55;
+      }
+    }
 
-    .icon{
-      @include absolute(left 0 top 5px);
+    &-account{
+      font-size: 30px;
+      color:$base-color;
+    }
+
+    &-name{
+      font-size: 16px;
+      color:$dark-text;
+    }
+
+    &:last-child{
+      margin-right:0;
     }
   }
 }

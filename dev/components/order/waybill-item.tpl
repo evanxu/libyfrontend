@@ -1,6 +1,6 @@
 <div class="order-waybill-item">
   <div class="cart-cell cart-image">
-    <a href="javascript:;"><img src="../src/images/temp/b2.jpg"></a>
+    <a href="javascript:;"><img src="/src/images/temp/b2.jpg"></a>
   </div>
   <div class="cart-cell cart-product">
     <a href="javascript:;">
@@ -34,7 +34,7 @@
 </div>
 <div class="order-waybill-item">
   <div class="cart-cell cart-image">
-    <a href="javascript:;"><img src="../src/images/temp/b2.jpg"></a>
+    <a href="javascript:;"><img src="/src/images/temp/b2.jpg"></a>
   </div>
   <div class="cart-cell cart-product">
     <a href="javascript:;">

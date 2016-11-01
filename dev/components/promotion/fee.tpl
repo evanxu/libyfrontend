@@ -1,8 +1,8 @@
 <div class="promotion-fee">
   <div class="promotion-tab">
     <ul class="promotion-operate">
-      <li><a href="promotion-liby-activity.html">立白促销</a></li>
-      <li><a href="promotion-my-activity.html">我的促销</a></li>
+      <li><a href="/views/promotion-liby-activity.html">立白促销</a></li>
+      <li><a href="/views/promotion-my-activity.html">我的促销</a></li>
       <li><a href="javascript:;" class="curr">费用核销</a></li>
     </ul>
   </div>

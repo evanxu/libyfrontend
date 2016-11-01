@@ -4,14 +4,10 @@
   border:0;
   order:0;
   @extend %display-flex;
-
-  //display:-webkit-box;
-  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -webkit-gradient(linear, 0 0, 100% 0, from(#006fbd), to(#0099e0));
-  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -moz-linear-gradient(left, #006fbd, #0099e0);
-  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -o-linear-gradient(left, #006fbd, #0099e0);
-  background:url(#{$background-root}/bg/bg-header.png) no-repeat right 0, -ms-linear-gradient(#006fbd 0%,#0099e0 100%);
-  // background-image:;
-  // background-repeat:no-repeat;
+  background:url(#{$background-root}/bg/bg-header-mobile.png) no-repeat right 0, -webkit-gradient(linear, 0 0, 100% 0, from(#006fbd), to(#0099e0));
+  background:url(#{$background-root}/bg/bg-header-mobile.png) no-repeat right 0, -moz-linear-gradient(left, #006fbd, #0099e0);
+  background:url(#{$background-root}/bg/bg-header-mobile.png) no-repeat right 0, -o-linear-gradient(left, #006fbd, #0099e0);
+  background:url(#{$background-root}/bg/bg-header-mobile.png) no-repeat right 0, -ms-linear-gradient(#006fbd 0%,#0099e0 100%);
   background-size:cover;
 
   &-pic{
@@ -53,7 +49,7 @@
 
     & + span{
       font-size:10px;
-      color:$light-text;
+      color:#ddd;
     }
   }
 
@@ -66,7 +62,7 @@
     }
 
     .message-dot{
-      @include absolute(top -0.05rem right -0.1rem);
+      @include absolute(top -0.05rem right -0.05rem);
     }
   }
 

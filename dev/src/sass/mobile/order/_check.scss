@@ -1,7 +1,5 @@
 .order-check{
   margin-left:0;
-  margin-top:-$header-mobile-height;
-  padding-bottom:0.5rem;
 
   &-content{
     width:100%;
@@ -60,7 +58,8 @@
       color:#808080;
       cursor:pointer;
       background:none;
-      border:2px dashed $light-text;
+      border:1px dashed $light-text;
+      border-radius:5px 5px 0;
 
       a{
         color:$base-color;
@@ -210,7 +209,8 @@
 
     strong{
       color:$red;
-      font-size:16px;
+      font-size:16px !important;
+      font-weight:700 !important;
     }
   }
 
@@ -260,8 +260,8 @@
   }
 
   &-topup{
-    height:auto;
-    padding:$gap;
+    height:0.55rem;
+    padding:0 0 0 $gap;
     border-top:0.1rem solid $light-border;
     border-bottom:0.1rem solid $light-border;
     overflow:hidden;
@@ -272,7 +272,7 @@
     & > span{
       //width:100%;
       margin-right:0;
-      line-height:0.2rem;
+      line-height:0.35rem;
       overflow:hidden;
       float:none;
     }
@@ -283,16 +283,16 @@
 
     .button{
       @include relative(right 0 top 0);
-      @include size(0.9rem, 0.3rem);
+      @include size(0.9rem, 0.35rem);
       float:right;
-      line-height:0.3rem;
+      line-height:0.35rem;
       font-size:$font-size-medium;
     }
   }
 
   &-checkout{
-    @include fixed(bottom $footer-mobile-height left 0);
-    @include size(100%, 0.5rem);
+    @include fixed(bottom 0 left 0);
+    @include size(100%, $footer-mobile-height);
     margin-top:$gap;
     padding:0;
     border-top:1px solid #f6f6f6;
@@ -303,12 +303,12 @@
     //justify-content:flex-end;
 
     a{
-      line-height:0.5rem;
+      line-height:$footer-mobile-height;
       font-size:$font-size-base;
     }
 
     .button{
-      @include size(1.2rem, 0.5rem);
+      @include size(1.2rem, $footer-mobile-height);
     }
   }
 

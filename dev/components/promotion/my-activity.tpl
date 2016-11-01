@@ -1,9 +1,9 @@
 <div class="promotion-mine">
   <div class="promotion-tab">
     <ul class="promotion-operate">
-      <li><a href="promotion-liby-activity.html">立白促销</a></li>
-      <li><a href="promotion-my-activity.html" class="curr">我的促销</a></li>
-      <li><a href="promotion-fee.html">费用核销</a></li>
+      <li><a href="/views/promotion-liby-activity.html">立白促销</a></li>
+      <li><a href="/views/promotion-my-activity.html" class="curr">我的促销</a></li>
+      <li><a href="/views/promotion-fee.html">费用核销</a></li>
     </ul>
     <ul class="promotion-status">
       <li><a href="javascript:;">已开始</a></li>
@@ -12,10 +12,17 @@
   </div>
   <ul class="promotion-cont">
     <li class="promotion-mine-add">
-      <a href="promotion-add.html">
-        <span>暂无促销活动，请点击新建</span>
+      <a href="/views/promotion-add.html">
+        <span>请点击新建</span>
 
         <span class="promotion-mine-add-tag">+</span>
+      </a>
+    </li>
+    <li>
+      <a href="/views/promotion-my-detail.html">
+        <img src="/src/images/temp/d2.jpg" alt="">
+        <span class="tit">立白周年庆狂欢24小时</span>
+        <span class="time">开始时间：2016.09.16</span>
       </a>
     </li>
   </ul>

@@ -21,9 +21,11 @@
 @import 'account/wallet';
 @import 'account/order';
 @import 'account/info';
-<!-- @import 'account/tool';
-@import 'account/star'; -->
+<!-- @import 'account/tool'; -->
+@import 'account/star';
 @import 'account/chart';
+@import 'account/activity';
+@import 'account/promotion';
 <!-- @import 'account/sales';
 @import 'account/notice'; -->
 
@@ -40,6 +42,7 @@
 @import 'promotion/liby-activity';
 @import 'promotion/fee';
 @import 'promotion/add';
+@import 'promotion/mine-activity';
 
 
 
@@ -55,11 +58,17 @@
 
 
 
+@import 'data/center';
+
 @import 'storage/list';
 
 
 @import 'store/list';
+@import 'store/detail';
 
 
 @import 'product/list';
 @import 'product/detail';
+
+@import 'privileges/level';
+@import 'privileges/detail';

@@ -23,6 +23,10 @@
       &:last-child{
         border:0;
       }
+
+      &:nth-child(2) i{
+        font-size:21px;
+      }
     }
 
     i,
@@ -31,11 +35,11 @@
     }
 
     i{
-      font-size:26px;
+      font-size:22px;
     }
 
     .message-dot{
-      @include absolute(top 10px left 57px);
+      @include absolute(top 16px left 53px);
     }
   }
 }

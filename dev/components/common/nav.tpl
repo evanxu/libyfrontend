@@ -6,81 +6,70 @@
       </a>
       <div class="nav-subnav">
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">爆款洗衣液</a>
+          <a class="nav-subnav-link" href="/views/product-list.html">热门商品类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-list.html">亲肤液</a>
-            <a href="product-list.html">薰香液</a>
-            <a href="product-list.html">低泡液</a>
+            <a href="/views/product-list.html">好爸爸系列</a>
+            <a href="/views/product-list.html">彩奇系列</a>
+            <a href="/views/product-list.html">立白系列</a>
+            <a href="/views/product-list.html">净博士</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">好爸爸系列</a>
+          <a class="nav-subnav-link" href="/views/product-list.html">洗涤用品类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-list.html">洗衣液</a>
-            <a href="product-list.html">洗衣皂</a>
-            <a href="product-list.html">洗衣粉</a>
+            <a href="/views/product-list.html">好爸爸系列</a>
+            <a href="/views/product-list.html">彩奇系列</a>
+            <a href="/views/product-list.html">立白系列</a>
+            <a href="/views/product-list.html">润之素</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">衣物护理类</a>
+          <a class="nav-subnav-link" href="/views/product-list.html">个人清洁类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-list.html">皂液</a>
-            <a href="product-list.html">洗衣液</a>
-            <a href="product-list.html">洗衣粉</a>
+            <a href="/views/product-list.html">个人护理</a>
+            <a href="/views/product-list.html">六必治牙膏</a>
+            <a href="/views/product-list.html">蓝天牙膏</a>
+            <a href="/views/product-list.html">立白牙膏</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">家居清洁类</a>
+          <a class="nav-subnav-link" href="/views/product-list.html">家居护理类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-list.html">消毒液</a>
-            <a href="product-list.html">油污净</a>
-            <a href="product-list.html">洁厕精</a>
+            <a href="/views/product-list.html">家居清洁</a>
+            <a href="/views/product-list.html">空气清新</a>
+            <a href="/views/product-list.html">消杀商品</a>
+            <a href="/views/product-list.html">清洁工具</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">餐具清洁类</a>
+          <a class="nav-subnav-link" href="/views/product-list.html">母婴用品类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-list.html">茶洁精</a>
-            <a href="product-list.html">盐洁精</a>
-            <a href="product-list.html">柠檬精</a>
+            <a href="/views/product-list.html">好爸爸亲亲洗涤系列</a>
+            <a href="/views/product-list.html">倍乐贝系列</a>
           </p>
         </div>
         <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">驱蚊驱虫类</a>
+          <a class="nav-subnav-link" href="/views/product-list.html">通力家居类</a>
           <p class="nav-subnav-sublink">
-            <a href="product-list.html">盘香</a>
-            <a href="product-list.html">气雾剂</a>
-            <a href="product-list.html">电蚊香</a>
-          </p>
-        </div>
-        <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">空气清新类</a>
-          <p class="nav-subnav-sublink">
-            <a href="product-list.html">除味炭</a>
-            <a href="product-list.html">空气清新剂</a>
-          </p>
-        </div>
-        <div class="nav-subnav-item">
-          <a class="nav-subnav-link" href="product-list.html">口腔健护类</a>
-          <p class="nav-subnav-sublink">
-            <a href="product-list.html">牙膏</a>
-            <a href="product-list.html">牙刷</a>
-            <a href="product-list.html">漱口水</a>
+            <a href="/views/product-list.html">护套用品</a>
+            <a href="/views/product-list.html">清洁用品</a>
+            <a href="/views/product-list.html">洗涤晾护</a>
+            <a href="/views/product-list.html">压缩收纳</a>
           </p>
         </div>
       </div>
     </li>
     <li class="nav-item">
-      <a href="homepage.html">首页</a>
+      <a href="/views/homepage.html">首页</a>
     </li>
     <li class="nav-item">
-      <a href="javascript:;">促销政策</a>
+      <a href="javascript:;" class="nolink">促销政策</a>
     </li>
     <li class="nav-item">
-      <a href="javascript:;">平台服务</a>
+      <a href="javascript:;" class="nolink">平台服务</a>
     </li>
     <li class="nav-item">
-      <a href="javascript:;">集团官网</a>
+      <a href="javascript:;" class="nolink">集团官网</a>
     </li>
     <li class="nav-item nav-hotline">
       <i class="iconfont">&#xe657;</i>

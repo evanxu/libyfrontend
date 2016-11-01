@@ -74,9 +74,9 @@ module.exports = function(grunt){
       build: {
         files: [{
           expand: true,
-          cwd: '<%= config.dev %>/<%= config.path.js %>/',
+          cwd: '<%= config.dev %>/',
           src: ['**/*.js'],
-          dest: '<%= config.build %>/<%= config.dist.js %>/',
+          dest: '<%= config.build %>/',
           ext: '.min.js'
         }]
       }

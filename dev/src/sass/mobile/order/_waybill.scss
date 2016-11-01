@@ -1,7 +1,5 @@
 .order-waybill{
   margin-left:0;
-  margin-top:-$header-mobile-height;
-  padding-bottom:0.5rem;
   min-height:auto;
 
   &-tit{
@@ -121,13 +119,16 @@
   }
 
   &-remark{
-    padding:$gap 20px;
+    padding:$gap;
     font-size:$font-size-medium;
     color:$dark-text;
   }
 
   &-topup{
     //this style @ _check.scss
+
+    padding-left:$gap;
+
     span,
     strong{
       line-height:0.3rem;

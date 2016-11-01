@@ -17,6 +17,34 @@
   background:$light-background;
 }
 
+
+//progress bar
+%progress-bar{
+  @include absolute(top 0 left 0);
+  display:block;
+  height:15px;
+  border-radius:10px;
+
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#49beea), to(#30dab5));
+  background: -moz-linear-gradient(left, #49beea, #30dab5);
+  background: -o-linear-gradient(left, #49beea, #30dab5);
+  background: -ms-linear-gradient(#49beea 0%,#30dab5 100%);
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#49beea',endColorstr='#30dab5',grandientType=1);
+  box-sizing:border-box;
+
+  &:after{
+    @include size(10px, 10px);
+    @include absolute(top -7px right -12px);
+    content:"";
+    display:block;
+    border:8px solid #30dab5;
+    border-radius:100%;
+    background:#fff;
+  }
+}
+
+
+
 //mobile
 %section-title-mobile{
   height:0.45rem;

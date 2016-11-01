@@ -25,6 +25,7 @@
 <!-- @import 'account/star'; -->
 @import 'account/chart';
 @import 'account/promotion';
+@import 'account/activity';
 <!-- @import 'account/sales'; -->
 <!-- @import 'account/notice'; -->
 
@@ -61,9 +62,15 @@
 
 
 @import 'store/list';
+@import 'store/detail';
 
 @import 'data/center';
 
 
 @import 'product/list';
 @import 'product/detail';
+
+
+@import 'privileges/level';
+@import 'privileges/detail';
+

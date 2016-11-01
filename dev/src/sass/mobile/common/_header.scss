@@ -12,6 +12,8 @@
   @extend %display-flex;
     //display:-webkit-box;
   flex-wrap:wrap;
+  transform:translateY(-$header-mobile-height);
+  transition:transform 0.3s ease-out;
 
   &-left{
     @include size(0.3rem, 100%);
@@ -41,7 +43,7 @@
     position:relative;
 
     &:before{
-      @include absolute(left 0.1rem top 0.06rem);
+      @include absolute(left 10px top 6px);
       content:"\e61c";
       font-family: "iconfont";
       color:#fff;
@@ -89,7 +91,11 @@
 
   &-menu,
   &-back{
-    display:none;
+    //display:none;
+  }
+
+  &-back{
+    font-size:18px;
   }
 
   &-tools{

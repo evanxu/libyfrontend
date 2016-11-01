@@ -8,10 +8,10 @@
     </label>
   </div>
   <div class="cart-cell cart-image">
-    <a href="product-detail.html"><img src="../src/images/temp/b2.jpg"></a>
+    <a href="/views/product-detail.html"><img src="/src/images/temp/b2.jpg"></a>
   </div>
   <div class="cart-cell cart-product">
-    <a href="product-detail.html">
+    <a href="/views/product-detail.html">
       <p class="fs14">好爸爸Kispa天然亲肤洗衣液（定制装）</p>
       <p class="text-grey">亲肤不刺激 薰衣草香氛 安全无残留</p>
       <p class="cart-promotion"><span class="with-blue-bg">促</span><span>送天然亮白1kg</span></p>
@@ -44,7 +44,7 @@
       </span>
       <span>紧急装货</span>
     </label>
-    <a href="javascript:;">移入收藏夹</a>
+    <a href="javascript:;" class="no-link">移入收藏夹</a>
     <a href="javascript:;" class="no-link">删除</a>
   </div>
   <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>
@@ -60,10 +60,10 @@
     </label>
   </div>
   <div class="cart-cell cart-image">
-    <a href="product-detail.html"><img src="../src/images/temp/b1.jpg"></a>
+    <a href="/views/product-detail.html"><img src="/src/images/temp/b1.jpg"></a>
   </div>
   <div class="cart-cell cart-product">
-    <a href="product-detail.html">
+    <a href="/views/product-detail.html">
       <p class="fs14">好爸爸Kispa天然亲肤洗衣液（定制装）</p>
       <p class="text-grey">亲肤不刺激 薰衣草香氛 安全无残留</p>
     </a>
@@ -94,7 +94,7 @@
       </span>
       <span>紧急装货</span>
     </label>
-    <a href="javascript:;">移入收藏夹</a>
+    <a href="javascript:;" class="no-link">移入收藏夹</a>
     <a href="javascript:;" class="no-link">删除</a>
   </div>
   <a href="javascript:;" class="cart-edit pc-hide JM-CartEdit">编辑</a>

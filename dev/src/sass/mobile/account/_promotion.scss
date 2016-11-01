@@ -1,33 +1,89 @@
-.account-promotion{
-  background:#f6f6f6;
-  overflow:hidden;
+.account-promotion,
+.promotion-liby{
 
   &-list{
-    width:1020px;
-    overflow:hidden;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
   }
 
   &-item{
-    float:left;
-    width:340px;
-    border-right:20px solid #f6f6f6;
-    padding:5px;
-    background:#fff;
-  }
-
-  &-status{
+    width: 50%;
+    float: left;
+    padding:0.2rem 0.12rem 0.1rem;
+    margin-bottom:0;
+    //border-bottom:4px solid #f6f6f6;
+    transition:transform 0.3s ease-in;
     position:relative;
-    height:270px;
-    margin-bottom:$gap;
-    background:#f9f9f9;
+
+    // &:nth-child(even){
+    //   border-left:2px solid #f6f6f6;
+    // }
+
+    // &:nth-child(odd){
+    //   border-right:2px solid #f6f6f6;
+    // }
+
+    &:hover{
+      a{
+        color:$base-color;
+      }
+    }
+
+    a{
+      display: block;
+    }
+
+    img{
+      @include size(90%, auto);
+    }
   }
 
-  &-detail{
-    height:80px;
-    padding:0 $gap;
-    margin-bottom:$gap;
-    overflow:hidden;
-    color:$grey-text;
-    line-height:18px;
+  &-price{
+    margin: 0.1rem auto 0;
+
+
+    del{
+      margin-left:0.05rem;
+    }
+  }
+
+
+  &-tit{
+    font-size:$font-size-base;
+    color: $dark-text;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  &-tag{
+    display:none;
+  }
+
+  &-label{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    @include size(0.4rem,auto);
+
+    span{
+      display: block;
+      margin: 5px auto;
+      font-size:$font-size-base;
+      line-height:16px;
+      text-align: center;
+      color:#fff;
+    }
+
+    &:after{
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-width: 10px 20px 20px;
+      border-style: solid;
+      position: absolute;
+      left: 0;
+    }
   }
 }

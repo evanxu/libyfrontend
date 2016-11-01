@@ -37,11 +37,16 @@
         transform:translateY(0);
       }
     }
+
+    .text-light{
+      color:$dark-text;
+    }
   }
 
   &-count{
-    margin-bottom:0.05rem;
-    font-size:$font-size-large;
+    margin-bottom:0;
+    font-size:$font-size-medium;
+    font-weight:700;
     line-height:18px;
   }
 

@@ -6,15 +6,17 @@
   clear:both;
 
   &-content{
-    height:350px;
-    @extend %display-flex;
-    //display:-webkit-box;
-    flex-wrap:wrap;
+    padding-top:100%;
+    height:0;
   }
   &-left{
-    @include size(100%, 100%);
+    @include absolute(top 0 left 0);
+    width:100%;
+    float:none;
   }
   &-right{
-    @include size(100%, 100%);
+    display:none;
+    // @include size(100%, 100vw);
+    // float:none;
   }
 }

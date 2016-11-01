@@ -20,15 +20,15 @@
   margin-bottom:5px;
   &-blue{
     .with-bg{
-      padding:2px;
+      padding:2px 5px;
       border:1px solid $base-color;
       background:$base-background;
       color:$white-text;
     }
     .with-border{
-      padding:2px;
-      border:1px solid #6fc5f3;
-      color:#6fc5f3;
+      padding:2px 5px;
+      border:1px solid $base-color;
+      color:$base-color;
     }
   }
 }

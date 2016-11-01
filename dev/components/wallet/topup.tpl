@@ -44,7 +44,7 @@
       </label>
     </div>
     <div class="wallet-topup-btn">
-      <input type="button" value="立即充值" name="" class="button button-blue button-radius mr30">
+      <input type="button" value="立即充值" name="" class="button button-blue button-radius mr30 no-link">
       <a href="javascript:history.go(-1)" class="button button-grey button-radius">取消充值</a>
     </div>
   </form>

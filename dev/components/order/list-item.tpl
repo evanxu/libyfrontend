@@ -21,10 +21,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q1.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q1.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -35,10 +35,10 @@
 
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q2.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q2.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -48,10 +48,15 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 
@@ -75,10 +80,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q4.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q4.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -89,10 +94,10 @@
 
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q3.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q3.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -102,10 +107,15 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 
@@ -129,10 +139,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q2.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q2.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -142,10 +152,15 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 
@@ -169,10 +184,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q1.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q1.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -183,10 +198,10 @@
 
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q3.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q3.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -196,10 +211,15 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 
@@ -222,10 +242,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q4.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q4.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -236,10 +256,10 @@
 
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q1.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q1.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -249,10 +269,15 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 
@@ -276,10 +301,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q2.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q2.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -290,10 +315,10 @@
 
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q3.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q3.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -303,10 +328,15 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 
@@ -329,10 +359,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q4.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q4.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -343,10 +373,10 @@
 
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q2.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q2.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -356,117 +386,15 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
-      <a href="javascript:;" class="no-link">查看交货单</a>
-    </div>
-
-    <div class="order-list-cell-action">
-      <a href="javascript:;" class="nolink">申请发货</a>
-      <a href="javascript:;" class="nolink">取消订单</a>
-    </div>
-
-    <p class="order-list-cell-status">已审核</p>
-  </dd>
-
-  <dd class="order-list-items-detail">
-    <div class="order-list-items-date">
-      <span>2016-09-16 12:03:32</span>
-      <span>订单编号: 2358617031341219</span>
-      <a href="javascript:;" class="nolink">
-        展开
-        <i class="iconfont">&#xe601;</i>
-      </a>
-    </div>
-    <div class="order-list-cell-detail">
-      <div class="order-list-cell-single">
-        <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q2.jpg" alt=""></a>
-        </div>
-        <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
-          <span>SKU98334H22-0</span>
-        </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
-        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
-      </div>
-
-      <div class="order-list-cell-single">
-        <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q1.jpg" alt=""></a>
-        </div>
-        <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
-          <span>SKU98334H22-0</span>
-        </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
-        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
-      </div>
-    </div>
-
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
-
-    <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
-      <a href="javascript:;" class="no-link">查看交货单</a>
-    </div>
-
-    <div class="order-list-cell-action">
-      <a href="javascript:;" class="nolink">申请发货</a>
-      <a href="javascript:;" class="nolink">取消订单</a>
-    </div>
-
-    <p class="order-list-cell-status">已审核</p>
-  </dd>
-  <dd class="order-list-items-detail">
-    <div class="order-list-items-date">
-      <span>2016-09-16 12:03:32</span>
-      <span>订单编号: 2358617031341219</span>
-      <a href="javascript:;" class="nolink">
-        展开
-        <i class="iconfont">&#xe601;</i>
-      </a>
-    </div>
-    <div class="order-list-cell-detail">
-      <div class="order-list-cell-single">
-        <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q2.jpg" alt=""></a>
-        </div>
-        <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
-          <span>SKU98334H22-0</span>
-        </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
-        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
-      </div>
-
-      <div class="order-list-cell-single">
-        <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q4.jpg" alt=""></a>
-        </div>
-        <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
-          <span>SKU98334H22-0</span>
-        </div>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
-        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
-        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
-      </div>
-    </div>
-
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
-
-    <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 
@@ -490,10 +418,10 @@
     <div class="order-list-cell-detail">
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q3.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q2.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -504,10 +432,10 @@
 
       <div class="order-list-cell-single">
         <div class="order-list-cell-image">
-          <a href="product-detail.html"><img src="../src/images/temp/q1.jpg" alt=""></a>
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q1.jpg" alt=""></a>
         </div>
         <div class="order-list-cell-product">
-          <p><a href="product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
           <span>SKU98334H22-0</span>
         </div>
         <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
@@ -517,10 +445,132 @@
       </div>
     </div>
 
-    <p class="order-list-cell-total"><span class="pc-hide text-light">总价：</span><span class="currency">￥</span>1000.00</p>
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
 
     <div class="order-list-cell-check">
-      <a href="order-detail.html">订单详情</a>
+      <a href="/views/order-detail.html">订单详情</a>
+      <a href="javascript:;" class="no-link">查看交货单</a>
+    </div>
+
+    <div class="order-list-cell-action">
+      <a href="javascript:;" class="nolink">申请发货</a>
+      <a href="javascript:;" class="nolink">取消订单</a>
+    </div>
+
+    <p class="order-list-cell-status">已审核</p>
+  </dd>
+  <dd class="order-list-items-detail">
+    <div class="order-list-items-date">
+      <span>2016-09-16 12:03:32</span>
+      <span>订单编号: 2358617031341219</span>
+      <a href="javascript:;" class="nolink">
+        展开
+        <i class="iconfont">&#xe601;</i>
+      </a>
+    </div>
+    <div class="order-list-cell-detail">
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-image">
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q2.jpg" alt=""></a>
+        </div>
+        <div class="order-list-cell-product">
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
+      </div>
+
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-image">
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q4.jpg" alt=""></a>
+        </div>
+        <div class="order-list-cell-product">
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
+      </div>
+    </div>
+
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
+
+    <div class="order-list-cell-check">
+      <a href="/views/order-detail.html">订单详情</a>
+      <a href="javascript:;" class="no-link">查看交货单</a>
+    </div>
+
+    <div class="order-list-cell-action">
+      <a href="javascript:;" class="nolink">申请发货</a>
+      <a href="javascript:;" class="nolink">取消订单</a>
+    </div>
+
+    <p class="order-list-cell-status">已审核</p>
+  </dd>
+
+  <dd class="order-list-items-detail">
+    <div class="order-list-items-date">
+      <span>2016-09-16 12:03:32</span>
+      <span>订单编号: 2358617031341219</span>
+      <a href="javascript:;" class="nolink">
+        展开
+        <i class="iconfont">&#xe601;</i>
+      </a>
+    </div>
+    <div class="order-list-cell-detail">
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-image">
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q3.jpg" alt=""></a>
+        </div>
+        <div class="order-list-cell-product">
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
+      </div>
+
+      <div class="order-list-cell-single">
+        <div class="order-list-cell-image">
+          <a href="/views/product-detail.html"><img src="/src/images/temp/q1.jpg" alt=""></a>
+        </div>
+        <div class="order-list-cell-product">
+          <p><a href="/views/product-detail.html">【清仓特价】威王洁厕至尊宝洁厕块 50g*10颗 超值套装</a></p>
+          <span>SKU98334H22-0</span>
+        </div>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">已发：</span><span>8</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">待发：</span><span>4</span></p>
+        <p class="order-list-cell-quantity"><span class="pc-hide text-light">缺货：</span><span>2</span></p>
+        <p class="order-list-cell-price"><span class="currency">￥</span>400.00</p>
+      </div>
+    </div>
+
+    <p class="order-list-cell-total">
+      <span class="pc-hide text-light">总价：</span>
+      <span class="currency">￥</span>1000.00
+      <a href="/views/order-detail.html" class="pc-hide">查看</a>
+      <a href="javascript:;" class="pc-hide nolink">操作</a>
+    </p>
+
+    <div class="order-list-cell-check">
+      <a href="/views/order-detail.html">订单详情</a>
       <a href="javascript:;" class="no-link">查看交货单</a>
     </div>
 

@@ -4,8 +4,6 @@ $order-cart-color: $dark-text;
 
 .order-cart{
   margin-left:0;
-  margin-top:-$header-mobile-height;
-  padding-bottom:$footer-mobile-height;
   min-height:auto;
 
   &-menu{
@@ -28,8 +26,8 @@ $order-cart-color: $dark-text;
   }
 
   &-tool{
-    @include fixed(bottom $footer-mobile-height left 0);
-    @include size(100%, 0.5rem);
+    @include fixed(bottom 0 left 0);
+    @include size(100%, $footer-mobile-height);
     margin-top:$gap;
     padding:0 0.95rem 0 0.1rem;
     border:0;
@@ -42,7 +40,7 @@ $order-cart-color: $dark-text;
   &-allpick{
     margin-top:0;
     float:none;
-    line-height:0.5rem;
+    line-height:$footer-mobile-height;
     font-size:$font-size-base;
     color:$dark-text;
     flex:1;
@@ -53,11 +51,11 @@ $order-cart-color: $dark-text;
   }
 
   &-checkout{
-    height:0.5rem;
+    height:$footer-mobile-height;
     float:none;
 
     span{
-      line-height:0.52rem;
+      line-height:0.57rem;
       display:inline-block;
       vertical-align:middle;
     }
@@ -245,7 +243,6 @@ $order-cart-color: $dark-text;
 
     label{
       @include absolute(top -0.5rem right $gap);
-      width:100%;
       text-align:right;
     }
 

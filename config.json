@@ -13,5 +13,6 @@
 		"css": "dist/css",
 		"js": "dist/js",
 		"images": "dist/images"
-	}
+	},
+	"index": "homepage.html"
 }

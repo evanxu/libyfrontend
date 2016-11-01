@@ -40,6 +40,7 @@
       &:last-child{
         border:0;
       }
+
     }
 
     i,
@@ -52,8 +53,8 @@
     }
 
     .message-dot{
-      @include absolute(top 0.1rem left 50%);
-      margin-left:4px;
+      @include absolute(top 0.12rem left 50%);
+      margin-left:1px;
     }
   }
 }

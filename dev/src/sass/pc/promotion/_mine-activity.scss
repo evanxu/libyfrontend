@@ -1,6 +1,6 @@
 .promotion-mine{
   // parts of style is in the _liby-activity.scss
-
+  //add my activity
   &-add{
 
     a{
@@ -14,7 +14,7 @@
       box-sizing:border-box;
 
       &:hover{
-        border-color: $base-color;
+        border-color:$base-color;
         color:$base-color;
       }
     }
@@ -31,6 +31,102 @@
       font-size:60px;
       text-align:center;
       line-height:36px;
+    }
+  }
+
+  // part of styles is @liby-activity.scss
+
+  &-list{
+    position:relative;
+    margin:20px 0;
+
+    h4{
+      font-size:$font-size-medium;
+    }
+
+    &-title,
+    &-item{
+      overflow:hidden;
+      padding:10px;
+      border-bottom:1px solid #f6f6f6;
+    }
+
+    &-title{
+      text-align:center;
+    }
+
+    &-description,
+    &-status,
+    &-pic{
+      float:left;
+    }
+
+    &-description {
+      width:315px;
+
+      img{
+        @include size(90px, 90px);
+        display:block;
+        float:left;
+        margin-right:$gap;
+      }
+    }
+
+
+    &-status{
+      width:235px;
+      text-align:center;
+
+      a{
+        font-size:$font-size-medium;
+      }
+    }
+
+    &-pic{
+      width:400px;
+      text-align:center;
+
+      img{
+        margin-right:5px;
+      }
+    }
+  }
+
+  &-bar{
+    position:relative;
+    width:450px;
+    margin:30px 0;
+  }
+
+  &-target{
+    float:left;
+    color:#666;
+  }
+
+  &-completion{
+    float:right;
+    color:#333;
+  }
+
+  &-progress{
+    @include size(100%, 15px);
+    position:relative;
+    margin-bottom:5px;
+    background:#ebebeb;
+    border-radius:10px;
+
+    &-curr{
+      @extend %progress-bar;
+    }
+
+    &-text{
+      @include absolute(top -30px left auto);
+      @include size(90px, auto);
+      padding:5px;
+      margin-left:-45px;
+      color:#30dab5;
+      text-align:center;
+      font-size:$font-size-medium;
     }
   }
 }

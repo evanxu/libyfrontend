@@ -1,14 +1,12 @@
 $footer-grey:#a1a1a1;
 .footer{
   width: 100%;
-  overflow: hidden;
   background: #fff;
 
   &-content{
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
     padding:30px 0 15px;
-    overflow: hidden;
     border-bottom: 1px solid #dbdbdb;
 
     p{
@@ -16,10 +14,10 @@ $footer-grey:#a1a1a1;
     }
 
     &-link{
-      width: 970px;
+      width: 870px;
       float: left;
       margin-left: -50px;
-  
+
       dl{
         width: 16.6666%;
         float: left;
@@ -34,7 +32,7 @@ $footer-grey:#a1a1a1;
 
       dd{
         text-align: center;
-        padding: 6px 0;
+        padding: 3px 0;
         font-size: 12px;
       }
     }
@@ -68,13 +66,13 @@ $footer-grey:#a1a1a1;
 
         img{
           display: block;
-          @include size(65px,65px);
+          @include size(75px,75px);
         }
 
         p{
           text-align: center;
           margin-top: 10px;
-        }    
+        }
       }
     }
   }

@@ -1,0 +1,119 @@
+.store-detail{
+  min-height:$catalog-height;
+
+  &-content{
+    padding:$gap;
+    color:$dark-text;
+    overflow:hidden;
+  }
+
+  &-title{
+    line-height:45px;
+    font-size:$font-size-medium;
+  }
+
+  &-left{
+    float:left;
+    width:460px;
+  }
+
+  &-right{
+    float:right;
+    width:445px;
+  }
+
+  // store name and address
+  &-name{
+    padding:$gap*2 0;
+    border-bottom:1px solid #f6f6f6;
+    overflow:hidden;
+
+    img{
+      display:block;
+      margin-right:$gap;
+      float:left;
+    }
+
+    p{
+      overflow:hidden;
+    }
+  }
+
+  // store information
+  &-info{
+    width:460px;
+    padding-bottom:$gap;
+    margin-bottom:$gap;
+    border-bottom:1px solid #f6f6f6;
+
+
+    img{
+      margin-right:6px;
+      margin-bottom:$gap;
+    }
+  }
+
+  // store status bar
+  &-status-item{
+    margin-top:$gap;
+  }
+
+  &-bar{
+    position:relative;
+    width:100%;
+    margin:30px auto;
+  }
+
+
+  &-completion{
+    float:right;
+    color:#333;
+  }
+
+  &-target{
+    float:left;
+    color:#666;
+  }
+
+  &-progress{
+    @include size(100%, 15px);
+    position:relative;
+    margin-bottom:5px;
+    background:#ebebeb;
+    border-radius:10px;
+
+    &-curr{
+      @extend %progress-bar;
+    }
+
+    &-text{
+      @include absolute(top -35px left auto);
+      @include size(90px, auto);
+      padding:5px;
+      margin-left:-45px;
+      color:#30dab5;
+      text-align:center;
+      font-size:$font-size-medium;
+    }
+  }
+
+  //store mananger
+  &-mananger{
+    padding-bottom:$gap;
+    margin-bottom:$gap;
+    border-bottom:1px solid #f6f6f6;
+    overflow:hidden;
+
+    img{
+      display:block;
+      margin-right:15px;
+      float:left;
+    }
+  }
+
+  //store visit exec
+  &-visit{
+
+  }
+}
+

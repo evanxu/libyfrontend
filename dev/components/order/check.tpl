@@ -1,7 +1,7 @@
 <div class="order-check">
   <div class="order-title">
-    <a href="homepage.html">
-      <img src="../src/images/bg/bg-logo.png" width="100%">
+    <a href="/views/homepage.html">
+      <img src="/src/images/bg/bg-logo.png" width="100%">
     </a>
     <span class="order-title-text">确认订单信息</span>
     <div class="order-progress">
@@ -11,7 +11,7 @@
       <ul class="order-progress-step">
         <li class="order-progress-step-item0 active">
           <span>1</span>
-          <p>我的进货单</p>
+          <p>我的购物车</p>
         </li>
         <li class="order-progress-step-item1 active">
           <span>2</span>
@@ -157,17 +157,17 @@
           <span>已发货金额：</span>
           <strong><span class="currency">￥</span>0.00</strong>
         </span> -->
-        <span class="fl">授信余额不足，当前余额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
-        <a href="wallet-topup.html" class="button button-blue button-medium">充 值</a>
+        <span class="fl">授信余额不足，余额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
+        <a href="/views/wallet-topup.html" class="button button-blue button-medium">充 值</a>
       </div>
 
       <div class="order-check-checkout">
-        <a href="order-cart.html">
+        <a href="/views/order-cart.html">
           <i class="iconfont">&#xe62c;</i>
-          <span>返回进货单修改</span>
+          <span>返回购物车修改</span>
         </a>
         <!-- demo页面，临时加入onclick事件 -->
-        <input type="button" class="button button-red" value="保存订单" onclick="javascript:location.href='order-save.html'">
+        <input type="button" class="button button-red" value="保存订单" onclick="javascript:location.href='/views/order-save.html'">
       </div>
     </form>
   </div>

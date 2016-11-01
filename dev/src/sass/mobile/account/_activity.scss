@@ -1,0 +1,107 @@
+.account-activity{
+  display:none;
+  background: #f6f6f6;
+  position: relative;
+
+  &-arrow{
+    display:none
+  }
+
+  &-wrapper{
+    width:100%;
+    ul{
+      width: 100%;
+      overflow: hidden;
+    }
+
+    li{
+      position:relative;
+      float: none;
+      width: 100%;
+      padding:0.05rem;
+      border: 0;
+
+      a{
+        display: block;
+        background:#fff;
+        padding: 0.05rem 0.05rem $gap;
+      }
+
+      img{
+        @include size(100%, auto);
+        display: block;
+      }
+    }
+  }
+
+  &-title{
+    display: block;
+    margin-top:0.1rem;
+    width:100%;
+    padding-left:0.1rem;
+    padding-right:1.3rem;
+    font-size:$font-size-base;
+    box-sizing:border-box;
+  }
+
+  &-time{
+    padding-left:0.1rem;
+    color: #c2c2c2;
+  }
+
+  &-status{
+    display: block;
+    @include size(100px,40px);
+    position: absolute;
+    right: 4px;
+    bottom: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+
+
+    &:before{
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-width: 20px;
+      border-style: solid;
+      border-color: transparent transparent transparent #fff;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+
+    &:after{
+      content: "";
+      display: block;
+      width: 0px;
+      height: 0;
+      border-width: 3px;
+      border-style: solid;
+      position: absolute;
+      right: 0px;
+      top: -6px;
+    }
+
+    &-active{
+      color: #fff;
+      background: #f99557;
+
+      &:after{
+        border-color: transparent transparent #af6a40 #af6a40;
+      }
+    }
+
+    &-quiet{
+      color: #c2c2c2;
+      background: #eaeaea;
+
+      &:after{
+        border-color: transparent transparent #b0b0b0 #b0b0b0;
+      }
+    }
+  }
+}

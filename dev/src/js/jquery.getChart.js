@@ -169,7 +169,7 @@
 
   $.fn.extend({
     drawChart: function(options){
-      console.log($(this));
+     // console.log($(this));
       return new Chart($(this), options);
     }
   });

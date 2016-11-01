@@ -1,13 +1,5 @@
 .order-success{
   margin-left: 0;
-  margin-top:-$header-mobile-height;
-
-  .order-title{
-    padding: 0.2rem 0 0.6rem;
-    &-text{
-    display: none;
-    }
-  }
 
   &-content{
     width: 100%;
@@ -31,6 +23,7 @@
 
   &-text{
     margin-bottom: 0.2rem;
+    padding-left:3%;
     font-size:12px;
     line-height: 0.25rem;
 

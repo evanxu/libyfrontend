@@ -1,7 +1,7 @@
 <div class="order-waybill">
   <div class="order-title">
-    <a href="homepage.html">
-      <img src="../src/images/bg/bg-logo.png" width="100%">
+    <a href="/views/homepage.html">
+      <img src="/src/images/bg/bg-logo.png" width="100%">
     </a>
     <span class="order-title-text">生成交货单</span>
     <div class="order-progress">
@@ -11,7 +11,7 @@
       <ul class="order-progress-step">
         <li class="order-progress-step-item0 active">
           <span>1</span>
-          <p>我的进货单</p>
+          <p>我的购物车</p>
         </li>
         <li class="order-progress-step-item1 active">
           <span>2</span>
@@ -82,19 +82,20 @@
       </div>
 
       <div class="order-waybill-topup">
-        <span class="mr20">金额： <strong><span class="currency">￥</span>120,000.00</strong></span>
+        <!-- <span class="mr20">金额： <strong><span class="currency">￥</span>120,000.00</strong></span>
         <span class="mr20">授信金额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
-        <span>已发货金额：<strong><span class="currency">￥</span>0.00</strong></span>
-        <a href="wallet-topup.html" class="button button-blue button-medium">充 值</a>
+        <span>已发货金额：<strong><span class="currency">￥</span>0.00</strong></span> -->
+        <span class="fl">授信余额不足，余额：<strong class="fs16 red"><span class="currency">￥</span>1,109.00</strong></span>
+        <a href="/views/wallet-topup.html" class="button button-blue button-medium">充 值</a>
       </div>
 
       <div class="order-waybill-checkout">
-        <a href="javascript:;">
+        <a href="/views/order-save.html">
           <i class="iconfont">&#xe62c;</i>
           <span>返回上一步</span>
         </a>
         <!-- demo页面，临时加入onclick事件 -->
-        <input type="button" class="button button-red" value="提交交货单" onclick="javascript:location.href='order-success.html'">
+        <input type="button" class="button button-red" value="提交交货单" onclick="javascript:location.href='/views/order-success.html'">
       </div>
     </form>
   </div>

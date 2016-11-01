@@ -12,3 +12,13 @@
   -webkit-flex-direction: column;
 }
 
+.account-title{
+  @include size(100%, 0.5rem);
+  padding: 0 $gap;
+  line-height:0.4rem;
+  font-size:$font-size-medium;
+  color: $grey-text;
+  border-top:0.1rem solid #f6f6f6;
+  border-bottom:1px solid #f6f6f6;
+  background:#fff;
+}

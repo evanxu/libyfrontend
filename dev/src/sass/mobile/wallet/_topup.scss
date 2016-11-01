@@ -52,8 +52,11 @@ $wallet-topup-width:  215px;
 }
 
 .form-bank-choice{
-  flex-direction:column;
-  justify-content: space-between;
+  padding-left:0;
+
+  .form-title{
+    position:relative;
+  }
 }
 
 .bank-lists{

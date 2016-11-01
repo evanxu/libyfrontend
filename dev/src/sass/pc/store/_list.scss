@@ -5,7 +5,7 @@
   &-bar{
     position:relative;
     width:750px;
-    margin:100px auto;
+    margin:120px auto 80px;
     font-size:$font-size-medium;
   }
 
@@ -17,7 +17,7 @@
 
   &-target{
     margin-top:-20px;
-    color:$base-color;
+    color:#666;
     text-align:center;
 
     span{
@@ -28,7 +28,7 @@
 
   &-completion{
     margin-top:-18px;
-    color:#b1b1b1;
+    color:#333;
 
     span{
       font-size:40px;
@@ -43,27 +43,7 @@
     border-radius:10px;
 
     &-curr{
-      @include absolute(top 0 left 0);
-      display:block;
-      height:15px;
-      border-radius:10px;
-
-      background: -webkit-gradient(linear, 0 0, 100% 0, from(#49beea), to(#30dab5));
-      background: -moz-linear-gradient(left, #49beea, #30dab5);
-      background: -o-linear-gradient(left, #49beea, #30dab5);
-      background: -ms-linear-gradient(#49beea 0%,#30dab5 100%);
-      -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#49beea',endColorstr='#30dab5',grandientType=1);
-      box-sizing:border-box;
-
-      &:after{
-        @include size(10px, 10px);
-        @include absolute(top -7px right -12px);
-        content:"";
-        display:block;
-        border:8px solid #30dab5;
-        border-radius:100%;
-        background:#fff;
-      }
+      @extend %progress-bar;
     }
 
     &-text{
@@ -103,36 +83,61 @@
     }
   }
 
-  &-filter{
-    margin:$gap;
-    color:$dark-text;
+  // &-filter{
+  //   margin:$gap;
+  //   color:$dark-text;
 
-    &-area{
-      float:left;
-      margin-right:5px;
-    }
+  //   &-area{
+  //     float:left;
+  //     margin-right:5px;
+  //   }
 
-    &-search{
-      float:right;
+  //   &-search{
+  //     float:right;
 
-      .input{
-        width:230px;
-      }
-    }
+  //     .input{
+  //       width:230px;
+  //     }
+  //   }
 
-    span,
-    .input{
-      display:inline-block;
-      vertical-align:middle;
-    }
-  }
+  //   span,
+  //   .input{
+  //     display:inline-block;
+  //     vertical-align:middle;
+  //   }
+  // }
 
   &-content{
+    position:relative;
     margin:$gap;
     border:1px solid $grey-border;
     color:$grey-text;
     border-bottom:0;
     clear:both;
+  }
+
+  &-action{
+    position:relative;
+    height:50px;
+    line-height:50px;
+
+    label{
+      @include absolute(top 0 left 20px);
+    }
+
+    a{
+      display:block;
+      float:right;
+      width:12.5%;
+      text-align:center;
+      color:$base-color;
+    }
+  }
+
+  &-check{
+    @include absolute(top 50% left 20px);
+    margin-top:-8px;
+    z-index:2;
   }
 
   &-title{
@@ -152,6 +157,7 @@
   }
 
   &-item{
+    position:relative;
     padding:$gap 0;
     width:100%;
     color:$dark-text;
@@ -168,15 +174,15 @@
     }
 
     &-serial{
+      @include size(12%, 85px);
       position:relative;
-      width:10%;
-      height:85px;
+      padding-left:$gap*2;
 
       span{
         @include size(18px, 18px);
         @include absolute(top 50% left 50%);
         display:block;
-        margin-left:-9px;
+        margin-left:5px;
         margin-top:-9px;
         line-height:21px;
         text-align:center;
@@ -190,7 +196,7 @@
         content:"\e63d";
         font-family:"iconfont";
         margin-top:-28px;
-        margin-left:-20px;
+        margin-left:-6px;
         line-height:40px;
         font-size:39px;
         color:$light-text;
@@ -225,14 +231,14 @@
     // }
 
     &-detail{
-      width:65%;
+      width:63%;
       text-align:left;
 
       img{
         @include size(85px,85px);
         display:block;
         float:left;
-        margin-right:$gap*2;
+        margin-right:$gap;
       }
     }
 
@@ -257,6 +263,10 @@
     &-title{
       margin-bottom:5px;
     }
+  }
+
+  &-config{
+    display:none;
   }
 }
 

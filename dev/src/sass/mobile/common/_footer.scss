@@ -6,23 +6,27 @@ $footer-grey:#a1a1a1;
 .footer-mobile{
   @include size(100%, $footer-mobile-height);
   @include fixed(bottom 0 left 0);
-  padding:0.15rem 0;
+  //padding:0.15rem 0;
+  padding:0.3rem 0 0.06rem;
+  line-height:0.18rem;
   @extend %display-flex;
     //display:-webkit-box;
   background:#fff;
   border-top:1px solid #cdcdcd;
+  transform:translateY($footer-mobile-height);
+  transition:transform 0.3s ease-out;
 
   a{
     @include size(25%, 100%);
     display:block;
     position:relative;
-    padding-top:0.15rem;
+    //padding-top:0.15rem;
     text-align:center;
     color:$dark-text;
     box-sizing:border-box;
 
     &:after{
-      @include absolute(top -5px left 50%);
+      @include absolute(top -20px left 50%);
       @include size(20px, 18px);
       font-family:"iconfont";
       margin-left:-10px;
@@ -36,19 +40,19 @@ $footer-grey:#a1a1a1;
 
     &:nth-child(3):after{
       margin-left:-12px;
-      top:-7px;
+      top:-18px;
       font-size:19px;
     }
   }
 
   &-homepage:after{
-    content:"\e659";
+    content:"\e6d5";
   }
   &-catlog:after{
-    content:"\e65a";
+    content:"\e61d";
   }
   &-cart:after{
-    content:"\e65c";
+    content:"\e670";
   }
   &-me:after{
     content:"\e658";

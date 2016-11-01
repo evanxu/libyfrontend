@@ -1,5 +1,6 @@
 .promotion-liby,
 .promotion-mine{
+  min-height:auto;
 
   /*promotion-cont*/
   .promotion-cont{
@@ -7,29 +8,59 @@
 
     li{
       margin: $gap 0 0;
+      overflow:hidden;
       width: 100%;
       height: auto;
-      border: 1px;
       float: none;
-
-      a{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
-
-      a{
-        &:hover{
-          color:$dark-text;
-        }
-      }
 
       .tit,
       .time{
+        width:50%;
         margin-top: 0.05rem;
         font-size: 12px;
+        @extend %ellipsis;
       }
 
+      .time{
+        text-align:right;
+      }
     }
+  }
+}
+
+
+.promotion-liby,
+.promotion-mine{
+  &-title{
+    margin:0;
+    font-size:$font-size-large;
+  }
+
+  &-detail{
+    padding-left:0.9rem;
+    margin:0.2rem 0;
+  }
+}
+
+.promotion-liby-detail{
+  &-date{
+    margin-right:0;
+  }
+
+  label{
+    display:block;
+    margin-top:0.05rem;
+  }
+
+  &-buy{
+    display:inline-block;
+    margin-top:0.05rem;
+    padding:0.05rem 0.1rem;
+    width:auto;
+  }
+
+  span{
+    display:inline-block;
+    vertical-align:middle;
   }
 }

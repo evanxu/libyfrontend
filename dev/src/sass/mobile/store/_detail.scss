@@ -1,0 +1,84 @@
+.store-detail{
+  min-height:auto;
+
+  &-content{
+    padding:$gap;
+  }
+
+  &-title{
+    line-height:0.4rem;
+  }
+
+  &-left,
+  &-right{
+    float:none;
+    width:100%;
+  }
+
+  // store name and address
+  &-name{
+    padding:0 0 $gap;
+    border-bottom:1px solid #f6f6f6;
+  }
+
+  // store information
+  &-info{
+    width:100%;
+    padding-bottom:$gap;
+    margin-bottom:0;
+    border-bottom:1px solid #f6f6f6;
+
+
+    img{
+      width:32%;
+      display:block;
+      float:left;
+      margin-right:2%;
+
+      &:last-of-type{
+        margin-right:0;
+      }
+    }
+  }
+
+  // store status bar
+  &-status{
+    margin-bottom:0;
+    border-bottom:1px solid #f6f6f6;
+  }
+
+  &-bar{
+    margin:0.25rem auto;
+  }
+
+  &-progress{
+    &-text{
+      @include absolute(top -0.3rem left auto);
+      @include size(0.9rem, auto);
+      padding:0.05rem;
+      margin-left:-0.45rem;
+    }
+  }
+
+  //store mananger
+  &-mananger{
+    padding-bottom:$gap;
+    margin-bottom:0;
+    border-bottom:1px solid #f6f6f6;
+    overflow:hidden;
+
+    img{
+      display:block;
+      margin-right:15px;
+      float:left;
+    }
+  }
+
+  //store visit exec
+  &-exec{
+    img{
+      width:100%; //for temp
+    }
+  }
+}
+

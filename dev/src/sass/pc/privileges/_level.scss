@@ -1,0 +1,118 @@
+.privileges-level{
+  background:$white-background;
+  min-height:$catalog-height;
+  position: relative;
+}
+
+.privileges-level-arrow{
+  display: block;
+  @include size(50px,50px);
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+
+
+  i{
+    font-size: 36px;
+    height: 100%;
+  }
+
+  &-left{
+    left: 25px;
+  }
+
+  &-right{
+    right: 25px;
+  }
+}
+
+
+.privileges-level-wrapper{
+  @include size(800px,auto);
+  margin: 50px auto;
+  overflow: hidden;
+
+}
+
+.privileges-level-items{
+  width: 200%;
+}
+
+.privileges-level-item{
+  width: 390px;
+  margin-right: 20px;
+  float: left;
+  border:1px solid $grey-border;
+  border-radius: 5px;
+  padding-bottom: 50px;
+
+
+  dt{
+    @include size(100%,110px);
+    background: $base-color;
+    margin-bottom: 50px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+
+    span{
+      width: 75px;
+      height: 55px;
+      display: block;
+      float: left;
+      margin-top: 25px;
+      margin-left: 50px;
+      background-size: 100%;
+      background: url(../images/bg/crown.png) no-repeat;
+      text-align: center;
+      color:$base-color;
+      font-weight: 600;
+      line-height: 70px;
+    }
+
+    h2{
+      font-size: 18px;
+      color: #fff;
+      line-height: 110px;
+      margin-left: 180px;
+    }
+  }
+
+  &-list{
+    padding:0 60px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #898989;
+    line-height: 30px;
+
+    &:nth-of-type(1) .privileges-level-item-title,
+    &:nth-of-type(2) .privileges-level-item-title,
+    &:nth-of-type(3) .privileges-level-item-title,{
+      color: #8dc63f;
+    }
+  }
+
+  &-title{
+    position:relative;
+    width: 35px;
+    margin-right: 10px;
+    color: $dark-text;
+    float: left;
+
+    &:after{
+      @include absolute(right 0 top 1px);
+      content:"\e65e";
+      font-family:"iconfont";
+      font-size:12px;
+    }
+  }
+
+  &-title + span{
+    display: block;
+    margin-left:45px;
+  }
+
+  .privileges-level-color-six{
+    background:#8dc63f;
+  }
+}
+

@@ -5,28 +5,28 @@
 	</div> -->
 	<div class="product-detail-introduce-images">
 		<div class="preview">
-			<img src="../src/images/temp/a1.jpg" width="400" height="400" alt="">
+			<img src="/src/images/temp/a1.jpg" width="400" height="400" alt="">
 		</div>
 
 		<ul class="product-detail-introduce-images-carousel clearfix">
 		  <li class="curr">
 		    <a href="javascript:;">
-		      <img src="../src/images/temp/a1.jpg" width="100%" alt="">
+		      <img src="/src/images/temp/a1.jpg" width="100%" alt="">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="javascript:;">
-		      <img src="../src/images/temp/a2.jpg" width="100%" alt="">
+		      <img src="/src/images/temp/a2.jpg" width="100%" alt="">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="javascript:;">
-		      <img src="../src/images/temp/a3.jpg" width="100%" alt="">
+		      <img src="/src/images/temp/a3.jpg" width="100%" alt="">
 		    </a>
 		  </li>
 		  <li>
 		    <a href="javascript:;">
-		      <img src="../src/images/temp/a4.jpg" width="100%" alt="">
+		      <img src="/src/images/temp/a4.jpg" width="100%" alt="">
 		    </a>
 		  </li>
 		</ul>
@@ -80,16 +80,16 @@
     </div>
 
     <div class="action">
-    	<a class="action-buy button button-red" href="order-cart.html">加入购物车</a>
-    	<a class="pc-hide">
+    	<a class="action-buy button button-red" href="/views/order-cart.html">加入购物车</a>
+    	<a href="javascript:;" class="pc-hide nolink">
     		<i class="iconfont">&#xe641;</i>
     		<span>客服</span>
     	</a>
-    	<a class="action-collection">
+    	<a href="javascript:;" class="action-collection nolink">
     		<i class="iconfont">&#xe60e;</i>
     		<span>收藏</span>
     	</a>
-    	<a class="pc-hide">
+    	<a href="/views/order-cart.html" class="pc-hide">
     		<i class="iconfont">&#xe65f;</i>
     		<span>购物车</span>
     	</a>

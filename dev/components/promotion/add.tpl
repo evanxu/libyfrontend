@@ -9,8 +9,14 @@
     <form class="form" action="javascript:;">
       <div class="form-item">
         <span class="form-title">活动名称：</span>
-        <input type="tel" class="input" placeholder="" name="">
+        <input type="text" class="input" placeholder="请输入活动名称" name="">
         <p class="error">名称不能为空且真实有效</p>
+      </div>
+      <div class="form-item promotion-add-setrule">
+        <span class="form-title">选择门店：</span>
+        <div class="form-select">
+          <input type="text" class="input input-select" name="" placeholder="请选择门店">
+        </div>
       </div>
       <div class="form-item">
         <span class="form-title">活动时间：</span>
@@ -70,7 +76,7 @@
         <textarea class="textarea" placeholder="" name=""></textarea>
       </div>
       <div class="promotion-add-btn">
-        <input type="button" value="确定" name="" class="button button-blue button-radius button-medium mr30">
+        <input type="button" value="确定" name="" class="button button-blue button-radius button-medium mr30" onclick="location.href = '/views/promotion-my-activity.html'">
         <a class="button button-grey button-radius button-medium" href="javascript:history.go(-1)">取消</a>
       </div>
     </form>

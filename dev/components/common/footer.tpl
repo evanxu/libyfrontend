@@ -1,42 +1,42 @@
 <!-- footer -->
 <div class="footer">
-  <div class="footer-content">
+  <div class="footer-content clearfix">
     <div class="footer-content-link">
       <dl>
         <dt>公司介绍</dt>
-        <dd><a href="javascript:;">关于立白</a></dd>
-        <dd><a href="javascript:;">媒体报道</a></dd>
-        <dd><a href="javascript:;">诚征英才</a></dd>
-        <dd><a href="javascript:;">友情链接</a></dd>
+        <dd><a href="javascript:;" class="no-link">关于立白</a></dd>
+        <dd><a href="javascript:;" class="no-link">媒体报道</a></dd>
+        <dd><a href="javascript:;" class="no-link">诚征英才</a></dd>
+        <dd><a href="javascript:;" class="no-link">友情链接</a></dd>
       </dl>
       <dl>
         <dt>购物流程</dt>
-        <dd><a href="javascript:;">新用户注册</a></dd>
-        <dd><a href="javascript:;">购物流程</a></dd>
-        <dd><a href="javascript:;">配送方式</a></dd>
+        <dd><a href="javascript:;" class="no-link">新用户注册</a></dd>
+        <dd><a href="javascript:;" class="no-link">购物流程</a></dd>
+        <dd><a href="javascript:;" class="no-link">配送方式</a></dd>
       </dl>
       <dl>
         <dt>支付方式</dt>
-        <dd><a href="javascript:;">货到付款</a></dd>
-        <dd><a href="javascript:;">银联卡支付</a></dd>
-        <dd><a href="javascript:;">支付宝</a></dd>
+        <dd><a href="javascript:;" class="no-link">货到付款</a></dd>
+        <dd><a href="javascript:;" class="no-link">银联卡支付</a></dd>
+        <dd><a href="javascript:;" class="no-link">支付宝</a></dd>
       </dl>
       <dl>
         <dt>售后服务</dt>
-        <dd><a href="javascript:;">退货说明</a></dd>
-        <dd><a href="javascript:;">退款说明</a></dd>
+        <dd><a href="javascript:;" class="no-link">退货说明</a></dd>
+        <dd><a href="javascript:;" class="no-link">退款说明</a></dd>
       </dl>
       <dl>
         <dt>招商合作</dt>
-        <dd><a href="javascript:;">供应商招募</a></dd>
-        <dd><a href="javascript:;">广商合作</a></dd>
-        <dd><a href="javascript:;">联系立白</a></dd>
+        <dd><a href="javascript:;" class="no-link">供应商招募</a></dd>
+        <dd><a href="javascript:;" class="no-link">广商合作</a></dd>
+        <dd><a href="javascript:;" class="no-link">联系立白</a></dd>
       </dl>
       <dl>
         <dt>常见问题</dt>
-        <dd><a href="javascript:;">账户问题</a></dd>
-        <dd><a href="javascript:;">发票问题</a></dd>
-        <dd><a href="javascript:;">联系客服</a></dd>
+        <dd><a href="javascript:;" class="no-link">账户问题</a></dd>
+        <dd><a href="javascript:;" class="no-link">发票问题</a></dd>
+        <dd><a href="javascript:;" class="no-link">联系客服</a></dd>
       </dl>
     </div>
     <div class="footer-content-hotline">
@@ -48,8 +48,8 @@
     </div>
     <div class="footer-content-qrcode">
       <div class="footer-content-qrcode-txt">
-        <img src="../src/images/temp/qrcode.jpg" alt="qrcode">
-        <p>官方微信</p>
+        <img src="/src/images/bg/mobile.png" alt="qrcode">
+        <p>立构台手机版</p>
       </div>
     </div>
   </div>
@@ -60,8 +60,8 @@
 </div>
 <!-- footer for mobile -->
 <footer class="footer-mobile">
-  <a href="homepage.html" class="footer-mobile-homepage curr">首页</a>
-  <a href="javascript:;" class="footer-mobile-catlog">分类</a>
-  <a href="order-cart.html" class="footer-mobile-cart">购物车</a>
-  <a href="account.html" class="footer-mobile-me">我</a>
+  <a href="/views/homepage.html" class="footer-mobile-homepage curr">首页</a>
+  <a href="/views/product-list.html" class="footer-mobile-catlog">分类</a>
+  <a href="/views/order-cart.html" class="footer-mobile-cart">购物车</a>
+  <a href="/views/account.html" class="footer-mobile-me">我</a>
 </footer>

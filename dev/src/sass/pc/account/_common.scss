@@ -6,3 +6,12 @@
   background:#fff;
   border-bottom:$gap solid #f6f6f6;
 }
+
+.account-title{
+  @include size(100%, 50px);
+  padding: 0 $gap;
+  line-height:65px;
+  font-size:$font-size-large;
+  color: $dark-text;
+  background:#f6f6f6;
+}

@@ -1,0 +1,123 @@
+.promotion-mine{
+  &-add{
+    height:0.9rem !important;
+
+    a{
+      @include size(100%, 100%);
+      font-size: 14px;
+      line-height:1.2rem;
+      text-align: center;
+      box-sizing:border-box;
+
+      &:hover{
+        border-color:$base-color;
+        color:$base-color;
+      }
+    }
+
+    &-tag{
+      @include absolute(left 50% top 50%);
+      @include size(0.5rem, 0.5rem);
+      margin-top:-0.4rem;
+      margin-left:-0.25rem;
+      line-height:0.36rem;
+    }
+  }
+
+  &-title{
+    margin:0;
+    font-size:$font-size-large;
+  }
+
+  &-detail{
+    padding-left:0.9rem;
+    margin:0.2rem 0;
+  }
+
+  &-list{
+    position:relative;
+    margin:0.2rem 0;
+
+    &-title{
+      display:none;
+    }
+
+    &-item{
+      padding:0.1rem 0;
+    }
+
+    &-description,
+    &-status,
+    &-pic{
+      float:left;
+    }
+
+    &-description {
+      width:60%;
+
+      img{
+        @include size(0.8rem, 0.8rem);
+        display:block;
+        float:left;
+        margin-right:0.05rem;
+      }
+
+      p{
+        font-size:$font-size-base;
+      }
+    }
+
+
+    &-status{
+      width:40%;
+      text-align:right;
+
+      a.button{
+        width:0.45rem;
+        font-size:$font-size-base;
+      }
+
+      a.pc-hide{
+        display:block;
+        margin-bottom:0.1rem;
+        font-size:$font-size-base;
+      }
+    }
+
+    &-pic{
+      display:none;
+    }
+  }
+
+  &-bar{
+    position:relative;
+    width:100%;
+    margin:0.3rem 0;
+  }
+
+  &-target{
+    float:left;
+    color:$base-color;
+  }
+
+  &-completion{
+    float:right;
+    color:#30dab5;
+  }
+
+  &-progress{
+    &-curr{
+      @extend %progress-bar;
+    }
+
+    &-text{
+      @include absolute(top -0.3rem left auto);
+      @include size(0.9rem, auto);
+      padding:0.05rem;
+      margin-left:-0.45rem;
+      color:#30dab5;
+      text-align:center;
+      font-size:$font-size-medium;
+    }
+  }
+}
