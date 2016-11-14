@@ -9,7 +9,7 @@
       <dd rel="store"><a href="/views/store-list.html">我的门店</a></dd>
       <dd><a href="javascript:;" class="nolink">我的导购</a></dd>
       <dd><a href="javascript:;" class="nolink">我的消息</a></dd>
-      <dd><a href="javascript:;" class="nolink">我的征信</a></dd>
+      <!-- <dd><a href="javascript:;" class="nolink">我的征信</a></dd> -->
       <dd><a href="javascript:;" class="nolink">我的荣誉</a></dd>
       <dd rel="data"><a href="/views/data-center.html">我的数据</a></dd>
     </dl>

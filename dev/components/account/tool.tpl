@@ -39,15 +39,21 @@
         我的数据
       </a>
     </li>
-    <li>
+    <!-- <li>
       <a href="javascript:;" class="nolink">
         <i class="iconfont" style="color:#1cbbb4">&#xe65b;</i>
         我的征信
       </a>
-    </li>
+    </li> -->
     <li>
       <a href="javascript:;" class="nolink">
         <i class="iconfont" style="color:#87afc9">&#xe682;</i>
+        我的荣誉
+      </a>
+    </li>
+    <li>
+      <a href="javascript:;" class="nolink"  style="opacity: 0">
+        <i class="iconfont" style="color:#87afc9;opacity: 0">&#xe682;</i>
         我的荣誉
       </a>
     </li>

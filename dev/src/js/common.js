@@ -204,7 +204,7 @@ $(function(){
     }
   });
 
-  $('body').on('click', '.J-popupClose', function(){
+  $('body').on('click', '.J-popupClose, #libyMask', function(){
     messageBox.remove();
   });
 
