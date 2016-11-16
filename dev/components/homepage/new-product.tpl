@@ -17,25 +17,36 @@
 	<div class="homepage-newest">
 		<ul class="homepage-newest-carousel clearfix">
 		  <li>
-		    <a href="/views/product-detail.html">
-		      <img src="/src/images/temp/l2.jpg" width="100%" alt="">
-		    </a>
-		  </li>
-		  <li>
-		    <a href="/views/product-detail.html">
-		      <img src="/src/images/temp/l2.jpg" width="100%" alt="">
-		    </a>
-		  </li>
-		  <li>
-		    <a href="/views/product-detail.html">
-		      <img src="/src/images/temp/l2.jpg" width="100%" alt="">
-		    </a>
-		  </li>
-		  <li>
-		    <a href="/views/product-detail.html">
-		      <img src="/src/images/temp/l2.jpg" width="100%" alt="">
-		    </a>
-		  </li>
+			    <a href="/views/product-detail.html">
+			      <img src="/src/images/temp/l2.jpg" width="100%" alt=""
+			      srcset="/src/images/temp/l2.jpg 1200w,
+			      				/src/images/temp@2x/l2.jpg 2400w">
+			    </a>
+			  </li>
+			  <li>
+			    <a href="/views/product-detail.html">
+			      <img src="/src/images/temp/l2.jpg" width="100%" alt=""
+			      srcset="/src/images/temp/l2.jpg 470w,
+			      				/src/images/temp@2x/l2.jpg 940w"
+			      sizes="(min-width: 540px) 470px, 100px">
+			    </a>
+			  </li>
+			  <li>
+			    <a href="/views/product-detail.html">
+			      <img src="/src/images/temp/l2.jpg" width="100%" alt=""
+			      srcset="/src/images/temp/l2.jpg 470w,
+			      				/src/images/temp@2x/l2.jpg 940w"
+			      sizes="(min-width: 540px) 470px, 100px">
+			    </a>
+			  </li>
+			  <li>
+			    <a href="/views/product-detail.html">
+			      <img src="/src/images/temp/l2.jpg" width="100%" alt=""
+			      srcset="/src/images/temp/l2.jpg 470w,
+			      				/src/images/temp@2x/l2.jpg 940w"
+			      sizes="(min-width: 540px) 470px, 100px">
+			    </a>
+			  </li>
 		</ul>
 
 		<div class="homepage-newest-right">
@@ -46,25 +57,37 @@
 			</div>
 			<ul class="homepage-newest-ul clearfix">
 			  <li>
-			    <a href="/views/product-detail.html">
-			      <img src="/src/images/temp/r1.jpg" alt="">
-			    </a>
-			  </li>
-			  <li>
-			    <a href="/views/product-detail.html">
-			      <img src="/src/images/temp/r2.jpg" alt="">
-			    </a>
-			  </li>
-			  <li>
-			    <a href="/views/product-detail.html">
-			      <img src="/src/images/temp/r3.jpg" alt="">
-			    </a>
-			  </li>
-			  <li>
-			    <a href="/views/product-detail.html">
-			      <img src="/src/images/temp/r4.jpg" alt="">
-			    </a>
-			  </li>
+				    <a href="/views/product-detail.html">
+				      <img src="/src/images/temp/r1.jpg" alt=""
+				      srcset="/src/images/temp/r1.jpg 320w,
+				      				/src/images/temp@2x/r1.jpg 640w"
+				      sizes="(min-width: 540px) 320px, 100px">
+				    </a>
+			  	</li>
+				  <li>
+				    <a href="/views/product-list.html">
+				      <img src="/src/images/temp/r2.jpg" alt=""
+				      srcset="/src/images/temp/r2.jpg 320w,
+			      				/src/images/temp@2x/r2.jpg 640w"
+			      	sizes="(min-width: 540px) 320px, 100px">
+				    </a>
+				  </li>
+				  <li>
+				    <a href="/views/product-list.html">
+				      <img src="/src/images/temp/r3.jpg" alt=""
+				      srcset="/src/images/temp/r3.jpg 320w,
+			      				/src/images/temp@2x/r3.jpg 640w"
+			      	sizes="(min-width: 540px) 320px, 100px">
+				    </a>
+				  </li>
+				  <li>
+				    <a href="/views/product-list.html">
+				      <img src="/src/images/temp/r4.jpg" alt=""
+				      srcset="/src/images/temp/r4.jpg 320w,
+			      				/src/images/temp@2x/r4.jpg 640w"
+			      	sizes="(min-width: 540px) 320px, 100px">
+				    </a>
+				  </li>
 			</ul>
 		</div>
 
@@ -72,7 +95,10 @@
 			<li>
 				<i class="iconfont">&#xe62d;</i>
 				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/g3.jpg" alt="newest">
+					<img src="/src/images/temp/g3.jpg" alt="newest"
+						srcset="/src/images/temp/g3.jpg 200w,
+				      			/src/images/temp@2x/g3.jpg 400w"
+				  	sizes="(min-width: 540px) 200px, 100px">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
@@ -82,7 +108,10 @@
 			<li>
 				<i class="iconfont">&#xe62d;</i>
 				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/g1.jpg" alt="newest">
+					<img src="/src/images/temp/g1.jpg" alt="newest"
+						srcset="/src/images/temp/g1.jpg 200w,
+				      			/src/images/temp@2x/g1.jpg 400w"
+				  	sizes="(min-width: 540px) 200px, 100px">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
@@ -92,7 +121,10 @@
 			<li>
 				<i class="iconfont">&#xe62d;</i>
 				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/g2.jpg" alt="newest">
+					<img src="/src/images/temp/g2.jpg" alt="newest"
+						srcset="/src/images/temp/g2.jpg 200w,
+				      			/src/images/temp@2x/g2.jpg 400w"
+				  	sizes="(min-width: 540px) 200px, 100px">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
@@ -102,7 +134,10 @@
 			<li>
 				<i class="iconfont">&#xe62d;</i>
 				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/g5.jpg" alt="newest">
+					<img src="/src/images/temp/g5.jpg" alt="newest"
+						srcset="/src/images/temp/g5.jpg 200w,
+				      			/src/images/temp@2x/g5.jpg 400w"
+				  	sizes="(min-width: 540px) 200px, 100px">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90
@@ -112,7 +147,10 @@
 			<li>
 				<i class="iconfont">&#xe62d;</i>
 				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/g6.jpg" alt="newest">
+					<img src="/src/images/temp/g6.jpg" alt="newest"
+						srcset="/src/images/temp/g6.jpg 200w,
+				      			/src/images/temp@2x/g6.jpg 400w"
+				  	sizes="(min-width: 540px) 200px, 100px">
 				</a>
 				<a class="homepage-newest-bottom-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 				<p class="homepage-newest-bottom-tag"><span class="currency">￥</span>18.90

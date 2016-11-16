@@ -16,13 +16,15 @@ module.exports = function(grunt){
           }
         }
       },
-      //create the server for dev, use 8888 port
+      //create the server for dev, use 9999 port
       build: {
         options: {
-          port: 8888,
-          path: '<%= config.build %>',
-          options: {
-            index: '<%= config.views %>/<%= config.index %>'
+          port: 9999,
+          base: {
+            path: '<%= config.build %>',
+            options: {
+              index: '<%= config.path.pages %>/<%= config.index %>'
+            }
           }
         }
       }
@@ -61,10 +63,10 @@ module.exports = function(grunt){
       build: {
         files: [{
           expand: true,
-          cwd: '<%= config.dev %>/<%= config.dist.css %>/',
+          cwd: '<%= config.dev %>/<%= config.path.css %>/',
           src: ['**/*.css', '!*.css.map'],
-          dest: '<%= config.build %>/<%= config.dist.css %>/',
-          ext: '.min.css'
+          dest: '<%= config.build %>/<%= config.path.css %>/',
+          ext: '.css'
         }]
       }
     },
@@ -77,7 +79,7 @@ module.exports = function(grunt){
           cwd: '<%= config.dev %>/',
           src: ['**/*.js'],
           dest: '<%= config.build %>/',
-          ext: '.min.js'
+          ext: '.js'
         }]
       }
     },
@@ -97,7 +99,7 @@ module.exports = function(grunt){
           expand: true,
           cwd: '<%= config.dev %>/<%= config.path.images %>/',
           src: '**/*.{jpg,gif,png}',
-          dest: '<%= config.build %>/<%= config.dist.images %>/'
+          dest: '<%= config.build %>/<%= config.path.images %>/'
         }]
       }
     },
@@ -122,13 +124,23 @@ module.exports = function(grunt){
         cwd: '<%= config.dev %>/<%= config.path.templates %>/',
         src: ['**/*.html', '!_*.html'],
         dest: '<%= config.dev %>/<%= config.path.pages %>/'
+      },
+      build: {
+        options: {
+          prefix: '<-- ',
+          suffix: ' -->',
+        },
+        expand: true,
+        cwd: '<%= config.dev %>/<%= config.path.templates %>/',
+        src: ['**/*.html', '!_*.html'],
+        dest: '<%= config.build %>/<%= config.path.pages %>/'
       }
     },
 
     //清除文件夹
     clean: {
       dev: ['<%= config.dev %>/dist'],
-      build: ['<%= config.build %>/dist']
+      build: ['<%= config.build %>/**']
     },
 
     //监听
@@ -215,7 +227,7 @@ module.exports = function(grunt){
 
   grunt.registerTask('default', ['connect', 'notify:connect', 'watch']);
   grunt.registerTask('dev', ['clean:dev', 'sass:dev', 'autoprefixer:dev', 'imagemin:dev']);
-  grunt.registerTask('build', ['clean:build', 'uglify:build', 'cssmin:build', 'imagemin:build']);
+  grunt.registerTask('build', ['uglify:build','includereplace:build', 'cssmin:build', 'imagemin:build', 'connect:build']);
 
 
   grunt.event.on('watch', function(action, filepath, target){

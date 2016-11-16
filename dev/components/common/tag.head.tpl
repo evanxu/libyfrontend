@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="/src/css/font/iconfont.css">
 
   <script type="text/javascript" src="/src/vendor/js/jquery.js"></script>
-  <script type="text/javascript" src="/src/vendor/js/echarts.js"></script>
-  <script type="text/javascript" src="/src/js/jquery.getChart.js"></script>
   <script type="text/javascript">
     var device = window.innerWidth > 540 ? 'pc' : 'mobile';
   </script>

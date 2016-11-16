@@ -12,6 +12,9 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript" src="/src/vendor/js/echarts.js"></script>
+<script type="text/javascript" src="/src/js/jquery.getChart.js"></script>
 <script type="text/javascript">
     (function(){
 

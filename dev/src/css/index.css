@@ -1695,8 +1695,6 @@ input.button {
         .homepage-newest-carousel li:first-child {
           display: block; }
       .homepage-newest-carousel img {
-        width: 465px;
-        height: 420px;
         display: block; }
     .homepage-newest-right {
       width: 690px;

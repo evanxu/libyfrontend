@@ -7,7 +7,10 @@
 	<ul  class="homepage-recently clearfix">
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g1.jpg" alt="recentview">
+				<img src="/src/images/temp/g1.jpg" alt="recentview"
+					srcset="/src/images/temp/g1.jpg 200w,
+			      			/src/images/temp@2x/g1.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -16,7 +19,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g2.jpg" alt="recentview">
+				<img src="/src/images/temp/g2.jpg" alt="recentview"
+					srcset="/src/images/temp/g2.jpg 200w,
+			      			/src/images/temp@2x/g2.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -25,7 +31,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g3.jpg" alt="recentview">
+				<img src="/src/images/temp/g3.jpg" alt="recentview"
+					srcset="/src/images/temp/g3.jpg 200w,
+			      			/src/images/temp@2x/g3.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -34,7 +43,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g4.jpg" alt="recentview">
+				<img src="/src/images/temp/g4.jpg" alt="recentview"
+					srcset="/src/images/temp/g4.jpg 200w,
+			      			/src/images/temp@2x/g4.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -43,7 +55,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g5.jpg" alt="recentview">
+				<img src="/src/images/temp/g5.jpg" alt="recentview"
+					srcset="/src/images/temp/g5.jpg 200w,
+			      			/src/images/temp@2x/g5.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -52,7 +67,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g7.jpg" alt="recentview">
+				<img src="/src/images/temp/g7.jpg" alt="recentview"
+					srcset="/src/images/temp/g7.jpg 200w,
+			      			/src/images/temp@2x/g7.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -61,7 +79,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g2.jpg" alt="recentview">
+				<img src="/src/images/temp/g2.jpg" alt="recentview"
+					srcset="/src/images/temp/g2.jpg 200w,
+			      			/src/images/temp@2x/g2.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -70,7 +91,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g3.jpg" alt="recentview">
+				<img src="/src/images/temp/g3.jpg" alt="recentview"
+					srcset="/src/images/temp/g3.jpg 200w,
+			      			/src/images/temp@2x/g3.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -79,7 +103,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g6.jpg" alt="recentview">
+				<img src="/src/images/temp/g6.jpg" alt="recentview"
+					srcset="/src/images/temp/g6.jpg 200w,
+			      			/src/images/temp@2x/g6.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
@@ -88,7 +115,10 @@
 		</li>
 		<li>
 			<a href="/views/product-detail.html">
-				<img src="/src/images/temp/g5.jpg" alt="recentview">
+				<img src="/src/images/temp/g5.jpg" alt="recentview"
+					srcset="/src/images/temp/g5.jpg 200w,
+			      			/src/images/temp@2x/g5.jpg 400w"
+			  	sizes="(min-width: 540px) 200px, 100px">
 			</a>
 			<a class="homepage-recently-tit" href="/views/product-detail.html">好爸爸洗衣露 户外950g两瓶</a>
 			<p class="homepage-recently-tag"><span class="currency">￥</span>18.90
