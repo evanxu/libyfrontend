@@ -61,8 +61,9 @@
 			  <li>
 			    <a href="/views/product-detail.html">
 			      <img src="/src/images/temp/l1.jpg" width="100%" alt=""
-			      srcset="/src/images/temp/l1.jpg 1200w,
-			      				/src/images/temp@2x/l1.jpg 2400w">
+			      srcset="/src/images/temp/l1.jpg 470w,
+			      				/src/images/temp@2x/l1.jpg 940w"
+			      sizes="(min-width: 540px) 470px, 100px">
 			    </a>
 			  </li>
 			  <li>

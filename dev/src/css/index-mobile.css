@@ -1302,6 +1302,8 @@ a {
           width: 100%;
           height: auto;
           margin: 0 auto 0.15rem; }
+        .homepage-newest-bottom li:hover {
+          border-color: #ebebeb; }
       .homepage-newest-bottom-tit {
         font-size: 14px;
         width: 100%; }
@@ -1580,7 +1582,6 @@ a {
 
 .account-chart {
   width: 100%;
-  height: auto;
   position: relative;
   overflow: hidden;
   border-bottom: 10px solid #f6f6f6;

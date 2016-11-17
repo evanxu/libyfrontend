@@ -389,6 +389,10 @@
           @include size(100%, auto);
           margin:0 auto $gap;
         }
+
+        &:hover{
+		    	border-color:#ebebeb;
+		    }
 			}
 
 			&-tit {

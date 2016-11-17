@@ -5,7 +5,10 @@
 	</div> -->
 	<div class="product-detail-introduce-images">
 		<div class="preview">
-			<img src="/src/images/temp/a1.jpg" width="400" height="400" alt="">
+			<img src="/src/images/temp/detail.jpg" width="400" height="400" alt=""
+        srcset="/src/images/temp/detail.jpg 400w,
+                /src/images/temp@2x/detail.jpg 800w"
+        sizes="(min-width: 540px) 400px, 100px">
 		</div>
 
 		<ul class="product-detail-introduce-images-carousel clearfix">

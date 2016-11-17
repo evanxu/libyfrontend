@@ -78,8 +78,7 @@ module.exports = function(grunt){
           expand: true,
           cwd: '<%= config.dev %>/',
           src: ['**/*.js'],
-          dest: '<%= config.build %>/',
-          ext: '.js'
+          dest: '<%= config.build %>/'
         }]
       }
     },
@@ -227,7 +226,7 @@ module.exports = function(grunt){
 
   grunt.registerTask('default', ['connect', 'notify:connect', 'watch']);
   grunt.registerTask('dev', ['clean:dev', 'sass:dev', 'autoprefixer:dev', 'imagemin:dev']);
-  grunt.registerTask('build', ['uglify:build','includereplace:build', 'cssmin:build', 'imagemin:build', 'connect:build']);
+  grunt.registerTask('build', ['uglify:build','includereplace:build', 'cssmin:build', 'imagemin:build']);
 
 
   grunt.event.on('watch', function(action, filepath, target){

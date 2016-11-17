@@ -54,25 +54,33 @@ $(function(){
 //
 (function(){
   var mask = {
-    show: function(color){
-      var mask = document.getElementById('libyMask');
+    show: function(options){
+      var id = 'libyMask',
+          color = 'rgba(0,0,0,0.8)';
+      if(options){
+        id = options.id || id;
+        color = options.color || color;
+      }
+
+      var mask = document.getElementById(id);
+
       if(!mask){
-        var div = _createDom('libyMask', {
+        var div = _createDom(id, {
           position: 'fixed',
           top: '0',
           left: '0',
           right: '0',
           bottom: '0',
-          background: color || 'rgba(0,0,0,0.8)',
+          background: color,
           zIndex: '1500'
         });
       }else{
-        mask.style.background = color || 'rgba(0,0,0,0.8)';
-        _showDom('libyMask');
+        mask.style.background = color;
+        _showDom(id);
       }
     },
     hide: function(){
-      _hideDom('libyMask');
+      _hideDom(arguments[0] || 'libyMask');
     }
   };
 
@@ -91,7 +99,9 @@ $(function(){
         marginTop = '-150px';
       }
 
-      mask.show(color);
+      mask.show({
+        color: color
+      });
 
       var div = _createDom('libyMessage', {
         position: 'fixed',
@@ -184,6 +194,8 @@ $(function(){
   };
 
   window.messageBox = messageBox;
+  window.mask = mask;
+
 })(window);
 
 $(function(){
