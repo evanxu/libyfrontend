@@ -40,7 +40,7 @@
   line-height: 0.55rem;
   font-size: 14px; }
 
-.header-mobile, .footer-mobile, .homepage-promotion-top, .account-content, .account-wallet-content, .account-order-tab, .account-info, .wallet-tab, .wallet-status-lists dd, .wallet-status-lists p, .wallet-status-lists p:nth-child(3), .wallet-status-lists p:nth-child(4), .wallet-topup-btn, .wallet-rebate-lists dd, .wallet-rebate-lists p, .promotion-fee-item-name, .promotion-add-btn, .promotion-add-rules-box, .order-success-btn, .order-cart-tool, .order-check-sales, .order-check-remark-left, .order-check-charge, .order-check-product-info > span, .order-waybill-info p, .order-detail-form-item p, .order-detail-lists dd, .order-detail-lists p:nth-child(3), .order-detail-lists p:nth-child(4), .order-detail-deliver p:nth-child(5), .order-detail-deliver p:nth-child(6), .order-list-items-detail, .order-list-cell-check, .order-list-cell-action, .order-list-cell-single, .storage-list-item, .product-detail-introduce-description .price p {
+.header-mobile, .footer-mobile, .homepage-promotion-top, .account-content, .account-wallet-content, .account-order-tab, .account-info, .wallet-tab, .wallet-status-lists dd, .wallet-status-lists p, .wallet-status-lists p:nth-child(3), .wallet-status-lists p:nth-child(4), .wallet-topup-btn, .wallet-rebate-lists dd, .wallet-rebate-lists p, .promotion-fee-item-name, .promotion-add-btn, .promotion-add-rules-box, .order-success-btn, .order-cart-tool, .order-check-sales, .order-check-remark-left, .order-check-charge, .order-check-product-info > span, .order-waybill-info p, .order-detail-form-item p, .order-detail-lists dd, .order-detail-lists p:nth-child(3), .order-detail-lists p:nth-child(4), .order-detail-deliver p:nth-child(5), .order-detail-deliver p:nth-child(6), .order-list-items-detail, .order-list-cell-check, .order-list-cell-action, .order-list-cell-single, .storage-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -1160,7 +1160,7 @@ a {
       margin-bottom: 0.15rem;
       overflow-x: scroll; }
       .homepage-promotion-top li {
-        width: auto;
+        width: 1.3rem;
         float: none; }
         .homepage-promotion-top li a,
         .homepage-promotion-top li img {
@@ -1850,7 +1850,7 @@ a {
 
 .wallet-status {
   background: #fff;
-  min-height: 790px; }
+  min-height: 0; }
   .wallet-status-chart {
     width: 100%;
     height: auto;
@@ -1913,8 +1913,8 @@ a {
       .wallet-status-lists-tab a {
         width: 25%;
         height: 0.5rem;
-        padding: 0 0.1rem;
-        min-width: auto;
+        min-width: 25%;
+        padding: 0 0;
         line-height: 1.5;
         float: none;
         display: table-cell;
@@ -2074,7 +2074,7 @@ a {
     line-height: 0.6rem; }
 
 .wallet-rebate {
-  min-height: 790px; }
+  min-height: 0; }
   .wallet-rebate-content {
     padding: 0; }
     .wallet-rebate-content h3 {
@@ -2274,7 +2274,7 @@ a {
 
 .promotion-liby,
 .promotion-mine {
-  min-height: auto;
+  min-height: 0;
   /*promotion-cont*/ }
   .promotion-liby .promotion-cont,
   .promotion-mine .promotion-cont {
@@ -2321,7 +2321,7 @@ a {
   vertical-align: middle; }
 
 .promotion-fee {
-  min-height: 790px; }
+  min-height: 0; }
   .promotion-fee-chart {
     width: 100%;
     height: auto;
@@ -2779,7 +2779,7 @@ a {
 
 .order-cart {
   margin-left: 0;
-  min-height: auto; }
+  min-height: 0; }
   .order-cart-menu {
     display: none; }
   .order-cart-item {
@@ -3202,7 +3202,7 @@ a {
 
 .order-waybill {
   margin-left: 0;
-  min-height: auto; }
+  min-height: 0; }
   .order-waybill-tit {
     font-size: 16px;
     line-height: 50px;
@@ -3531,7 +3531,7 @@ a {
       padding-left: 0.15rem; }
 
 .order-list {
-  min-height: auto; }
+  min-height: 0; }
   .order-list-tab {
     display: none; }
   .order-list-content {
@@ -3694,7 +3694,7 @@ a {
 
 .data-center {
   background: #fff;
-  min-height: 790px; }
+  min-height: 0; }
   .data-center-chart {
     overflow: hidden; }
     .data-center-chart li {
@@ -3863,7 +3863,7 @@ a {
     float: right; }
 
 .store-detail {
-  min-height: auto; }
+  min-height: 0; }
   .store-detail-content {
     padding: 0.15rem; }
   .store-detail-title {
@@ -4144,16 +4144,14 @@ a {
           line-height: 0.2rem;
           margin-top: 0.05rem;
           margin-right: 0.1rem; }
-          .product-detail-introduce-description .price p:nth-child(2) {
-            -webkit-box-ordinal-group: 0;
-                -ms-flex-order: -1;
-                    order: -1; }
           .product-detail-introduce-description .price p:last-child {
             display: none; }
         .product-detail-introduce-description .price .price-title {
           display: none; }
         .product-detail-introduce-description .price .sale {
           font-size: 23px; }
+        .product-detail-introduce-description .price .currency {
+          vertical-align: 0 !important; }
       .product-detail-introduce-description .price-activity {
         display: table;
         margin: 0 0.15rem 0.15rem;
@@ -4331,7 +4329,7 @@ a {
     padding: 0 0.20rem 0 0.30rem; }
 
 .privileges-detail {
-  min-height: auto; }
+  min-height: 0; }
   .privileges-detail .box-title {
     display: none; }
 

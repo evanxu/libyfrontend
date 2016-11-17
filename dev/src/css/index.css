@@ -4870,12 +4870,12 @@ input.button {
           height: 30px;
           line-height: 30px;
           color: #656565; }
-        .product-detail-introduce-description .price .original {
-          display: block; }
         .product-detail-introduce-description .price .sale {
           font-size: 24px;
           color: #ed1c24;
           font-weight: 700; }
+          .product-detail-introduce-description .price .sale .currency {
+            vertical-align: 4px; }
         .product-detail-introduce-description .price .activity {
           color: #c57d03; }
         .product-detail-introduce-description .price .price-title {

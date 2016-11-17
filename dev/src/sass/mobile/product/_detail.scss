@@ -84,16 +84,10 @@ $product-ssdetail-amount-color:#878787;
         height: 0.3rem;
 
         p{
-          @extend %display-flex;
-    //display:-webkit-box;
           height:0.2rem;
           line-height:0.2rem;
           margin-top: 0.05rem;
           margin-right: 0.1rem;
-
-          &:nth-child(2){
-            order: -1;
-          }
 
           &:last-child{
             display: none;
@@ -107,6 +101,10 @@ $product-ssdetail-amount-color:#878787;
 
         .sale{
           font-size: 23px;
+        }
+
+        .currency{
+          vertical-align:0 !important;
         }
       }
 

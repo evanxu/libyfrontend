@@ -1,5 +1,5 @@
 .promotion-fee{
-  min-height:$catalog-height;
+  min-height:0;
 
   &-chart{
     @include size(100%, auto);

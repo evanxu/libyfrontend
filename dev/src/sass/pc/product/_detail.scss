@@ -95,13 +95,17 @@ $product-detail-amount-color:#878787;
           line-height: 30px;
           color: $product-detail-description-color;
         }
-        .original{
-          display: block;
-        }
+        // .original{
+        //   display: block;
+        // }
         .sale{
           font-size: 24px;
           color: $red;
           font-weight: 700;
+
+          .currency{
+            vertical-align: 4px;
+          }
         }
         .activity{
           color: #c57d03;
