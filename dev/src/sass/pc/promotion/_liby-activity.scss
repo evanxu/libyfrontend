@@ -10,10 +10,11 @@
 
     li{
       position:relative;
-      margin: 30px 18px 0;
-      width: 296px;
-      height: 140px;
+      padding: $gap 18px $gap;
+      width: 333px;
+      height: 170px;
       float: left;
+      background:#fff;
 
       img{
         width: 100%;
@@ -79,6 +80,7 @@
   &-content{
     padding:$gap;
     color:$dark-text;
+    background:#fff;
   }
 
   &-title{
@@ -126,6 +128,7 @@
 }
 
 .promotion-liby-recommend{
+  background:#fff;
 
   h4{
     padding-top:$gap;

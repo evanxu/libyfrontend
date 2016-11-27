@@ -221,6 +221,7 @@
     margin-bottom:20px;
     margin-right:20px;
     padding:20px $gap;
+    background:#fff;
     border: 1px solid $grey-border;
 
     &:nth-child(4n) {
@@ -367,6 +368,7 @@
     &:hover{
       box-shadow:0 0 3px 3px #f8f8f8;
 
+      .product-list-item-addcart,
       .iconfont{
         display:block;
       }

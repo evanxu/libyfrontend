@@ -1,0 +1,153 @@
+.guide{
+  &-box{
+    @include fixed(left 0 bottom 0 top 0 right 0);
+
+    &-content,
+    &-step{
+      width:100%;
+    }
+
+    &-content{
+      height:100%;
+      padding-top:30%;
+    }
+
+    &-step{
+      text-align:center;
+      padding:0.6rem 0.2rem 0.3rem;
+
+      .guide-text2{
+        width:90%;
+        margin:0 auto;
+      }
+    }
+
+    &-close{
+      @include fixed(left 50% bottom $gap top auto);
+      margin-left:-0.2rem;
+      color:#8f9384;
+      font-size:40px !important;
+    }
+
+    &-image{
+      @include relative(left 0 bottom 0);
+      @include size(90%, auto);
+      margin:0.2rem 0;
+    }
+
+    &-right{
+      @include relative(left auto bottom auto);
+      height:2rem;
+      padding:0;
+      border-left:0;
+
+      img{
+        margin: 0 0.1rem 0.2rem;
+      }
+
+      .guide-text{
+        width:80%;
+        display:block;
+        margin: 0 auto 0.2rem;
+      }
+    }
+  }
+
+  &-box-small{
+    @include fixed(left 0 bottom $footer-mobile-height);
+    @include size(1rem, 0.8rem);
+    border-radius:0 0.8rem 0.8rem 0;
+
+    img{
+      @include absolute(left 0 bottom 0);
+      width:1rem;
+    }
+  }
+
+  &-hide{
+    transform: translateX(-100%);
+  }
+
+  &-close{
+    @include fixed(right 0 top 0);
+    @include size(80px, 80px);
+    border-radius:0 0 0 80px;
+    background:rgba(4,18,35,0.5);
+    z-index:2100;
+    display:none;
+
+    i{
+      width:100px;
+      color:#fff;
+      font-size:50px;
+      line-height:65px;
+      text-align:center;
+    }
+  }
+
+  &-link{
+    @include size(1.96rem, 0.63rem);
+    position:relative;
+    display:inline-block;
+    margin:0.2rem 0 0;
+    padding:0.17rem 0;
+    line-height:40px;
+  }
+
+  &-link-curr{
+    padding-left:15px;
+    background-position:0 -63px;
+  }
+
+  &-point{
+    @include fixed(right $gap*2 top 50%);
+    margin-top:-100px;
+    padding:10px;
+    border-radius:10px;
+    background:rgba(4,18,35,0.8);
+    z-index:2099;
+
+    li{
+      margin-bottom:$gap;
+
+      &:last-child{
+        margin:0;
+      }
+    }
+
+    a{
+      @include size(14px, 14px);
+      display:block;
+      margin:0 auto;
+      border-radius:100%;
+      text-indent:-9999px;
+      background:#fff;
+
+      &.curr{
+        background:$base-color;
+      }
+
+      &.guide-point-prev,
+      &.guide-point-next{
+        @include size(18px, auto);
+        position:relative;
+        background:transparent;
+        font-family:'iconfont';
+        font-size:18px;
+        text-indent:0;
+        color:#fff;
+
+      }
+    }
+  }
+
+  &-description{
+    position:absolute;
+    z-index:2099;
+    font-size:14px;
+    color:#333;
+    line-height:1.5;
+    opacity:0;
+    transition:opacity 0.4s ease, transform 0.4s ease;
+  }
+}

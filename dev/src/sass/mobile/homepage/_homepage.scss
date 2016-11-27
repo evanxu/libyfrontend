@@ -154,21 +154,24 @@
 		margin-bottom:$gap;
 
 		&-top{
-			width: 100%;
-			margin-bottom:$gap;
-			overflow-x:scroll;
-			@extend %display-flex;
-    //display:-webkit-box;
+			width: 5.75rem;
+			margin-bottom:0;
 
 			li {
-		    width: 1.3rem;
-		    float: none;
+				position:relative;
+		    width: 1.15rem;
 
 		    a,
 		    img {
 	        display: block;
-          @include size(1.3rem, auto);
+          @include size(1.15rem, 0.65rem);
 		    }
+			}
+
+			&-wrapper{
+				width: 100%;
+				margin-bottom:$gap;
+				overflow-x:scroll;
 			}
 		}
 

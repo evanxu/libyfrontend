@@ -55,7 +55,7 @@
   </div>
 
   <div class="footer-copyright">
-    <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 沪ICP备33076683号 <a href="javascript:;">营业执照</a></p>
+    <p>Copyright © 2016-2017 广州立白, All Rights Reserved. 粤ICP备11102647号 <a href="javascript:;">营业执照</a></p>
   </div>
 </div>
 <!-- footer for mobile -->

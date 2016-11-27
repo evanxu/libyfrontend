@@ -7,7 +7,7 @@ $order-success-color: $dark-text;
   background:$light-background;
 
   &-content{
-    padding: 65px $order-success-pr 0 $order-success-pl;
+    padding: 65px $order-success-pr 20px $order-success-pl;
     background:#fff;
 
     h2{

@@ -4,10 +4,12 @@
   float:right;
   border:1px solid #f6f6f6;
   overflow:hidden;
+  background:#fff;
 
   &-content{
     height:100%;
     overflow:hidden;
+    background:#fff;
 
     li{
       @include size(100%/3, 100%);

@@ -294,13 +294,11 @@
     @include fixed(bottom 0 left 0);
     @include size(100%, $footer-mobile-height);
     margin-top:$gap;
+    margin-bottom:0;
     padding:0;
     border-top:1px solid #f6f6f6;
     background:#fff;
     z-index:2;
-    //@extend %display-flex;
-    //display:-webkit-box;
-    //justify-content:flex-end;
 
     a{
       line-height:$footer-mobile-height;

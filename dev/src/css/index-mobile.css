@@ -40,7 +40,7 @@
   line-height: 0.55rem;
   font-size: 14px; }
 
-.header-mobile, .footer-mobile, .homepage-promotion-top, .account-content, .account-wallet-content, .account-order-tab, .account-info, .wallet-tab, .wallet-status-lists dd, .wallet-status-lists p, .wallet-status-lists p:nth-child(3), .wallet-status-lists p:nth-child(4), .wallet-topup-btn, .wallet-rebate-lists dd, .wallet-rebate-lists p, .promotion-fee-item-name, .promotion-add-btn, .promotion-add-rules-box, .order-success-btn, .order-cart-tool, .order-check-sales, .order-check-remark-left, .order-check-charge, .order-check-product-info > span, .order-waybill-info p, .order-detail-form-item p, .order-detail-lists dd, .order-detail-lists p:nth-child(3), .order-detail-lists p:nth-child(4), .order-detail-deliver p:nth-child(5), .order-detail-deliver p:nth-child(6), .order-list-items-detail, .order-list-cell-check, .order-list-cell-action, .order-list-cell-single, .storage-list-item {
+.header-mobile, .footer-mobile, .account-content, .account-wallet-content, .account-order-tab, .account-info, .wallet-tab, .wallet-status-lists dd, .wallet-status-lists p, .wallet-status-lists p:nth-child(3), .wallet-status-lists p:nth-child(4), .wallet-topup-btn, .wallet-rebate-lists dd, .wallet-rebate-lists p, .promotion-fee-item-name, .promotion-add-btn, .promotion-add-rules-box, .order-success-btn, .order-cart-tool, .order-check-sales, .order-check-remark-left, .order-check-charge, .order-check-product-info > span, .order-waybill-info p, .order-detail-form-item p, .order-detail-lists dd, .order-detail-lists p:nth-child(3), .order-detail-lists p:nth-child(4), .order-detail-deliver p:nth-child(5), .order-detail-deliver p:nth-child(6), .order-list-items-detail, .order-list-cell-check, .order-list-cell-action, .order-list-cell-single, .storage-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -881,6 +881,135 @@ a {
   .chart-finish-blue .with-border {
     padding: 0.02rem 0.05rem; }
 
+.guide-box {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed; }
+  .guide-box-content, .guide-box-step {
+    width: 100%; }
+  .guide-box-content {
+    height: 100%;
+    padding-top: 30%; }
+  .guide-box-step {
+    text-align: center;
+    padding: 0.6rem 0.2rem 0.3rem; }
+    .guide-box-step .guide-text2 {
+      width: 90%;
+      margin: 0 auto; }
+  .guide-box-close {
+    top: auto;
+    bottom: 0.15rem;
+    left: 50%;
+    position: fixed;
+    margin-left: -0.2rem;
+    color: #8f9384;
+    font-size: 40px !important; }
+  .guide-box-image {
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 0.2rem 0; }
+  .guide-box-right {
+    bottom: auto;
+    left: auto;
+    position: relative;
+    height: 2rem;
+    padding: 0;
+    border-left: 0; }
+    .guide-box-right img {
+      margin: 0 0.1rem 0.2rem; }
+    .guide-box-right .guide-text {
+      width: 80%;
+      display: block;
+      margin: 0 auto 0.2rem; }
+.guide-box-small {
+  bottom: 0.55rem;
+  left: 0;
+  position: fixed;
+  width: 1rem;
+  height: 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0; }
+  .guide-box-small img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 1rem; }
+.guide-hide {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%); }
+.guide-close {
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  border-radius: 0 0 0 80px;
+  background: rgba(4, 18, 35, 0.5);
+  z-index: 2100;
+  display: none; }
+  .guide-close i {
+    width: 100px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center; }
+.guide-link {
+  width: 1.96rem;
+  height: 0.63rem;
+  position: relative;
+  display: inline-block;
+  margin: 0.2rem 0 0;
+  padding: 0.17rem 0;
+  line-height: 40px; }
+.guide-link-curr {
+  padding-left: 15px;
+  background-position: 0 -63px; }
+.guide-point {
+  top: 50%;
+  right: 0.3rem;
+  position: fixed;
+  margin-top: -100px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(4, 18, 35, 0.8);
+  z-index: 2099; }
+  .guide-point li {
+    margin-bottom: 0.15rem; }
+    .guide-point li:last-child {
+      margin: 0; }
+  .guide-point a {
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-indent: -9999px;
+    background: #fff; }
+    .guide-point a.curr {
+      background: #05a1e9; }
+    .guide-point a.guide-point-prev, .guide-point a.guide-point-next {
+      width: 18px;
+      height: auto;
+      position: relative;
+      background: transparent;
+      font-family: 'iconfont';
+      font-size: 18px;
+      text-indent: 0;
+      color: #fff; }
+.guide-description {
+  position: absolute;
+  z-index: 2099;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
+          transition: opacity 0.4s ease, transform 0.4s ease; }
+
 .button {
   width: 50%;
   height: 50px;
@@ -967,7 +1096,8 @@ a {
 
 .input {
   height: 0.3rem;
-  line-height: 0.28rem;
+  padding-top: 0.06rem;
+  line-height: 1;
   font-size: 14px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -1156,17 +1286,20 @@ a {
     width: 100%;
     margin-bottom: 0.15rem; }
     .homepage-promotion-top {
-      width: 100%;
-      margin-bottom: 0.15rem;
-      overflow-x: scroll; }
+      width: 5.75rem;
+      margin-bottom: 0; }
       .homepage-promotion-top li {
-        width: 1.3rem;
-        float: none; }
+        position: relative;
+        width: 1.15rem; }
         .homepage-promotion-top li a,
         .homepage-promotion-top li img {
           display: block;
-          width: 1.3rem;
-          height: auto; }
+          width: 1.15rem;
+          height: 0.65rem; }
+      .homepage-promotion-top-wrapper {
+        width: 100%;
+        margin-bottom: 0.15rem;
+        overflow-x: scroll; }
     .homepage-promotion-bottom {
       padding: 0; }
       .homepage-promotion-bottom-carousel {
@@ -1402,6 +1535,7 @@ a {
       height: 100%;
       padding: 0.15rem 0;
       text-align: center;
+      background: #fff;
       border: 0; }
     .account-wallet-content i {
       display: none !important; }
@@ -1466,6 +1600,7 @@ a {
 .account-info {
   width: 100%;
   height: auto;
+  position: relative;
   padding: 0.3rem 0.15rem;
   border: 0;
   -webkit-box-ordinal-group: 1;
@@ -1535,7 +1670,8 @@ a {
     border: 1px solid #f6f6f6;
     border-top: 0;
     border-left: 0;
-    text-align: center; }
+    text-align: center;
+    background: #fff; }
     .account-tool-lists li:nth-child(4n) {
       border-right: 0; }
     .account-tool-lists li a {
@@ -2497,6 +2633,7 @@ a {
     padding: 0.15rem;
     border-top: 1px dashed #dcdee8;
     text-align: center;
+    background: #fff;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-pack: justify; }
@@ -2585,7 +2722,7 @@ a {
     padding: 30px 0 0; }
 
 .promotion-mine-add {
-  height: 0.9rem !important; }
+  height: 1.2rem !important; }
   .promotion-mine-add a {
     width: 100%;
     height: 100%;
@@ -2608,6 +2745,8 @@ a {
 .promotion-mine-title {
   margin: 0;
   font-size: 16px; }
+.promotion-mine-detail-wrapper {
+  background: #fff; }
 .promotion-mine-detail {
   padding-left: 0.9rem;
   margin: 0.2rem 0; }
@@ -2617,7 +2756,8 @@ a {
   .promotion-mine-list-title {
     display: none; }
   .promotion-mine-list-item {
-    padding: 0.1rem 0; }
+    padding: 0.1rem 0;
+    background: #fff; }
   .promotion-mine-list-description, .promotion-mine-list-status, .promotion-mine-list-pic {
     float: left; }
   .promotion-mine-list-description {
@@ -2654,6 +2794,7 @@ a {
   color: #30dab5; }
 .promotion-mine-progress-text {
   top: -0.3rem;
+  left: auto;
   position: absolute;
   width: 0.9rem;
   height: auto;
@@ -3188,6 +3329,7 @@ a {
   width: 100%;
   height: 0.55rem;
   margin-top: 0.15rem;
+  margin-bottom: 0;
   padding: 0;
   border-top: 1px solid #f6f6f6;
   background: #fff;
@@ -3418,14 +3560,15 @@ a {
         display: block;
         text-align: right; }
         .order-detail-lists dd.order-detail-lists-buttons a {
-          border: 1px solid #bfc2d3;
-          border-radius: 0.03rem;
-          display: inline-block;
           width: 0.75rem;
           height: 0.3rem;
+          border: 1px solid #bfc2d3;
+          display: inline-block;
+          background: #fff;
           line-height: 0.3rem;
           text-align: center;
           margin-left: 0.15rem;
+          border-radius: 0.03rem;
           color: #363636; }
       .order-detail-lists dd.order-detail-lists-address {
         height: 0.5rem;
@@ -3457,7 +3600,7 @@ a {
         padding: 0;
         text-align: left; }
       .order-detail-lists p:first-child {
-        top: 0.3rem;
+        top: 0.25rem;
         left: 0.15rem;
         position: absolute;
         color: #b2b2b2; }
@@ -3520,7 +3663,8 @@ a {
   .order-delivery-info {
     width: 100%;
     margin: 0;
-    border: none; }
+    border: none;
+    background: #fff; }
     .order-delivery-info h3 {
       border-top: 0.05rem solid #f9f9f9;
       border-bottom: 0.01rem solid #f9f9f9;
@@ -3693,6 +3837,73 @@ a {
     .order-list-cell-single:after {
       right: -190px; }
 
+.order-coupon {
+  margin-top: 0;
+  padding-top: 0.15rem; }
+  .order-coupon-card {
+    float: none;
+    display: table;
+    height: auto;
+    overflow: hidden;
+    margin: 0 0.15rem 0.15rem; }
+    .order-coupon-card:nth-child(4n) {
+      margin-right: 0; }
+    .order-coupon-card-discription {
+      width: 100%;
+      height: auto;
+      display: table-cell;
+      float: none;
+      overflow: hidden;
+      border-color: #f6f6f6;
+      border-right: 0;
+      background: #fff; }
+    .order-coupon-card-status {
+      width: 40px;
+      height: 154px;
+      display: table-cell;
+      float: none;
+      box-sizing: border-box;
+      padding: 0.22rem 0.1rem; }
+      .order-coupon-card-status:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../images/bg/semi-circle.png);
+        display: block;
+        width: 3px;
+        height: 100%; }
+  .order-coupon-price {
+    font-size: 30px;
+    color: #eb6100;
+    font-weight: 600;
+    padding-bottom: 10px; }
+    .order-coupon-price span {
+      font-size: 14px;
+      margin-left: 10px;
+      vertical-align: super; }
+  .order-coupon-directions {
+    color: #000;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 10px; }
+  .order-coupon-period {
+    color: #999; }
+    .order-coupon-period a {
+      color: #05a1e9;
+      float: right;
+      line-height: 15px; }
+
+.order-coupon-card-used .order-coupon-card-status {
+  background: #eb6100; }
+
+.order-coupon-card-unused .order-coupon-card-discription {
+  border: 1px dashed #c2c2c2;
+  border-right: none; }
+.order-coupon-card-unused .order-coupon-card-status {
+  background: #898989; }
+
 .data-center {
   background: #fff;
   min-height: 0; }
@@ -3764,7 +3975,9 @@ a {
   padding: 0 0.1rem;
   margin: 0 auto; }
   .store-list-progress-text {
+    top: auto;
     bottom: -0.65rem;
+    left: auto;
     position: absolute;
     width: 0.9rem;
     height: auto;
@@ -3894,6 +4107,7 @@ a {
     margin: 0.25rem auto; }
   .store-detail-progress-text {
     top: -0.3rem;
+    left: auto;
     position: absolute;
     width: 0.9rem;
     height: auto;
@@ -3981,7 +4195,7 @@ a {
       white-space: nowrap; }
     .product-list-item-sale {
       margin-bottom: 0.05rem; }
-    .product-list-item:hover .iconfont {
+    .product-list-item:hover .product-list-item-addcart {
       display: none; }
     @media only screen and (max-width: 374px) {
       .product-list-item-price {
@@ -4398,194 +4612,5 @@ a {
     .privileges-detail-item dd .iconfont-blue {
       color: #08a3e3;
       font-size: 25px; }
-
-/*
-SCSS variables are information about icon's compiled state, stored under its original file name
-
-.icon-home {
-  width: $icon-home-width;
-}
-
-The large array-like variables contain all information about a single icon
-$icon-home: x y offset_x offset_y width height total_width total_height image_path;
-
-At the bottom of this section, we provide information about the spritesheet itself
-$spritesheet: width height image $spritesheet-sprites;
-*/
-/*
-The provided mixins are intended to be used with the array-like variables
-
-.icon-home {
-  @include sprite-width($icon-home);
-}
-
-.icon-email {
-  @include sprite($icon-email);
-}
-
-Example usage in HTML:
-
-`display: block` sprite:
-<div class="icon-home"></div>
-
-To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
-
-// CSS
-.icon {
-  display: inline-block;
-}
-
-// HTML
-<i class="icon icon-home"></i>
-*/
-/*
-The `sprites` mixin generates identical output to the CSS template
-  but can be overridden inside of SCSS
-
-@include sprites($spritesheet-sprites);
-*/
-.icon-cart {
-  background-image: url(../images/sprite.png);
-  background-position: -53px -37px;
-  width: 16px;
-  height: 16px; }
-
-.icon-menu {
-  background-image: url(../images/sprite.png);
-  background-position: -69px -37px;
-  width: 18px;
-  height: 14px; }
-
-.icon-tel {
-  background-image: url(../images/sprite.png);
-  background-position: -162px -60px;
-  width: 21px;
-  height: 30px; }
-
-.icon1 {
-  background-image: url(../images/sprite.png);
-  background-position: -34px -114px;
-  width: 34px;
-  height: 34px; }
-
-.icon10 {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -57px;
-  width: 46px;
-  height: 57px; }
-
-.icon11 {
-  background-image: url(../images/sprite.png);
-  background-position: -162px -132px;
-  width: 16px;
-  height: 16px; }
-
-.icon12 {
-  background-image: url(../images/sprite.png);
-  background-position: -21px -148px;
-  width: 21px;
-  height: 21px; }
-
-.icon13 {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -148px;
-  width: 21px;
-  height: 21px; }
-
-.icon14 {
-  background-image: url(../images/sprite.png);
-  background-position: -91px -91px;
-  width: 21px;
-  height: 21px; }
-
-.icon15 {
-  background-image: url(../images/sprite.png);
-  background-position: -162px -111px;
-  width: 21px;
-  height: 21px; }
-
-.icon16 {
-  background-image: url(../images/sprite.png);
-  background-position: -162px -90px;
-  width: 21px;
-  height: 21px; }
-
-.icon17 {
-  background-image: url(../images/sprite.png);
-  background-position: -102px -114px;
-  width: 29px;
-  height: 30px; }
-
-.icon18 {
-  background-image: url(../images/sprite.png);
-  background-position: -162px -30px;
-  width: 29px;
-  height: 30px; }
-
-.icon19 {
-  background-image: url(../images/sprite.png);
-  background-position: -162px 0px;
-  width: 29px;
-  height: 30px; }
-
-.icon2 {
-  background-image: url(../images/sprite.png);
-  background-position: -128px 0px;
-  width: 34px;
-  height: 34px; }
-
-.icon20 {
-  background-image: url(../images/sprite.png);
-  background-position: -131px -114px;
-  width: 29px;
-  height: 30px; }
-
-.icon21 {
-  background-image: url(../images/sprite.png);
-  background-position: -53px 0px;
-  width: 75px;
-  height: 37px; }
-
-.icon3 {
-  background-image: url(../images/sprite.png);
-  background-position: 0px -114px;
-  width: 34px;
-  height: 34px; }
-
-.icon4 {
-  background-image: url(../images/sprite.png);
-  background-position: -128px -68px;
-  width: 34px;
-  height: 34px; }
-
-.icon5 {
-  background-image: url(../images/sprite.png);
-  background-position: -128px -34px;
-  width: 34px;
-  height: 34px; }
-
-.icon6 {
-  background-image: url(../images/sprite.png);
-  background-position: -68px -114px;
-  width: 34px;
-  height: 34px; }
-
-.icon7 {
-  background-image: url(../images/sprite.png);
-  background-position: -91px -57px;
-  width: 36px;
-  height: 34px; }
-
-.icon8 {
-  background-image: url(../images/sprite.png);
-  background-position: 0px 0px;
-  width: 53px;
-  height: 57px; }
-
-.icon9 {
-  background-image: url(../images/sprite.png);
-  background-position: -46px -57px;
-  width: 45px;
-  height: 57px; }
 
 /*# sourceMappingURL=index-mobile.css.map */

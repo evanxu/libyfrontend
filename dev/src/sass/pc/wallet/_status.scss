@@ -1,12 +1,14 @@
 .wallet-status{
   background:$white-background;
   min-height:$catalog-height;
+  overflow:hidden;
 
   &-chart{
     @include size(100%, 300px);
     position:relative;
     padding-left:500px;
     padding-top:40px;
+    background:#fff;
 
     &-detail{
       @include size(300px, 300px);

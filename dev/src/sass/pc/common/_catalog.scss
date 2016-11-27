@@ -62,6 +62,7 @@
   &-management{
     margin-top:20px;
     margin-bottom:200px;
+    background:$base-color;
 
     dd{
       cursor:pointer;
@@ -74,6 +75,7 @@
       line-height:40px;
       font-size: 14px;
       color:#c1ecff;
+      background:$base-color;
     }
 
     dt{

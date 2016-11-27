@@ -1,5 +1,6 @@
 .promotion-fee{
   min-height:$catalog-height;
+  background:#fff;
 
   &-chart{
     @include size(100%, 300px);
@@ -7,6 +8,7 @@
     padding-left:450px;
     padding-top:90px;
     color:$dark-text;
+    background:#fff;
 
     &-detail{
       @include size(300px, 300px);

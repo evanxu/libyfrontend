@@ -30,7 +30,7 @@
     </form>
   </div> -->
   <div class="store-list-content">
-    <div class="store-list-action">
+    <!-- <div class="store-list-action">
       <label>
         <input type="checkbox" class="input-check" name="">
         <span>
@@ -39,7 +39,7 @@
         <span>全选</span>
       </label>
       <a href="javascript:;" class="no-link">配置促销</a>
-    </div>
+    </div> -->
     <div class="store-list-title">
       <p class="store-list-item-serial">排名</p>
       <p class="store-list-item-detail">门店介绍</p>

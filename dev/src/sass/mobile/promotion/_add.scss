@@ -35,6 +35,7 @@ $promotion-add-input-width:  auto;
     padding:$gap;
     border-top:1px dashed #dcdee8;
     text-align:center;
+    background:#fff;
     @extend %display-flex;
     justify-content: space-around;
     -webkit-box-pack:justify;

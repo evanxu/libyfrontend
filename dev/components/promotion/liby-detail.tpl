@@ -133,6 +133,6 @@
         </li>
       </ul>
     </div>
-    <-- include('../common/lists-item.tpl') -->
+    <!-- <-- include('../product/lists-item.tpl') --> -->
   </div>
 </div>

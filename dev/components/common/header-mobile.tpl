@@ -1,4 +1,4 @@
-<header class="header-mobile">
+<div class="header-mobile">
   <div class="header-mobile-left">
     <!-- menu -->
     <a href="javascript:;" class="header-mobile-menu nolink">&#xe607;</a>
@@ -18,4 +18,4 @@
     <a href="javascript:;" class="header-mobile-tools nolink">&#xe629;</a>
     <!-- <span class="header-mobile-msg">2</span> -->
   </div>
-</header>
+</div>

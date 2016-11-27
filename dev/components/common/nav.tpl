@@ -63,11 +63,11 @@
       <a href="/views/homepage.html">首页</a>
     </li>
     <li class="nav-item">
-      <a href="javascript:;" class="nolink">促销政策</a>
+      <a href="/views/promotion-liby-activity.html">促销政策</a>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a href="javascript:;" class="nolink">平台服务</a>
-    </li>
+    </li> -->
     <li class="nav-item">
       <a href="javascript:;" class="nolink">集团官网</a>
     </li>

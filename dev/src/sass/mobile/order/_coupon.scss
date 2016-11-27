@@ -1,0 +1,94 @@
+.order-coupon{
+  margin-top: 0;
+  padding-top: $gap;
+
+  &-card{
+    float: none;
+    display:table;
+    height: auto;
+    overflow:hidden;
+    margin:0 $gap $gap;
+
+
+    &:nth-child(4n){
+      margin-right: 0;
+    }
+
+    &-discription{
+      @include size(100%, auto);
+      display:table-cell;
+      float:none;
+      overflow: hidden;
+      border-color:$light;
+      border-right: 0;
+      background: #fff;
+    }
+
+    &-status{
+      @include size(40px, 154px);
+      display:table-cell;
+      float:none;
+      box-sizing: border-box;
+      padding: 0.22rem 0.1rem;
+
+      &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../images/bg/semi-circle.png);
+        display: block;
+        width: 3px;
+        height: 100%;
+      }
+    }
+  }
+
+  &-price{
+    font-size: 30px;
+    color: #eb6100;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+    span{
+      font-size: 14px;
+      margin-left: 10px;
+      vertical-align: super;
+    }
+  }
+
+  &-directions{
+    color: #000;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  &-period{
+    color: #999;
+
+    a{
+      color:#05a1e9;
+      float: right;
+      line-height: 15px;
+    }
+  }
+}
+
+.order-coupon-card-used{
+  .order-coupon-card-status{
+    background:#eb6100;
+  }
+}
+
+.order-coupon-card-unused{
+  .order-coupon-card-discription{
+    border:1px dashed #c2c2c2;
+    border-right: none;
+  }
+  .order-coupon-card-status{
+    background:#898989;
+  }
+}
+

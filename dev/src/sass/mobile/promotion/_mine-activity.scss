@@ -1,6 +1,6 @@
 .promotion-mine{
   &-add{
-    height:0.9rem !important;
+    height:1.2rem !important;
 
     a{
       @include size(100%, 100%);
@@ -29,6 +29,10 @@
     font-size:$font-size-large;
   }
 
+  &-detail-wrapper{
+    background:#fff;
+  }
+
   &-detail{
     padding-left:0.9rem;
     margin:0.2rem 0;
@@ -44,6 +48,7 @@
 
     &-item{
       padding:0.1rem 0;
+      background:#fff;
     }
 
     &-description,

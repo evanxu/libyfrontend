@@ -5,7 +5,7 @@
   <ul class="account-wallet-content">
     <li>
       <a href="/views/wallet-status.html">
-        <i class="iconfont">&#xe608;</i>
+        <i class="iconfont">&#xe614;</i>
         <p class="account-wallet-count"><span class="currency">￥</span>38990.00</p>
         <p class="text-light">授信余额</p>
         <span class="account-wallet-btn">充 值</span>
@@ -13,7 +13,7 @@
     </li>
     <li>
       <a href="/views/promotion-fee.html">
-        <i class="iconfont">&#xe614;</i>
+        <i class="iconfont">&#xe608;</i>
         <p class="account-wallet-count"><span class="currency">￥</span>15600.00</p>
         <p class="text-light">促销费用</p>
         <span class="account-wallet-btn">核销明细</span>

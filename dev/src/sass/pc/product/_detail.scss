@@ -70,7 +70,9 @@ $product-detail-amount-color:#878787;
     &-description{
       width: 700px;
       margin-left: 40px;
+      padding:10px;
       float: left;
+      background:#fff;
 
       .title{
         font-size: 24px;
@@ -129,7 +131,7 @@ $product-detail-amount-color:#878787;
         li{
           line-height: 30px;
           float: left;
-          @include size(330px,30px);
+          @include size(310px,30px);
           color: $product-detail-description-color;
 
           span{

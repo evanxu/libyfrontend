@@ -103,10 +103,12 @@
 
       a{
         display:inline-block;
+        margin-left:10px;
+        padding:0 5px;
         vertical-align:middle;
         color:$base-color;
-        margin-left:$gap;
         font-size:$font-size-base;
+        background:#fff;
       }
 
       i{
@@ -184,6 +186,7 @@
 
   &-lists{
     margin-bottom:40px;
+    background:#fff;
 
     dl{
       overflow:hidden;

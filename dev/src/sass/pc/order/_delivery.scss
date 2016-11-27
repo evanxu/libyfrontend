@@ -1,6 +1,7 @@
 
 .order-delivery{
   margin-left:-$catalog-width;
+  background:#fff;
 
   &-progress{
     @include size(650px, 23px);

@@ -1,6 +1,7 @@
 .storage-list{
   background:$white-background;
   min-height:$catalog-height;
+  overflow:hidden;
 
   &-search{
     position:relative;
@@ -34,11 +35,13 @@
   }
 
   &-item{
+    position:relative;
     padding:$gap 0;
     width:100%;
     color:$dark-text;
     overflow:hidden;
     border-bottom:1px solid $light-border;
+    background:#fff;
 
     &-serial,
     &-product,

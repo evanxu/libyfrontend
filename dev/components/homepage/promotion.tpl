@@ -14,48 +14,50 @@
 		</div>
 	</div>
 	<div class="homepage-promotion">
-		<ul class="homepage-promotion-top clearfix">
-			<li>
-				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/o1.jpg" alt="promotion" width="auto"
-			      srcset="/src/images/temp/o1.jpg 230w,
-			      				/src/images/temp@2x/o1.jpg 460w"
-			      sizes="(min-width: 540px) 230px, 50px">
-				</a>
-			</li>
-			<li>
-				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/o2.jpg" alt="promotion"
-			      srcset="/src/images/temp/o2.jpg 230w,
-			      				/src/images/temp@2x/o2.jpg 460w"
-			      sizes="(min-width: 540px) 230px, 100px">
-				</a>
-			</li>
-			<li>
-				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/o3.jpg" alt="promotion"
-			      srcset="/src/images/temp/o3.jpg 230w,
-			      				/src/images/temp@2x/o3.jpg 460w"
-			      sizes="(min-width: 540px) 230px, 100px">
-				</a>
-			</li>
-			<li>
-				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/o4.jpg" alt="promotion"
-			      srcset="/src/images/temp/o4.jpg 230w,
-			      				/src/images/temp@2x/o4.jpg 460w"
-			      sizes="(min-width: 540px) 230px, 100px">
-				</a>
-			</li>
-			<li>
-				<a href="/views/product-detail.html">
-					<img src="/src/images/temp/o5.jpg" alt="promotion"
-			      srcset="/src/images/temp/o5.jpg 230w,
-			      				/src/images/temp@2x/o5.jpg 460w"
-			      sizes="(min-width: 540px) 230px, 100px">
-				</a>
-			</li>
-		</ul>
+		<div class="homepage-promotion-top-wrapper">
+			<ul class="homepage-promotion-top clearfix">
+				<li>
+					<a href="/views/product-detail.html">
+						<img src="/src/images/temp/o1.jpg" alt="promotion" width="auto"
+				      srcset="/src/images/temp/o1.jpg 230w,
+				      				/src/images/temp@2x/o1.jpg 460w"
+				      sizes="(min-width: 540px) 230px, 50px">
+					</a>
+				</li>
+				<li>
+					<a href="/views/product-detail.html">
+						<img src="/src/images/temp/o2.jpg" alt="promotion"
+				      srcset="/src/images/temp/o2.jpg 230w,
+				      				/src/images/temp@2x/o2.jpg 460w"
+				      sizes="(min-width: 540px) 230px, 50px">
+					</a>
+				</li>
+				<li>
+					<a href="/views/product-detail.html">
+						<img src="/src/images/temp/o3.jpg" alt="promotion"
+				      srcset="/src/images/temp/o3.jpg 230w,
+				      				/src/images/temp@2x/o3.jpg 460w"
+				      sizes="(min-width: 540px) 230px, 50px">
+					</a>
+				</li>
+				<li>
+					<a href="/views/product-detail.html">
+						<img src="/src/images/temp/o4.jpg" alt="promotion"
+				      srcset="/src/images/temp/o4.jpg 230w,
+				      				/src/images/temp@2x/o4.jpg 460w"
+				      sizes="(min-width: 540px) 230px, 50px">
+					</a>
+				</li>
+				<li>
+					<a href="/views/product-detail.html">
+						<img src="/src/images/temp/o5.jpg" alt="promotion"
+				      srcset="/src/images/temp/o5.jpg 230w,
+				      				/src/images/temp@2x/o5.jpg 460w"
+				      sizes="(min-width: 540px) 230px, 50px">
+					</a>
+				</li>
+			</ul>
+		</div>
 		<div class="homepage-promotion-bottom">
 			<ul class="homepage-promotion-bottom-carousel clearfix">
 			  <li>

@@ -24,6 +24,7 @@ $header-grey:  rgb(149,149,149);
       display:block;
       background:url(#{$background-root}/bg/bg-logo.png) no-repeat;
       background-size:100%;
+      background:url(#{$background-root}/bg/bg-logo-ie8.png) no-repeat\0;
       text-indent:-9999px;
     }
   }

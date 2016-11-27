@@ -48,10 +48,12 @@
     <-- include('cart-item.tpl') -->
   </div>
 
-  <div class="order-cart-sales">
+  <!-- <div class="order-cart-sales">
     <span class="with-white-bg">立白</span><span class="with-blue-bg">满额换购</span>
     该订单满100元，即可参加3元换购Vichy精华水活动
-  </div>
+  </div> -->
+
+  <-- include('order-coupon.tpl') -->
 
   <div class="order-cart-tool clearfix">
     <div class="order-cart-allpick">

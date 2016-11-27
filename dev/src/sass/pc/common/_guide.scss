@@ -1,0 +1,168 @@
+.guide{
+  &-box{
+    @include fixed(left 0 bottom 0);
+    width:100%;
+    background:rgba(4,18,35,0.8);
+    z-index:2100;
+    text-align:center;
+    transition:transform 0.5s ease-in;
+
+    &-content,
+    &-step{
+      width:1200px;
+      position:relative;
+      margin:0 auto;
+    }
+
+    &-content{
+      height:260px;
+    }
+
+    &-step{
+      text-align:left;
+      padding:30px 0;
+
+      .guide-text2{
+        display:inline-block;
+        width:280px;
+        margin-top:-17px;
+        vertical-align:top;
+      }
+    }
+
+    &-close{
+      @include absolute(left 50% top $gap);
+      margin-left:550px;
+      color:#8f9384;
+      font-size:40px !important;
+    }
+
+    &-image{
+      @include absolute(left 85px bottom 40px);
+      height:190px;
+    }
+
+    &-right{
+      @include absolute(left 825px bottom 55px);
+      height:170px;
+      padding:20px;
+      border-left: 1px dashed #eee;
+
+      img{
+        margin-right:$gap;
+      }
+
+      .guide-text{
+        width:250px;
+        display:block;
+      }
+    }
+  }
+
+  &-box-small{
+    @include fixed(left 0 bottom $gap);
+    @include size(150px, 120px);
+    background:rgba(4,18,35,0.5);
+    border-radius:0 120px 120px 0;
+    transition:transform 0.5s ease-in;
+    z-index:2100;
+
+    img{
+      @include absolute(left 0 bottom 0);
+      width:150px;
+    }
+  }
+
+  &-hide{
+    transform: translateX(-100%);
+  }
+
+  &-close{
+    @include fixed(right 0 top 0);
+    @include size(80px, 80px);
+    border-radius:0 0 0 80px;
+    background:rgba(4,18,35,0.5);
+    z-index:2100;
+    display:none;
+
+    i{
+      width:100px;
+      color:#fff;
+      font-size:50px;
+      line-height:65px;
+      text-align:center;
+    }
+  }
+
+  &-link{
+    position:relative;
+    display:inline-block;
+    width:196px;
+    height:63px;
+    padding:17px 0;
+    margin:0 5px;
+    line-height:40px;
+    font-size:$font-size-medium;
+    background:url(#{$background-root}/bg/guide-btn.png) 0 0 no-repeat;
+    text-align:center;
+    overflow:hidden;
+    box-sizing:border-box;
+  }
+
+  &-link-curr{
+    padding-left:25px;
+    background-position:0 -63px;
+  }
+
+  &-point{
+    @include fixed(right $gap*2 top 50%);
+    margin-top:-100px;
+    padding:10px;
+    border-radius:10px;
+    background:rgba(4,18,35,0.8);
+    z-index:2099;
+
+    li{
+      margin-bottom:$gap;
+
+      &:last-child{
+        margin:0;
+      }
+    }
+
+    a{
+      @include size(14px, 14px);
+      display:block;
+      margin:0 auto;
+      border-radius:100%;
+      text-indent:-9999px;
+      background:#fff;
+
+      &.curr{
+        background:$base-color;
+      }
+
+      &.guide-point-prev,
+      &.guide-point-next{
+        @include size(18px, auto);
+        position:relative;
+        background:transparent;
+        font-family:'iconfont';
+        font-size:18px;
+        text-indent:0;
+        color:#fff;
+
+      }
+    }
+  }
+
+  &-description{
+    position:absolute;
+    z-index:2099;
+    font-size:14px;
+    color:#333;
+    line-height:1.5;
+    opacity:0;
+    transition:opacity 0.4s ease, transform 0.4s ease;
+  }
+}

@@ -15,54 +15,5 @@
 <-- include('common/footer.tpl') -->
 
 <!-- import page js files and /body end -->
-<script type="text/javascript">
-$(function(){
-  var config = {
-    zIndex: 1999,
-    maskId: 'howToUse'
-  }
 
-  var step0 = direction($('.nav-subnav'), config);
-  var step1 = direction($('.homepage-brands-logos'), config);
-  var step2 = direction($('.header-cart-box'), config);
-
-
-
-  //step2.go();
-  var scene = [{
-    nextScene: step1,
-    lastScene: null
-  },{
-    nextScene: step2,
-    lastScene: step0
-  }]
-
-  function direction($obj, config){
-    var zIndexCurr = $obj.css('z-index'),
-        position = $obj.css('position');
-
-    function _go(){
-      mask.show({
-        id: config.maskId
-      });
-
-      if(position == 'static'){
-        $obj.css('position', 'relative');
-      }
-      $obj.css('z-index', config.zIndex);
-    };
-
-    function _hide(){
-      mask.hide(config.maskId);
-      $obj.css('z-index', zIndexCurr);
-    }
-
-    return ({
-      go: _go,
-      hide: _hide
-    })
-  }
-
-})
-</script>
 <-- include('common/tag.foot.tpl') -->
